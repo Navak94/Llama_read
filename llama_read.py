@@ -1,35 +1,15 @@
-import torch
-from transformers import pipeline
+import subprocess
 
-# Load the conversational model (choose one of the following)
-model_name = "microsoft/DialoGPT-small"
-conversational_model = pipeline("conversation", model=model_name, framework="torch")
+prompt = "hey can you like complain about some nonsense.\n"
 
-def converse(text):
-    # Preprocess input text
-    inputs = conversational_model.tokenizer.encode_plus(
-        text,
-        add_special_tokens=True,
-        max_length=1024,
-        return_attention_mask=True,
-        return_tensors='pt',
-    )
+process = subprocess.Popen(
+    ["bash", "-c", "ollama run llama3.1:8b"],
+    stdin=subprocess.PIPE,
+    stdout=subprocess.PIPE,
+    stderr=subprocess.PIPE,
+    text=True
+)
 
-    # Generate response
-    output = conversational_model(**inputs)
+stdout, stderr = process.communicate(prompt)
 
-    # Get the response from the model
-    response = output['generated_text'][0]
-
-    return response
-
-def main():
-    while True:
-        user_input = input("You: ")
-        if user_input.lower() == "quit":
-            break
-        response = converse(user_input)
-        print(f"Model: {response}")
-
-if __name__ == "__main__":
-    main()
+print(stdout)
