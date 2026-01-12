@@ -1,6 +1,6 @@
 import subprocess
 
-prompt = "hey can you like complain about some nonsense.\n"
+prompt = "Russia stationed troops along the border with Ukraine, is this likely to escalate or de-escalate? give me a likelihood from low, mid or high\n"
 
 process = subprocess.Popen(
     ["bash", "-c", "ollama run llama3.1:8b"],
