@@ -1,0 +1,1 @@
+ssh -i ~/wpi_key nthindman@turing.wpi.edu
