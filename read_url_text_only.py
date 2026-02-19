@@ -171,7 +171,7 @@ def main():
     map_7b = batch_process(
         url_items=url_items,
         model="qwen2.5:7b",
-        batch_size=120,        # 7B can usually handle bigger batches
+        batch_size=10,        # 7B can usually handle bigger batches
         timeout_sec=180
     )
 
