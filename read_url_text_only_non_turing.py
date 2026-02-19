@@ -8,25 +8,14 @@ CSV_OUT = "TEST_Qwen_URL_ONLY_7B_then_72B.csv"
 URL_COL = "sourceurl"
 
 # -----------------------------
-# Ollama runner
+# Ollama runner (LOCAL)
 # -----------------------------
-SIF = "/home/nthindman/ollama_latest.sif"
-BIND = "/home/nthindman:/home/nthindman"
-
 def run_qwen(prompt: str, model: str, max_retries: int = 2, timeout_sec: int = 180) -> str:
     """
-    Runs ollama through apptainer.
-    Returns stdout text (best effort).
+    Local desktop: calls `ollama run <model>` and feeds prompt via stdin.
+    No -p flag, no separate server shell needed.
     """
-    cmd = [
-        "apptainer", "exec",
-        "--userns",
-        "--bind", BIND,
-        SIF,
-        "ollama", "run", model
-    ]
-    # If you truly need GPU passthrough add "--nv" right after "--userns".
-    # On login nodes, --nv may or may not work.
+    cmd = ["ollama", "run", model]
 
     for attempt in range(max_retries + 1):
         try:
@@ -39,15 +28,22 @@ def run_qwen(prompt: str, model: str, max_retries: int = 2, timeout_sec: int = 1
             )
             stdout, stderr = process.communicate(prompt, timeout=timeout_sec)
 
-            if process.returncode == 0 and stdout.strip():
+            if process.returncode == 0 and stdout and stdout.strip():
                 return stdout.strip()
 
             msg = (stderr or "").strip()
             if msg:
                 return f"[qwen_error] {msg}"
+            return "[qwen_error] empty_output"
 
         except subprocess.TimeoutExpired:
+            try:
+                process.kill()
+            except Exception:
+                pass
             return "[qwen_error] timeout"
+        except FileNotFoundError:
+            return "[qwen_error] ollama_not_found (is Ollama installed / in PATH?)"
         except Exception as e:
             if attempt == max_retries:
                 return f"[qwen_error] {e}"
@@ -62,8 +58,8 @@ def run_qwen(prompt: str, model: str, max_retries: int = 2, timeout_sec: int = 1
 # -----------------------------
 def run_qwen_batch_url_sentiment(url_items, model: str, timeout_sec: int = 180):
     """
-    url_items: list of dicts: [{"row_id": int, "url": str}, ...]
-    Returns list of dicts: [{"row_id": int, "sentiment": str, "reason": str}, ...]
+    url_items: [{"row_id": int, "url": str}, ...]
+    Returns:   [{"row_id": int, "sentiment": str, "reason": str}, ...]
     """
     prompt = (
         "You are a rule-based sentiment classifier.\n\n"
@@ -82,6 +78,7 @@ def run_qwen_batch_url_sentiment(url_items, model: str, timeout_sec: int = 180):
         "Reason: <max 12 words, reference exact word from URL>\n"
     )
 
+
     for it in url_items:
         rid = int(it["row_id"])
         url = str(it["url"])
@@ -89,15 +86,11 @@ def run_qwen_batch_url_sentiment(url_items, model: str, timeout_sec: int = 180):
 
     out = run_qwen(prompt, model=model, timeout_sec=timeout_sec)
 
-
     if out.startswith("[qwen_error]"):
         print(f"   -> {model} error: {out}")
         return []
 
     results = []
-    if not out or out.startswith("[qwen_error]"):
-        return results
-
     for line in out.splitlines():
         line = line.strip()
         if not line:
@@ -112,7 +105,7 @@ def run_qwen_batch_url_sentiment(url_items, model: str, timeout_sec: int = 180):
     return results
 
 
-def batch_process(url_items, model: str, batch_size: int, timeout_sec: int = 180, sleep_between_batches: float = 0.5):
+def batch_process(url_items, model: str, batch_size: int, timeout_sec: int = 180, sleep_between_batches: float = 0.2):
     """
     Returns sentiment_map: row_id -> {"sentiment":..., "reason":...}
     """
@@ -124,11 +117,13 @@ def batch_process(url_items, model: str, batch_size: int, timeout_sec: int = 180
 
         batch_res = run_qwen_batch_url_sentiment(batch, model=model, timeout_sec=timeout_sec)
 
-        # If the whole batch failed, just skip; missing rows will be treated as unclear
         if not batch_res:
-            print(f"   -> batch returned 0 results (timeout/error/empty).")
+            print("   -> batch returned 0 results (timeout/error/empty).")
             time.sleep(sleep_between_batches)
             continue
+
+        # Optional: quick progress sanity check
+        # print(f"   -> received {len(batch_res)} results")
 
         for r in batch_res:
             rid = r.get("row_id")
@@ -155,7 +150,6 @@ def main():
 
     total_rows = len(df)
 
-    # Build url_items for rows that have URLs
     url_items = []
     skipped_no_url = 0
     for i, row in df.iterrows():
@@ -171,28 +165,17 @@ def main():
 
     run_start = time.perf_counter()
 
-    # -----------------------------
     # PASS 1: 7B over ALL URLs
-    # -----------------------------
     map_7b = batch_process(
         url_items=url_items,
         model="qwen2.5:7b",
-        batch_size=10,        # 7B can usually handle bigger batches
+        batch_size=10,      # keep small to avoid context overflow
         timeout_sec=180
     )
 
-    # Attach 7B results (default to unclear if missing)
-    sentiment_7b = []
-    reason_7b = []
-    for i in range(total_rows):
-        s = map_7b.get(i, {"sentiment": "unclear", "reason": ""})
-        sentiment_7b.append(s["sentiment"])
-        reason_7b.append(s["reason"])
+    df["sentiment_7b"] = [map_7b.get(i, {"sentiment": "unclear"})["sentiment"] for i in range(total_rows)]
+    df["reason_7b"]    = [map_7b.get(i, {"reason": ""})["reason"] for i in range(total_rows)]
 
-    df["sentiment_7b"] = sentiment_7b
-    df["reason_7b"] = reason_7b
-
-    # Find unclear rows that also have URLs
     unclear_items = []
     for it in url_items:
         rid = int(it["row_id"])
@@ -201,27 +184,24 @@ def main():
 
     print(f"Unclear after 7B: {len(unclear_items)}")
 
-    # -----------------------------
     # PASS 2: 72B ONLY for unclear
-    # -----------------------------
     map_72b = {}
     if unclear_items:
         map_72b = batch_process(
             url_items=unclear_items,
             model="qwen2.5:72b",
-            batch_size=40,      # 72B tends to need smaller batches
-            timeout_sec=240     # you may need more time for 72B
+            batch_size=5,     # 72B -> smaller batches
+            timeout_sec=300   # give it longer locally
         )
 
-    # Build final (overwrite unclear if 72B returned something not-unclear)
-    sentiment_final = []
-    reason_final = []
     sentiment_72b = []
     reason_72b = []
+    sentiment_final = []
+    reason_final = []
 
     for i in range(total_rows):
-        s7 = df.at[i, "sentiment_7b"] if "sentiment_7b" in df.columns else "unclear"
-        r7 = df.at[i, "reason_7b"] if "reason_7b" in df.columns else ""
+        s7 = df.at[i, "sentiment_7b"]
+        r7 = df.at[i, "reason_7b"]
 
         s72 = map_72b.get(i, {}).get("sentiment", "")
         r72 = map_72b.get(i, {}).get("reason", "")
@@ -229,10 +209,6 @@ def main():
         sentiment_72b.append(s72)
         reason_72b.append(r72)
 
-        # overwrite rule:
-        # If 7B is unclear AND 72B provided a label (even if it's still unclear),
-        # use 72B's output. If you ONLY want overwrite when 72B is NOT unclear,
-        # change the condition to: (s72 and s72 != "unclear")
         if s7 == "unclear" and s72:
             sentiment_final.append(s72)
             reason_final.append(r72)
@@ -247,18 +223,7 @@ def main():
 
     df.to_csv(CSV_OUT, index=False)
 
-    elapsed = time.perf_counter() - run_start
-    h, rem = divmod(elapsed, 3600)
-    m, s = divmod(rem, 60)
-
-    print("\n==== RUN SUMMARY ====")
-    print(f"Total rows in input:      {total_rows}")
-    print(f"Rows with URL present:    {len(url_items)}")
-    print(f"Unclear after 7B:         {len(unclear_items)}")
-    print(f"72B attempted rows:       {len(unclear_items)}")
-    print(f"72B returned rows:        {len(map_72b)}")
-    print(f"Output written:           {CSV_OUT}")
-    print(f"Total runtime:            {int(h):02d}:{int(m):02d}:{s:05.2f}")
+    print(f"\nSaved output to {CSV_OUT}")
 
 if __name__ == "__main__":
     start_time = time.perf_counter()
