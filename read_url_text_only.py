@@ -10,21 +10,27 @@ URL_COL = "sourceurl"
 # -----------------------------
 # Ollama runner
 # -----------------------------
-def run_qwen(prompt: str, model: str, max_retries: int = 2, timeout_sec: int = 180) -> str:
-    """
-    Calls: ollama run <model>
-    Returns stdout text (best effort).
-    """
+SIF = "/home/nthindman/ollama_latest.sif"
+BIND = "/home/nthindman:/home/nthindman"
+
+def run_qwen(prompt: str, model: str = "qwen2.5:7b", max_retries: int = 2) -> str:
     for attempt in range(max_retries + 1):
         try:
+            cmd = [
+                "apptainer", "exec", "--userns", "--nv",
+                "--bind", BIND,
+                SIF,
+                "ollama", "run", model
+            ]
+
             process = subprocess.Popen(
-                ["bash", "-c", f"ollama run {model}"],
+                cmd,
                 stdin=subprocess.PIPE,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 text=True
             )
-            stdout, stderr = process.communicate(prompt, timeout=timeout_sec)
+            stdout, stderr = process.communicate(prompt, timeout=240)
 
             if process.returncode == 0 and stdout.strip():
                 return stdout.strip()
