@@ -15,12 +15,21 @@ BIND = "/home/nthindman:/home/nthindman"
 
 def run_qwen(prompt: str, model: str, max_retries: int = 2, timeout_sec: int = 180) -> str:
     """
-    Runs ollama through apptainer (or whatever you configured).
+    Runs ollama through apptainer.
     Returns stdout text (best effort).
     """
+    cmd = [
+        "apptainer", "exec",
+        "--userns",
+        "--bind", BIND,
+        SIF,
+        "ollama", "run", model
+    ]
+    # If you truly need GPU passthrough add "--nv" right after "--userns".
+    # On login nodes, --nv may or may not work.
+
     for attempt in range(max_retries + 1):
         try:
-            # your cmd construction here (keep whatever you already edited)
             process = subprocess.Popen(
                 cmd,
                 stdin=subprocess.PIPE,
@@ -45,6 +54,7 @@ def run_qwen(prompt: str, model: str, max_retries: int = 2, timeout_sec: int = 1
             time.sleep(2 ** attempt)
 
     return "[qwen_error] unknown"
+
 
 
 # -----------------------------
@@ -72,6 +82,11 @@ def run_qwen_batch_url_sentiment(url_items, model: str, timeout_sec: int = 180):
         prompt += f"{rid}\t{url}\n"
 
     out = run_qwen(prompt, model=model, timeout_sec=timeout_sec)
+
+
+    if out.startswith("[qwen_error]"):
+        print(f"   -> {model} error: {out}")
+        return []
 
     results = []
     if not out or out.startswith("[qwen_error]"):
