@@ -13,16 +13,14 @@ URL_COL = "sourceurl"
 SIF = "/home/nthindman/ollama_latest.sif"
 BIND = "/home/nthindman:/home/nthindman"
 
-def run_qwen(prompt: str, model: str = "qwen2.5:7b", max_retries: int = 2) -> str:
+def run_qwen(prompt: str, model: str, max_retries: int = 2, timeout_sec: int = 180) -> str:
+    """
+    Runs ollama through apptainer (or whatever you configured).
+    Returns stdout text (best effort).
+    """
     for attempt in range(max_retries + 1):
         try:
-            cmd = [
-                "apptainer", "exec", "--userns", "--nv",
-                "--bind", BIND,
-                SIF,
-                "ollama", "run", model
-            ]
-
+            # your cmd construction here (keep whatever you already edited)
             process = subprocess.Popen(
                 cmd,
                 stdin=subprocess.PIPE,
@@ -30,7 +28,7 @@ def run_qwen(prompt: str, model: str = "qwen2.5:7b", max_retries: int = 2) -> st
                 stderr=subprocess.PIPE,
                 text=True
             )
-            stdout, stderr = process.communicate(prompt, timeout=240)
+            stdout, stderr = process.communicate(prompt, timeout=timeout_sec)
 
             if process.returncode == 0 and stdout.strip():
                 return stdout.strip()
