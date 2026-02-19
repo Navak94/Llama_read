@@ -62,20 +62,19 @@ def run_qwen_batch_url_sentiment(url_items, model: str, timeout_sec: int = 180):
     Returns:   [{"row_id": int, "sentiment": str, "reason": str}, ...]
     """
     prompt = (
-        "You are a rule-based sentiment classifier.\n\n"
+        "You are a URL-only sentiment classifier.\n\n"
         "Task:\n"
         "Classify sentiment using ONLY lexical cues found directly in the URL string.\n"
         "Do NOT assume context outside the URL.\n"
         "Do NOT invent details.\n\n"
-        "Decision Rules:\n"
-        "1. If URL contains clearly positive words (e.g., success, growth, win, benefit, breakthrough, prevent, improve) -> positive.\n"
-        "2. If URL contains clearly negative words (e.g., attack, crisis, terror, murder, collapse, scandal, disaster, arrest) -> negative.\n"
-        "3. If both strong positive and strong negative words appear -> mixed.\n"
-        "4. If no clear emotional polarity words appear -> neutral.\n"
-        "5. If URL is too short, generic, numeric, or ambiguous -> unclear.\n\n"
-        "Output Format (STRICT - no extra text):\n"
-        "Sentiment: <positive|negative|neutral|unclear>\n"
-        "Reason: <max 12 words, reference exact word from URL>\n"
+        "Labels: positive|negative|neutral|mixed|unclear\n\n"
+        "Output Format (STRICT): JSONL ONLY.\n"
+        "One JSON object per line, for every input item.\n"
+        "Each JSON object must have keys:\n"
+        "row_id (int), sentiment (string), reason (string, <= 12 words).\n"
+        "No extra text, no markdown, no blank lines.\n\n"
+        "ITEMS (tab-separated):\n"
+        "<row_id>\\t<url>\n"
     )
 
 
@@ -85,6 +84,9 @@ def run_qwen_batch_url_sentiment(url_items, model: str, timeout_sec: int = 180):
         prompt += f"{rid}\t{url}\n"
 
     out = run_qwen(prompt, model=model, timeout_sec=timeout_sec)
+
+    if (not out) or out.startswith("[qwen_error]"):
+        print(f"   -> {model} raw out: {out[:300] if out else '<EMPTY>'}")
 
     if out.startswith("[qwen_error]"):
         print(f"   -> {model} error: {out}")
