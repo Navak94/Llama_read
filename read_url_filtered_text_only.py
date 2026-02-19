@@ -5,17 +5,24 @@ from urllib.parse import urlparse, unquote
 import re
 
 CSV_IN = "gdelt_events_basic.csv"
-CSV_OUT = "_FILTERED_URL_ONLY.csv"
+CSV_OUT = "Qwen_72B_FILTERED_URL_ONLY.csv"
 URL_COL = "sourceurl"
 
 # --- NEW: URL -> clean text (no clicking, no fetching) ---
 def url_to_clean_text(url: str, max_tokens: int = 40) -> str:
     u = urlparse(url)
-    domain = (u.netloc or "").replace("www.", "")
+
+    # Only use path (ignore domain)
     path = unquote(u.path or "")
 
-    tokens = re.split(r"[\/\-\_\.\s]+", f"{domain} {path}")
-    tokens = [t.lower() for t in tokens if len(t) > 2 and not t.isdigit()]
+    tokens = re.split(r"[\/\-\_\.\s]+", path)
+
+    tokens = [
+        t.lower()
+        for t in tokens
+        if len(t) > 2 and not t.isdigit()
+    ]
+
     return " ".join(tokens[:max_tokens])
 
 # ---- 1) Run qwen locally via Ollama ----
@@ -75,8 +82,9 @@ def main():
         # --- NEW: derive readable URL text ---
         url_text = url_to_clean_text(url)
 
-        print(f"[{i+1}/{total_rows}] URL sentiment: {url_text}")
-
+        #print(f"[{i+1}/{total_rows}] URL sentiment: {url_text}")
+        print("unfiltered url is ", url)
+        print("URL TEXT IS  ------------------  " ,url_text, "------------------")
         # --- CHANGED: prompt uses URL_TEXT instead of raw URL ---
         URL_prompt = (
             "You are helping with event/news triage.\n"

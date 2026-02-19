@@ -1,0 +1,763 @@
+sqldate,eventcode,actor1name,actor2name,sourceurl,url_text,qwen_just_URL
+20210101,130,GERMANY,,https://www.e110.de/terrorakte-vielleicht-verhindert/,terrorakte vielleicht verhindert,"Sentiment: negative
+Reason: mentions potential prevented terrorism."
+20220101,43,,CHILE,http://www.funkuhr.de/fernsehprogramm/sendungsdetails/169446982/pumas-in-der-wildnis-patagoniens.html,fernsehprogramm sendungsdetails pumas der wildnis patagoniens html,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,112,,CRIMINAL,https://www.brasil247.com/brasil/bolsonaro-e-eleito-corrupto-do-ano-por-consorcio-internacional,brasil bolsonaro eleito corrupto ano por consorcio internacional,"Sentiment: negative
+Reason: Mentions corruption and international consortium in relation to Bolsonaro's election."
+20220101,46,,AUTHORITIES,https://ria.ru/20220102/status-1766397981.html,status html,"Sentiment: unclear  
+Reason: Insufficient context."
+20220101,110,,PRIME MINISTER,https://www.aftenposten.no/verden/i/OrevnE/foerste-nyttaarsdag-ble-det-registrert-over-160000-koronatilfeller-i-en,verden orevne foerste nyttaarsdag ble det registrert over koronatilfeller,"Sentiment: unclear  
+Reason: The text is in Norwegian and provides no clear indication of sentiment."
+20220101,190,,PRESIDENT,https://alquds.com/2022/01/01/%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A8%D8%B1%D9%82%D8%A9/,إصابات خلال مواجهات برقة,"Sentiment: negative
+Reason: 叙述了冲突导致的伤亡，通常与负面事件相关。"
+20220101,42,,ITALIAN,https://www.interris.it/copertina/perno-opbg-omicron-bambini/,copertina perno opbg omicron bambini,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220101,51,,WORKER,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,actualite social mobilisation sociale pointe pitre elie domota ete arrete php,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,51,,WORKER,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,actualite social mobilisation sociale pointe pitre elie domota ete arrete php,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,1823,,MILITARY,https://www.franceguyane.fr/actualite/france/feminicides-deux-hommes-en-garde-a-vue-le-jour-du-nouvel-an-494064.php,actualite france feminicides deux hommes garde vue jour nouvel php,"Sentiment: negative
+Reason: Mention of ""feminicides"" indicates a tragic event."
+20220101,43,,POLE,https://as.com/futbol/2022/01/01/primera/1641057005_745473.html,futbol primera html,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220101,51,,SAUDI ARABIA,https://www.okaz.com.sa/news/na/2092790,news,"Sentiment: unclear  
+Reason: Insufficient information."
+20220101,51,,SAUDI ARABIA,https://www.okaz.com.sa/news/na/2092790,news,"Sentiment: unclear
+Reason: Insufficient information."
+20220101,20,,INTELLIGENCE,https://www.diariolaprovinciasj.com/elpais/2022/1/1/cuales-son-los-sectores-que-tendran-mayor-demanda-laboral-en-2022-165873.html,elpais cuales son los sectores que tendran mayor demanda laboral html,"Sentiment: neutral
+Reason: The text is informative, not expressing clear emotion."
+20220101,42,,VENEZUELAN,https://noticias.uol.com.br/ultimas-noticias/efe/2022/01/01/chanceler-venezuelano-pede-que-bolsonaro-aprove-transferencia-de-migrantes.htm,ultimas noticias efe chanceler venezuelano pede que bolsonaro aprove transferencia migrantes htm,"Sentiment: neutral
+Reason: The text is factual and does not express clear emotion."
+20220101,20,,BASQUE,https://omirante.pt/cavaleiro-andante/2022-01-01-Em-Abrantes-nada-como-dantes-a2fb5365,cavaleiro andante abrantes nada como dantes a2fb5365,"Sentiment: unclear  
+Reason: Text is unclear and appears to be incomplete."
+20220101,50,,CATALAN,https://sport1.oslobodjenje.ba/s1/fudbal/ino-fudbal/primera/postigao-dogovor-sa-kataloncima-barcelona-sljedeceg-ljeta-dobija-veliko-pojacanje-721568,fudbal ino fudbal primera postigao dogovor kataloncima barcelona sljedeceg ljeta dobija veliko pojacanje,"Sentiment: unclear  
+Reason: Text appears to be in a language other than English and is not clear enough for sentiment analysis."
+20220101,51,,INDIGENOUS,https://g1.globo.com/mundo/noticia/2022/01/01/a-epidemia-de-desaparecimentos-de-indigenas-que-intriga-os-eua.ghtml,mundo noticia epidemia desaparecimentos indigenas que intriga eua ghtml,"Sentiment: unclear  
+Reason: Insufficient context and incomplete text."
+20220101,51,,INDIGENOUS,https://g1.globo.com/mundo/noticia/2022/01/01/a-epidemia-de-desaparecimentos-de-indigenas-que-intriga-os-eua.ghtml,mundo noticia epidemia desaparecimentos indigenas que intriga eua ghtml,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,161,MADEIRA,,https://www.akhbarona.com/last/340605.html,last html,"Sentiment: unclear  
+Reason: Text is too brief and lacks context."
+20220101,112,BRAZIL,CRIMINAL,https://www.brasil247.com/brasil/bolsonaro-e-eleito-corrupto-do-ano-por-consorcio-internacional,brasil bolsonaro eleito corrupto ano por consorcio internacional,"Sentiment: negative
+Reason: Mentions corruption and international consortium negatively."
+20220101,112,BRAZIL,CRIMINAL,https://www.brasil247.com/brasil/bolsonaro-e-eleito-corrupto-do-ano-por-consorcio-internacional,brasil bolsonaro eleito corrupto ano por consorcio internacional,"Sentiment: negative
+Reason: Mentions corruption and international consortium in context of Bolsonaro's election."
+20220101,100,BUSINESS,,https://pronedra.ru/znaki-vostochnogo-kalendarya-po-godu-rozhdeniya-kotorym-povezet-v-2022-godu-628853.html,znaki vostochnogo kalendarya godu rozhdeniya kotorym povezet godu html,"Sentiment: unclear
+Reason: Text is incomplete and difficult to interpret."
+20220101,90,COMPANY,ADMINISTRATION,https://www.republika.co.id/berita/r520kx430/jepang-bantu-perusahaan-bill-gates-bangun-reaktor-nuklir,berita r520kx430 jepang bantu perusahaan bill gates bangun reaktor nuklir,"Sentiment: neutral
+Reason: The text is factual and doesn't convey clear emotion."
+20220101,112,COMPANIES,REPRESENTATIVES,https://www.alarab.com/Article/1018144,article,"Sentiment: unclear
+Reason: Not enough information in the text."
+20220101,60,SWITZERLAND,,https://evz.ro/sinuciderea-asistata-este-acum-legala-austria-este-tara-care-a-decis-sa-curme-suferintele-bolnavilor.html,sinuciderea asistata este acum legala austria este tara care decis curme suferintele bolnavilor html,"Sentiment: positive
+Reason: Legalization of assisted suicide is generally seen as progressive."
+20220101,81,SWITZERLAND,,https://evz.ro/sinuciderea-asistata-este-acum-legala-austria-este-tara-care-a-decis-sa-curme-suferintele-bolnavilor.html,sinuciderea asistata este acum legala austria este tara care decis curme suferintele bolnavilor html,"Sentiment: neutral
+Reason: The text is unclear due to translation issues."
+20220101,42,CHILE,,http://www.funkuhr.de/fernsehprogramm/sendungsdetails/169446982/pumas-in-der-wildnis-patagoniens.html,fernsehprogramm sendungsdetails pumas der wildnis patagoniens html,"Sentiment: neutral
+Reason: The text appears to be a program description and does not convey clear emotion."
+20220101,54,CHINA,EMBASSY,https://gordonua.com/news/worldnews/kitay-otkryl-posolstvo-v-nikaragua-posle-vozobnovleniya-diplomaticheskih-otnosheniy-1589047.html,news worldnews kitay otkryl posolstvo nikaragua posle vozobnovleniya diplomaticheskih otnosheniy html,"Sentiment: neutral
+Reason: Announcement of restored diplomatic relations is typically seen as neutral."
+20220101,20,COLOMBIA,COLOMBIA,https://www.colombia.com/actualidad/nacionales/12415-contagios-por-la-covid-19-registra-colombia-en-el-primer-dia-del-ano-2022-333346,actualidad nacionales contagios por covid registra colombia primer dia del ano,"Sentiment: neutral
+Reason: Information on deaths or significant impacts is missing."
+20220101,180,PRISON,,https://pronedra.ru/zaprety-i-primety-rozhdestvenskogo-sochelnik-chto-gotovyat-v-prazdnik-628846.html,zaprety primety rozhdestvenskogo sochelnik chto gotovyat prazdnik html,"Sentiment: unclear  
+Reason: Text appears to be in Russian but the meaning is not clear without context."
+20220101,30,PRISON,ACADEMICS,https://www.notigape.com/trabajara-gobierno-municipal-por-bienestar-y-progreso-en-2022/243835,trabajara gobierno municipal por bienestar progreso,"Sentiment: positive
+Reason: Text implies government efforts for well-being and progress."
+20220101,173,POLICE,FRANCE,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,actualite social mobilisation sociale pointe pitre elie domota ete arrete php,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220101,186,PERPETRATOR,BAMAKO,http://malijet.com/les_faits_divers_au_mali/265488-commissariat-de-police-du-11eme-arrondissement-fin-de-course-pou.html,les faits divers mali commissariat police 11eme arrondissement fin course pou html,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,10,COMMUNITY,,https://www.lopinionista.it/fico-ringrazia-mattarella-120130.html,fico ringrazia mattarella html,"Sentiment: unclear  
+Reason: Insufficient context to determine sentiment."
+20220101,111,RESIDENTS,,https://g1.globo.com/sp/piracicaba-regiao/noticia/2022/01/01/biblioteca-municipal-de-limeira-oferece-oficinas-gincana-show-e-sarau-durante-as-ferias-escolares.ghtml,piracicaba regiao noticia biblioteca municipal limeira oferece oficinas gincana show sarau durante ferias escolares ghtml,"Sentiment: positive
+Reason: Offers activities during school holidays suggest local engagement and entertainment."
+20220101,1723,POPULATION,,https://gordonua.com/news/worldnews/vo-francii-v-novogodnyuyu-noch-sozhgli-874-mashiny-mvd-1589046.html,news worldnews francii novogodnyuyu noch sozhgli mashiny mvd html,"Sentiment: negative
+Reason: Fires burning police cars during New Year's night in France."
+20220101,80,ACTOR,,https://www.interris.it/rubriche/opinione/affrontare-questioni-pressanti-luce-dottrina-sociale-chiesa/,rubriche opinione affrontare questioni pressanti luce dottrina sociale chiesa,"Sentiment: unclear  
+Reason: Text appears to be in Italian and refers to topics without clear positive or negative connotations."
+20220101,833,EUROPE,,https://www.brasil247.com/blog/brasil-para-principiantes,blog brasil para principiantes,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220101,90,EUROPE,,https://alquds.com/2022/01/02/%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%B9%D8%AA%D8%A8%D8%A9-100-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D8%A8%D9%83%D9%88%D9%81%D9%8A/,أوروبا تتجاوز عتبة مليون إصابة بكوفي,"Sentiment: neutral
+Reason: Statement of fact, no emotional tone."
+20220101,112,EUROPEAN,BELARUS,https://www.skivefolkeblad.dk/artikel/8426302b-78a7-3353-beaa-8731a102cde4/,artikel 8426302b 78a7 beaa 8731a102cde4,"Unclear
+No text to analyze."
+20220101,112,EUROPEAN,RUSSIA,https://www.skivefolkeblad.dk/artikel/8426302b-78a7-3353-beaa-8731a102cde4/,artikel 8426302b 78a7 beaa 8731a102cde4,"Sentiment: unclear
+Reason: Insufficient text content."
+20220101,112,EUROPEAN,RUSSIA,https://www.skivefolkeblad.dk/artikel/8426302b-78a7-3353-beaa-8731a102cde4/,artikel 8426302b 78a7 beaa 8731a102cde4,"Sentiment: unclear
+Reason: Insufficient text for sentiment analysis."
+20220101,50,FRANCE,,https://as.com/futbol/2022/01/01/primera/1641057005_745473.html,futbol primera html,"Sentiment: unclear  
+Reason: Insufficient context about the event/news."
+20220101,141,PARIS,POLICE,https://noticias.uol.com.br/ultimas-noticias/deutschewelle/2022/01/01/franca-ve-queda-em-numero-de-carros-incendiados-no-ano-novo.htm,ultimas noticias deutschewelle franca queda numero carros incendiados ano novo htm,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220101,192,FRENCH,SYRIA,https://naslovi.net/2022-01-02/rtv/vremeplov-otvorena-prva-citaonica-u-knezevini-srbiji/29652721,rtv vremeplov otvorena prva citaonica knezevini srbiji,"Sentiment: neutral
+Reason: Announcement of opening a library does not convey clear positive or negative emotion."
+20220101,192,FRANCE,SYRIA,https://naslovi.net/2022-01-02/rtv/vremeplov-otvorena-prva-citaonica-u-knezevini-srbiji/29652721,rtv vremeplov otvorena prva citaonica knezevini srbiji,"Sentiment: neutral
+Reason: Information about the event is neutral in tone."
+20220101,190,LILLE,YEMENI,https://www.okaz.com.sa/news/na/2092790,news,"Sentiment: unclear  
+Reason: Insufficient information."
+20220101,141,GUADELOUPE,,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,actualite social mobilisation sociale pointe pitre elie domota ete arrete php,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220101,172,CONAKRY,,http://malijet.com/actualite_economique_du_mali/265491-lutte-contre-la-fraude-et-la-contrebande-les-douanes-saisissent-.html,actualite economique mali lutte contre fraude contrebande les douanes saisissent html,"Sentiment: neutral
+Reason: The text describes economic activities without clear positive or negative connotations."
+20220101,70,GAMBIA,NORWEGIAN,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,rilanciato limmigrazione illegale vasta scala italia,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220101,70,GAMBIA,NORWAY,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,rilanciato limmigrazione illegale vasta scala italia,"Sentiment: unclear  
+Reason: Insufficient context to determine sentiment."
+20220101,70,GAMBIA,NORWEGIAN,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,rilanciato limmigrazione illegale vasta scala italia,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220101,190,PRESIDENT,,https://alquds.com/2022/01/01/%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A8%D8%B1%D9%82%D8%A9/,إصابات خلال مواجهات برقة,"- Sentiment: negative
+- Reason: mentions injuries in conflicts."
+20220101,192,PRESIDENT,,https://alquds.com/2022/01/01/%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A8%D8%B1%D9%82%D8%A9/,إصابات خلال مواجهات برقة,"Sentiment: negative
+Reason: mentions injuries during clashes."
+20220101,20,MINISTRY,EMIRATI,https://www.akhbarona.com/world/340606.html,world html,"Sentiment: unclear
+Reason: Insufficient information."
+20220101,51,MINISTRY,EMIRATI,https://www.akhbarona.com/world/340606.html,world html,"Sentiment: unclear
+Reason: Insufficient information."
+20220101,71,GOVERNMENT,EUROPEAN,https://www.interris.it/rubriche/opinione/affrontare-questioni-pressanti-luce-dottrina-sociale-chiesa/,rubriche opinione affrontare questioni pressanti luce dottrina sociale chiesa,"Sentiment: unclear  
+Reason: Text is in Italian and context is unclear without additional information."
+20220101,111,AUTHORITIES,EMPLOYEE,https://ria.ru/20220102/status-1766397981.html,status html,"Sentiment: unclear  
+Reason: Insufficient context."
+20220101,841,DIPLOMAT,PRISONER,https://www.republika.co.id/berita/r520da430/indiapakistan-tukar-daftar-tahanan,berita r520da430 indiapakistan tukar daftar tahanan,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220101,841,DIPLOMAT,PRISONER,https://www.republika.co.id/berita/r520da430/indiapakistan-tukar-daftar-tahanan,berita r520da430 indiapakistan tukar daftar tahanan,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,1014,EMBASSY,UKRAINIAN,https://pronedra.ru/znaki-vostochnogo-kalendarya-po-godu-rozhdeniya-kotorym-povezet-v-2022-godu-628853.html,znaki vostochnogo kalendarya godu rozhdeniya kotorym povezet godu html,"Sentiment: unclear  
+Reason: Text is not fully provided."
+20220101,1014,EMBASSY,UKRAINIAN,https://pronedra.ru/znaki-vostochnogo-kalendarya-po-godu-rozhdeniya-kotorym-povezet-v-2022-godu-628853.html,znaki vostochnogo kalendarya godu rozhdeniya kotorym povezet godu html,"Sentiment: unclear  
+Reason: Text is unclear and appears to be incomplete."
+20220101,36,MINIST OF EDUCATION,,https://www.diariolaprovinciasj.com/educacion/2022/1/1/el-ministerio-de-educacion-atendera-en-nuevo-horario-165874.html,educacion ministerio educacion atendera nuevo horario html,"Sentiment: neutral
+Reason: The text provides no clear indication of a positive or negative tone."
+20220101,13,MEDICAL ASSOCIATION,,https://www.aftenposten.no/verden/i/OrevnE/foerste-nyttaarsdag-ble-det-registrert-over-160000-koronatilfeller-i-en,verden orevne foerste nyttaarsdag ble det registrert over koronatilfeller,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,120,DOCTOR,,https://kino.24tv.ua/ru/novogodnie-multfilmy-dlja-vsej-semi-dushevnaja-podborka-dlja_n1831930,novogodnie multfilmy dlja vsej semi dushevnaja podborka dlja n1831930,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,120,DOCTOR,,https://kino.24tv.ua/ru/novogodnie-multfilmy-dlja-vsej-semi-dushevnaja-podborka-dlja_n1831930,novogodnie multfilmy dlja vsej semi dushevnaja podborka dlja n1831930,"Sentiment: neutral
+Reason: The text describes a selection of films, no clear emotional tone."
+20220101,10,CROATIAN,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,infos article asm monaco officialise depart niko kovac officiel html,"Sentiment: neutral
+Reason: Statement of fact without emotional cues."
+20220101,10,CROATIAN,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,infos article asm monaco officialise depart niko kovac officiel html,"Sentiment: neutral
+Reason: Announcement of a player's departure is typically neutral."
+20220101,42,CROATIAN,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,infos article asm monaco officialise depart niko kovac officiel html,"Sentiment: neutral
+Reason: Statement of fact, no clear emotional tone."
+20220101,42,CROATIAN,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,infos article asm monaco officialise depart niko kovac officiel html,"Sentiment: neutral
+Reason: Announcement of a player's departure is typically neutral."
+20220101,43,JAKARTA,FLORIDA,https://www.republika.co.id/berita/r520u2384/ini-ketentuan-tes-antigen-di-stasiun,berita r520u2384 ini ketentuan tes antigen stasiun,"Sentiment: unclear  
+Reason: Text is not clear and lacks emotional indicators."
+20220101,10,ISRAEL,,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,story apres des tirs roquettes frappes israeliennes sur gaza,"Sentiment: negative
+Reason: Description of rocket attacks implies conflict and violence."
+20220101,61,ISRAEL,,https://www.alquds.co.uk/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D9%82%D8%B5%D9%81-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D9%81%D9%8A-%D9%82%D8%B7%D8%A7%D8%B9-%D8%BA/,الجيش الإسرائيلي يقصف أهدافا قطاع,"Sentiment: negative
+Reason: 冲突报道通常具有负面情绪。"
+20220101,190,ISRAELI,ISRAEL,https://ria.ru/20220102/status-1766397981.html,status html,"Sentiment: unclear  
+Reason: Insufficient information in the text."
+20220101,871,ISRAEL,PALESTINIAN,https://www.alquds.co.uk/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D9%82%D8%B5%D9%81-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D9%81%D9%8A-%D9%82%D8%B7%D8%A7%D8%B9-%D8%BA/,الجيش الإسرائيلي يقصف أهدافا قطاع,"Sentiment: negative
+Reason: 内容涉及军事打击，通常为负面信息。"
+20220101,190,ISRAELI,GAZA,https://ria.ru/20220102/udary-1766397744.html,udary html,"Sentiment: unclear
+Reason: Insufficient context."
+20220101,194,ISRAEL,PALESTINIAN,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,story apres des tirs roquettes frappes israeliennes sur gaza,"Sentiment: negative
+Reason: Description of rocket attacks implies conflict and harm."
+20220101,194,ISRAEL,HAMAS,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,story apres des tirs roquettes frappes israeliennes sur gaza,"Sentiment: negative
+Reason: Describes rocket attacks, which are generally associated with conflict and harm."
+20220101,90,ISRAELI,,https://www.adn40.mx/internacional/israel-flurona-gripe-covid-19-pfp,internacional israel flurona gripe covid pfp,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,10,ISRAELI,ISRAEL,https://www.notigape.com/israel-detecto-primer-caso-de-flurona-gripe-y-covid-19-en-simultaneo/243839,israel detecto primer caso flurona gripe covid simultaneo,"Sentiment: neutral
+Reason: Announcement of a new medical detection is typically neutral."
+20220101,90,ISRAELI,ISRAEL,https://www.adn40.mx/internacional/israel-flurona-gripe-covid-19-pfp,internacional israel flurona gripe covid pfp,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,190,ISRAELI,,https://ria.ru/20220102/status-1766397981.html,status html,"Sentiment: unclear  
+Reason: Insufficient context."
+20220101,190,ISRAEL,ISRAEL,https://ria.ru/20220102/status-1766397981.html,status html,"Sentiment: unclear
+Reason: Insufficient context."
+20220101,190,ISRAEL,ISRAEL,https://ria.ru/20220102/udary-1766397744.html,udary html,"Sentiment: unclear  
+Reason: Insufficient context."
+20220101,190,ISRAELI,GAZA,https://ria.ru/20220102/status-1766397981.html,status html,"Sentiment: unclear  
+Reason: Insufficient context."
+20220101,190,ISRAELI,GAZA,https://ria.ru/20220102/udary-1766397744.html,udary html,"Sentiment: unclear  
+Reason: Insufficient context."
+20220101,20,ISRAELI,ISRAELI,https://www.alarab.com/Article/1018146,article,"Sentiment: unclear  
+Reason: Insufficient text."
+20220101,43,ITALY,,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,rilanciato limmigrazione illegale vasta scala italia,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,173,ITALY,ALBANIA,http://www.oranews.tv/vendi/ky-eshte-shqiptari-i-arratisur-nga-burgu-ne-itali-naten-e-nderrimit-te-vit-i1023852,vendi eshte shqiptari arratisur nga burgu itali naten nderrimit vit i1023852,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220101,42,ITALY,ITALIAN,https://www.interris.it/copertina/perno-opbg-omicron-bambini/,copertina perno opbg omicron bambini,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220101,43,ITALIAN,,https://www.interris.it/copertina/perno-opbg-omicron-bambini/,copertina perno opbg omicron bambini,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,43,ITALIAN,ITALY,https://www.interris.it/copertina/perno-opbg-omicron-bambini/,copertina perno opbg omicron bambini,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,10,JUDGE,,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,rilanciato limmigrazione illegale vasta scala italia,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220101,43,SOUTH KOREA,MUSLIM,https://portaljember.pikiran-rakyat.com/pariwisata/pr-163372393/7-destinasi-wisata-halal-di-korea-selatan-cocok-bagi-umat-muslim-yang-traveling-ke-negeri-ginseng,pariwisata destinasi wisata halal korea selatan cocok bagi umat muslim yang traveling negeri ginseng,"Sentiment: positive
+Reason: Text promotes travel options for Muslims in Korea."
+20220101,84,TRADE UNION,,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,actualite social mobilisation sociale pointe pitre elie domota ete arrete php,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,111,TRADE UNION,,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,actualite social mobilisation sociale pointe pitre elie domota ete arrete php,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,100,REPRESENTATIVES,VOTER,https://www.corriere.it/editoriali/22_gennaio_01/i-partiti-quirinaleche-cosa-serve-ora-paese-466c0010-6b3e-11ec-a3c8-e3c830b3b1de.shtml,editoriali gennaio partiti quirinaleche cosa serve ora paese 466c0010 6b3e 11ec a3c8 e3c830b3b1de shtml,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220101,120,REPRESENTATIVES,VOTER,https://www.corriere.it/editoriali/22_gennaio_01/i-partiti-quirinaleche-cosa-serve-ora-paese-466c0010-6b3e-11ec-a3c8-e3c830b3b1de.shtml,editoriali gennaio partiti quirinaleche cosa serve ora paese 466c0010 6b3e 11ec a3c8 e3c830b3b1de shtml,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,161,MONACO,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,infos article asm monaco officialise depart niko kovac officiel html,"Sentiment: neutral
+Reason: The text provides factual information without expressing clear emotion."
+20220101,161,MONACO,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,infos article asm monaco officialise depart niko kovac officiel html,"Sentiment: neutral
+Reason: Announcement of a player's departure is typically neutral."
+20220101,51,MILITARY,,https://www.okaz.com.sa/news/na/2092790,news,"Sentiment: unclear
+Reason: Insufficient information."
+20220101,51,MILITARY,,https://www.okaz.com.sa/news/na/2092790,news,"Sentiment: unclear  
+Reason: Insufficient information."
+20220101,114,NAVY,,https://omirante.pt/sociedade/2022-01-01-Vila-Franca-de-Xira-vai-ter-de-realizar-mais-obras-para-ganhar-novo-tribunal-a4687496,sociedade vila franca xira vai ter realizar mais obras para ganhar novo tribunal a4687496,"Sentiment: neutral
+Reason: Information about the works and their impact is not clear."
+20220101,190,MALI,,http://malijet.com/actualite-politique-au-mali/editorial-journaux-mali/265485-edito-le-pragmatisme-russe-aux-antipodes-des-th%C3%A9ories-fran%C3%A7aises.html,actualite politique mali editorial journaux mali edito pragmatisme russe aux antipodes des théories françaises html,"Sentiment: unclear  
+Reason: Insufficient context to determine sentiment."
+20220101,42,MUSLIM,SOUTH KOREA,https://portaljember.pikiran-rakyat.com/pariwisata/pr-163372393/7-destinasi-wisata-halal-di-korea-selatan-cocok-bagi-umat-muslim-yang-traveling-ke-negeri-ginseng,pariwisata destinasi wisata halal korea selatan cocok bagi umat muslim yang traveling negeri ginseng,"Sentiment: positive
+Reason: Text promotes travel options for Muslims in Korea."
+20220101,841,PRISONER,DIPLOMAT,https://www.republika.co.id/berita/r520da430/indiapakistan-tukar-daftar-tahanan,berita r520da430 indiapakistan tukar daftar tahanan,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220101,42,POLE,,https://as.com/futbol/2022/01/01/primera/1641057005_745473.html,futbol primera html,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220101,161,PORTUGAL,MADEIRA,https://www.akhbarona.com/last/340605.html,last html,"Sentiment: unclear  
+Reason: Insufficient information."
+20220101,10,PALESTINIAN,,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,story apres des tirs roquettes frappes israeliennes sur gaza,"Sentiment: negative
+Reason: mentions rocket attacks on Gaza."
+20220101,10,PALESTINIAN,,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,story apres des tirs roquettes frappes israeliennes sur gaza,"Sentiment: negative
+Reason: mentions rocket attacks on Gaza involving Israel."
+20220101,61,PALESTINIAN,,https://www.alquds.co.uk/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D9%82%D8%B5%D9%81-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D9%81%D9%8A-%D9%82%D8%B7%D8%A7%D8%B9-%D8%BA/,الجيش الإسرائيلي يقصف أهدافا قطاع,"Sentiment: negative
+Reason: 内容涉及军事打击，通常与负面事件相关。"
+20220101,10,PALESTINIAN,ISRAEL,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,story apres des tirs roquettes frappes israeliennes sur gaza,"Sentiment: negative
+Reason: description of rocket attacks on Gaza implies conflict."
+20220101,10,PALESTINIAN,ISRAEL,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,story apres des tirs roquettes frappes israeliennes sur gaza,"Sentiment: negative
+Reason: description of Israeli airstrikes on Gaza."
+20220101,61,PALESTINIAN,ISRAEL,https://www.alquds.co.uk/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D9%82%D8%B5%D9%81-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D9%81%D9%8A-%D9%82%D8%B7%D8%A7%D8%B9-%D8%BA/,الجيش الإسرائيلي يقصف أهدافا قطاع,"Sentiment: negative
+Reason: 提及以色列军队袭击加萨目标，带有负面情绪。"
+20220101,195,HAMAS,,https://alquds.com/2022/01/02/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D9%82%D8%B5%D9%81-%D9%85%D9%88%D9%82%D8%B9%D9%8B%D8%A7-%D9%84%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A8%D8%BA%D8%B2%D8%A9/,الاحتلال يقصف موقعًا للمقاومة بغزة,"- Sentiment: negative
+- Reason: Militaristic action described."
+20220101,195,HAMAS,,https://alquds.com/2022/01/02/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D9%82%D8%B5%D9%81-%D9%85%D9%88%D9%82%D8%B9%D9%8B%D8%A7-%D9%84%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A8%D8%BA%D8%B2%D8%A9/,الاحتلال يقصف موقعًا للمقاومة بغزة,"Sentiment: negative
+Reason: mention of bombing a resistance site implies conflict."
+20220101,1712,POLITICIAN,,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,rilanciato limmigrazione illegale vasta scala italia,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220101,833,ARCHBISHOP,,https://noticias.uol.com.br/ultimas-noticias/efe/2022/01/01/sul-africanos-se-despedem-de-desmond-tutu.htm,ultimas noticias efe sul africanos despedem desmond tutu htm,"Sentiment: neutral
+Reason: The text is neutral as it only states a title without details."
+20220101,84,ROMANIA,,https://evz.ro/catalin-harnagea-fostul-sef-al-serviciului-extern-de-informatii-incepe-sa-scrie-in-evenimentul-zilei.html,catalin harnagea fostul sef serviciului extern informatii incepe scrie evenimentul zilei html,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220101,10,RUSSIA,,https://www.volynnews.com/news/all/5-naykrutishykh-skarbiv-volynskoho-krayeznavchoho-muzeiu-foto/,news all naykrutishykh skarbiv volynskoho krayeznavchoho muzeiu foto,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,10,RUSSIA,,https://kino.24tv.ua/ru/novogodnie-multfilmy-dlja-vsej-semi-dushevnaja-podborka-dlja_n1831930,novogodnie multfilmy dlja vsej semi dushevnaja podborka dlja n1831930,"Sentiment: neutral
+Reason: The text appears to be a description of holiday movies, with no clear emotional tone."
+20220101,111,RUSSIAN,,https://www.teleport2001.ru/news/2022-01-02/140398-zasukha-grozit-lyudyam-i-zhivotnym-iz-za-stroitelstva-plotiny-na-dalnem-vostoke.html,news zasukha grozit lyudyam zhivotnym stroitelstva plotiny dalnem vostoke html,"Sentiment: unclear
+Reason: Text appears to be in Russian but the context is unclear without more information."
+20220101,110,RUSSIAN,FRENCH,http://malijet.com/actualite-politique-au-mali/editorial-journaux-mali/265485-edito-le-pragmatisme-russe-aux-antipodes-des-th%C3%A9ories-fran%C3%A7aises.html,actualite politique mali editorial journaux mali edito pragmatisme russe aux antipodes des théories françaises html,"Sentiment: neutral
+Reason: Topics mentioned are factual and not clearly indicative of sentiment."
+20220101,182,JEDDAH,FRANCE,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,dakar attiyah auto sanders moto remportent prologue concurrent blesse explosion,"Sentiment: unclear  
+Reason: Insufficient context to determine sentiment."
+20220101,182,JEDDAH,FRANCE,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,dakar attiyah auto sanders moto remportent prologue concurrent blesse explosion,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220101,182,JEDDAH,FRENCH,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,dakar attiyah auto sanders moto remportent prologue concurrent blesse explosion,"Sentiment: unclear
+Reason: Text appears to be a mix of unrelated terms without context."
+20220101,182,JEDDAH,FRANCE,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,dakar attiyah auto sanders moto remportent prologue concurrent blesse explosion,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220101,120,SAUDI,SAUDI ARABIA,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,dakar attiyah auto sanders moto remportent prologue concurrent blesse explosion,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220101,60,SENEGAL,,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,dakar attiyah auto sanders moto remportent prologue concurrent blesse explosion,"Sentiment: unclear  
+Reason: Text appears to be a jumble of words without clear context."
+20220101,60,DAKAR,,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,dakar attiyah auto sanders moto remportent prologue concurrent blesse explosion,"Sentiment: unclear  
+Reason: Text is fragmentary and unclear."
+20220101,180,SETTLER,ISRAEL,https://www.alarab.com/Article/1018146,article,"Sentiment: unclear  
+Reason: Insufficient text."
+20220101,180,SETTLER,PALESTINIAN,https://www.alarab.com/Article/1018146,article,"Sentiment: unclear  
+Reason: Not enough information in the text."
+20220101,193,SETTLER,GUNMEN,https://alquds.com/2022/01/02/%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%B4%D8%B9%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D8%B9%D8%B1-%D9%81%D9%8A-%D8%B4%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%B6%D9%81%D8%A9/,المقاومة الشعبية تستعر شمال الضفة,"Sentiment: unclear  
+Reason: Text is in Arabic and context is vague."
+20220101,36,SYRIAN,SYRIAN,https://www.alarab.com/Article/1018149,article,"Sentiment: unclear
+Reason: Not enough information in the text."
+20220101,36,SYRIAN,SYRIAN,https://www.alarab.com/Article/1018149,article,"Sentiment: unclear  
+Reason: Insufficient text."
+20220101,36,SYRIAN,SYRIAN,https://www.alarab.com/Article/1018149,article,"Sentiment: unclear
+Reason: Not enough information in the text."
+20220101,36,SYRIAN,SYRIAN,https://www.alarab.com/Article/1018149,article,"Sentiment: unclear  
+Reason: Not enough information in the text."
+20220101,23,UKRAINIAN,,https://kino.24tv.ua/ru/novogodnie-multfilmy-dlja-vsej-semi-dushevnaja-podborka-dlja_n1831930,novogodnie multfilmy dlja vsej semi dushevnaja podborka dlja n1831930,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220101,90,WYOMING,,https://g1.globo.com/mundo/noticia/2022/01/01/a-epidemia-de-desaparecimentos-de-indigenas-que-intriga-os-eua.ghtml,mundo noticia epidemia desaparecimentos indigenas que intriga eua ghtml,"Sentiment: negative
+Reason: Mention of disappearances and an epidemic imply a harmful situation."
+20220101,42,FLORIDA,JAKARTA,https://www.republika.co.id/berita/r520u2384/ini-ketentuan-tes-antigen-di-stasiun,berita r520u2384 ini ketentuan tes antigen stasiun,"Sentiment: unclear  
+Reason: Text is unclear and incomplete."
+20220101,190,YEMENI,LILLE,https://www.okaz.com.sa/news/na/2092790,news,"Sentiment: unclear
+Reason: Insufficient information."
+20220101,10,YEMENI,PERSIAN,https://www.okaz.com.sa/news/na/2092790,news,"Sentiment: unclear
+Reason: Insufficient information."
+20220101,50,CATALAN,,https://sport1.oslobodjenje.ba/s1/fudbal/ino-fudbal/primera/postigao-dogovor-sa-kataloncima-barcelona-sljedeceg-ljeta-dobija-veliko-pojacanje-721568,fudbal ino fudbal primera postigao dogovor kataloncima barcelona sljedeceg ljeta dobija veliko pojacanje,"Sentiment: unclear  
+Reason: Text is difficult to understand due to spelling errors."
+20220101,141,SLAVIC,TARA,https://www.kramatorsk.info/view/272909,view,"Sentiment: unclear  
+Reason: Insufficient text."
+20220101,141,SLAVIC,UKRAINE,https://www.kramatorsk.info/view/272909,view,"Sentiment: unclear  
+Reason: Insufficient text."
+20210102,51,POLAND,,https://logistyka.rp.pl/drogowy/art19249821-na-ten-rok-w-planach-oddanie-do-uzytku-345-km-drog-krajowych,drogowy art19249821 ten rok planach oddanie uzytku drog krajowych,"Sentiment: neutral
+Reason: The text describes plans for road usage but lacks emotional cues."
+20210102,51,POLISH,,https://logistyka.rp.pl/drogowy/art19249821-na-ten-rok-w-planach-oddanie-do-uzytku-345-km-drog-krajowych,drogowy art19249821 ten rok planach oddanie uzytku drog krajowych,"Sentiment: unclear  
+Reason: Text is incomplete and context is missing."
+20210102,51,POLISH,,https://logistyka.rp.pl/drogowy/art19249821-na-ten-rok-w-planach-oddanie-do-uzytku-345-km-drog-krajowych,drogowy art19249821 ten rok planach oddanie uzytku drog krajowych,"Sentiment: unclear
+Reason: Text is vague and in Polish, context not clear."
+20220102,36,,BUENOS AIRES,https://urgente24.com/actualidad/tragedia-palermo-asesino-al-volante-alcohol-y-muerte-n531977,actualidad tragedia palermo asesino volante alcohol muerte n531977,"Sentiment: negative
+Reason: Tragedy, murder, and death related."
+20220102,100,,BUSINESS,https://www.eluniversal.com.mx/cartera/concanaco-pide-comercios-mantener-medidas-sanitarias-y-evitar-cierres-por-ola-de-covid,cartera concanaco pide comercios mantener medidas sanitarias evitar cierres por ola covid,"Sentiment: neutral
+Reason: Request for maintaining hygiene measures to avoid closures."
+20220102,190,,TYCOON,https://revistamonet.globo.com/Celebridades/noticia/2022/01/look-de-jeff-bezos-um-dos-homens-mais-ricos-do-mundo-no-reveillon-rende-piadas-nas-redes-meio-vin-diesel-meio-agostinho-carrara.html,celebridades noticia look jeff bezos dos homens mais ricos mundo reveillon rende piadas nas redes meio vin diesel meio agostinho carrara html,"Sentiment: neutral
+Reason: Mixed elements without clear positive or negative connotation."
+20220102,112,,CALGARY,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,manifestations anti covid pasteur son frere arretes par calgary,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,841,,POLICE,https://www.hoydiariodelmagdalena.com.co/archivos/613756,archivos,"Sentiment: unclear  
+Reason: Text is too brief and context is missing."
+20220102,36,,SCHOOL,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,noticias exibir asp,"Sentiment: unclear  
+Reason: Text is too brief and context不明。"
+20220102,42,,SCHOOL,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,noticias exibir asp,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,42,,FRANCE,https://www.mdzol.com/deportes/2022/1/2/cuando-vuelve-lionel-messi-su-posible-debut-con-el-psg-en-2022-212536.html,deportes cuando vuelve lionel messi posible debut con psg html,"Sentiment: neutral
+Reason: Information is factual, no clear emotion."
+20220102,42,,FRANCE,https://www.mdzol.com/deportes/2022/1/2/cuando-vuelve-lionel-messi-su-posible-debut-con-el-psg-en-2022-212536.html,deportes cuando vuelve lionel messi posible debut con psg html,"Sentiment: unclear
+Reason: Insufficient information to determine sentiment."
+20220102,141,,THE UK,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,opinion malvinas pasado presente conflicto 4jqu1pjwh html,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,42,,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,article html,"Sentiment: unclear
+Reason: Insufficient text provided."
+20220102,42,,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,article html,"Sentiment: unclear  
+Reason: Insufficient text provided."
+20220102,40,,KINGDOM,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,وزير الخارجية السعودي عمان,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220102,46,,MINIST,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,وزير الخارجية السعودي عمان,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,46,,KINGDOM,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,وزير الخارجية السعودي عمان,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220102,57,,GOVERNMENT,https://www.cas.sk/clanok/2626553/predseda-civilnej-vlady-v-sudane-oznamil-svoju-rezignaciu-snazil-som-sa-zo-vsetkych-sil/,clanok predseda civilnej vlady sudane oznamil svoju rezignaciu snazil som vsetkych sil,"Sentiment: negative
+Reason: Rezignácia predsedu je obvykle považovaná za negatívnu zpravodajskú informáciu."
+20220102,84,,PRESIDENT,https://www.lematin.ch/story/lhomme-fort-du-parti-ennahdha-hospitalise-dans-un-etat-critique-474086927675,story lhomme fort parti ennahdha hospitalise dans etat critique,"Sentiment: negative
+Reason: critical illness of a key figure."
+20220102,141,,AUTHORITIES,http://lratvakan.com/news/76958.html,news html,"Sentiment: unclear
+Reason: Not enough information in the provided text."
+20220102,141,,AUTHORITIES,https://lugradar.net/2022/01/337334,,"Unclear. 
+Insufficient text provided."
+20220102,42,,UNITED NATIONS,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,noticias palestina preso israel huelga hambre,"Sentiment: negative
+Reason: mentions hunger strike in Palestinian prisoner, typically associated with suffering."
+20220102,14,,ISRAELI,https://itongadol.com/coronavirus/coronavirus-en-israel-se-espera-que-tres-millones-de-israelies-se-infecten-con-el-virus,coronavirus coronavirus israel espera que tres millones israelies infecten con virus,"Sentiment: neutral
+Reason: Statement of expected infection numbers without emotional tone."
+20220102,51,,ISRAEL,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,noticias palestina preso israel huelga hambre,"Sentiment: negative
+Reason: mentions hunger strike in Palestinian prisoner, which is typically associated with hardship."
+20220102,53,,ISRAEL,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,noticias palestina preso israel huelga hambre,"Sentiment: negative
+Reason: mentions prison and hunger strike."
+20220102,43,,JORDAN,https://alghad.com/%D9%85%D8%B9%D8%B1%D8%B6-%D8%A3%D8%B1%D8%AF%D9%86%D9%8A-%D9%84%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%8A%D9%86%D8%B7%D9%84%D9%82-%D9%81%D9%8A-%D8%B3/,معرض أردني للتجارة والخدمات ينطلق,"Sentiment: positive
+Reason: Exhibition launch typically implies progress and economic activity."
+20220102,130,,LAWYER,https://www.vesti-online.com/stopiran-otkaz-za-nevakcinisanog-cuvara-reda/,stopiran otkaz nevakcinisanog cuvara reda,"Sentiment: negative
+Reason: Refusal of unvaccinated patient treatment."
+20220102,42,,ANTANANARIVO,http://www.taringa.net/+salud_bienestar/la-proxima-gran-pandemia-la-resistencia-a-antibioticos-ya-esta-aqui_4zonot/,+salud bienestar proxima gran pandemia resistencia antibioticos esta aqui 4zonot,"- Sentiment: unclear
+- Reason: Text is unclear and contains fragments."
+20220102,71,,OAXACA,https://oaxaca.eluniversal.com.mx/estatal/aumenta-congreso-de-oaxaca-presupuesto-de-comision-forestal-en-14-mdp,estatal aumenta congreso oaxaca presupuesto comision forestal mdp,"Sentiment: neutral
+Reason: The text is a list of facts without clear positive or negative connotations."
+20220102,43,,MACHU PICCHU,https://www.segnidalcielo.it/peru-un-turista-fotografa-un-ufo-sullantica-citta-di-machu-picchu/,peru turista fotografa ufo sullantica citta machu picchu,"Sentiment: neutral
+Reason: Unclear if the sighting is verified or not."
+20220102,53,,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,noticias palestina preso israel huelga hambre,"Sentiment: negative
+Reason: mentions a hunger strike against Israel, which is usually associated with hardship."
+20220102,51,,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,noticias palestina preso israel huelga hambre,"Sentiment: negative
+Reason: mentions prison and hunger strike."
+20220102,53,,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,noticias palestina preso israel huelga hambre,"Sentiment: negative
+Reason: mentions a hunger strike in prison, which is typically associated with mistreatment."
+20220102,43,,SAINT,https://g1.globo.com/sp/santos-regiao/porto-mar/noticia/2022/01/02/anvisa-reforca-urgencia-em-acabar-com-temporada-de-cruzeiros-e-fala-em-risco-a-saude-publica.ghtml,santos regiao porto mar noticia anvisa reforca urgencia acabar com temporada cruzeiros fala risco saude publica ghtml,"Sentiment: negative
+Reason: Mentions urgency and risk to public health regarding cruises."
+20220102,51,,SETTLER,https://www.eluniversal.com.mx/ciencia-y-salud/tras-aparente-extincion-el-pez-picote-tequila-fue-reintegrado-su-habitat,ciencia salud tras aparente extincion pez picote tequila fue reintegrado habitat,"Sentiment: unclear
+Reason: Text is too brief and in Spanish, context not clear."
+20220102,20,,TURKEY,https://eleftherostypos.gr/ellinotourkika/880814-empristikos-o-akar-ebale-xio-samo-kai-oinousses-sto-stoma-tis-tourkias/,ellinotourkika empristikos akar ebale xio samo kai oinousses sto stoma tis tourkias,"Sentiment: negative
+Reason: Refers to Turkey ""swallowing"" islands, implying territorial dispute."
+20220102,36,,THE WHITE HOUSE,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,v21 pervye pervye simptomy pnevmonii pomogut svoevremenno nachat lechenie soxranit zhizn html,"Sentiment: positive
+Reason: Early pneumonia symptoms can help start timely treatment and save lives."
+20220102,41,,THE WHITE HOUSE,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,v21 pervye pervye simptomy pnevmonii pomogut svoevremenno nachat lechenie soxranit zhizn html,"Sentiment: positive
+Reason: Early symptoms can help timely treatment and save lives."
+20220102,112,FARMER,MINIST OF ENVIRONMENT,https://www.diariolibre.com/actualidad/sucesos/2022/01/02/acusan-ganaderos-de-provocar-incendios-en-sierra-de-bahoruco/1563459,actualidad sucesos acusan ganaderos provocar incendios sierra bahoruco,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,356,ARGENTINIAN,,https://www.clarin.com/opinion/malvinas-primeros-200-anos-_0_7SMJC2Ult.html,opinion malvinas primeros anos 7smjc2ult html,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,36,BUENOS AIRES,,https://urgente24.com/actualidad/tragedia-palermo-asesino-al-volante-alcohol-y-muerte-n531977,actualidad tragedia palermo asesino volante alcohol muerte n531977,"Sentiment: negative
+Reason: Tragedy, murder, and death are mentioned."
+20220102,80,ARGENTINA,,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,opinion malvinas pasado presente conflicto 4jqu1pjwh html,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,160,ARGENTINA,FALKLANDS,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,opinion malvinas pasado presente conflicto 4jqu1pjwh html,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,190,BELGIAN,BELGIUM,https://geeko.lesoir.be/2022/01/02/une-entreprise-belge-lutte-contre-contre-le-gaspillage-pharmaceutique/,une entreprise belge lutte contre contre gaspillage pharmaceutique,"Sentiment: neutral
+Reason: The text is factual and does not express strong emotion."
+20220102,190,BELGIAN,,https://geeko.lesoir.be/2022/01/02/une-entreprise-belge-lutte-contre-contre-le-gaspillage-pharmaceutique/,une entreprise belge lutte contre contre gaspillage pharmaceutique,"Sentiment: neutral
+Reason: The text is factual and does not convey strong emotion."
+20220102,112,BELARUSIAN,BELARUS,http://www.kvir.ru/author/andre-galinin/,author andre galinin,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220102,190,BELARUSIAN,BELARUS,http://www.kvir.ru/author/andre-galinin/,author andre galinin,"Sentiment: unclear
+Reason: Insufficient information to determine sentiment."
+20220102,51,BRAZIL,ARGENTINE,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,opinion malvinas pasado presente conflicto 4jqu1pjwh html,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,10,BRAZIL,BRAZIL,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,opinion malvinas pasado presente conflicto 4jqu1pjwh html,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220102,10,BRAZIL,BRAZIL,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,opinion malvinas pasado presente conflicto 4jqu1pjwh html,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,12,TYCOON,,https://revistamonet.globo.com/Celebridades/noticia/2022/01/look-de-jeff-bezos-um-dos-homens-mais-ricos-do-mundo-no-reveillon-rende-piadas-nas-redes-meio-vin-diesel-meio-agostinho-carrara.html,celebridades noticia look jeff bezos dos homens mais ricos mundo reveillon rende piadas nas redes meio vin diesel meio agostinho carrara html,"Sentiment: mixed
+Reason: References to rich people and New Year's Eve jokes mix positive (wealth) with potentially negative (piadas, implying humor at someone's expense)."
+20220102,90,COMPANY,,https://e24.no/ledige-stillinger/s/Kzeo24/har-du-inkasso-erfaring-men-kan-tenke-deg-strre-ansvar,ledige stillinger kzeo24 har inkasso erfaring men kan tenke deg strre ansvar,"Sentiment: unclear  
+Reason: Text is unclear and seems to be a mix of Norwegian and corrupted text."
+20220102,145,BUSINESS,,https://www.limburger.nl/cnt/dmf20220102_97854382,cnt dmf20220102,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220102,160,AIRLINE,,https://es.investing.com/news/stock-market-news/disrupciones-relacionadas-con-omicron-provocan-mas-de-4000-cancelaciones-de-vuelos-en-inicio-de-2022-2199117,news stock market news disrupciones relacionadas con omicron provocan mas cancelaciones vuelos inicio,"Sentiment: negative
+Reason: flight cancellations due to Omicron-related disruptions."
+20220102,190,TYCOON,,https://revistamonet.globo.com/Celebridades/noticia/2022/01/look-de-jeff-bezos-um-dos-homens-mais-ricos-do-mundo-no-reveillon-rende-piadas-nas-redes-meio-vin-diesel-meio-agostinho-carrara.html,celebridades noticia look jeff bezos dos homens mais ricos mundo reveillon rende piadas nas redes meio vin diesel meio agostinho carrara html,"Sentiment: unclear
+Reason: Text is fragmented and context is unclear."
+20220102,20,AIRLINE,EMPLOYEE,https://es.investing.com/news/stock-market-news/disrupciones-relacionadas-con-omicron-provocan-mas-de-4000-cancelaciones-de-vuelos-en-inicio-de-2022-2199117,news stock market news disrupciones relacionadas con omicron provocan mas cancelaciones vuelos inicio,"Sentiment: negative
+Reason: Flight cancellations due to Omicron disruptions."
+20220102,30,BUSINESS,,https://www.eluniversal.com.mx/nacion/tras-vacaciones-de-invierno-sep-se-declara-lista-para-retorno-actividades-escolares-presenciales,nacion tras vacaciones invierno sep declara lista para retorno actividades escolares presenciales,"Sentiment: neutral
+Reason: Announcement of school activities resuming after winter break."
+20220102,173,CALGARY,CALGARY,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,manifestations anti covid pasteur son frere arretes par calgary,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,175,CALGARY,DEMONSTRATOR,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,manifestations anti covid pasteur son frere arretes par calgary,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220102,51,ORTHODOX CHRISTIAN,SAINT,https://www.mngz.ru/russia-world-sensation/2464160-v-vargashinskom-rayone-sotrudniki-policii-proveli-20-profilakticheskih-besed-so-shkolnikami.html,russia world sensation vargashinskom rayone sotrudniki policii proveli profilakticheskih besed shkolnikami html,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220102,51,ORTHODOX CHRISTIAN,SAINT,https://pronedra.ru/pozdravleniya-ko-dnyu-svyatoj-anastasii-4-yanvarya-tradiczii-prazdnika-630226.html,pozdravleniya dnyu svyatoj anastasii yanvarya tradiczii prazdnika html,"Sentiment: neutral
+Reason: Greeting and celebration text is neutral."
+20220102,90,POLICE,,https://www.noviny.sk/krimi/652963-mrtvy-muz-v-aute-telo-hladaneho-slovenskeho-policajta-nasli-v-polsku,krimi mrtvy muz aute telo hladaneho slovenskeho policajta nasli polsku,"Sentiment: negative
+Reason: Murder investigation of a Slovak police officer."
+20220102,192,POLICE OFFICER,,https://www.hoydiariodelmagdalena.com.co/archivos/613776,archivos,"Sentiment: unclear  
+Reason: Text is too brief and lacks context."
+20220102,193,POLICE OFFICER,,https://www.ensonhaber.com/3-sayfa/adanada-silahli-kavgaya-mudahale-eden-polis-vuruldu,sayfa adanada silahli kavgaya mudahale eden polis vuruldu,"Sentiment: negative
+Reason: Police officer killed during armed clash."
+20220102,190,POLICE,ACTIVIST,http://lratvakan.com/news/76958.html,news html,"Sentiment: unclear
+Reason: Insufficient text content."
+20220102,10,PERPETRATOR,CREATIVITY,https://www.hespress.com/%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D9%88%D8%B1%D8%B7%D8%A9-%D8%B9%D8%B5%D8%B1-%D8%A7%D9%84%D8%B9%D8%AA%D9%85%D8%A9-925188.html,تجاوز ورطة عصر العتمة html,"Sentiment: unclear  
+Reason: Text is partially translated and context is unclear."
+20220102,172,VILLAGE,,https://www.volynnews.com/news/all/cherez-novorichni-feyerverky-v-chernivtsiakh-zahynuly-desiatky-ptakhiv/,news all cherez novorichni feyerverky chernivtsiakh zahynuly desiatky ptakhiv,"Sentiment: negative
+Reason: Birds dying due to fireworks in Chernivtsi."
+20220102,10,COMMUNITY,POLICE,https://www.hoydiariodelmagdalena.com.co/archivos/613752,archivos,"Sentiment: unclear
+Reason: Insufficient context."
+20220102,42,GERMAN,LISBON,https://naslovi.net/2022-01-03/blic/zarobljeni-u-luci-nemacki-kruzer-usidren-do-daljeg-u-lisabonu-zbog-izbijanja-epidemije-korona-virusa/29657724,blic zarobljeni luci nemacki kruzer usidren daljeg lisabonu zbog izbijanja epidemije korona virusa,"Sentiment: negative
+Reason: Refers to failures and consequences due to the coronavirus pandemic."
+20220102,42,GERMAN,LISBON,https://naslovi.net/2022-01-03/blic/zarobljeni-u-luci-nemacki-kruzer-usidren-do-daljeg-u-lisabonu-zbog-izbijanja-epidemije-korona-virusa/29657724,blic zarobljeni luci nemacki kruzer usidren daljeg lisabonu zbog izbijanja epidemije korona virusa,"Sentiment: negative
+Reason: Refers to a punishment for breaking coronavirus epidemic rules."
+20220102,10,UNIVERSITY,,https://www.elmanana.com/cae-ex-rector-de-la-uabjo-por-fraude/5475695,cae rector uabjo por fraude,"Sentiment: negative
+Reason: Mention of ""fraude"" (fraud) implies wrongdoing."
+20220102,36,STUDENT,,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,noticias exibir asp,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,36,SCHOOL,,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,noticias exibir asp,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,43,SCHOOL,,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,noticias exibir asp,"Sentiment: unclear
+Reason: Insufficient information to determine sentiment."
+20220102,1721,SCHOOL,,https://itongadol.com/coronavirus/coronavirus-en-israel-se-espera-que-tres-millones-de-israelies-se-infecten-con-el-virus,coronavirus coronavirus israel espera que tres millones israelies infecten con virus,"Sentiment: neutral
+Reason: Statement of expected infection numbers without emotional tone."
+20220102,42,STUDENT,OAXACA,https://oaxaca.eluniversal.com.mx/sociedad/regresan-clases-mas-de-874-mil-estudiantes-de-oaxaca-este-3-de-enero,sociedad regresan clases mas mil estudiantes oaxaca este enero,"Sentiment: positive
+Reason: Return to classes for many students is generally seen as positive."
+20220102,71,ACTOR,,https://bagikanberita.pikiran-rakyat.com/bisnis/pr-683379835/rezeki-senin-ceria-khusus-wanita-berjiwa-entrepreneur-dapat-pinjaman-tanpa-agunan-rp25-juta-di-pnm-mekaar-plus,bisnis rezeki senin ceria khusus wanita berjiwa entrepreneur dapat pinjaman tanpa agunan rp25 juta pnm mekaar plus,"Sentiment: positive
+Reason: Offers financial assistance to women entrepreneurs."
+20220102,1821,ACTOR,BANDUNG,https://www.pikiran-rakyat.com/nasional/pr-013379874/genting-susi-pudjiastuti-desak-ruu-pks-disahkan-perlu-berapa-banyak-lagi-korban,nasional genting susi pudjiastuti desak ruu pks disahkan perlu berapa banyak lagi korban,"Sentiment: unclear
+Reason: Text is fragmented and context is not clear."
+20220102,10,MADRID,,https://es.euronews.com/2022/01/02/espana-dice-no-a-la-propuesta-de-bruselas-de-incluir-la-energia-nuclear-y-el-gas-en-su-pla,espana dice propuesta bruselas incluir energia nuclear gas pla,"Sentiment: unclear  
+Reason: Text is too brief and in Spanish, context不明。"
+20220102,111,EUROPEAN,,https://1prime.ru/business/20220103/835674504.html,business html,"Sentiment: unclear
+Reason: Insufficient information in the text."
+20220102,20,FINNISH,RUSSIA,https://www.geopolitica.ru/news/vlasti-finlyandii-zagovorili-o-vstuplenii-v-nato,news vlasti finlyandii zagovorili vstuplenii nato,"Sentiment: unclear
+Reason: The text is in a language I cannot confidently identify and lacks context."
+20220102,42,UNITED KINGDOM,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,article html,"Sentiment: unclear
+Reason: Not enough information in the provided text."
+20220102,42,UNITED KINGDOM,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,article html,"Sentiment: unclear
+Reason: Insufficient text provided."
+20220102,43,UNITED KINGDOM,,https://www.elbotola.com/article/2022-01-02-22-03-111.html,article html,"Sentiment: unclear
+Reason: Not enough information in the provided text."
+20220102,43,UNITED KINGDOM,,https://www.elbotola.com/article/2022-01-02-22-03-111.html,article html,"Sentiment: unclear
+Reason: Insufficient text content."
+20220102,43,UNITED KINGDOM,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,article html,"Sentiment: unclear
+Reason: Insufficient text provided."
+20220102,43,UNITED KINGDOM,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,article html,"Sentiment: unclear  
+Reason: Insufficient text provided."
+20220102,10,AUTHORITIES,,https://www.telemundo.com/noticias/noticias-telemundo/clima/no-esto-no-es-una-broma-llovieron-peces-en-texas-poco-antes-de-fin-de-rcna10639,noticias noticias telemundo clima esto una broma llovieron peces texas poco antes fin rcna10639,"Sentiment: negative
+Reason: Mention of ""peces"" (fish) raining, an unusual and often unexpected event."
+20220102,12,SECRETARIAT,,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,noticias exibir asp,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,14,MINISTRY,,https://tsn.ua/ru/svit/izrail-odobril-chetvertuyu-covid-privivku-dlya-medrabotnikov-i-lyudey-ot-60-let-1945456.html,svit izrail odobril chetvertuyu covid privivku dlya medrabotnikov lyudey let html,"Sentiment: neutral
+Reason: Information is factual, no clear positive or negative emotion."
+20220102,40,KINGDOM,,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,وزير الخارجية السعودي عمان,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,40,KINGDOM,,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,وزير الخارجية السعودي عمان,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220102,46,MINIST,,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,وزير الخارجية السعودي عمان,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,46,KINGDOM,,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,وزير الخارجية السعودي عمان,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,57,GOVERNMENT,,https://www.cas.sk/clanok/2626553/predseda-civilnej-vlady-v-sudane-oznamil-svoju-rezignaciu-snazil-som-sa-zo-vsetkych-sil/,clanok predseda civilnej vlady sudane oznamil svoju rezignaciu snazil som vsetkych sil,"Sentiment: negative
+Reason: resignation announced, likely indicates problems."
+20220102,73,AUTHORITIES,,https://www.mbl.is/frettir/erlent/2022/01/02/heilbrigdisstarfsmenn_fa_fjorda_skammtinn/,frettir erlent heilbrigdisstarfsmenn fjorda skammtinn,"Sentiment: unclear  
+Reason: Text is in Icelandic and context is not clear."
+20220102,90,GOVERNMENT,,https://newpost.gr/kosmos/61d20c59922542136ad20343/italia-koronoios-i-kyvernisi-exetazei-to-endehomeno-ypohreotikoy-emvoliasmoy-gia-oloys-toys-ano-ton-18-eton,kosmos 61d20c59922542136ad20343 italia koronoios kyvernisi exetazei endehomeno ypohreotikoy emvoliasmoy gia oloys toys ano ton eton,"Sentiment: unclear  
+Reason: Text is in Greek and the context is not clear."
+20220102,160,GOVERNMENT,INDUSTRY,https://www.rp.pl/praca/art19248621-wielka-brytania-przedluza-program-wizowy-dla-pracownikow-z-ue,praca art19248621 wielka brytania przedluza program wizowy dla pracownikow,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,90,AUTHORITIES,CRIMINAL,https://sledcom.ru/news/item/1645072/,news item,"Sentiment: unclear
+Reason: Insufficient information."
+20220102,14,DIRECTOR GENERAL,ISRAELI,https://itongadol.com/coronavirus/coronavirus-en-israel-se-espera-que-tres-millones-de-israelies-se-infecten-con-el-virus,coronavirus coronavirus israel espera que tres millones israelies infecten con virus,"Sentiment: neutral
+Reason: Statement of expected infection numbers without emotional tone."
+20220102,43,GOVERNMENT,DEMONSTRATOR,http://lratvakan.com/news/76958.html,news html,"Sentiment: unclear
+Reason: Not enough information in the provided text."
+20220102,43,GOVERNMENT,DEMONSTRATOR,https://lugradar.net/2022/01/337334,,"Sentiment: unclear
+Reason: Insufficient text provided."
+20220102,46,MINIST,DEMONSTRATOR,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,manifestations anti covid pasteur son frere arretes par calgary,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,30,GOVERNMENT,GUERRILLA,https://www.hoydiariodelmagdalena.com.co/archivos/613800,archivos,"Sentiment: unclear  
+Reason: Insufficient information."
+20220102,20,AUTHORITIES,RUSSIAN FEDERATION,https://lugradar.net/2022/01/337336,,"Unclear. 
+Insufficient text provided."
+20220102,20,AUTHORITIES,RUSSIAN FEDERATION,https://lugradar.net/2022/01/337319,,"Unclear. 
+No text provided to infer sentiment."
+20220102,40,PRESIDENT,RUSSIA,https://tsn.ua/ru/politika/bayden-i-zelenskiy-proveli-telefonnye-peregovory-chto-izvestno-1945450.html,politika bayden zelenskiy proveli telefonnye peregovory chto izvestno html,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,41,PRESIDENT,RUSSIA,https://tsn.ua/ru/politika/bayden-i-zelenskiy-proveli-telefonnye-peregovory-chto-izvestno-1945450.html,politika bayden zelenskiy proveli telefonnye peregovory chto izvestno html,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,41,PRESIDENT,RUSSIA,https://tsn.ua/ru/politika/bayden-i-zelenskiy-proveli-telefonnye-peregovory-chto-izvestno-1945450.html,politika bayden zelenskiy proveli telefonnye peregovory chto izvestno html,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220102,10,MINIST OF HEALTH,,https://www.mdzol.com/sociedad/2022/1/2/coronavirus-en-argentina-mas-de-20000-casos-23-fallecidos-212523.html,sociedad coronavirus argentina mas casos fallecidos html,"Sentiment: negative
+Reason: Mention of cases and deaths related to coronavirus."
+20220102,10,DOCTOR,,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,v21 pervye pervye simptomy pnevmonii pomogut svoevremenno nachat lechenie soxranit zhizn html,"Sentiment: positive
+Reason: Early pneumonia symptoms can help start timely treatment and save lives."
+20220102,13,HOSPITAL,,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,v21 pervye pervye simptomy pnevmonii pomogut svoevremenno nachat lechenie soxranit zhizn html,"Sentiment: positive
+Reason: Early symptoms can help timely treatment and save lives."
+20220102,193,DOCTOR,POLICE OFFICER,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,v21 pervye pervye simptomy pnevmonii pomogut svoevremenno nachat lechenie soxranit zhizn html,"Sentiment: positive
+Reason: Early symptoms help in timely treatment and saving lives."
+20220102,193,DOCTOR,POLICE OFFICER,https://www.mngz.ru/russia-world-sensation/2463989-v-gorode-rezh-sotrudnikami-sledstvennogo-komiteta-vozbuzhdeno-ugolovnoe-delo-po-faktu-ubiystva-iz-revnosti-medic.html,russia world sensation gorode rezh sotrudnikami sledstvennogo komiteta vozbuzhdeno ugolovnoe delo faktu ubiystva revnosti medic html,"- Sentiment: negative
+- Reason: mentions a criminal case of murder."
+20220102,193,DOCTOR,POLICE OFFICER,https://www.mngz.ru/russia-world-sensation/2463989-v-gorode-rezh-sotrudnikami-sledstvennogo-komiteta-vozbuzhdeno-ugolovnoe-delo-po-faktu-ubiystva-iz-revnosti-medic.html,russia world sensation gorode rezh sotrudnikami sledstvennogo komiteta vozbuzhdeno ugolovnoe delo faktu ubiystva revnosti medic html,"Sentiment: negative
+Reason: Involves a criminal case of murder by a detective."
+20220102,172,HAITI,,https://www.diariolibre.com/actualidad/sucesos/2022/01/02/acusan-ganaderos-de-provocar-incendios-en-sierra-de-bahoruco/1563459,actualidad sucesos acusan ganaderos provocar incendios sierra bahoruco,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,90,THE EUROPEAN UNION,,https://lugradar.net/2022/01/337336,,"Sentiment: unclear
+Reason: No text provided."
+20220102,43,UNITED NATIONS,,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,noticias palestina preso israel huelga hambre,"Sentiment: negative
+Reason: References to a hunger strike in relation to Palestinian prisoners and Israel implies conflict."
+20220102,20,ISRAELI,WORKER,https://g1.globo.com/mundo/noticia/2022/01/02/israel-comeca-a-aplicar-quarta-dose-da-vacina-contra-a-covid.ghtml,mundo noticia israel comeca aplicar quarta dose vacina contra covid ghtml,"Sentiment: neutral
+Reason: Information about the policy's impact is missing."
+20220102,51,ISRAEL,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,noticias palestina preso israel huelga hambre,"Sentiment: negative
+Reason: mentions prisoners on hunger strike, typically a distressing situation."
+20220102,53,ISRAEL,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,noticias palestina preso israel huelga hambre,"Sentiment: negative
+Reason: Mention of hunger strike in Palestinian prisoner context."
+20220102,142,ISRAEL,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,noticias palestina preso israel huelga hambre,"Sentiment: negative
+Reason: mentions a hunger strike in relation to prisoners."
+20220102,42,JORDAN,,https://alghad.com/%D9%85%D8%B9%D8%B1%D8%B6-%D8%A3%D8%B1%D8%AF%D9%86%D9%8A-%D9%84%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%8A%D9%86%D8%B7%D9%84%D9%82-%D9%81%D9%8A-%D8%B3/,معرض أردني للتجارة والخدمات ينطلق,"Sentiment: neutral
+Reason: Announcing the start of a trade and services exhibition is typically neutral."
+20220102,234,FEDERAL COURT,,https://www.elmanana.com/cae-ex-rector-de-la-uabjo-por-fraude/5475695,cae rector uabjo por fraude,"Sentiment: negative
+Reason: mentions ""fraude"" (fraud) associated with a cae rector."
+20220102,84,JUDGE,,https://www.vesti-online.com/stopiran-otkaz-za-nevakcinisanog-cuvara-reda/,stopiran otkaz nevakcinisanog cuvara reda,"Sentiment: negative
+Reason: Refusal of unvaccinated patient leads to stop."
+20220102,173,PUBLIC PROSECUTOR,,https://www.hoydiariodelmagdalena.com.co/archivos/613776,archivos,"Sentiment: unclear  
+Reason: Insufficient information in the provided text."
+20220102,10,LAWYER,MELBOURNE,https://www.vesti-online.com/samo-pisani-testament-je-vazeci/,samo pisani testament vazeci,"Sentiment: unclear
+Reason: Text is in Serbian and context is vague."
+20220102,114,PUBLIC PROSECUTOR,OAXACA,https://oaxaca.eluniversal.com.mx/municipios/denuncian-ante-el-ieepco-edil-de-ocotlan-oaxaca-por-violencia-politica-de-genero,municipios denuncian ante ieepco edil ocotlan oaxaca por violencia politica genero,"Sentiment: negative
+Reason: Complaints about political violence."
+20220102,112,LAWYER,UNITED STATES,https://www.diariolibre.com/usa/revista/2022/01/02/juez-impide-que-bloqueo-de-demanda-contra-el-principe-andres/1563621,usa revista juez impide que bloqueo demanda contra principe andres,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,30,EMPLOYEE,,https://es.investing.com/news/stock-market-news/goldman-sachs-pide-a-sus-empleados-estadounidenses-que-trabajen-desde-casa-hasta-el-18-de-enero-2199115,news stock market news goldman sachs pide sus empleados estadounidenses que trabajen desde casa hasta enero,"Sentiment: neutral
+Reason: Information about performance or outcomes is lacking."
+20220102,10,CONGRESS,,https://www.telemundo.com/noticias/noticias-telemundo/clima/no-esto-no-es-una-broma-llovieron-peces-en-texas-poco-antes-de-fin-de-rcna10639,noticias noticias telemundo clima esto una broma llovieron peces texas poco antes fin rcna10639,"Sentiment: unclear  
+Reason: Insufficient context to determine sentiment."
+20220102,10,STATE DUMA,,https://www.ridus.ru/news/370096,news,"Sentiment: unclear
+Reason: Insufficient information."
+20220102,83,SENATE,,https://sipse.com/mexico/las-breves-del-senado-inclusion-y-derechos-de-las-personas-sordas-415533.html,mexico las breves del senado inclusion derechos las personas sordas html,"Sentiment: unclear  
+Reason: Insufficient context to determine sentiment."
+20220102,13,MEXICO,,https://sipse.com/mexico/isste-se-prepara-para-la-cuarta-ola-de-la-pandemia-por-covid-19-en-mexico-415544.html,mexico isste prepara para cuarta ola pandemia por covid mexico html,"Sentiment: neutral
+Reason: Information is factual, no clear emotional tone."
+20220102,190,COMMANDER,,https://www.antaranews.com/berita/2620221/dilan-series-gelar-audisi-terbuka-untuk-cari-pemain,berita dilan series gelar audisi terbuka untuk cari pemain,"Sentiment: neutral
+Reason: Announcement of an open audition for a series is typically neutral."
+20220102,17,COMMANDER,ISLAMIC,http://www.hispantv.com/noticias/siria/535008/iran-siria-relaciones-cooperacion,noticias siria iran siria relaciones cooperacion,"Sentiment: unclear  
+Reason: Insufficient context to determine sentiment."
+20220102,17,COMMANDER,ISLAMIC,http://www.hispantv.com/noticias/siria/535008/iran-siria-relaciones-cooperacion,noticias siria iran siria relaciones cooperacion,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220102,195,FIGHTER PLANE,SAUDI,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,noticias yemen ataque saudi mezquita muertos,"Sentiment: negative
+Reason: Ataque militar导致人员伤亡通常与负面事件相关。"
+20220102,195,FIGHTER PLANE,SAUDI,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,noticias yemen ataque saudi mezquita muertos,"Sentiment: negative
+Reason: attack on mosque resulting in deaths is通常负面的。"
+20220102,195,FIGHTER PLANE,SAUDI,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,noticias yemen ataque saudi mezquita muertos,"Sentiment: negative
+Reason: attack on mosque resulted in deaths."
+20220102,70,MILITARY POLICE,,https://g1.globo.com/sp/santos-regiao/noticia/2022/01/02/prefeito-de-peruibe-critica-atuacao-da-policia-militar-contra-pancadoes-no-reveillon-caos-na-seguranca.ghtml,santos regiao noticia prefeito peruibe critica atuacao policia militar contra pancadoes reveillon caos seguranca ghtml,"Sentiment: negative
+Reason: Prefect criticizes police action during New Year's chaos."
+20220102,20,NAVAL,AMBASSADOR,https://sipse.com/mexico/las-breves-del-senado-inclusion-y-derechos-de-las-personas-sordas-415533.html,mexico las breves del senado inclusion derechos las personas sordas html,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,20,GOLDMAN SACHS,AMERICAN,https://es.investing.com/news/stock-market-news/goldman-sachs-pide-a-sus-empleados-estadounidenses-que-trabajen-desde-casa-hasta-el-18-de-enero-2199115,news stock market news goldman sachs pide sus empleados estadounidenses que trabajen desde casa hasta enero,"Sentiment: neutral
+Reason: The text provides neutral information about company policy."
+20220102,20,VERIZON,REUTERS,https://es.investing.com/news/stock-market-news/presidentes-ejecutivos-de-att-y-verizon-rechazan-peticion-de-eeuu-de-retrasar-despliegue-del-5g-2199124,news stock market news presidentes ejecutivos att verizon rechazan peticion eeuu retrasar despliegue del,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,120,VERIZON,REUTERS,https://es.investing.com/news/stock-market-news/presidentes-ejecutivos-de-att-y-verizon-rechazan-peticion-de-eeuu-de-retrasar-despliegue-del-5g-2199124,news stock market news presidentes ejecutivos att verizon rechazan peticion eeuu retrasar despliegue del,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,113,PROTESTER,,http://lratvakan.com/news/76958.html,news html,"Sentiment: unclear  
+Reason: Not enough information in the provided text."
+20220102,113,PROTESTER,,https://lugradar.net/2022/01/337334,,"Unclear. 
+No text provided from the URL."
+20220102,112,DETAINEE,BELARUSIAN,http://www.kvir.ru/author/andre-galinin/,author andre galinin,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,190,DETAINEE,BELARUSIAN,http://www.kvir.ru/author/andre-galinin/,author andre galinin,"Sentiment: unclear
+Reason: Insufficient information to determine sentiment."
+20220102,141,DEMONSTRATOR,CALGARY,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,manifestations anti covid pasteur son frere arretes par calgary,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220102,145,PROTESTER,SECURITY FORCE,https://www.expressen.se/nyheter/efter-protesterna--sudans-premiarminister-avgar/,nyheter efter protesterna sudans premiarminister avgar,"Sentiment: negative
+Reason: Mention of a prime minister fleeing after protests implies unrest."
+20220102,190,ACTIVIST,POLICE,http://lratvakan.com/news/76958.html,news html,"Sentiment: unclear  
+Reason: Insufficient text content."
+20220102,42,DEMONSTRATOR,GOVERNMENT,https://lugradar.net/2022/01/337334,,"Unclear. 
+There's no text provided to analyze."
+20220102,46,DEMONSTRATOR,MINIST,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,manifestations anti covid pasteur son frere arretes par calgary,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,145,DEMONSTRATOR,GOVERNMENT,http://lratvakan.com/news/76958.html,news html,"Sentiment: unclear
+Reason: Insufficient text content."
+20220102,145,DEMONSTRATOR,GOVERNMENT,https://lugradar.net/2022/01/337334,,"Unclear. 
+There's no text provided to analyze."
+20220102,130,PRISONER,TEL AVIV,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,noticias palestina preso israel huelga hambre,"Sentiment: negative
+Reason: mentions hunger strike in relation to Palestinian prisoner and Israel."
+20220102,20,ACTIVIST,NATIONAL ASSEMBLY,http://lratvakan.com/news/76958.html,news html,"Sentiment: unclear
+Reason: Not enough information in the provided text."
+20220102,20,ACTIVIST,NATIONAL ASSEMBLY,https://lugradar.net/2022/01/337334,,"Unclear. 
+No text provided to analyze."
+20220102,42,MACHU PICCHU,,https://www.segnidalcielo.it/peru-un-turista-fotografa-un-ufo-sullantica-citta-di-machu-picchu/,peru turista fotografa ufo sullantica citta machu picchu,"Sentiment: neutral
+Reason: The text is factual and doesn't convey clear emotion."
+20220102,20,POLAND,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,news all chomu polshchi vse chastishe napadaiut zarobitchan ukrayiny,"Sentiment: negative
+Reason: Text mentions frequent attacks by Russian troops on Ukrainian civilians."
+20220102,20,POLAND,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,news all chomu polshchi vse chastishe napadaiut zarobitchan ukrayiny,"Sentiment: negative
+Reason: Text implies more frequent attacks by Polish citizens on Ukrainians."
+20220102,90,POLISH,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,news all chomu polshchi vse chastishe napadaiut zarobitchan ukrayiny,"Sentiment: negative
+Reason: Text implies frequent attacks on businesses in Ukraine by Russia."
+20220102,90,POLISH,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,news all chomu polshchi vse chastishe napadaiut zarobitchan ukrayiny,"Sentiment: negative
+Reason: Text mentions frequent attacks by Polish citizens on Ukrainian workers."
+20220102,20,POLAND,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,news all chomu polshchi vse chastishe napadaiut zarobitchan ukrayiny,"Sentiment: negative
+Reason: Text implies more frequent attacks on Ukrainian workers by Russian forces."
+20220102,90,POLISH,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,news all chomu polshchi vse chastishe napadaiut zarobitchan ukrayiny,"Sentiment: negative
+Reason: Text mentions attacks from Poland against Ukraine more frequently."
+20220102,90,POLAND,UKRAINE,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,news all chomu polshchi vse chastishe napadaiut zarobitchan ukrayiny,"Sentiment: negative
+Reason: Text mentions Poland frequently attacking Ukraine's workers."
+20220102,43,LISBON,GERMAN,https://naslovi.net/2022-01-03/blic/zarobljeni-u-luci-nemacki-kruzer-usidren-do-daljeg-u-lisabonu-zbog-izbijanja-epidemije-korona-virusa/29657724,blic zarobljeni luci nemacki kruzer usidren daljeg lisabonu zbog izbijanja epidemije korona virusa,"Sentiment: negative
+Reason: Mention of an epidemic outbreak leading to scrutiny."
+20220102,43,LISBON,GERMAN,https://naslovi.net/2022-01-03/blic/zarobljeni-u-luci-nemacki-kruzer-usidren-do-daljeg-u-lisabonu-zbog-izbijanja-epidemije-korona-virusa/29657724,blic zarobljeni luci nemacki kruzer usidren daljeg lisabonu zbog izbijanja epidemije korona virusa,"Sentiment: negative
+Reason: Refers to punishment for breaking epidemic rules."
+20220102,20,PALESTINIAN,,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,noticias palestina preso israel huelga hambre,"Sentiment: negative
+Reason: mentions hunger strike in relation to Palestinian prisoner and Israel."
+20220102,1831,SUICIDE BOMBER,KABUL,https://www.journaldemontreal.com/2022/01/02/en-afghanistan-les-femmes-victimes-de-violences-abandonnees-a-leur-sort-1,afghanistan les femmes victimes violences abandonnees leur sort,"Sentiment: negative
+Reason: mentions victims and abandonment of women."
+20220102,42,SAINT,,https://g1.globo.com/sp/santos-regiao/porto-mar/noticia/2022/01/02/anvisa-reforca-urgencia-em-acabar-com-temporada-de-cruzeiros-e-fala-em-risco-a-saude-publica.ghtml,santos regiao porto mar noticia anvisa reforca urgencia acabar com temporada cruzeiros fala risco saude publica ghtml,"Sentiment: negative
+Reason: Discusses health risks and urgency to end cruise season."
+20220102,14,ROMANIA,,https://ziare.com/sorin-grindeanu/grindeanu-acuzatii-drula-autostrada-brasov-ploiesti-licitatie-studiu-fezabilitate-1718214,sorin grindeanu grindeanu acuzatii drula autostrada brasov ploiesti licitatie studiu fezabilitate,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,130,RUSSIAN,EGYPTIAN,https://aif.ru/society/genkonsulstvo_rf_v_hurgade_predupredilo_o_zaderzhkah_reysov_iz-za_nepogody,society genkonsulstvo hurgade predupredilo zaderzhkah reysov nepogody,"Sentiment: unclear  
+Reason: Text is in a language other than English and context is unclear."
+20220102,46,RUSSIA,TURKEY,https://www.geopolitica.ru/news/putin-i-erdogan-obsudili-garantii-bezopasnosti-mezhdu-rf-i-nato,news putin erdogan obsudili garantii bezopasnosti mezhdu nato,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,112,RUSSIA,UKRAINE,https://www.cas.sk/cl/1003185/2626559/biden-telefonoval-s-ukrajinskym-prezidentom-usa-budu-na-rusku-invaziu-reagovat,biden telefonoval ukrajinskym prezidentom usa budu rusku invaziu reagovat,"Sentiment: negative
+Reason: Discusses US reacting to Russian invasion."
+20220102,120,RUSSIA,UKRAINE,https://www.cas.sk/cl/1003185/2626559/biden-telefonoval-s-ukrajinskym-prezidentom-usa-budu-na-rusku-invaziu-reagovat,biden telefonoval ukrajinskym prezidentom usa budu rusku invaziu reagovat,"Sentiment: negative
+Reason: Discussing potential Russian invasion reaction."
+20220102,120,RUSSIA,UKRAINE,https://www.cas.sk/cl/1003185/2626559/biden-telefonoval-s-ukrajinskym-prezidentom-usa-budu-na-rusku-invaziu-reagovat,biden telefonoval ukrajinskym prezidentom usa budu rusku invaziu reagovat,"- Sentiment: negative
+- Reason: Discussing Russian invasion response."
+20220102,46,VLADIMIR,JOE BIDEN,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,articles politics rozmova zelenskogo bajdena pro scho govorili lideri,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,40,RUSSIA,PRESIDENT,https://tsn.ua/ru/politika/bayden-i-zelenskiy-proveli-telefonnye-peregovory-chto-izvestno-1945450.html,politika bayden zelenskiy proveli telefonnye peregovory chto izvestno html,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,195,SAUDI,,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,noticias yemen ataque saudi mezquita muertos,"Sentiment: negative
+Reason: attack on mosque resulting in deaths is a tragic event."
+20220102,195,SAUDI,SAUDI ARABIA,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,noticias yemen ataque saudi mezquita muertos,"Sentiment: negative
+Reason: attack on mosque resulting in deaths is typically tragic and负面的。"
+20220102,180,SENEGAL,,https://www.elmundo.es/comunidad-valenciana/castellon/2022/01/02/61d1ffb121efa045798b4589.html,comunidad valenciana castellon 61d1ffb121efa045798b4589 html,"Sentiment: unclear
+Reason: No sentiment-indicative content."
+20220102,172,SYRIAN,,https://correio.rac.com.br/agencias/agencia-estado/2022/01/1153709-israel-aprova-plano-para-dobrar-numero-de-colonos-nas-colinas-do-golan.html,agencias agencia estado israel aprova plano para dobrar numero colonos nas colinas golan html,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220102,193,ADANA,POLICE,https://www.ensonhaber.com/3-sayfa/adanada-silahli-kavgaya-mudahale-eden-polis-vuruldu,sayfa adanada silahli kavgaya mudahale eden polis vuruldu,"Sentiment: negative
+Reason: Police officer injured in gunfire incident."
+20220102,41,TURKEY,RUSSIA,https://www.geopolitica.ru/news/putin-i-erdogan-obsudili-garantii-bezopasnosti-mezhdu-rf-i-nato,news putin erdogan obsudili garantii bezopasnosti mezhdu nato,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,46,TURKEY,RUSSIA,https://www.geopolitica.ru/news/putin-i-erdogan-obsudili-garantii-bezopasnosti-mezhdu-rf-i-nato,news putin erdogan obsudili garantii bezopasnosti mezhdu nato,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,46,TURKEY,RUSSIA,https://www.geopolitica.ru/news/putin-i-erdogan-obsudili-garantii-bezopasnosti-mezhdu-rf-i-nato,news putin erdogan obsudili garantii bezopasnosti mezhdu nato,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,50,UKRAINE,,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assuring Ukrainian president of support implies a supportive relationship."
+20220102,51,UKRAINE,,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,news all chomu polshchi vse chastishe napadaiut zarobitchan ukrayiny,"Sentiment: negative
+Reason: Text refers to attacks from Poland on Ukrainian citizens."
+20220102,51,UKRAINE,,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,news all chomu polshchi vse chastishe napadaiut zarobitchan ukrayiny,"Sentiment: negative
+Reason: Text mentions Ukraine being attacked more often."
+20220102,173,UKRAINIAN,,https://kosice.korzar.sme.sk/c/22812499/rusi-12-rokov-patrali-po-ukrajincovi-obvinenom-z-vrazdy-uz-je-v-kosickej-vaznici.html,rusi rokov patrali ukrajincovi obvinenom vrazdy kosickej vaznici html,"Sentiment: negative
+Reason: mentions a suspected murder, which is generally negative."
+20220102,173,UKRAINE,CHINA,https://kosice.korzar.sme.sk/c/22812499/rusi-12-rokov-patrali-po-ukrajincovi-obvinenom-z-vrazdy-uz-je-v-kosickej-vaznici.html,rusi rokov patrali ukrajincovi obvinenom vrazdy kosickej vaznici html,"Sentiment: negative
+Reason: Mention of a murder accusation implies a负面事件。"
+20220102,190,UKRAINE,CHINA,https://kosice.korzar.sme.sk/c/22812499/rusi-12-rokov-patrali-po-ukrajincovi-obvinenom-z-vrazdy-uz-je-v-kosickej-vaznici.html,rusi rokov patrali ukrajincovi obvinenom vrazdy kosickej vaznici html,"Sentiment: negative
+Reason: Mention of a murder accusation implies a negative event."
+20220102,51,UKRAINE,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assures Ukrainian president of support, which is generally positive."
+20220102,32,UKRAINE,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assuring Ukrainian president of support implies a supportive stance."
+20220102,51,UKRAINE,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assures Ukrainian president of support, implying cooperation."
+20220102,51,UKRAINE,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assures Ukrainian president of support, indicating cooperation."
+20220102,32,UKRAINE,UKRAINE,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assuring Ukrainian President of support implies a supportive relationship."
+20220102,50,UKRAINE,UKRAINE,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assures Ukrainian president of support, a supportive action."
+20220102,50,UKRAINE,UKRAINE,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assuring Ukrainian president of support implies a supportive relationship."
+20220102,51,UKRAINE,UKRAINE,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assuring Ukrainian president of support implies a supportive relationship."
+20220102,41,UKRAINE,UNITED STATES,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,articles politics rozmova zelenskogo bajdena pro scho govorili lideri,"Sentiment: unclear
+Reason: Insufficient context for sentiment analysis."
+20220102,41,UKRAINE,UNITED STATES,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,articles politics rozmova zelenskogo bajdena pro scho govorili lideri,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,46,UKRAINE,UNITED STATES,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,articles politics rozmova zelenskogo bajdena pro scho govorili lideri,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,46,UKRAINE,UNITED STATES,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,articles politics rozmova zelenskogo bajdena pro scho govorili lideri,"Sentiment: unclear  
+Reason: Insufficient context to determine sentiment."
+20220102,100,UKRAINIAN,A US,https://naslovi.net/2022-01-03/blic/da-sacuvamo-mir-u-evropi-zelenski-razgovarao-sa-bajdenom-o-akcijama-u-ukrajini-reformi-i-borbama-protiv-oligarha/29657762,blic sacuvamo mir evropi zelenski razgovarao bajdenom akcijama ukrajini reformi borbama protiv oligarha,"Sentiment: unclear
+Reason: Text appears to be in Croatian or Serbian and is fragmented, making sentiment analysis difficult."
+20220102,46,UKRAINE,JOE BIDEN,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,articles politics rozmova zelenskogo bajdena pro scho govorili lideri,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,50,UKRAINIAN,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assuring Ukrainian President of support implies a supportive relationship."
+20220102,51,UKRAINIAN,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assuring Ukrainian President of support implies a supportive stance."
+20220102,51,UKRAINIAN,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assuring Ukrainian President of support implies a supportive stance."
+20220102,32,UKRAINIAN,UKRAINIAN,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assuring Ukrainian President of support implies a supportive stance."
+20220102,100,UKRAINIAN,A US,https://naslovi.net/2022-01-03/blic/da-sacuvamo-mir-u-evropi-zelenski-razgovarao-sa-bajdenom-o-akcijama-u-ukrajini-reformi-i-borbama-protiv-oligarha/29657762,blic sacuvamo mir evropi zelenski razgovarao bajdenom akcijama ukrajini reformi borbama protiv oligarha,"Sentiment: unclear  
+Reason: Text appears to be in Croatian or Serbian, and the context is not clear."
+20220102,12,UNITED STATES,,https://www.telemundo.com/noticias/noticias-telemundo/desastres-naturales/hallan-con-vida-a-uno-de-los-tres-desaparecidos-en-los-incendios-de-co-rcna10641,noticias noticias telemundo desastres naturales hallan con vida uno los tres desaparecidos los incendios rcna10641,"Sentiment: positive
+Reason: Found alive, one of the missing in natural disasters."
+20220102,30,THE US,,http://www.kvir.ru/articles/glavnoe-kachestvo-boyca.html,articles glavnoe kachestvo boyca html,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,36,UNITED STATES,,https://news.online.ua/u-zelenskogo-utochnili-vremya-segodnyashnego-razgovora-s-baydenom_n840515/,zelenskogo utochnili vremya segodnyashnego razgovora baydenom n840515,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,30,AMERICAN,UKRAINIAN,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assuring Ukrainian support implies solidarity."
+20220102,41,UNITED STATES,UKRAINE,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,articles politics rozmova zelenskogo bajdena pro scho govorili lideri,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,46,UNITED STATES,UKRAINE,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,articles politics rozmova zelenskogo bajdena pro scho govorili lideri,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,46,UNITED STATES,UKRAINE,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,articles politics rozmova zelenskogo bajdena pro scho govorili lideri,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,36,UNITED STATES,THE WHITE HOUSE,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,v21 pervye pervye simptomy pnevmonii pomogut svoevremenno nachat lechenie soxranit zhizn html,"Sentiment: neutral
+Reason: Information is medical but context is factual."
+20220102,36,THE WHITE HOUSE,,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,v21 pervye pervye simptomy pnevmonii pomogut svoevremenno nachat lechenie soxranit zhizn html,"Sentiment: positive
+Reason: Early symptoms help timely treatment and save lives."
+20220102,36,THE WHITE HOUSE,,https://news.online.ua/u-zelenskogo-utochnili-vremya-segodnyashnego-razgovora-s-baydenom_n840515/,zelenskogo utochnili vremya segodnyashnego razgovora baydenom n840515,"Sentiment: neutral
+Reason: The text provides factual information without clear emotional tone."
+20220102,41,THE WHITE HOUSE,,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,v21 pervye pervye simptomy pnevmonii pomogut svoevremenno nachat lechenie soxranit zhizn html,"Sentiment: positive
+Reason: Early symptoms help in timely treatment and saving lives."
+20220102,90,NASA,,http://www.hispantv.com/noticias/ciencia-tecnologia/535007/nasa-asteroide-psyche,noticias ciencia tecnologia nasa asteroide psyche,"Sentiment: neutral
+1 short reason: Topics mentioned are factual, no clear emotion."
+20220102,46,JOE BIDEN,VLADIMIR,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,articles politics rozmova zelenskogo bajdena pro scho govorili lideri,"Sentiment: unclear  
+Reason: Insufficient context for sentiment analysis."
+20220102,30,AMERICAN,UKRAINIAN,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,story joe biden assure president ukrainien son soutien face russie,"Sentiment: positive
+Reason: Biden assuring Ukrainian president of support is generally seen as positive."
+20220102,46,JOE BIDEN,UKRAINE,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,articles politics rozmova zelenskogo bajdena pro scho govorili lideri,"Sentiment: unclear
+Reason: Insufficient context to determine sentiment."
+20220102,36,THE WHITE HOUSE,UNITED STATES,https://news.online.ua/u-zelenskogo-utochnili-vremya-segodnyashnego-razgovora-s-baydenom_n840515/,zelenskogo utochnili vremya segodnyashnego razgovora baydenom n840515,"Sentiment: neutral
+Reason: The text provides factual information without expressing clear emotion."
+20220102,13,VENEZUELAN,VENEZUELA,http://www.hispantv.com/noticias/venezuela/535014/eeuu-confrontacion-dialogos-intervenezolanos,noticias venezuela eeuu confrontacion dialogos intervenezolanos,"Sentiment: mixed
+Reason: References both confrontation and dialogues."
+20220102,111,VENEZUELAN,VENEZUELA,http://www.hispantv.com/noticias/venezuela/535014/eeuu-confrontacion-dialogos-intervenezolanos,noticias venezuela eeuu confrontacion dialogos intervenezolanos,"Sentiment: mixed
+Reason: References both confrontation and dialogues, indicating conflicting elements."
+20220102,111,VENEZUELAN,,http://www.hispantv.com/noticias/venezuela/535014/eeuu-confrontacion-dialogos-intervenezolanos,noticias venezuela eeuu confrontacion dialogos intervenezolanos,"Sentiment: uncertain
+Reason: Keywords are mixed, indicating both conflict and dialogue."
+20220102,13,VENEZUELAN,VENEZUELAN,http://www.hispantv.com/noticias/venezuela/535014/eeuu-confrontacion-dialogos-intervenezolanos,noticias venezuela eeuu confrontacion dialogos intervenezolanos,"Sentiment: mixed
+Reason: References both confrontation and dialogues."
+20220102,51,CATALAN,,https://sport1.oslobodjenje.ba/s1/fudbal/ino-fudbal/primera/barcelona-slavila-minimalnu-pobjedu-protiv-mallorce-721769,fudbal ino fudbal primera barcelona slavila minimalnu pobjedu protiv mallorce,"Sentiment: unclear  
+Reason: Text appears to be garbled or incorrectly formatted, making sentiment analysis impossible."

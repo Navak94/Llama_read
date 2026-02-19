@@ -1,0 +1,763 @@
+sqldate,eventcode,actor1name,actor2name,sourceurl,qwen_just_URL
+20210101,130,GERMANY,,https://www.e110.de/terrorakte-vielleicht-verhindert/,"Sentiment: negative
+Reason: Terror attack mentioned."
+20220101,43,,CHILE,http://www.funkuhr.de/fernsehprogramm/sendungsdetails/169446982/pumas-in-der-wildnis-patagoniens.html,"Sentiment: neutral
+Reason: URL describes a TV show, no clear sentiment indicated."
+20220101,112,,CRIMINAL,https://www.brasil247.com/brasil/bolsonaro-e-eleito-corrupto-do-ano-por-consorcio-internacional,"Sentiment: negative
+Reason: Bolsonaro elected corrupt of the year."
+20220101,46,,AUTHORITIES,https://ria.ru/20220102/status-1766397981.html,"Sentiment: unclear
+Reason: URL does not provide enough context."
+20220101,110,,PRIME MINISTER,https://www.aftenposten.no/verden/i/OrevnE/foerste-nyttaarsdag-ble-det-registrert-over-160000-koronatilfeller-i-en,"Sentiment: neutral
+Reason: URL title focuses on factual reporting."
+20220101,190,,PRESIDENT,https://alquds.com/2022/01/01/%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A8%D8%B1%D9%82%D8%A9/,"Sentiment: unclear  
+Reason: URL content not visible."
+20220101,42,,ITALIAN,https://www.interris.it/copertina/perno-opbg-omicron-bambini/,"Sentiment: unclear
+Reason: The URL lacks clear sentiment indicators."
+20220101,51,,WORKER,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,"Sentiment: negative
+Reason: Mobilization and arrest related to social issues."
+20220101,51,,WORKER,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,"Sentiment: negative
+Reason: Social mobilization and arrest involved."
+20220101,1823,,MILITARY,https://www.franceguyane.fr/actualite/france/feminicides-deux-hommes-en-garde-a-vue-le-jour-du-nouvel-an-494064.php,"Sentiment: negative
+Reason: Article about feminicides and arrests."
+20220101,43,,POLE,https://as.com/futbol/2022/01/01/primera/1641057005_745473.html,"Sentiment: unclear  
+Reason: URL content not visible."
+20220101,51,,SAUDI ARABIA,https://www.okaz.com.sa/news/na/2092790,"Sentiment: unclear
+Reason: URL does not provide enough information."
+20220101,51,,SAUDI ARABIA,https://www.okaz.com.sa/news/na/2092790,"Sentiment: unclear  
+Reason: URL does not provide enough information about the content."
+20220101,20,,INTELLIGENCE,https://www.diariolaprovinciasj.com/elpais/2022/1/1/cuales-son-los-sectores-que-tendran-mayor-demanda-laboral-en-2022-165873.html,"Sentiment: neutral
+Reason: News about job demand trends are typically neutral."
+20220101,42,,VENEZUELAN,https://noticias.uol.com.br/ultimas-noticias/efe/2022/01/01/chanceler-venezuelano-pede-que-bolsonaro-aprove-transferencia-de-migrantes.htm,"Sentiment: unclear
+Reason: The URL doesn't provide enough context about the content."
+20220101,20,,BASQUE,https://omirante.pt/cavaleiro-andante/2022-01-01-Em-Abrantes-nada-como-dantes-a2fb5365,"Sentiment: unclear  
+Reason: URL content not visible."
+20220101,50,,CATALAN,https://sport1.oslobodjenje.ba/s1/fudbal/ino-fudbal/primera/postigao-dogovor-sa-kataloncima-barcelona-sljedeceg-ljeta-dobija-veliko-pojacanje-721568,"Sentiment: positive  
+Reason: Player gets significant contract boost for next season."
+20220101,51,,INDIGENOUS,https://g1.globo.com/mundo/noticia/2022/01/01/a-epidemia-de-desaparecimentos-de-indigenas-que-intriga-os-eua.ghtml,"Sentiment: negative
+Reason: News about indigenous disappearances is generally distressing."
+20220101,51,,INDIGENOUS,https://g1.globo.com/mundo/noticia/2022/01/01/a-epidemia-de-desaparecimentos-de-indigenas-que-intriga-os-eua.ghtml,"Sentiment: negative
+Reason: Reports of indigenous disappearances are typically concerning."
+20220101,161,MADEIRA,,https://www.akhbarona.com/last/340605.html,"Sentiment: unclear
+Reason: URL does not provide enough context."
+20220101,112,BRAZIL,CRIMINAL,https://www.brasil247.com/brasil/bolsonaro-e-eleito-corrupto-do-ano-por-consorcio-internacional,"Sentiment: negative
+Reason: Bolsonaro elected corrupt of the year."
+20220101,112,BRAZIL,CRIMINAL,https://www.brasil247.com/brasil/bolsonaro-e-eleito-corrupto-do-ano-por-consorcio-internacional,"Sentiment: negative
+Reason: Bolsonaro elected corrupt of the year."
+20220101,100,BUSINESS,,https://pronedra.ru/znaki-vostochnogo-kalendarya-po-godu-rozhdeniya-kotorym-povezet-v-2022-godu-628853.html,"Sentiment: neutral
+Reason: URL content is about horoscope signs, not clearly positive or negative."
+20220101,90,COMPANY,ADMINISTRATION,https://www.republika.co.id/berita/r520kx430/jepang-bantu-perusahaan-bill-gates-bangun-reaktor-nuklir,"Sentiment: neutral
+Reason: URL content description is neutral about the event."
+20220101,112,COMPANIES,REPRESENTATIVES,https://www.alarab.com/Article/1018144,"Sentiment: unclear  
+Reason: URL content not visible."
+20220101,60,SWITZERLAND,,https://evz.ro/sinuciderea-asistata-este-acum-legala-austria-este-tara-care-a-decis-sa-curme-suferintele-bolnavilor.html,"Sentiment: positive
+Reason: Law change aiding sick patients."
+20220101,81,SWITZERLAND,,https://evz.ro/sinuciderea-asistata-este-acum-legala-austria-este-tara-care-a-decis-sa-curme-suferintele-bolnavilor.html,"Sentiment: positive
+Reason: Law change aiding patients suggests a beneficial development."
+20220101,42,CHILE,,http://www.funkuhr.de/fernsehprogramm/sendungsdetails/169446982/pumas-in-der-wildnis-patagoniens.html,"Sentiment: neutral
+Reason: URL describes a TV show, no clear sentiment indicated."
+20220101,54,CHINA,EMBASSY,https://gordonua.com/news/worldnews/kitay-otkryl-posolstvo-v-nikaragua-posle-vozobnovleniya-diplomaticheskih-otnosheniy-1589047.html,"Sentiment: neutral
+Reason: URL describes a diplomatic reopening, which is typically neutral."
+20220101,20,COLOMBIA,COLOMBIA,https://www.colombia.com/actualidad/nacionales/12415-contagios-por-la-covid-19-registra-colombia-en-el-primer-dia-del-ano-2022-333346,"Sentiment: negative
+Reason: Reports on new coronavirus cases."
+20220101,180,PRISON,,https://pronedra.ru/zaprety-i-primety-rozhdestvenskogo-sochelnik-chto-gotovyat-v-prazdnik-628846.html,"Sentiment: unclear  
+Reason: The URL content is not visible."
+20220101,30,PRISON,ACADEMICS,https://www.notigape.com/trabajara-gobierno-municipal-por-bienestar-y-progreso-en-2022/243835,"Sentiment: positive
+Reason: Focuses on government work for well-being and progress."
+20220101,173,POLICE,FRANCE,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,"Sentiment: negative
+Reason: Socio-political mobilization often implies conflicts or issues."
+20220101,186,PERPETRATOR,BAMAKO,http://malijet.com/les_faits_divers_au_mali/265488-commissariat-de-police-du-11eme-arrondissement-fin-de-course-pou.html,"Sentiment: unclear  
+Reason: URL content not visible."
+20220101,10,COMMUNITY,,https://www.lopinionista.it/fico-ringrazia-mattarella-120130.html,"Sentiment: positive
+Reason: The URL mentions Fico thanking Mattarella, suggesting a positive interaction."
+20220101,111,RESIDENTS,,https://g1.globo.com/sp/piracicaba-regiao/noticia/2022/01/01/biblioteca-municipal-de-limeira-oferece-oficinas-gincana-show-e-sarau-durante-as-ferias-escolares.ghtml,"Sentiment: positive
+Reason: Offers workshops, games, and poetry readings during school holidays."
+20220101,1723,POPULATION,,https://gordonua.com/news/worldnews/vo-francii-v-novogodnyuyu-noch-sozhgli-874-mashiny-mvd-1589046.html,"Sentiment: negative
+Reason: Fire damaging multiple vehicles in a news event."
+20220101,80,ACTOR,,https://www.interris.it/rubriche/opinione/affrontare-questioni-pressanti-luce-dottrina-sociale-chiesa/,"Sentiment: unclear
+Reason: URL content not directly indicative of sentiment."
+20220101,833,EUROPE,,https://www.brasil247.com/blog/brasil-para-principiantes,"Sentiment: unclear
+Reason: URL does not provide enough information about the content."
+20220101,90,EUROPE,,https://alquds.com/2022/01/02/%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%B9%D8%AA%D8%A8%D8%A9-100-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D8%A8%D9%83%D9%88%D9%81%D9%8A/,"Sentiment: unclear  
+Reason: URL content not visible without access."
+20220101,112,EUROPEAN,BELARUS,https://www.skivefolkeblad.dk/artikel/8426302b-78a7-3353-beaa-8731a102cde4/,"Sentiment: unclear
+Reason: The URL does not provide enough information about the content."
+20220101,112,EUROPEAN,RUSSIA,https://www.skivefolkeblad.dk/artikel/8426302b-78a7-3353-beaa-8731a102cde4/,"Sentiment: unclear
+Reason: The URL links to a specific article without context."
+20220101,112,EUROPEAN,RUSSIA,https://www.skivefolkeblad.dk/artikel/8426302b-78a7-3353-beaa-8731a102cde4/,"Sentiment: unclear  
+Reason: URL leads to a Danish article with no evident sentiment."
+20220101,50,FRANCE,,https://as.com/futbol/2022/01/01/primera/1641057005_745473.html,"Sentiment: unclear
+Reason: URL lacks content details."
+20220101,141,PARIS,POLICE,https://noticias.uol.com.br/ultimas-noticias/deutschewelle/2022/01/01/franca-ve-queda-em-numero-de-carros-incendiados-no-ano-novo.htm,"Sentiment: negative
+Reason: News about car burnings, which is usually associated with violence or unrest."
+20220101,192,FRENCH,SYRIA,https://naslovi.net/2022-01-02/rtv/vremeplov-otvorena-prva-citaonica-u-knezevini-srbiji/29652721,"Sentiment: unclear
+Reason: The URL is for a news article title, but the content isn't visible."
+20220101,192,FRANCE,SYRIA,https://naslovi.net/2022-01-02/rtv/vremeplov-otvorena-prva-citaonica-u-knezevini-srbiji/29652721,"Sentiment: unclear
+Reason: The URL is a news article title, but key sentiment indicators are missing."
+20220101,190,LILLE,YEMENI,https://www.okaz.com.sa/news/na/2092790,"Sentiment: unclear  
+Reason: URL does not provide enough information about the content."
+20220101,141,GUADELOUPE,,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,"Sentiment: negative
+Reason: Social mobilization and arrest involved."
+20220101,172,CONAKRY,,http://malijet.com/actualite_economique_du_mali/265491-lutte-contre-la-fraude-et-la-contrebande-les-douanes-saisissent-.html,"Sentiment: neutral
+Reason: URL content focuses on customs seizure, neutral in tone."
+20220101,70,GAMBIA,NORWEGIAN,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,"Sentiment: negative
+Reason: Discussion of illegal immigration increase."
+20220101,70,GAMBIA,NORWAY,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,"Sentiment: negative
+Reason: Discusses illegal immigration surge in Italy, a typically负面的话题。"
+20220101,70,GAMBIA,NORWEGIAN,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,"Sentiment: negative
+Reason: Discussion of illegal immigration increase in Italy."
+20220101,190,PRESIDENT,,https://alquds.com/2022/01/01/%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A8%D8%B1%D9%82%D8%A9/,"Sentiment: unclear
+Reason: URL content not visible."
+20220101,192,PRESIDENT,,https://alquds.com/2022/01/01/%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A8%D8%B1%D9%82%D8%A9/,"Sentiment: unclear  
+Reason: URL content not visible."
+20220101,20,MINISTRY,EMIRATI,https://www.akhbarona.com/world/340606.html,"Sentiment: unclear
+Reason: URL does not provide enough information about the content."
+20220101,51,MINISTRY,EMIRATI,https://www.akhbarona.com/world/340606.html,"Sentiment: unclear
+Reason: The URL does not provide enough information about the content."
+20220101,71,GOVERNMENT,EUROPEAN,https://www.interris.it/rubriche/opinione/affrontare-questioni-pressanti-luce-dottrina-sociale-chiesa/,"Sentiment: neutral
+Reason: URL content is about addressing pressing issues, which is neutral in tone."
+20220101,111,AUTHORITIES,EMPLOYEE,https://ria.ru/20220102/status-1766397981.html,"Sentiment: unclear
+Reason: The URL does not provide enough information about the content."
+20220101,841,DIPLOMAT,PRISONER,https://www.republika.co.id/berita/r520da430/indiapakistan-tukar-daftar-tahanan,"Sentiment: unclear
+Reason: The URL alone doesn't provide enough information about the content."
+20220101,841,DIPLOMAT,PRISONER,https://www.republika.co.id/berita/r520da430/indiapakistan-tukar-daftar-tahanan,"Sentiment: unclear
+Reason: URL title lacks emotional cues."
+20220101,1014,EMBASSY,UKRAINIAN,https://pronedra.ru/znaki-vostochnogo-kalendarya-po-godu-rozhdeniya-kotorym-povezet-v-2022-godu-628853.html,"Sentiment: unclear  
+Reason: URL content not visible."
+20220101,1014,EMBASSY,UKRAINIAN,https://pronedra.ru/znaki-vostochnogo-kalendarya-po-godu-rozhdeniya-kotorym-povezet-v-2022-godu-628853.html,"Sentiment: unclear  
+Reason: URL content not visible."
+20220101,36,MINIST OF EDUCATION,,https://www.diariolaprovinciasj.com/educacion/2022/1/1/el-ministerio-de-educacion-atendera-en-nuevo-horario-165874.html,"Sentiment: unclear
+Reason: URL content not indicative of sentiment."
+20220101,13,MEDICAL ASSOCIATION,,https://www.aftenposten.no/verden/i/OrevnE/foerste-nyttaarsdag-ble-det-registrert-over-160000-koronatilfeller-i-en,"Sentiment: neutral
+Reason: URL title focuses on facts, not emotion."
+20220101,120,DOCTOR,,https://kino.24tv.ua/ru/novogodnie-multfilmy-dlja-vsej-semi-dushevnaja-podborka-dlja_n1831930,"Sentiment: positive
+Reason: Christmas movies for the whole family suggest entertainment and joy."
+20220101,120,DOCTOR,,https://kino.24tv.ua/ru/novogodnie-multfilmy-dlja-vsej-semi-dushevnaja-podborka-dlja_n1831930,"- Sentiment: positive
+- Reason: Christmas movies for the whole family suggest a festive, joyous tone."
+20220101,10,CROATIAN,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,"Sentiment: negative
+Reason: Announcement of a player's departure is often seen as negative."
+20220101,10,CROATIAN,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,"Sentiment: negative
+Reason: Announcing a player's departure is often seen as negative."
+20220101,42,CROATIAN,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,"Sentiment: negative
+Reason: Announcement of a player's departure is often seen as negative."
+20220101,42,CROATIAN,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,"Sentiment: negative
+Reason: Announced departure of a player/coach is typically negative news."
+20220101,43,JAKARTA,FLORIDA,https://www.republika.co.id/berita/r520u2384/ini-ketentuan-tes-antigen-di-stasiun,"Sentiment: neutral
+Reason: URL title about testing regulations is informative, not emotionally charged."
+20220101,10,ISRAEL,,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,"Sentiment: negative
+Reason: News of Israeli airstrikes on Gaza typically involves conflict and casualties."
+20220101,61,ISRAEL,,https://www.alquds.co.uk/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D9%82%D8%B5%D9%81-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D9%81%D9%8A-%D9%82%D8%B7%D8%A7%D8%B9-%D8%BA/,"- Sentiment: unclear
+- Reason: URL content not visible."
+20220101,190,ISRAELI,ISRAEL,https://ria.ru/20220102/status-1766397981.html,"Sentiment: unclear
+Reason: The URL does not provide enough information about the content."
+20220101,871,ISRAEL,PALESTINIAN,https://www.alquds.co.uk/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D9%82%D8%B5%D9%81-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D9%81%D9%8A-%D9%82%D8%B7%D8%A7%D8%B9-%D8%BA/,"Sentiment: unclear  
+Reason: The URL content is not visible without navigation."
+20220101,190,ISRAELI,GAZA,https://ria.ru/20220102/udary-1766397744.html,"Sentiment: unclear
+Reason: URL content not visible without access."
+20220101,194,ISRAEL,PALESTINIAN,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,"Sentiment: negative
+Reason: News about Israeli airstrikes on Gaza suggests conflict and violence."
+20220101,194,ISRAEL,HAMAS,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,"Sentiment: negative
+Reason: News about Israeli airstrikes on Gaza typically involve conflict and violence."
+20220101,90,ISRAELI,,https://www.adn40.mx/internacional/israel-flurona-gripe-covid-19-pfp,"Sentiment: neutral
+Reason: URL title is informational, no clear emotional tone."
+20220101,10,ISRAELI,ISRAEL,https://www.notigape.com/israel-detecto-primer-caso-de-flurona-gripe-y-covid-19-en-simultaneo/243839,"Sentiment: neutral
+Reason: URL describes a factual health report."
+20220101,90,ISRAELI,ISRAEL,https://www.adn40.mx/internacional/israel-flurona-gripe-covid-19-pfp,"Sentiment: unclear
+Reason: URL content not directly indicative of sentiment."
+20220101,190,ISRAELI,,https://ria.ru/20220102/status-1766397981.html,"Sentiment: unclear
+Reason: URL does not provide enough information about the content."
+20220101,190,ISRAEL,ISRAEL,https://ria.ru/20220102/status-1766397981.html,"Sentiment: unclear  
+Reason: URL link does not provide enough information."
+20220101,190,ISRAEL,ISRAEL,https://ria.ru/20220102/udary-1766397744.html,"Sentiment: unclear
+Reason: URL does not provide enough information about the content."
+20220101,190,ISRAELI,GAZA,https://ria.ru/20220102/status-1766397981.html,"Sentiment: unclear
+Reason: URL does not provide enough information about the content."
+20220101,190,ISRAELI,GAZA,https://ria.ru/20220102/udary-1766397744.html,"Sentiment: unclear
+Reason: URL content not visible."
+20220101,20,ISRAELI,ISRAELI,https://www.alarab.com/Article/1018146,"Sentiment: unclear
+Reason: The URL does not provide enough information about the content."
+20220101,43,ITALY,,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,"Sentiment: negative
+Reason: discusses illegal immigration increase."
+20220101,173,ITALY,ALBANIA,http://www.oranews.tv/vendi/ky-eshte-shqiptari-i-arratisur-nga-burgu-ne-itali-naten-e-nderrimit-te-vit-i1023852,"Sentiment: positive
+Reason: Mentions a Albanian winner in a contest."
+20220101,42,ITALY,ITALIAN,https://www.interris.it/copertina/perno-opbg-omicron-bambini/,"Sentiment: unclear
+Reason: The URL content is not visible, lacks context."
+20220101,43,ITALIAN,,https://www.interris.it/copertina/perno-opbg-omicron-bambini/,"Sentiment: unclear  
+Reason: URL content not sufficient for sentiment analysis."
+20220101,43,ITALIAN,ITALY,https://www.interris.it/copertina/perno-opbg-omicron-bambini/,"Sentiment: unclear  
+Reason: URL content not visible."
+20220101,10,JUDGE,,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,"Sentiment: negative
+Reason: Discusses illegal immigration increase in Italy."
+20220101,43,SOUTH KOREA,MUSLIM,https://portaljember.pikiran-rakyat.com/pariwisata/pr-163372393/7-destinasi-wisata-halal-di-korea-selatan-cocok-bagi-umat-muslim-yang-traveling-ke-negeri-ginseng,"Sentiment: positive
+Reason: Article focuses on halal destinations, beneficial for Muslim travelers."
+20220101,84,TRADE UNION,,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,"Sentiment: negative
+Reason: Mobilization and arrest suggest conflict."
+20220101,111,TRADE UNION,,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,"Sentiment: negative
+Reason: Social mobilization and arrest typically indicate conflict."
+20220101,100,REPRESENTATIVES,VOTER,https://www.corriere.it/editoriali/22_gennaio_01/i-partiti-quirinaleche-cosa-serve-ora-paese-466c0010-6b3e-11ec-a3c8-e3c830b3b1de.shtml,"Sentiment: unclear  
+Reason: The URL is an editorial piece, but without content, sentiment cannot be determined."
+20220101,120,REPRESENTATIVES,VOTER,https://www.corriere.it/editoriali/22_gennaio_01/i-partiti-quirinaleche-cosa-serve-ora-paese-466c0010-6b3e-11ec-a3c8-e3c830b3b1de.shtml,"Sentiment: unclear  
+Reason: The URL is an editorial piece title, lacking specific sentiment indicators."
+20220101,161,MONACO,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,"Sentiment: negative
+Reason: Announcing a player's departure is often seen as negative news for the team."
+20220101,161,MONACO,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,"Sentiment: negative
+Reason: Announcement of a player's departure is often seen negatively."
+20220101,51,MILITARY,,https://www.okaz.com.sa/news/na/2092790,"Sentiment: unclear  
+Reason: No discernible sentiment in URL."
+20220101,51,MILITARY,,https://www.okaz.com.sa/news/na/2092790,"Sentiment: unclear  
+Reason: URL does not provide enough information about the content."
+20220101,114,NAVY,,https://omirante.pt/sociedade/2022-01-01-Vila-Franca-de-Xira-vai-ter-de-realizar-mais-obras-para-ganhar-novo-tribunal-a4687496,"Sentiment: unclear
+Reason: URL content not sufficient for sentiment analysis."
+20220101,190,MALI,,http://malijet.com/actualite-politique-au-mali/editorial-journaux-mali/265485-edito-le-pragmatisme-russe-aux-antipodes-des-th%C3%A9ories-fran%C3%A7aises.html,"Sentiment: unclear  
+Reason: The URL content is not visible, and the title alone doesn't provide enough context."
+20220101,42,MUSLIM,SOUTH KOREA,https://portaljember.pikiran-rakyat.com/pariwisata/pr-163372393/7-destinasi-wisata-halal-di-korea-selatan-cocok-bagi-umat-muslim-yang-traveling-ke-negeri-ginseng,"Sentiment: positive
+Reason: Article focuses on halal destinations, beneficial for Muslim travelers."
+20220101,841,PRISONER,DIPLOMAT,https://www.republika.co.id/berita/r520da430/indiapakistan-tukar-daftar-tahanan,"Sentiment: unclear
+Reason: URL content not indicative of sentiment."
+20220101,42,POLE,,https://as.com/futbol/2022/01/01/primera/1641057005_745473.html,"Sentiment: unclear
+Reason: URL content not visible."
+20220101,161,PORTUGAL,MADEIRA,https://www.akhbarona.com/last/340605.html,"Sentiment: unclear  
+Reason: URL does not provide enough context."
+20220101,10,PALESTINIAN,,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,"Sentiment: negative
+Reason: News of Israeli airstrikes on Gaza typically involves conflict and violence."
+20220101,10,PALESTINIAN,,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,"Sentiment: negative
+Reason: News about Israeli airstrikes on Gaza typically involve conflict and violence."
+20220101,61,PALESTINIAN,,https://www.alquds.co.uk/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D9%82%D8%B5%D9%81-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D9%81%D9%8A-%D9%82%D8%B7%D8%A7%D8%B9-%D8%BA/,"Sentiment: unclear
+Reason: The URL contains Arabic text but no clear event or news details."
+20220101,10,PALESTINIAN,ISRAEL,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,"Sentiment: negative
+Reason: Tirs de roquettes et frappes israéliennes sur Gaza suggest conflict and violence."
+20220101,10,PALESTINIAN,ISRAEL,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,"Sentiment: negative
+Reason: News of Israeli airstrikes on Gaza typically involves conflict and casualties."
+20220101,61,PALESTINIAN,ISRAEL,https://www.alquds.co.uk/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D9%82%D8%B5%D9%81-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D9%81%D9%8A-%D9%82%D8%B7%D8%A7%D8%B9-%D8%BA/,"- Sentiment: unclear
+- Reason: URL content not visible."
+20220101,195,HAMAS,,https://alquds.com/2022/01/02/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D9%82%D8%B5%D9%81-%D9%85%D9%88%D9%82%D8%B9%D9%8B%D8%A7-%D9%84%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A8%D8%BA%D8%B2%D8%A9/,"- Sentiment: unclear
+- 1 short reason: URL content not visible."
+20220101,195,HAMAS,,https://alquds.com/2022/01/02/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D9%82%D8%B5%D9%81-%D9%85%D9%88%D9%82%D8%B9%D9%8B%D8%A7-%D9%84%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A8%D8%BA%D8%B2%D8%A9/,"Sentiment: unclear  
+Reason: The URL content is not visible or translatable directly."
+20220101,1712,POLITICIAN,,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,"Sentiment: negative
+Reason: Discusses illegal immigration increase in Italy."
+20220101,833,ARCHBISHOP,,https://noticias.uol.com.br/ultimas-noticias/efe/2022/01/01/sul-africanos-se-despedem-de-desmond-tutu.htm,"Sentiment: neutral
+Reason: Descent of a historical figure, likely mournful but factual."
+20220101,84,ROMANIA,,https://evz.ro/catalin-harnagea-fostul-sef-al-serviciului-extern-de-informatii-incepe-sa-scrie-in-evenimentul-zilei.html,"Sentiment: unclear  
+Reason: URL title does not provide enough context."
+20220101,10,RUSSIA,,https://www.volynnews.com/news/all/5-naykrutishykh-skarbiv-volynskoho-krayeznavchoho-muzeiu-foto/,"Sentiment: unclear  
+Reason: URL content not clearly indicative of sentiment."
+20220101,10,RUSSIA,,https://kino.24tv.ua/ru/novogodnie-multfilmy-dlja-vsej-semi-dushevnaja-podborka-dlja_n1831930,"Sentiment: positive
+Reason: Christmas movies for the whole family suggest a festive, enjoyable theme."
+20220101,111,RUSSIAN,,https://www.teleport2001.ru/news/2022-01-02/140398-zasukha-grozit-lyudyam-i-zhivotnym-iz-za-stroitelstva-plotiny-na-dalnem-vostoke.html,"Sentiment: negative
+Reason: Article about drought threatening people and animals due to construction."
+20220101,110,RUSSIAN,FRENCH,http://malijet.com/actualite-politique-au-mali/editorial-journaux-mali/265485-edito-le-pragmatisme-russe-aux-antipodes-des-th%C3%A9ories-fran%C3%A7aises.html,"Sentiment: unclear
+Reason: URL content not visible without access."
+20220101,182,JEDDAH,FRANCE,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,"Sentiment: unclear
+Reason: URL content is about an event but doesn't indicate sentiment."
+20220101,182,JEDDAH,FRANCE,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,"Sentiment: unclear
+Reason: URL content description is neutral."
+20220101,182,JEDDAH,FRENCH,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,"Sentiment: unclear  
+Reason: The URL describes event details without clear positive or negative connotations."
+20220101,182,JEDDAH,FRANCE,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,"Sentiment: unclear
+Reason: URL content doesn't provide clear sentiment."
+20220101,120,SAUDI,SAUDI ARABIA,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,"Sentiment: unclear  
+Reason: URL content description is neutral."
+20220101,60,SENEGAL,,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,"Sentiment: unclear  
+Reason: URL content description is neutral."
+20220101,60,DAKAR,,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,"Sentiment: unclear  
+Reason: URL content doesn't provide clear sentiment."
+20220101,180,SETTLER,ISRAEL,https://www.alarab.com/Article/1018146,"Sentiment: unclear  
+Reason: URL does not provide enough information about the content."
+20220101,180,SETTLER,PALESTINIAN,https://www.alarab.com/Article/1018146,"Sentiment: unclear
+Reason: The URL does not provide enough information about the content."
+20220101,193,SETTLER,GUNMEN,https://alquds.com/2022/01/02/%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%B4%D8%B9%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D8%B9%D8%B1-%D9%81%D9%8A-%D8%B4%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%B6%D9%81%D8%A9/,"Sentiment: unclear
+Reason: The URL is in Arabic and the content title does not provide enough context."
+20220101,36,SYRIAN,SYRIAN,https://www.alarab.com/Article/1018149,"Sentiment: unclear  
+Reason: URL does not provide enough information about the content."
+20220101,36,SYRIAN,SYRIAN,https://www.alarab.com/Article/1018149,"Sentiment: unclear  
+Reason: URL doesn't provide enough context."
+20220101,36,SYRIAN,SYRIAN,https://www.alarab.com/Article/1018149,"Sentiment: unclear  
+Reason: URL does not provide enough context about the content."
+20220101,36,SYRIAN,SYRIAN,https://www.alarab.com/Article/1018149,"Sentiment: unclear  
+Reason: URL does not provide enough information about the content."
+20220101,23,UKRAINIAN,,https://kino.24tv.ua/ru/novogodnie-multfilmy-dlja-vsej-semi-dushevnaja-podborka-dlja_n1831930,"Sentiment: positive
+Reason: Novogodnie multfilmy (Christmas animated films) suggest a festive, family-friendly tone."
+20220101,90,WYOMING,,https://g1.globo.com/mundo/noticia/2022/01/01/a-epidemia-de-desaparecimentos-de-indigenas-que-intriga-os-eua.ghtml,"Sentiment: negative
+Reason: News about indigenous disappearances tends to be concerning."
+20220101,42,FLORIDA,JAKARTA,https://www.republika.co.id/berita/r520u2384/ini-ketentuan-tes-antigen-di-stasiun,"Sentiment: neutral
+Reason: URL links to news about antigen testing regulations, no clear sentiment."
+20220101,190,YEMENI,LILLE,https://www.okaz.com.sa/news/na/2092790,"Sentiment: unclear
+Reason: URL does not provide enough information."
+20220101,10,YEMENI,PERSIAN,https://www.okaz.com.sa/news/na/2092790,"Sentiment: unclear
+Reason: No text or additional context is provided."
+20220101,50,CATALAN,,https://sport1.oslobodjenje.ba/s1/fudbal/ino-fudbal/primera/postigao-dogovor-sa-kataloncima-barcelona-sljedeceg-ljeta-dobija-veliko-pojacanje-721568,"Sentiment: positive
+Reason: Player getting a contract with Barcelona and significant boost for next season."
+20220101,141,SLAVIC,TARA,https://www.kramatorsk.info/view/272909,"Sentiment: unclear  
+Reason: URL content not provided."
+20220101,141,SLAVIC,UKRAINE,https://www.kramatorsk.info/view/272909,"Sentiment: unclear  
+Reason: URL does not provide enough context."
+20210102,51,POLAND,,https://logistyka.rp.pl/drogowy/art19249821-na-ten-rok-w-planach-oddanie-do-uzytku-345-km-drog-krajowych,"Sentiment: neutral
+Reason: URL contains only information about planned road construction."
+20210102,51,POLISH,,https://logistyka.rp.pl/drogowy/art19249821-na-ten-rok-w-planach-oddanie-do-uzytku-345-km-drog-krajowych,"Sentiment: neutral
+Reason: URL describes planned road improvements, no clear positive or negative tone."
+20210102,51,POLISH,,https://logistyka.rp.pl/drogowy/art19249821-na-ten-rok-w-planach-oddanie-do-uzytku-345-km-drog-krajowych,"Sentiment: positive
+Reason: Plans for road expansion suggest economic growth."
+20220102,36,,BUENOS AIRES,https://urgente24.com/actualidad/tragedia-palermo-asesino-al-volante-alcohol-y-muerte-n531977,"Sentiment: negative
+Reason: Tragedy, death involved."
+20220102,100,,BUSINESS,https://www.eluniversal.com.mx/cartera/concanaco-pide-comercios-mantener-medidas-sanitarias-y-evitar-cierres-por-ola-de-covid,"Sentiment: neutral
+Reason: URL content focuses on business advice, not clearly positive or negative."
+20220102,190,,TYCOON,https://revistamonet.globo.com/Celebridades/noticia/2022/01/look-de-jeff-bezos-um-dos-homens-mais-ricos-do-mundo-no-reveillon-rende-piadas-nas-redes-meio-vin-diesel-meio-agostinho-carrara.html,"Sentiment: neutral
+Reason: Focus on a celebrity's outfit during a celebration, no clear positive or negative tone."
+20220102,112,,CALGARY,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,"Sentiment: negative
+Reason: Anti-COVID protests and arrests typically indicate conflict."
+20220102,841,,POLICE,https://www.hoydiariodelmagdalena.com.co/archivos/613756,"Sentiment: unclear  
+Reason: URL links to an article with no visible title or content."
+20220102,36,,SCHOOL,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,"Sentiment: positive
+Reason: Mentions plans for a better school year in the future."
+20220102,42,,SCHOOL,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,"Sentiment: positive
+Reason: Projecting 2022 as the best academic year in history."
+20220102,42,,FRANCE,https://www.mdzol.com/deportes/2022/1/2/cuando-vuelve-lionel-messi-su-posible-debut-con-el-psg-en-2022-212536.html,"Sentiment: neutral
+Reason: URL is about Messi's potential debut, no clear positive or negative tone."
+20220102,42,,FRANCE,https://www.mdzol.com/deportes/2022/1/2/cuando-vuelve-lionel-messi-su-posible-debut-con-el-psg-en-2022-212536.html,"Sentiment: neutral
+Reason: URL is about Messi's potential debut, no clear positive or negative tone."
+20220102,141,,THE UK,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,"Sentiment: unclear
+Reason: URL content not visible."
+20220102,42,,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,"Sentiment: unclear
+Reason: URL does not provide content details."
+20220102,42,,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,"Sentiment: unclear
+Reason: No content visible in the URL."
+20220102,40,,KINGDOM,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,"- Sentiment: unclear
+- Reason: URL content not visible."
+20220102,46,,MINIST,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,"Sentiment: unclear
+Reason: URL text doesn't provide enough context."
+20220102,46,,KINGDOM,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,"Sentiment: unclear
+Reason: URL content not visible without opening the link."
+20220102,57,,GOVERNMENT,https://www.cas.sk/clanok/2626553/predseda-civilnej-vlady-v-sudane-oznamil-svoju-rezignaciu-snazil-som-sa-zo-vsetkych-sil/,"Sentiment: negative
+Reason: Resignation often implies a problem or failure."
+20220102,84,,PRESIDENT,https://www.lematin.ch/story/lhomme-fort-du-parti-ennahdha-hospitalise-dans-un-etat-critique-474086927675,"Sentiment: negative
+Reason: Man hospitalized in critical condition suggests a serious event."
+20220102,141,,AUTHORITIES,http://lratvakan.com/news/76958.html,"Sentiment: unclear
+Reason: No content or information can be inferred from the URL."
+20220102,141,,AUTHORITIES,https://lugradar.net/2022/01/337334,"Sentiment: unclear  
+Reason: Insufficient information in the URL."
+20220102,42,,UNITED NATIONS,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,"Sentiment: negative
+Reason: Prisoner on hunger strike suggests distressing news."
+20220102,14,,ISRAELI,https://itongadol.com/coronavirus/coronavirus-en-israel-se-espera-que-tres-millones-de-israelies-se-infecten-con-el-virus,"Sentiment: negative
+Reason: coronavirus infection expectations."
+20220102,51,,ISRAEL,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,"Sentiment: negative
+Reason: Prisoner on hunger strike suggests a contentious situation."
+20220102,53,,ISRAEL,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,"Sentiment: negative
+Reason: Prisoner on hunger strike suggests a contentious situation."
+20220102,43,,JORDAN,https://alghad.com/%D9%85%D8%B9%D8%B1%D8%B6-%D8%A3%D8%B1%D8%AF%D9%86%D9%8A-%D9%84%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%8A%D9%86%D8%B7%D9%84%D9%82-%D9%81%D9%8A-%D8%B3/,"- Sentiment: unclear
+- 1 short reason: URL content not visible."
+20220102,130,,LAWYER,https://www.vesti-online.com/stopiran-otkaz-za-nevakcinisanog-cuvara-reda/,"Sentiment: negative
+Reason: ""otkaz"" (denial) and ""nevakcisan"" (unvaccinated) suggest a negative outcome."
+20220102,42,,ANTANANARIVO,http://www.taringa.net/+salud_bienestar/la-proxima-gran-pandemia-la-resistencia-a-antibioticos-ya-esta-aqui_4zonot/,"Sentiment: negative
+Reason: Discusses antibiotic resistance, a serious health issue."
+20220102,71,,OAXACA,https://oaxaca.eluniversal.com.mx/estatal/aumenta-congreso-de-oaxaca-presupuesto-de-comision-forestal-en-14-mdp,"Sentiment: neutral
+Reason: URL describes a budget increase, which is fact-based without clear positive or negative connotations."
+20220102,43,,MACHU PICCHU,https://www.segnidalcielo.it/peru-un-turista-fotografa-un-ufo-sullantica-citta-di-machu-picchu/,"Sentiment: neutral
+Reason: URL describes a neutral UFO sighting event."
+20220102,53,,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,"Sentiment: negative
+Reason: Prisoner on hunger strike suggests distressing circumstances."
+20220102,51,,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,"Sentiment: negative
+Reason: Prisoner on hunger strike suggests distress."
+20220102,53,,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,"Sentiment: negative
+Reason: prisoner on hunger strike implies a conflict or issue."
+20220102,43,,SAINT,https://g1.globo.com/sp/santos-regiao/porto-mar/noticia/2022/01/02/anvisa-reforca-urgencia-em-acabar-com-temporada-de-cruzeiros-e-fala-em-risco-a-saude-publica.ghtml,"Sentiment: negative
+Reason: Article discusses health risks associated with cruises."
+20220102,51,,SETTLER,https://www.eluniversal.com.mx/ciencia-y-salud/tras-aparente-extincion-el-pez-picote-tequila-fue-reintegrado-su-habitat,"Sentiment: positive
+Reason: Reintroduction of a species to its habitat suggests recovery."
+20220102,20,,TURKEY,https://eleftherostypos.gr/ellinotourkika/880814-empristikos-o-akar-ebale-xio-samo-kai-oinousses-sto-stoma-tis-tourkias/,"Sentiment: negative
+Reason: Article title suggests conflict or negativity."
+20220102,36,,THE WHITE HOUSE,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,"Sentiment: positive
+Reason: Article focuses on early symptoms of pneumonia, which can help timely treatment and save lives."
+20220102,41,,THE WHITE HOUSE,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,"Sentiment: positive
+Reason: Article focuses on early symptoms of pneumonia, which can help timely treatment and save lives."
+20220102,112,FARMER,MINIST OF ENVIRONMENT,https://www.diariolibre.com/actualidad/sucesos/2022/01/02/acusan-ganaderos-de-provocar-incendios-en-sierra-de-bahoruco/1563459,"Sentiment: negative
+Reason: Acusación de provocar incendios suele ser negativa."
+20220102,356,ARGENTINIAN,,https://www.clarin.com/opinion/malvinas-primeros-200-anos-_0_7SMJC2Ult.html,"Sentiment: unclear
+Reason: URL content not enough for sentiment inference."
+20220102,36,BUENOS AIRES,,https://urgente24.com/actualidad/tragedia-palermo-asesino-al-volante-alcohol-y-muerte-n531977,"Sentiment: negative
+Reason: Tragedy, death, and violence are mentioned."
+20220102,80,ARGENTINA,,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,"Sentiment: unclear
+Reason: URL content not directly indicative of sentiment."
+20220102,160,ARGENTINA,FALKLANDS,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,"Sentiment: unclear
+Reason: The URL is a news article link, but the specific content isn't visible."
+20220102,190,BELGIAN,BELGIUM,https://geeko.lesoir.be/2022/01/02/une-entreprise-belge-lutte-contre-contre-le-gaspillage-pharmaceutique/,"Sentiment: positive
+Reason: Company fighting against pharmaceutical waste suggests a good deed."
+20220102,190,BELGIAN,,https://geeko.lesoir.be/2022/01/02/une-entreprise-belge-lutte-contre-contre-le-gaspillage-pharmaceutique/,"Sentiment: positive
+Reason: Lutte contre le gaspillage est généralement perçu positivement."
+20220102,112,BELARUSIAN,BELARUS,http://www.kvir.ru/author/andre-galinin/,"Sentiment: unclear
+Reason: The URL is a biography link and doesn't contain event or news information."
+20220102,190,BELARUSIAN,BELARUS,http://www.kvir.ru/author/andre-galinin/,"Sentiment: unclear
+Reason: URL points to an author page, no event or news information."
+20220102,51,BRAZIL,ARGENTINE,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,"Sentiment: unclear
+Reason: The URL points to an opinion piece, but the specific content is not visible."
+20220102,10,BRAZIL,BRAZIL,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,"Sentiment: unclear
+Reason: The URL is a news article link but the topic is not explicitly positive, negative, or neutral without full content review."
+20220102,10,BRAZIL,BRAZIL,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,"Sentiment: unclear  
+Reason: URL links to an opinion piece without clear sentiment."
+20220102,12,TYCOON,,https://revistamonet.globo.com/Celebridades/noticia/2022/01/look-de-jeff-bezos-um-dos-homens-mais-ricos-do-mundo-no-reveillon-rende-piadas-nas-redes-meio-vin-diesel-meio-agostinho-carrara.html,"Sentiment: neutral
+Reason: Article discusses Jeff Bezos' attire, focus is on humor rather than sentiment."
+20220102,90,COMPANY,,https://e24.no/ledige-stillinger/s/Kzeo24/har-du-inkasso-erfaring-men-kan-tenke-deg-strre-ansvar,"Sentiment: unclear  
+Reason: URL content not directly indicative of sentiment."
+20220102,145,BUSINESS,,https://www.limburger.nl/cnt/dmf20220102_97854382,"Sentiment: unclear
+Reason: URL does not provide enough information about the content."
+20220102,160,AIRLINE,,https://es.investing.com/news/stock-market-news/disrupciones-relacionadas-con-omicron-provocan-mas-de-4000-cancelaciones-de-vuelos-en-inicio-de-2022-2199117,"Sentiment: negative
+Reason: Flight cancellations due to disruptions related to Omicron."
+20220102,190,TYCOON,,https://revistamonet.globo.com/Celebridades/noticia/2022/01/look-de-jeff-bezos-um-dos-homens-mais-ricos-do-mundo-no-reveillon-rende-piadas-nas-redes-meio-vin-diesel-meio-agostinho-carrara.html,"Sentiment: neutral
+Reason: Article focuses on a celebrity's outfit without clear positive or negative connotations."
+20220102,20,AIRLINE,EMPLOYEE,https://es.investing.com/news/stock-market-news/disrupciones-relacionadas-con-omicron-provocan-mas-de-4000-cancelaciones-de-vuelos-en-inicio-de-2022-2199117,"Sentiment: negative
+Reason: Flight cancellations due to disruptions related to Omicron."
+20220102,30,BUSINESS,,https://www.eluniversal.com.mx/nacion/tras-vacaciones-de-invierno-sep-se-declara-lista-para-retorno-actividades-escolares-presenciales,"Sentiment: positive
+Reason: Return to in-person schooling is generally seen as positive."
+20220102,173,CALGARY,CALGARY,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,"Sentiment: negative
+Reason: Article about arrests during anti-COVID protests."
+20220102,175,CALGARY,DEMONSTRATOR,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,"Sentiment: negative
+Reason: Police apprehension of protesters suggests conflict."
+20220102,51,ORTHODOX CHRISTIAN,SAINT,https://www.mngz.ru/russia-world-sensation/2464160-v-vargashinskom-rayone-sotrudniki-policii-proveli-20-profilakticheskih-besed-so-shkolnikami.html,"Sentiment: neutral
+Reason: URL describes a police operation with schoolchildren, no clear positive or negative connotation."
+20220102,51,ORTHODOX CHRISTIAN,SAINT,https://pronedra.ru/pozdravleniya-ko-dnyu-svyatoj-anastasii-4-yanvarya-tradiczii-prazdnika-630226.html,"Sentiment: positive
+Reason: Pozdравления на день Святой Анастасии обычно содержат поздравления и благословения."
+20220102,90,POLICE,,https://www.noviny.sk/krimi/652963-mrtvy-muz-v-aute-telo-hladaneho-slovenskeho-policajta-nasli-v-polsku,"Sentiment: negative
+Reason: Death and investigation of a police officer."
+20220102,192,POLICE OFFICER,,https://www.hoydiariodelmagdalena.com.co/archivos/613776,"Sentiment: unclear
+Reason: URL does not provide enough context."
+20220102,193,POLICE OFFICER,,https://www.ensonhaber.com/3-sayfa/adanada-silahli-kavgaya-mudahale-eden-polis-vuruldu,"Sentiment: negative
+Reason: Police death in gunfight implies tragic event."
+20220102,190,POLICE,ACTIVIST,http://lratvakan.com/news/76958.html,"Sentiment: unclear  
+Reason: No discernible sentiment in URL."
+20220102,10,PERPETRATOR,CREATIVITY,https://www.hespress.com/%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D9%88%D8%B1%D8%B7%D8%A9-%D8%B9%D8%B5%D8%B1-%D8%A7%D9%84%D8%B9%D8%AA%D9%85%D8%A9-925188.html,"Sentiment: unclear
+Reason: URL content is in Arabic, and without context, sentiment cannot be determined."
+20220102,172,VILLAGE,,https://www.volynnews.com/news/all/cherez-novorichni-feyerverky-v-chernivtsiakh-zahynuly-desiatky-ptakhiv/,"Sentiment: unclear  
+Reason: URL content not sufficient for sentiment analysis."
+20220102,10,COMMUNITY,POLICE,https://www.hoydiariodelmagdalena.com.co/archivos/613752,"Sentiment: unclear
+Reason: URL does not provide enough context."
+20220102,42,GERMAN,LISBON,https://naslovi.net/2022-01-03/blic/zarobljeni-u-luci-nemacki-kruzer-usidren-do-daljeg-u-lisabonu-zbog-izbijanja-epidemije-korona-virusa/29657724,"Sentiment: negative
+Reason: Article about a German cruiser crew punished for breaking coronavirus quarantine."
+20220102,42,GERMAN,LISBON,https://naslovi.net/2022-01-03/blic/zarobljeni-u-luci-nemacki-kruzer-usidren-do-daljeg-u-lisabonu-zbog-izbijanja-epidemije-korona-virusa/29657724,"Sentiment: negative
+Reason: Article about a German cruiser crew being held in Lisbon for mutiny over coronavirus epidemic."
+20220102,10,UNIVERSITY,,https://www.elmanana.com/cae-ex-rector-de-la-uabjo-por-fraude/5475695,"Sentiment: unclear  
+Reason: URL content not visible."
+20220102,36,STUDENT,,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,"Sentiment: positive
+Reason: Mentions projecting 2022 as the best academic year."
+20220102,36,SCHOOL,,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,"Sentiment: positive
+Reason: Mentions projecting 2022 as the best academic year."
+20220102,43,SCHOOL,,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,"Sentiment: positive
+Reason: Mentions projecting 2022 as the best academic year in history."
+20220102,1721,SCHOOL,,https://itongadol.com/coronavirus/coronavirus-en-israel-se-espera-que-tres-millones-de-israelies-se-infecten-con-el-virus,"Sentiment: negative
+Reason: News about virus infections in a population."
+20220102,42,STUDENT,OAXACA,https://oaxaca.eluniversal.com.mx/sociedad/regresan-clases-mas-de-874-mil-estudiantes-de-oaxaca-este-3-de-enero,"Sentiment: positive
+Reason: Students returning to classes is generally seen as a positive development."
+20220102,71,ACTOR,,https://bagikanberita.pikiran-rakyat.com/bisnis/pr-683379835/rezeki-senin-ceria-khusus-wanita-berjiwa-entrepreneur-dapat-pinjaman-tanpa-agunan-rp25-juta-di-pnm-mekaar-plus,"Sentiment: positive
+Reason: Offer of unsecured loan with a cheerful tone."
+20220102,1821,ACTOR,BANDUNG,https://www.pikiran-rakyat.com/nasional/pr-013379874/genting-susi-pudjiastuti-desak-ruu-pks-disahkan-perlu-berapa-banyak-lagi-korban,"Sentiment: unclear  
+Reason: URL content doesn't provide enough context."
+20220102,10,MADRID,,https://es.euronews.com/2022/01/02/espana-dice-no-a-la-propuesta-de-bruselas-de-incluir-la-energia-nuclear-y-el-gas-en-su-pla,"Sentiment: negative
+Reason: Spain rejecting EU nuclear and gas proposal."
+20220102,111,EUROPEAN,,https://1prime.ru/business/20220103/835674504.html,"Sentiment: unclear
+Reason: URL content not visible."
+20220102,20,FINNISH,RUSSIA,https://www.geopolitica.ru/news/vlasti-finlyandii-zagovorili-o-vstuplenii-v-nato,"Sentiment: unclear
+Reason: URL content not visible."
+20220102,42,UNITED KINGDOM,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,"Sentiment: unclear
+Reason: No content available from the URL."
+20220102,42,UNITED KINGDOM,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,"Sentiment: unclear
+Reason: URL does not provide enough information about the content."
+20220102,43,UNITED KINGDOM,,https://www.elbotola.com/article/2022-01-02-22-03-111.html,"Sentiment: unclear  
+Reason: No content visible in the URL."
+20220102,43,UNITED KINGDOM,,https://www.elbotola.com/article/2022-01-02-22-03-111.html,"Sentiment: unclear
+Reason: No content available from the URL."
+20220102,43,UNITED KINGDOM,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,"Sentiment: unclear  
+Reason: No content or sentiment indicators in the URL."
+20220102,43,UNITED KINGDOM,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,"Sentiment: unclear
+Reason: No content visible from the URL."
+20220102,10,AUTHORITIES,,https://www.telemundo.com/noticias/noticias-telemundo/clima/no-esto-no-es-una-broma-llovieron-peces-en-texas-poco-antes-de-fin-de-rcna10639,"Sentiment: mixed
+Reason: Reports of unusual weather phenomena can be both surprising and concerning."
+20220102,12,SECRETARIAT,,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,"Sentiment: positive
+Reason: Projecting 2022 as the best academic year in history."
+20220102,14,MINISTRY,,https://tsn.ua/ru/svit/izrail-odobril-chetvertuyu-covid-privivku-dlya-medrabotnikov-i-lyudey-ot-60-let-1945456.html,"Sentiment: positive
+Reason: Approval of COVID vaccine for more groups is generally seen as positive."
+20220102,40,KINGDOM,,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,"Sentiment: unclear  
+Reason: URL content not visible without accessing the page."
+20220102,40,KINGDOM,,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,"- Sentiment: unclear
+- 1 short reason: URL content not visible."
+20220102,46,MINIST,,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,"Sentiment: unclear
+Reason: URL content not visible."
+20220102,46,KINGDOM,,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,"Sentiment: unclear  
+Reason: URL content not visible."
+20220102,57,GOVERNMENT,,https://www.cas.sk/clanok/2626553/predseda-civilnej-vlady-v-sudane-oznamil-svoju-rezignaciu-snazil-som-sa-zo-vsetkych-sil/,"Sentiment: negative
+Reason: Resignation from a official position typically indicates a problematic situation."
+20220102,73,AUTHORITIES,,https://www.mbl.is/frettir/erlent/2022/01/02/heilbrigdisstarfsmenn_fa_fjorda_skammtinn/,"Sentiment: unclear  
+Reason: URL content not directly indicative of sentiment."
+20220102,90,GOVERNMENT,,https://newpost.gr/kosmos/61d20c59922542136ad20343/italia-koronoios-i-kyvernisi-exetazei-to-endehomeno-ypohreotikoy-emvoliasmoy-gia-oloys-toys-ano-ton-18-eton,"Sentiment: unclear
+Reason: The URL content is not visible."
+20220102,160,GOVERNMENT,INDUSTRY,https://www.rp.pl/praca/art19248621-wielka-brytania-przedluza-program-wizowy-dla-pracownikow-z-ue,"Sentiment: positive
+Reason: Program extending visa for EU workers suggests economic benefits."
+20220102,90,AUTHORITIES,CRIMINAL,https://sledcom.ru/news/item/1645072/,"Sentiment: unclear
+Reason: URL does not provide enough information about the content."
+20220102,14,DIRECTOR GENERAL,ISRAELI,https://itongadol.com/coronavirus/coronavirus-en-israel-se-espera-que-tres-millones-de-israelies-se-infecten-con-el-virus,"Sentiment: negative
+Reason: Coronavirus infection expectations in Israel."
+20220102,43,GOVERNMENT,DEMONSTRATOR,http://lratvakan.com/news/76958.html,"Sentiment: unclear  
+Reason: No identifiable content or keywords in URL."
+20220102,43,GOVERNMENT,DEMONSTRATOR,https://lugradar.net/2022/01/337334,"Sentiment: unclear  
+Reason: URL does not provide enough context."
+20220102,46,MINIST,DEMONSTRATOR,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,"Sentiment: negative
+Reason: Anti-COVID manifestations often involve protests against government measures, suggesting negative sentiment."
+20220102,30,GOVERNMENT,GUERRILLA,https://www.hoydiariodelmagdalena.com.co/archivos/613800,"Sentiment: unclear
+Reason: URL does not provide enough context."
+20220102,20,AUTHORITIES,RUSSIAN FEDERATION,https://lugradar.net/2022/01/337336,"Sentiment: unclear
+Reason: URL does not provide enough context."
+20220102,20,AUTHORITIES,RUSSIAN FEDERATION,https://lugradar.net/2022/01/337319,"Sentiment: unclear  
+Reason: Insufficient information in the URL."
+20220102,40,PRESIDENT,RUSSIA,https://tsn.ua/ru/politika/bayden-i-zelenskiy-proveli-telefonnye-peregovory-chto-izvestno-1945450.html,"Sentiment: unclear
+Reason: The URL describes a factual event without sentiment cues."
+20220102,41,PRESIDENT,RUSSIA,https://tsn.ua/ru/politika/bayden-i-zelenskiy-proveli-telefonnye-peregovory-chto-izvestno-1945450.html,"Sentiment: unclear  
+Reason: URL content not directly indicative of sentiment."
+20220102,41,PRESIDENT,RUSSIA,https://tsn.ua/ru/politika/bayden-i-zelenskiy-proveli-telefonnye-peregovory-chto-izvestno-1945450.html,"Sentiment: unclear
+Reason: URL content description is neutral."
+20220102,10,MINIST OF HEALTH,,https://www.mdzol.com/sociedad/2022/1/2/coronavirus-en-argentina-mas-de-20000-casos-23-fallecidos-212523.html,"Sentiment: negative
+Reason: Article about coronavirus cases and deaths."
+20220102,10,DOCTOR,,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,"Sentiment: positive
+Reason: Article focuses on early symptoms of pneumonia, which can help in timely treatment and saving lives."
+20220102,13,HOSPITAL,,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,"Sentiment: positive
+Reason: Article focuses on early symptoms of pneumonia, which can help with timely treatment."
+20220102,193,DOCTOR,POLICE OFFICER,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,"Sentiment: positive
+Reason: Article focuses on early symptoms of pneumonia, which can help in timely treatment and saving lives."
+20220102,193,DOCTOR,POLICE OFFICER,https://www.mngz.ru/russia-world-sensation/2463989-v-gorode-rezh-sotrudnikami-sledstvennogo-komiteta-vozbuzhdeno-ugolovnoe-delo-po-faktu-ubiystva-iz-revnosti-medic.html,"Sentiment: negative
+Reason: Involves a murder case due to jealousy."
+20220102,193,DOCTOR,POLICE OFFICER,https://www.mngz.ru/russia-world-sensation/2463989-v-gorode-rezh-sotrudnikami-sledstvennogo-komiteta-vozbuzhdeno-ugolovnoe-delo-po-faktu-ubiystva-iz-revnosti-medic.html,"Sentiment: negative
+Reason: Involves a murder case related to jealousy."
+20220102,172,HAITI,,https://www.diariolibre.com/actualidad/sucesos/2022/01/02/acusan-ganaderos-de-provocar-incendios-en-sierra-de-bahoruco/1563459,"Sentiment: negative
+Reason: Article about accusations of provoking fires, which is generally negative."
+20220102,90,THE EUROPEAN UNION,,https://lugradar.net/2022/01/337336,"Sentiment: unclear  
+Reason: URL content not visible."
+20220102,43,UNITED NATIONS,,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,"Sentiment: negative
+Reason: Prisoner on hunger strike suggests a harsh situation."
+20220102,20,ISRAELI,WORKER,https://g1.globo.com/mundo/noticia/2022/01/02/israel-comeca-a-aplicar-quarta-dose-da-vacina-contra-a-covid.ghtml,"Sentiment: neutral
+Reason: URL describes a factual event without clear sentiment."
+20220102,51,ISRAEL,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,"Sentiment: negative
+Reason: Prisoner on hunger strike suggests a negative situation."
+20220102,53,ISRAEL,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,"Sentiment: negative
+Reason: Prisoner on hunger strike suggests a conflict."
+20220102,142,ISRAEL,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,"Sentiment: negative
+Reason: Prisoner on hunger strike suggests a conflict or sad situation."
+20220102,42,JORDAN,,https://alghad.com/%D9%85%D8%B9%D8%B1%D8%B6-%D8%A3%D8%B1%D8%AF%D9%86%D9%8A-%D9%84%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%8A%D9%86%D8%B7%D9%84%D9%82-%D9%81%D9%8A-%D8%B3/,"- Sentiment: unclear
+- 1 short reason: URL content not visible."
+20220102,234,FEDERAL COURT,,https://www.elmanana.com/cae-ex-rector-de-la-uabjo-por-fraude/5475695,"Sentiment: unclear  
+Reason: The URL doesn't provide enough context about the content."
+20220102,84,JUDGE,,https://www.vesti-online.com/stopiran-otkaz-za-nevakcinisanog-cuvara-reda/,"Sentiment: negative
+Reason: ""otkaz"" (denial) suggests refusal, implying a negative outcome."
+20220102,173,PUBLIC PROSECUTOR,,https://www.hoydiariodelmagdalena.com.co/archivos/613776,"Sentiment: unclear
+Reason: URL link content not visible."
+20220102,10,LAWYER,MELBOURNE,https://www.vesti-online.com/samo-pisani-testament-je-vazeci/,"Sentiment: unclear
+Reason: URL content not sufficient for sentiment analysis."
+20220102,114,PUBLIC PROSECUTOR,OAXACA,https://oaxaca.eluniversal.com.mx/municipios/denuncian-ante-el-ieepco-edil-de-ocotlan-oaxaca-por-violencia-politica-de-genero,"Sentiment: negative
+Reason: Denunciation of violence against women."
+20220102,112,LAWYER,UNITED STATES,https://www.diariolibre.com/usa/revista/2022/01/02/juez-impide-que-bloqueo-de-demanda-contra-el-principe-andres/1563621,"Sentiment: unclear  
+Reason: The URL is a news link but doesn't provide clear sentiment indicators."
+20220102,30,EMPLOYEE,,https://es.investing.com/news/stock-market-news/goldman-sachs-pide-a-sus-empleados-estadounidenses-que-trabajen-desde-casa-hasta-el-18-de-enero-2199115,"Sentiment: neutral
+Reason: URL describes a work-from-home policy, no clear positive or negative implication."
+20220102,10,CONGRESS,,https://www.telemundo.com/noticias/noticias-telemundo/clima/no-esto-no-es-una-broma-llovieron-peces-en-texas-poco-antes-de-fin-de-rcna10639,"Sentiment: interesting
+Reason: Describes a rare weather phenomenon."
+20220102,10,STATE DUMA,,https://www.ridus.ru/news/370096,"Sentiment: unclear  
+Reason: URL does not provide enough information about the content."
+20220102,83,SENATE,,https://sipse.com/mexico/las-breves-del-senado-inclusion-y-derechos-de-las-personas-sordas-415533.html,"Sentiment: positive
+Reason: Article title suggests inclusion and rights, which are generally positive."
+20220102,13,MEXICO,,https://sipse.com/mexico/isste-se-prepara-para-la-cuarta-ola-de-la-pandemia-por-covid-19-en-mexico-415544.html,"Sentiment: negative
+Reason: pandemic preparation for another wave generally implies worsening health conditions."
+20220102,190,COMMANDER,,https://www.antaranews.com/berita/2620221/dilan-series-gelar-audisi-terbuka-untuk-cari-pemain,"Sentiment: positive
+Reason: Audisi terbuka for casting suggests opportunities and engagement."
+20220102,17,COMMANDER,ISLAMIC,http://www.hispantv.com/noticias/siria/535008/iran-siria-relaciones-cooperacion,"Sentiment: unclear  
+Reason: URL content not directly indicative of sentiment."
+20220102,17,COMMANDER,ISLAMIC,http://www.hispantv.com/noticias/siria/535008/iran-siria-relaciones-cooperacion,"Sentiment: unclear  
+Reason: URL content not indicative of sentiment."
+20220102,195,FIGHTER PLANE,SAUDI,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,"Sentiment: negative
+Reason: Ataque saudi a mezquita导致死亡的报道通常负面。"
+20220102,195,FIGHTER PLANE,SAUDI,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,"Sentiment: negative
+Reason: News of a deadly Saudi attack on a mosque."
+20220102,195,FIGHTER PLANE,SAUDI,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,"Sentiment: negative
+Reason: News of a deadly Saudi attack on a mosque in Yemen."
+20220102,70,MILITARY POLICE,,https://g1.globo.com/sp/santos-regiao/noticia/2022/01/02/prefeito-de-peruibe-critica-atuacao-da-policia-militar-contra-pancadoes-no-reveillon-caos-na-seguranca.ghtml,"Sentiment: negative
+Reason: Prefecture criticizes police action during New Year's Eve, indicating issues."
+20220102,20,NAVAL,AMBASSADOR,https://sipse.com/mexico/las-breves-del-senado-inclusion-y-derechos-de-las-personas-sordas-415533.html,"Sentiment: positive
+Reason: Focus on inclusion and rights of deaf people."
+20220102,20,GOLDMAN SACHS,AMERICAN,https://es.investing.com/news/stock-market-news/goldman-sachs-pide-a-sus-empleados-estadounidenses-que-trabajen-desde-casa-hasta-el-18-de-enero-2199115,"Sentiment: neutral
+Reason: URL describes a company policy change."
+20220102,20,VERIZON,REUTERS,https://es.investing.com/news/stock-market-news/presidentes-ejecutivos-de-att-y-verizon-rechazan-peticion-de-eeuu-de-retrasar-despliegue-del-5g-2199124,"Sentiment: negative
+Reason: Executives rejecting government request suggests opposition."
+20220102,120,VERIZON,REUTERS,https://es.investing.com/news/stock-market-news/presidentes-ejecutivos-de-att-y-verizon-rechazan-peticion-de-eeuu-de-retrasar-despliegue-del-5g-2199124,"Sentiment: negative
+Reason: Executives rejecting U.S. request implies resistance."
+20220102,113,PROTESTER,,http://lratvakan.com/news/76958.html,"Sentiment: unclear  
+Reason: No content or information is provided."
+20220102,113,PROTESTER,,https://lugradar.net/2022/01/337334,"Sentiment: unclear
+Reason: URL content not provided."
+20220102,112,DETAINEE,BELARUSIAN,http://www.kvir.ru/author/andre-galinin/,"Sentiment: unclear  
+Reason: The URL is a personal author page with no event or news content."
+20220102,190,DETAINEE,BELARUSIAN,http://www.kvir.ru/author/andre-galinin/,"Sentiment: unclear
+Reason: The URL is a author page and doesn't contain event or news information."
+20220102,141,DEMONSTRATOR,CALGARY,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,"Sentiment: negative
+Reason: Anti-COVID protests involving arrests."
+20220102,145,PROTESTER,SECURITY FORCE,https://www.expressen.se/nyheter/efter-protesterna--sudans-premiarminister-avgar/,"Sentiment: negative
+Reason: refers to a premiary minister avoiding something after protests."
+20220102,190,ACTIVIST,POLICE,http://lratvakan.com/news/76958.html,"Sentiment: unclear
+Reason: URL does not provide enough information."
+20220102,42,DEMONSTRATOR,GOVERNMENT,https://lugradar.net/2022/01/337334,"Sentiment: unclear
+Reason: URL does not provide enough context."
+20220102,46,DEMONSTRATOR,MINIST,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,"Sentiment: negative
+Reason: Anti-COVID manifestations often involve protests against government policies."
+20220102,145,DEMONSTRATOR,GOVERNMENT,http://lratvakan.com/news/76958.html,"Sentiment: unclear
+Reason: URL content not visible."
+20220102,145,DEMONSTRATOR,GOVERNMENT,https://lugradar.net/2022/01/337334,"Sentiment: unclear
+Reason: URL content not visible."
+20220102,130,PRISONER,TEL AVIV,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,"Sentiment: negative
+Reason: Prisoner on hunger strike implies a harmful situation."
+20220102,20,ACTIVIST,NATIONAL ASSEMBLY,http://lratvakan.com/news/76958.html,"Sentiment: unclear
+Reason: URL content not visible."
+20220102,20,ACTIVIST,NATIONAL ASSEMBLY,https://lugradar.net/2022/01/337334,"Sentiment: unclear
+Reason: URL content not visible."
+20220102,42,MACHU PICCHU,,https://www.segnidalcielo.it/peru-un-turista-fotografa-un-ufo-sullantica-citta-di-machu-picchu/,"Sentiment: neutral
+Reason: URL describes a neutral UFO sighting event."
+20220102,20,POLAND,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,"Sentiment: negative
+Reason: News about increased attacks on workers from Ukraine in Poland is typically negative."
+20220102,20,POLAND,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,"Sentiment: negative
+Reason: Article title suggests increased attacks on Poles by Ukrainian immigrants."
+20220102,90,POLISH,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,"Sentiment: unclear
+Reason: URL content not visible without access."
+20220102,90,POLISH,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,"Sentiment: negative
+Reason: News about increased attacks on Ukrainians in Poland."
+20220102,20,POLAND,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,"Sentiment: negative
+Reason: News about attacks on Ukrainians in Poland."
+20220102,90,POLISH,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,"Sentiment: negative
+Reason: News about increased attacks on Ukrainians in Poland."
+20220102,90,POLAND,UKRAINE,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,"Sentiment: unclear  
+Reason: URL content not directly visible."
+20220102,43,LISBON,GERMAN,https://naslovi.net/2022-01-03/blic/zarobljeni-u-luci-nemacki-kruzer-usidren-do-daljeg-u-lisabonu-zbog-izbijanja-epidemije-korona-virusa/29657724,"Sentiment: negative
+Reason: Article title mentions ""convicted"" and ""epidemic"", implying legal troubles."
+20220102,43,LISBON,GERMAN,https://naslovi.net/2022-01-03/blic/zarobljeni-u-luci-nemacki-kruzer-usidren-do-daljeg-u-lisabonu-zbog-izbijanja-epidemije-korona-virusa/29657724,"Sentiment: negative
+Reason: Article mentions a court case for ignoring an epidemic."
+20220102,20,PALESTINIAN,,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,"Sentiment: negative
+Reason: Prisoner on hunger strike suggests a negative situation."
+20220102,1831,SUICIDE BOMBER,KABUL,https://www.journaldemontreal.com/2022/01/02/en-afghanistan-les-femmes-victimes-de-violences-abandonnees-a-leur-sort-1,"Sentiment: negative
+Reason: Article about women in Afghanistan suffering violence."
+20220102,42,SAINT,,https://g1.globo.com/sp/santos-regiao/porto-mar/noticia/2022/01/02/anvisa-reforca-urgencia-em-acabar-com-temporada-de-cruzeiros-e-fala-em-risco-a-saude-publica.ghtml,"Sentiment: negative
+Reason: Anvisa emphasizes urgency and public health risk."
+20220102,14,ROMANIA,,https://ziare.com/sorin-grindeanu/grindeanu-acuzatii-drula-autostrada-brasov-ploiesti-licitatie-studiu-fezabilitate-1718214,"Sentiment: unclear  
+Reason: The URL doesn't provide enough context about the content."
+20220102,130,RUSSIAN,EGYPTIAN,https://aif.ru/society/genkonsulstvo_rf_v_hurgade_predupredilo_o_zaderzhkah_reysov_iz-za_nepogody,"Sentiment: negative
+Reason: Warning about delays due to bad weather."
+20220102,46,RUSSIA,TURKEY,https://www.geopolitica.ru/news/putin-i-erdogan-obsudili-garantii-bezopasnosti-mezhdu-rf-i-nato,"Sentiment: unclear
+Reason: URL content is in Russian, and the topic is too general to infer sentiment."
+20220102,112,RUSSIA,UKRAINE,https://www.cas.sk/cl/1003185/2626559/biden-telefonoval-s-ukrajinskym-prezidentom-usa-budu-na-rusku-invaziu-reagovat,"Sentiment: neutral
+Reason: URL content description is factual, no clear positive or negative tone."
+20220102,120,RUSSIA,UKRAINE,https://www.cas.sk/cl/1003185/2626559/biden-telefonoval-s-ukrajinskym-prezidentom-usa-budu-na-rusku-invaziu-reagovat,"Sentiment: neutral
+1 short reason: URL text in Slovak, no clear emotional tone."
+20220102,120,RUSSIA,UKRAINE,https://www.cas.sk/cl/1003185/2626559/biden-telefonoval-s-ukrajinskym-prezidentom-usa-budu-na-rusku-invaziu-reagovat,"Sentiment: negative
+Reason: Discussion of Russian invasion reaction."
+20220102,46,VLADIMIR,JOE BIDEN,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,"Sentiment: unclear  
+Reason: The URL title doesn't provide enough context."
+20220102,40,RUSSIA,PRESIDENT,https://tsn.ua/ru/politika/bayden-i-zelenskiy-proveli-telefonnye-peregovory-chto-izvestno-1945450.html,"Sentiment: unclear
+Reason: The URL title does not provide enough context about the content."
+20220102,195,SAUDI,,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,"Sentiment: negative
+Reason: Ataque saudi mezquita muertos (Saudi attack on mosque, deaths) suggests violence and casualties."
+20220102,195,SAUDI,SAUDI ARABIA,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,"Sentiment: negative
+Reason: Ataque saudí a mezquita, muertos suggests a deadly attack, which is negative."
+20220102,180,SENEGAL,,https://www.elmundo.es/comunidad-valenciana/castellon/2022/01/02/61d1ffb121efa045798b4589.html,"Sentiment: unclear
+Reason: URL does not provide content details."
+20220102,172,SYRIAN,,https://correio.rac.com.br/agencias/agencia-estado/2022/01/1153709-israel-aprova-plano-para-dobrar-numero-de-colonos-nas-colinas-do-golan.html,"Sentiment: negative
+Reason: Israel approving plan to double settlers in occupied territory."
+20220102,193,ADANA,POLICE,https://www.ensonhaber.com/3-sayfa/adanada-silahli-kavgaya-mudahale-eden-polis-vuruldu,"Sentiment: negative
+Reason:police death in shootout implies tragic event."
+20220102,41,TURKEY,RUSSIA,https://www.geopolitica.ru/news/putin-i-erdogan-obsudili-garantii-bezopasnosti-mezhdu-rf-i-nato,"Sentiment: unclear  
+Reason: URL content is in Russian, topic doesn't indicate sentiment directly."
+20220102,46,TURKEY,RUSSIA,https://www.geopolitica.ru/news/putin-i-erdogan-obsudili-garantii-bezopasnosti-mezhdu-rf-i-nato,"Sentiment: unclear
+Reason: The URL provides topic information but not enough to determine sentiment."
+20220102,46,TURKEY,RUSSIA,https://www.geopolitica.ru/news/putin-i-erdogan-obsudili-garantii-bezopasnosti-mezhdu-rf-i-nato,"Sentiment: unclear
+Reason: URL content not enough for sentiment analysis."
+20220102,50,UKRAINE,,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Biden assuring Ukrainian president of support suggests a cooperative stance."
+20220102,51,UKRAINE,,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,"Sentiment: negative
+Reason: News about attacks on Ukrainians in Poland."
+20220102,51,UKRAINE,,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,"Sentiment: negative
+Reason: News about increased attacks on Ukrainians in Poland."
+20220102,173,UKRAINIAN,,https://kosice.korzar.sme.sk/c/22812499/rusi-12-rokov-patrali-po-ukrajincovi-obvinenom-z-vrazdy-uz-je-v-kosickej-vaznici.html,"Sentiment: negative
+Reason: Article about a Russian sentenced to 12 years for murder."
+20220102,173,UKRAINE,CHINA,https://kosice.korzar.sme.sk/c/22812499/rusi-12-rokov-patrali-po-ukrajincovi-obvinenom-z-vrazdy-uz-je-v-kosickej-vaznici.html,"Sentiment: negative
+Reason: Article title involves a murder and long imprisonment."
+20220102,190,UKRAINE,CHINA,https://kosice.korzar.sme.sk/c/22812499/rusi-12-rokov-patrali-po-ukrajincovi-obvinenom-z-vrazdy-uz-je-v-kosickej-vaznici.html,"Sentiment: negative
+Reason: Article about a Russian prisoner sentenced for murder."
+20220102,51,UKRAINE,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Joe Biden assuring Ukrainian president of support suggests a supportive international stance."
+20220102,32,UKRAINE,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Biden assuring Ukrainian president of support."
+20220102,51,UKRAINE,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Biden assuring Ukrainian president of support suggests a supportive international stance."
+20220102,51,UKRAINE,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Joe Biden assuring support to Ukrainian president implies backing against Russia."
+20220102,32,UKRAINE,UKRAINE,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Biden assuring Ukrainian president of support implies solidarity."
+20220102,50,UKRAINE,UKRAINE,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Biden assuring Ukrainian president of support suggests a supportive stance."
+20220102,50,UKRAINE,UKRAINE,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Biden assures Ukrainian president of support, indicating solidarity."
+20220102,51,UKRAINE,UKRAINE,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Biden assures Ukrainian president of support, indicating solidarity."
+20220102,41,UKRAINE,UNITED STATES,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,"Sentiment: unclear  
+Reason: URL content not directly indicative of sentiment."
+20220102,41,UKRAINE,UNITED STATES,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,"Sentiment: unclear
+Reason: The URL title does not provide enough context about the content."
+20220102,46,UKRAINE,UNITED STATES,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,"Sentiment: unclear
+Reason: URL content not visible."
+20220102,46,UKRAINE,UNITED STATES,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,"Sentiment: unclear  
+Reason: URL content not directly indicative of sentiment."
+20220102,100,UKRAINIAN,A US,https://naslovi.net/2022-01-03/blic/da-sacuvamo-mir-u-evropi-zelenski-razgovarao-sa-bajdenom-o-akcijama-u-ukrajini-reformi-i-borbama-protiv-oligarha/29657762,"Sentiment: neutral
+1 short reason: URL content appears to be about diplomatic talks, not clearly positive or negative."
+20220102,46,UKRAINE,JOE BIDEN,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,"Sentiment: unclear  
+Reason: The URL title doesn't provide enough context about the content."
+20220102,50,UKRAINIAN,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Biden assuring Ukrainian president of support suggests a supportive stance."
+20220102,51,UKRAINIAN,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Biden assuring Ukrainian president of support."
+20220102,51,UKRAINIAN,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Joe Biden assuring Ukrainian president of support suggests a supportive international stance."
+20220102,32,UKRAINIAN,UKRAINIAN,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Biden's support for Ukraine against Russia is generally seen as positive."
+20220102,100,UKRAINIAN,A US,https://naslovi.net/2022-01-03/blic/da-sacuvamo-mir-u-evropi-zelenski-razgovarao-sa-bajdenom-o-akcijama-u-ukrajini-reformi-i-borbama-protiv-oligarha/29657762,"Sentiment: neutral
+1 short reason: News of diplomatic talks, mixed topic tones."
+20220102,12,UNITED STATES,,https://www.telemundo.com/noticias/noticias-telemundo/desastres-naturales/hallan-con-vida-a-uno-de-los-tres-desaparecidos-en-los-incendios-de-co-rcna10641,"Sentiment: positive
+Reason: Rescue of a missing person in natural disasters is generally positive."
+20220102,30,THE US,,http://www.kvir.ru/articles/glavnoe-kachestvo-boyca.html,"Sentiment: unclear
+Reason: URL content not visible."
+20220102,36,UNITED STATES,,https://news.online.ua/u-zelenskogo-utochnili-vremya-segodnyashnego-razgovora-s-baydenom_n840515/,"Sentiment: unclear
+Reason: The URL title does not provide enough context about the content."
+20220102,30,AMERICAN,UKRAINIAN,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Biden's support for Ukraine against Russia is generally seen positively."
+20220102,41,UNITED STATES,UKRAINE,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,"Sentiment: unclear  
+Reason: URL content not directly indicative of sentiment."
+20220102,46,UNITED STATES,UKRAINE,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,"Sentiment: unclear  
+Reason: URL content not directly indicative of sentiment."
+20220102,46,UNITED STATES,UKRAINE,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,"Sentiment: unclear  
+Reason: The URL title doesn't provide enough information about the content's sentiment."
+20220102,36,UNITED STATES,THE WHITE HOUSE,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,"Sentiment: positive
+Reason: Article focuses on early symptoms to help timely treatment and save lives."
+20220102,36,THE WHITE HOUSE,,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,"Sentiment: positive
+Reason: Article focuses on early symptoms of pneumonia, which can help in timely treatment and saving lives."
+20220102,36,THE WHITE HOUSE,,https://news.online.ua/u-zelenskogo-utochnili-vremya-segodnyashnego-razgovora-s-baydenom_n840515/,"Sentiment: neutral
+Reason: URL title is factual, no clear sentiment."
+20220102,41,THE WHITE HOUSE,,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,"Sentiment: positive
+Reason: Article focuses on early symptoms of pneumonia, which can help in timely treatment and saving lives."
+20220102,90,NASA,,http://www.hispantv.com/noticias/ciencia-tecnologia/535007/nasa-asteroide-psyche,"Sentiment: neutral
+Reason: URL title focuses on factual information."
+20220102,46,JOE BIDEN,VLADIMIR,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,"Sentiment: unclear  
+Reason: URL content not directly indicative of sentiment."
+20220102,30,AMERICAN,UKRAINIAN,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,"Sentiment: positive
+Reason: Biden assures Ukrainian president of support, indicating solidarity."
+20220102,46,JOE BIDEN,UKRAINE,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,"Sentiment: unclear  
+Reason: URL content not directly indicative of sentiment."
+20220102,36,THE WHITE HOUSE,UNITED STATES,https://news.online.ua/u-zelenskogo-utochnili-vremya-segodnyashnego-razgovora-s-baydenom_n840515/,"Sentiment: unclear
+Reason: URL content does not indicate sentiment."
+20220102,13,VENEZUELAN,VENEZUELA,http://www.hispantv.com/noticias/venezuela/535014/eeuu-confrontacion-dialogos-intervenezolanos,"Sentiment: unclear  
+Reason: URL content not directly indicative of sentiment."
+20220102,111,VENEZUELAN,VENEZUELA,http://www.hispantv.com/noticias/venezuela/535014/eeuu-confrontacion-dialogos-intervenezolanos,"Sentiment: unclear
+Reason: URL content not directly indicative of sentiment."
+20220102,111,VENEZUELAN,,http://www.hispantv.com/noticias/venezuela/535014/eeuu-confrontacion-dialogos-intervenezolanos,"Sentiment: unclear
+Reason: URL content not sufficient for sentiment inference."
+20220102,13,VENEZUELAN,VENEZUELAN,http://www.hispantv.com/noticias/venezuela/535014/eeuu-confrontacion-dialogos-intervenezolanos,"Sentiment: unclear  
+Reason: URL content not sufficient for sentiment analysis."
+20220102,51,CATALAN,,https://sport1.oslobodjenje.ba/s1/fudbal/ino-fudbal/primera/barcelona-slavila-minimalnu-pobjedu-protiv-mallorce-721769,"Sentiment: neutral
+Reason: URL describes a match result without clear positive or negative connotations."
