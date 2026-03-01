@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 CSV_IN = "gdelt_events_basic.csv"
-CSV_OUT = "TEST_Qwen_URL_ONLY_7B_then_72B.csv"
+CSV_OUT = "TEST_Qwen_URL_ONLY_7B_then_72B_2.csv"
 URL_COL = "sourceurl"
 
 # -----------------------------
@@ -62,19 +62,25 @@ def run_qwen_batch_url_sentiment(url_items, model: str, timeout_sec: int = 180):
     Returns:   [{"row_id": int, "sentiment": str, "reason": str}, ...]
     """
     prompt = (
-        "You are a URL-only sentiment classifier.\n\n"
-        "Task:\n"
-        "Classify sentiment using ONLY lexical cues found directly in the URL string.\n"
-        "Do NOT assume context outside the URL.\n"
-        "Do NOT invent details.\n\n"
-        "Labels: positive|negative|neutral|mixed|unclear\n\n"
-        "Output Format (STRICT): JSONL ONLY.\n"
-        "One JSON object per line, for every input item.\n"
-        "Each JSON object must have keys:\n"
-        "row_id (int), sentiment (string), reason (string, <= 12 words).\n"
-        "No extra text, no markdown, no blank lines.\n\n"
-        "ITEMS (tab-separated):\n"
-        "<row_id>\\t<url>\n"
+    "You are a URL-only migration-pressure classifier.\n\n"
+    "Task:\n"
+    "Using ONLY words found in the URL string, decide whether the URL implies conditions that\n"
+    "would encourage people to LEAVE a country (push), attract people to ARRIVE (pull), neither,\n"
+    "both, or unclear.\n"
+    "Do NOT use outside knowledge. Do NOT invent details.\n\n"
+    "Labels: push | pull | neutral | mixed | unclear\n\n"
+    "Rules:\n"
+    "1) push if URL includes negative hazard/decline cues (e.g., war, attack, crisis, crackdown,\n"
+    "   violence, disaster, shortage, inflation, collapse, unemployment, displacement).\n"
+    "2) pull if URL includes opportunity/safety/policy-access cues (e.g., jobs, hiring, growth,\n"
+    "   investment, visa, asylum, residency, aid, reform, safe).\n"
+    "3) mixed if both strong push and pull cues appear.\n"
+    "4) neutral if no clear push/pull cues.\n"
+    "5) unclear if URL is too generic/short/ID-like.\n\n"
+    "Output (STRICT JSONL): one JSON object per line with keys:\n"
+    "row_id (int), pressure (string), reason (<=12 words; quote exact URL token).\n\n"
+    "ITEMS (tab-separated):\n"
+    "<row_id>\\t<url>\n"
     )
 
 
