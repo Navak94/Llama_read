@@ -17,7 +17,7 @@
 # module load python/3.10.17
 
 set -euo pipefail
-
+module load apptainer
 cd /home/nthindman/scratch/Llama_read
 source venv/bin/activate
 
