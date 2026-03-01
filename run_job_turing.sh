@@ -4,7 +4,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=80G
 #SBATCH -C A100|H100|H200
-#SBATCH --job-name=SVHN
+#SBATCH --job-name=LlamaRead
 #SBATCH -t 164:00:00
 #SBATCH --output=./logs/%x-%j.out
 
@@ -16,9 +16,10 @@
 
 # module load python/3.10.17
 
+set -euo pipefail
+
 cd /home/nthindman/scratch/Llama_read
 source venv/bin/activate
-python read_url_text_only.py
 
 # # Your other deps
 # uv pip install numpy==2.0 singd==0.0.5 matplotlib tqdm pytorch_msssim lpips torch torchaudio torchvision
