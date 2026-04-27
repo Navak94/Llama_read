@@ -1,0 +1,89 @@
+{
+  "scores": [
+    {
+      "feature": "log_origin_gdp_pc",
+      "penalty": 1.0,
+      "reason": "No direct economic impact on migration."
+    },
+    {
+      "feature": "log_dest_gdp_pc",
+      "penalty": 1.0,
+      "reason": "No direct economic impact on migration."
+    },
+    {
+      "feature": "origin_expected_schooling",
+      "penalty": 1.0,
+      "reason": "No direct educational impact on migration."
+    },
+    {
+      "feature": "dest_expected_schooling",
+      "penalty": 1.0,
+      "reason": "No direct educational impact on migration."
+    },
+    {
+      "feature": "origin_life_expectancy",
+      "penalty": 1.0,
+      "reason": "No direct health impact on migration."
+    },
+    {
+      "feature": "dest_life_expectancy",
+      "penalty": 1.0,
+      "reason": "No direct health impact on migration."
+    },
+    {
+      "feature": "origin_gpi",
+      "penalty": 1.0,
+      "reason": "No direct governance impact on migration."
+    },
+    {
+      "feature": "dest_gpi",
+      "penalty": 1.0,
+      "reason": "No direct governance impact on migration."
+    },
+    {
+      "feature": "origin_hdi",
+      "penalty": 1.0,
+      "reason": "No direct human development index impact on migration."
+    },
+    {
+      "feature": "dest_hdi",
+      "penalty": 1.0,
+      "reason": "No direct human development index impact on migration."
+    },
+    {
+      "feature": "log_distance_km",
+      "penalty": 1.0,
+      "reason": "Distance is not a factor in the articles provided."
+    },
+    {
+      "feature": "gdp_pc_diff",
+      "penalty": 1.0,
+      "reason": "No direct GDP difference impact on migration."
+    },
+    {
+      "feature": "hdi_diff",
+      "penalty": 1.0,
+      "reason": "No direct HDI difference impact on migration."
+    },
+    {
+      "feature": "gpi_diff",
+      "penalty": 1.0,
+      "reason": "No direct GPI difference impact on migration."
+    },
+    {
+      "feature": "push_ratio",
+      "penalty": 1.0,
+      "reason": "Articles do not indicate a push factor for migration."
+    },
+    {
+      "feature": "pull_ratio",
+      "penalty": 1.0,
+      "reason": "Articles do not indicate a pull factor for migration."
+    },
+    {
+      "feature": "n_articles",
+      "penalty": 1.0,
+      "reason": "Multiple articles focus on political and economic relations, not migration."
+    }
+  ]
+}

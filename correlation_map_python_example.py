@@ -8,7 +8,7 @@ pd.set_option('display.width', desired_width)
 pd.set_option('display.max_columns', 20)
 
 
-df = pd.read_csv(r'./data_sets/HDI_GPI.csv', low_memory = False)
+df = pd.read_csv(r'./data_sets/HDI_GPI_with_GDP_LATLON.csv', low_memory = False)
 
 print(df.head(2))
 print(df.tail(3))
@@ -22,13 +22,15 @@ df.columns = df.columns.str.strip()
 
 num_cols = [
     'Global_Peace_Index',
-    'HDI rank',
     'Human Development Index (HDI)',
     'Life expectancy at birth',
     'Expected years of schooling',
     'Mean years of schooling',
     'Gross national income (GNI) per capita',
-    'GNI per capita rank minus HDI rank'
+    'GNI per capita rank minus HDI rank',
+    'GDP/Capita',
+    'Latitude',
+    'Longitude'
 ]
 
 df2 = df[num_cols].copy()

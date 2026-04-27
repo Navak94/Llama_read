@@ -32,6 +32,19 @@ ARTICLE_CHAR_LIMIT = 9000
 QWEN_7B = "qwen2.5:7b"
 QWEN_72B = "qwen2.5:72b"
 
+BASE_FEATURES = [
+    "gpi",
+    "hdi",
+    "life_expectancy",
+    "expected_schooling",
+    "gdp_per_capita",
+    "distance",
+    "push_count",
+    "pull_count",
+    "mixed_count",
+    "unclear_count",
+    "n_articles",
+] #mean_schooling to be re-added (was after expected_schooling)
 
 # =============================================================================
 # Generic helpers
@@ -87,14 +100,26 @@ def run_ollama(
 
 
 def extract_json_object(text: str) -> dict:
-    text = text.strip()
+    text = (text or "").strip()
+
+    if not text:
+        raise ValueError("LLM returned empty output.")
+    if text.startswith("[model_error]"):
+        raise ValueError(f"LLM error: {text}")
+
+    text = re.sub(r"^```(?:json)?\s*", "", text)
+    text = re.sub(r"\s*```$", "", text)
+
     try:
         return json.loads(text)
     except json.JSONDecodeError:
-        match = re.search(r"\{.*\}", text, flags=re.DOTALL)
-        if not match:
-            raise ValueError("Could not find a JSON object in LLM response.")
+        pass
+
+    match = re.search(r"\{.*\}", text, flags=re.DOTALL)
+    if match:
         return json.loads(match.group(0))
+
+    raise ValueError(f"Could not find a JSON object in LLM response. Raw output starts: {text[:300]!r}")
 
 
 # =============================================================================
@@ -133,6 +158,21 @@ def get_article_text(url: str, char_limit: int = ARTICLE_CHAR_LIMIT) -> str:
         return text
     return get_article_text_fallback(url, char_limit=char_limit)
 
+def build_base_feature_descriptions() -> Dict[str, str]:
+    return {
+        "gpi": "Global Peace Index. Higher conflict or instability can drive migration pressure.",
+        "hdi": "Human Development Index. Broad development and quality-of-life measure.",
+        "life_expectancy": "Life expectancy at birth. Welfare and public-health proxy.",
+        "expected_schooling": "Expected years of schooling. Future educational opportunity proxy.",
+        "mean_schooling": "Mean years of schooling. Realized educational attainment proxy.",
+        "gdp_per_capita": "GDP per capita. Economic opportunity and living-standard proxy.",
+        "distance": "Geographic distance between origin and destination. Migration friction proxy.",
+        "push_count": "Number of articles classified as push in the time period.",
+        "pull_count": "Number of articles classified as pull in the time period.",
+        "mixed_count": "Number of articles classified as mixed in the time period.",
+        "unclear_count": "Number of articles classified as unclear in the time period.",
+        "n_articles": "Total number of migration-related articles in the time period.",
+    }
 
 def build_url_prompt(url_items: List[dict]) -> str:
     prompt = (
@@ -376,6 +416,82 @@ def run_mode3_articles(
     return df
 
 
+def build_monthly_article_features(processed_articles_df: pd.DataFrame) -> pd.DataFrame:
+    df = processed_articles_df.copy()
+
+    if "date" in df.columns:
+        df["month"] = pd.to_datetime(df["date"]).dt.to_period("M").astype(str)
+    elif "year" in df.columns:
+        y = df["year"].astype(str).str.strip()
+
+        # If it's just a 4-digit year like 2022, force January of that year
+        if y.str.fullmatch(r"\d{4}").all():
+            df["month"] = y + "-01"
+        else:
+            df["month"] = pd.to_datetime(y).dt.to_period("M").astype(str)
+    else:
+        raise ValueError("Processed article data must contain either 'date' or 'year'.")
+
+    labels = ["push", "pull", "mixed", "unclear"]
+    for label in labels:
+        df[f"is_{label}"] = (df["pressure_final"] == label).astype(int)
+
+    monthly = df.groupby("month", as_index=False).agg(
+        push_count=("is_push", "sum"),
+        pull_count=("is_pull", "sum"),
+        mixed_count=("is_mixed", "sum"),
+        unclear_count=("is_unclear", "sum"),
+        n_articles=("pressure_final", "size"),
+    )
+
+    monthly["push_ratio"] = monthly["push_count"] / monthly["n_articles"]
+    monthly["pull_ratio"] = monthly["pull_count"] / monthly["n_articles"]
+    monthly["mixed_ratio"] = monthly["mixed_count"] / monthly["n_articles"]
+    monthly["unclear_ratio"] = monthly["unclear_count"] / monthly["n_articles"]
+
+    return monthly
+
+def merge_article_features_into_panel(panel_df: pd.DataFrame, monthly_article_df: pd.DataFrame) -> pd.DataFrame:
+    df = panel_df.copy()
+
+    if "month" in df.columns:
+        df["month"] = pd.to_datetime(df["month"]).dt.to_period("M").astype(str)
+
+    elif "year" in df.columns:
+        y = df["year"].astype(str).str.strip()
+        if y.str.fullmatch(r"\d{4}").all():
+            df["month"] = y + "-01"
+        else:
+            df["month"] = pd.to_datetime(y).dt.to_period("M").astype(str)
+
+    elif "date" in df.columns:
+        df["month"] = pd.to_datetime(df["date"]).dt.to_period("M").astype(str)
+
+    elif "period" in df.columns:
+        df["month"] = pd.to_datetime(df["period"]).dt.to_period("M").astype(str)
+
+    elif "year_month" in df.columns:
+        df["month"] = pd.to_datetime(df["year_month"]).dt.to_period("M").astype(str)
+
+    else:
+        raise ValueError(
+            "Panel must contain one of: month, year, date, period, year_month"
+        )
+
+    article_cols = [
+        "push_count", "pull_count", "mixed_count", "unclear_count",
+        "n_articles", "push_ratio", "pull_ratio", "mixed_ratio", "unclear_ratio"
+    ]
+    df = df.drop(columns=[c for c in article_cols if c in df.columns], errors="ignore")
+
+    df = df.merge(monthly_article_df, on="month", how="left")
+
+    for col in article_cols:
+        if col in df.columns:
+            df[col] = df[col].fillna(0)
+
+    return df
+
 # =============================================================================
 # Penalty generation from processed article corpus
 # =============================================================================
@@ -431,7 +547,7 @@ def build_penalty_prompt_from_articles(processed_articles_df: pd.DataFrame, feat
 
     required_json = {
         "scores": [
-            {"feature": feat, "penalty": 1.0, "reason": "brief English reason"}
+            {"feature": feat, "rank": 1, "reason": "brief English reason"}
             for feat in feature_names
         ]
     }
@@ -439,39 +555,33 @@ def build_penalty_prompt_from_articles(processed_articles_df: pd.DataFrame, feat
     return f"""
 You are helping build a migration-flow prediction model using LLM-Lasso.
 
-You are given migration-related articles for a study corridor and time period.
-Your task is NOT to predict migration directly and NOT to assign regression coefficients.
-Instead, assign one GLOBAL penalty score between 0.1 and 1.0 to EVERY feature in the model.
-
-Goal:
-These penalties will be used in a Lasso-style model.
-Lower penalty = feature should be retained more easily because it seems more relevant.
-Higher penalty = feature seems less relevant in this corridor/time period.
+Your task is to assign each base feature concept to a relevance tier based on the migration-related article evidence.
 
 Important:
-You are NOT checking whether the article literally mentions the feature by name.
-You must use the articles as domain evidence and infer which features are more relevant for explaining migration in this corridor and time period.
+- Score the feature concepts themselves, before any origin/destination expansion.
+- Do NOT score origin and destination separately.
+- Do NOT score difference columns separately.
+- Later, these tiers will be converted into penalties for derived model columns.
+
+Interpretation:
+- Tier 1 = highly relevant
+- Tier 2 = moderately relevant
+- Tier 3 = weakly relevant
+
+Rules:
+- You MUST score EVERY feature listed below.
+- Ties ARE NOT allowed.
+- You should use more than one tier whenever the evidence supports it.
+- Do NOT assign the same tier to every feature.
+- Use article evidence plus migration reasoning.
+- Features do not need to be mentioned literally in the articles to be relevant.
+- Think comparatively: which feature concepts seem most central vs less central for explaining migration in this corridor and time period?
 
 How to think:
-- If the article evidence suggests conflict, insecurity, persecution, or displacement, features like GPI, conflict-related proxies, shared border, and distance may deserve LOWER penalties.
-- If the article evidence suggests destination attractiveness, labor access, safety, or economic opportunity, features like GDP/capita, GNI/capita, HDI, and related pull variables may deserve LOWER penalties.
-- If a feature is only weakly connected to the article evidence, it should receive a HIGHER penalty.
-- Structural variables can still be important even if not explicitly named in the article.
-
-Critical anti-collapse rules:
-- You MUST use the full penalty range meaningfully.
-- Do NOT assign all features the same value.
-- Do NOT assign 1.0 to almost everything unless the article evidence is truly unrelated to migration drivers.
-- At least 20%% of features must receive penalties below 0.50.
-- At least 3 features must receive penalties of 0.30 or lower.
-- You must differentiate strong, medium, and weak relevance.
-
-Penalty rubric:
-- 0.10-0.30 = highly relevant for this corridor/time period
-- 0.31-0.50 = clearly relevant
-- 0.51-0.70 = somewhat relevant / indirect
-- 0.71-0.90 = weak relevance
-- 0.91-1.00 = little evidence of relevance
+- If the article evidence suggests conflict, insecurity, persecution, displacement, war, or instability, features like GPI, distance, and push_count may be more relevant.
+- If the article evidence suggests destination attractiveness, aid, opportunity, safety, or support, features like GDP/capita, HDI, pull_count, and related development features may be more relevant.
+- If a feature is only weakly connected to the article evidence, it should receive a worse tier.
+- Structural variables can still be important even if not explicitly named in the articles.
 
 Features:
 {feature_block}
@@ -614,8 +724,6 @@ def enrich_panel_with_country_features(panel_df: pd.DataFrame, country_df: pd.Da
 
 def choose_feature_columns(df: pd.DataFrame) -> Tuple[List[str], List[str]]:
     numeric_candidates = [
-        "log_origin_population",
-        "log_dest_population",
         "log_origin_gdp_pc",
         "log_dest_gdp_pc",
         "origin_expected_schooling",
@@ -630,15 +738,11 @@ def choose_feature_columns(df: pd.DataFrame) -> Tuple[List[str], List[str]]:
         "gdp_pc_diff",
         "hdi_diff",
         "gpi_diff",
-        "push_ratio",
-        "pull_ratio",
-        "mixed_ratio",
-        "unclear_ratio",
-        "n_articles",
         "push_count",
         "pull_count",
         "mixed_count",
         "unclear_count",
+        "n_articles",
     ]
     numeric_features = [c for c in numeric_candidates if c in df.columns]
     categorical_features = [c for c in ["pair_id"] if c in df.columns]
@@ -677,12 +781,85 @@ def apply_penalty_transform(X: np.ndarray, penalties_v: np.ndarray, eta: int, ep
     X_tilde = X / w
     return X_tilde, w
 
+def build_base_penalty_prompt_from_articles(
+    processed_articles_df: pd.DataFrame,
+    base_feature_names: List[str]
+) -> str:
+    desc = build_base_feature_descriptions()
+    feature_block = "\n".join(
+        f"- {name}: {desc.get(name, name)}" for name in base_feature_names
+    )
+
+    article_blocks = []
+    for idx, row in processed_articles_df.iterrows():
+        excerpt = str(row.get("article_text", "") or "")[:1200]
+        article_blocks.append(
+            f"ARTICLE {idx+1}\n"
+            f"Corridor: {row.get('corridor', '')}\n"
+            f"Year: {row.get('year', '')}\n"
+            f"Title: {row.get('title', '')}\n"
+            f"Pressure final: {row.get('pressure_final', '')}\n"
+            f"Reason final: {row.get('reason_final', '')}\n"
+            f"Excerpt:\n{excerpt}\n"
+        )
+
+    article_context = "\n---\n".join(article_blocks)
+
+    required_json = {
+        "scores": [
+            {"feature": feat, "rank": 1, "reason": "brief English reason"}
+            for feat in base_feature_names
+        ]
+    }
+
+    return f"""
+You are helping build a migration-flow prediction model using LLM-Lasso.
+
+Your task is to assign each base feature concept to a relevance tier based on the migration-related article evidence.
+
+Important:
+- Score the feature concepts themselves, before any origin/destination expansion.
+- Do NOT score origin and destination separately.
+- Do NOT score difference columns separately.
+- Later, these tiers will be converted into penalties for derived model columns.
+
+Interpretation:
+- Tier 1 = highly relevant
+- Tier 2 = moderately relevant
+- Tier 3 = weakly relevant
+
+Rules:
+- You MUST score EVERY feature listed below.
+- Ties ARE NOT allowed.
+- You should use more than one tier whenever the evidence supports it.
+- Do NOT assign the same tier to every feature.
+- Use article evidence plus migration reasoning.
+- Features do not need to be mentioned literally in the articles to be relevant.
+
+Guidance:
+- Conflict, war, instability, violence, displacement -> features like gpi and push_count may be more relevant.
+- Opportunity, safety, destination attractiveness -> features like gdp_per_capita, hdi, pull_count may be more relevant.
+- Distance can matter as migration friction.
+- Features weakly related to the article evidence should receive a worse tier.
+
+Base features:
+{feature_block}
+
+Article evidence:
+{article_context}
+
+Return ONLY valid JSON.
+
+Required output structure:
+{json.dumps(required_json, indent=2)}
+""".strip()
+
 
 def fit_paper_style_llm_lasso(
     df: pd.DataFrame,
     llm_scores: Dict[str, float],
     output_dir: str | Path,
-    eta_max: int = 10,
+    eta_max: int = 10,run_label="model"
 ) -> None:
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -756,6 +933,10 @@ def fit_paper_style_llm_lasso(
         "coefficient": beta,
         "abs_coefficient": np.abs(beta),
     }).sort_values("abs_coefficient", ascending=False)
+    coef_df["abs_coefficient"] = coef_df["coefficient"].abs()
+
+    print("\n=== TOP COEFFICIENTS ===")
+    print(coef_df.sort_values("abs_coefficient", ascending=False).head(10))
 
     pred_df = df.copy()
     pred_df["pred_log_migration_flow"] = pred_log
@@ -775,25 +956,141 @@ def fit_paper_style_llm_lasso(
         "categorical_features_neutral_penalty": categorical_features,
     }
 
-    pred_df.to_csv(output_dir / "llm_lasso_predictions.csv", index=False)
-    coef_df.to_csv(output_dir / "llm_lasso_coefficients.csv", index=False)
-    eta_df.to_csv(output_dir / "llm_lasso_eta_cv.csv", index=False)
-    with open(output_dir / "llm_lasso_metrics.json", "w", encoding="utf-8") as f:
+    pred_df.to_csv(output_dir / f"{run_label}_predictions.csv", index=False)
+    coef_df.to_csv(output_dir / f"{run_label}_coefficients.csv", index=False)
+    eta_df.to_csv(output_dir / f"{run_label}_eta_cv.csv", index=False)
+    with open(output_dir / f"{run_label}_metrics.json", "w", encoding="utf-8") as f:
         json.dump(metrics, f, indent=2)
 
     print("Saved:")
-    print(f"  {output_dir / 'llm_feature_scores.csv'}")
-    print(f"  {output_dir / 'llm_lasso_predictions.csv'}")
-    print(f"  {output_dir / 'llm_lasso_coefficients.csv'}")
-    print(f"  {output_dir / 'llm_lasso_eta_cv.csv'}")
-    print(f"  {output_dir / 'llm_lasso_metrics.json'}")
+    print(f"  {output_dir / f'{run_label}_predictions.csv'}")
+    print(f"  {output_dir / f'{run_label}_coefficients.csv'}")
+    print(f"  {output_dir / f'{run_label}_eta_cv.csv'}")
+    print(f"  {output_dir / f'{run_label}_metrics.json'}")
     print("\nBest eta:", best_eta)
     print("\nTop coefficients:")
     print(coef_df.head(20).to_string(index=False))
     print("\nMetrics:")
     print(json.dumps(metrics, indent=2))
 
+def generate_base_penalties_from_articles(
+    processed_articles_df: pd.DataFrame,
+    base_feature_names: List[str],
+    output_dir: str | Path,
+    ollama_model: str = QWEN_7B,
+    ollama_host: str = "http://127.0.0.1:11434",
+) -> Dict[str, float]:
+    output_dir = Path(output_dir)
+    prompt = build_base_penalty_prompt_from_articles(processed_articles_df, base_feature_names)
 
+    print("\n===== FINAL BASE PENALTY PROMPT START =====\n")
+    print(prompt[:12000])
+    print("\n===== FINAL BASE PENALTY PROMPT END =====\n")
+
+    out = run_ollama(
+        prompt,
+        model=ollama_model,
+        host=ollama_host,
+        timeout_sec=300,
+        temperature=0,
+        format_json=True,
+    )
+
+    print("\n===== RAW BASE LLM OUTPUT START =====\n")
+    print(repr(out[:5000]))
+    print("\n===== RAW BASE LLM OUTPUT END =====\n")
+
+    raw = extract_json_object(out)
+
+    with open(output_dir / "llm_base_feature_scores_raw.json", "w", encoding="utf-8") as f:
+        json.dump(raw, f, indent=2)
+
+    rows = raw.get("scores", [])
+    if not isinstance(rows, list):
+        raise ValueError("LLM output does not contain a valid 'scores' list.")
+
+    rank_map = {}
+    for r in rows:
+        if not isinstance(r, dict):
+            continue
+        feat = str(r.get("feature", "")).strip()
+        if not feat:
+            continue
+        rank_map[feat] = int(r.get("rank"))
+
+    missing = [feat for feat in base_feature_names if feat not in rank_map]
+    extra = [feat for feat in rank_map if feat not in base_feature_names]
+
+    if missing:
+        raise ValueError(f"Missing base features in LLM output: {missing}")
+    if extra:
+        raise ValueError(f"Unknown base features in LLM output: {extra}")
+
+    ranks = [int(rank_map[f]) for f in base_feature_names]
+    unique_ranks = sorted(set(ranks))
+
+    if len(unique_ranks) < 2:
+        raise ValueError(
+            f"LLM returned no meaningful rank variation: {unique_ranks}"
+        )
+
+    def rank_to_penalty(rank: int, unique_ranks: List[int]) -> float:
+        # Map lowest rank group -> 0.1 and highest rank group -> 1.0
+        if len(unique_ranks) == 1:
+            return 0.1
+        pos = unique_ranks.index(rank)
+        return 0.1 + 0.9 * (pos / (len(unique_ranks) - 1))
+
+    clean_scores = {
+        feat: rank_to_penalty(int(rank_map[feat]), unique_ranks)
+        for feat in base_feature_names
+    }
+
+    pd.DataFrame({
+        "base_feature": base_feature_names,
+        "rank": [rank_map[f] for f in base_feature_names],
+        "llm_penalty_score": [clean_scores[f] for f in base_feature_names],
+    }).to_csv(output_dir / "llm_base_feature_scores.csv", index=False)
+
+    return clean_scores
+
+
+def get_base_to_model_feature_map() -> Dict[str, List[str]]:
+    return {
+        "gpi": ["origin_gpi", "dest_gpi", "gpi_diff"],
+        "hdi": ["origin_hdi", "dest_hdi", "hdi_diff"],
+        "life_expectancy": ["origin_life_expectancy", "dest_life_expectancy"],
+        "expected_schooling": ["origin_expected_schooling", "dest_expected_schooling"],
+        "mean_schooling": [],  # fill this later if you add it to country_df
+        "gdp_per_capita": ["log_origin_gdp_pc", "log_dest_gdp_pc", "gdp_pc_diff"],
+        "distance": ["log_distance_km"],
+        "push_count": ["push_count"],
+        "pull_count": ["pull_count"],
+        "mixed_count": ["mixed_count"],
+        "unclear_count": ["unclear_count"],
+        "n_articles": ["n_articles"],
+    }
+
+def expand_base_penalties_to_model_features(
+    base_scores: Dict[str, float],
+    numeric_feature_names: List[str]
+) -> Dict[str, float]:
+    mapping = get_base_to_model_feature_map()
+    expanded = {}
+
+    for base_feat, cols in mapping.items():
+        penalty = float(base_scores.get(base_feat, 1.0))
+        for col in cols:
+            expanded[col] = penalty
+
+    for feat in numeric_feature_names:
+        if feat not in expanded:
+            expanded[feat] = 1.0
+
+    return expanded
+
+def build_uniform_penalties(numeric_features: List[str]) -> Dict[str, float]:
+    return {feat: 1.0 for feat in numeric_features}
 # =============================================================================
 # Combined pipeline
 # =============================================================================
@@ -830,25 +1127,73 @@ def main() -> None:
         temperature=0.2,
     )
 
+    monthly_article_df = build_monthly_article_features(processed_articles_df)
+    print("\n=== MONTHLY ARTICLE FEATURES ===")
+    print(monthly_article_df.head())
+
+
     panel_df = pd.read_csv(args.panel_csv)
+    panel_df = merge_article_features_into_panel(panel_df, monthly_article_df)
+
+    print("\n=== PANEL AFTER MERGE ===")
+    print(panel_df[[
+        "month",
+        "push_count",
+        "pull_count",
+        "mixed_count",
+        "unclear_count",
+        "n_articles"
+    ]].head(12))
+
     country_df = load_country_features(args.country_csv)
     model_df = enrich_panel_with_country_features(panel_df, country_df)
 
+    print("\n=== MODEL DF FEATURE VARIATION ===")
+ # 1. Get model features
     numeric_features, _ = choose_feature_columns(model_df)
-    llm_scores = generate_penalties_from_articles(
+
+    # 2. Build uniform (plain Lasso) penalties
+    uniform_scores = {feat: 1.0 for feat in numeric_features}
+
+    # 3. Build LLM penalties
+    base_scores = generate_base_penalties_from_articles(
         processed_articles_df=processed_articles_df,
-        feature_names=numeric_features,
+        base_feature_names=BASE_FEATURES,
         output_dir=output_dir,
         ollama_model=args.penalty_model,
         ollama_host=args.ollama_host,
     )
 
+    llm_scores = expand_base_penalties_to_model_features(
+        base_scores, numeric_features
+    )
+
+    # 4. Run BOTH models
+    print("-------------------NO LLM------------------")
+    print("uniform_scores:", uniform_scores)
+    print("-------------------NO LLM------------------")
+    print("-------------------USING LLM------------------")
+    print("llm_scores:", llm_scores)
+    print("-------------------USING LLM------------------")
+    print
+    # Plain Lasso (no LLM influence)
+    fit_paper_style_llm_lasso(
+        df=model_df,
+        llm_scores=uniform_scores,
+        output_dir=output_dir / "plain_lasso",
+        eta_max=args.eta_max,
+        run_label="plain_lasso",
+    )
+
     fit_paper_style_llm_lasso(
         df=model_df,
         llm_scores=llm_scores,
-        output_dir=output_dir,
+        output_dir=output_dir / "llm_lasso",
         eta_max=args.eta_max,
+        run_label="llm_lasso",
     )
+
+
 
 
 if __name__ == "__main__":

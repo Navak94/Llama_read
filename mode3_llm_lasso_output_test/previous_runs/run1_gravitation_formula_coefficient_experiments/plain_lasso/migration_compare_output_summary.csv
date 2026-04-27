@@ -1,0 +1,3 @@
+label,file,status,used_wj,nonzero_coefficients
+llm,llm_lasso_coefficients(4).csv,ok,True,1
+plain,plain_lasso_coefficients(1).csv,ok,False,1

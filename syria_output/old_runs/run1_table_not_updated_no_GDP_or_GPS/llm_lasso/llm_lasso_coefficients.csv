@@ -1,0 +1,7 @@
+feature,base_penalty_v,best_eta,final_penalty_weight,coefficient,abs_coefficient
+num__pull_count,0.1,1,0.1,0.064616811124728,0.064616811124728
+num__push_count,0.55,1,0.55,0.0,0.0
+num__mixed_count,1.0,1,1.0,-0.0,0.0
+num__unclear_count,0.1,1,0.1,0.0,0.0
+num__n_articles,1.0,1,1.0,0.0,0.0
+cat__pair_id_syria__turkey,1.0,1,1.0,0.0,0.0

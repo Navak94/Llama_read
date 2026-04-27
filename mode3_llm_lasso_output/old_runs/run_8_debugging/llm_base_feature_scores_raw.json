@@ -1,0 +1,59 @@
+{
+  "scores": [
+    {
+      "feature": "gpi",
+      "rank": 2,
+      "reason": "No specific mention of governance issues."
+    },
+    {
+      "feature": "hdi",
+      "rank": 1,
+      "reason": "Articles focus on international relations and conflict, which can impact HDI negatively."
+    },
+    {
+      "feature": "life_expectancy",
+      "rank": 2,
+      "reason": "No direct mention of life expectancy or health issues."
+    },
+    {
+      "feature": "expected_schooling",
+      "rank": 2,
+      "reason": "No specific information about education levels or schooling expectations."
+    },
+    {
+      "feature": "gdp_per_capita",
+      "rank": 2,
+      "reason": "Economic impacts are discussed, but not directly related to GDP per capita."
+    },
+    {
+      "feature": "distance",
+      "rank": 1,
+      "reason": "Articles focus on international relations and conflict between Ukraine and Russia, indicating a close geopolitical distance."
+    },
+    {
+      "feature": "push_count",
+      "rank": 3,
+      "reason": "Most articles discuss potential for conflict but do not explicitly mention push factors like war or persecution."
+    },
+    {
+      "feature": "pull_count",
+      "rank": 2,
+      "reason": "Some articles hint at the possibility of dialogue and cooperation, which could imply pull factors, but this is not clear."
+    },
+    {
+      "feature": "mixed_count",
+      "rank": 1,
+      "reason": "Many articles discuss both push (potential conflict) and pull (dialogue opportunities) factors."
+    },
+    {
+      "feature": "unclear_count",
+      "rank": 2,
+      "reason": "Some articles do not clearly indicate migration-related factors, making it unclear if they are pushing or pulling."
+    },
+    {
+      "feature": "n_articles",
+      "rank": 1,
+      "reason": "There are multiple articles discussing the situation between Ukraine and Russia, indicating a significant focus on this topic."
+    }
+  ]
+}

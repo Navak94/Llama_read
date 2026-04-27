@@ -2,11 +2,12 @@ import time
 import subprocess
 import pandas as pd
 import json
+from googletrans import Translator
 
 CSV_IN = "gdelt_events_basic.csv"
-CSV_OUT = "TEST_Qwen_URL_ONLY_7B_then_72B_2.csv"
+CSV_OUT = "TEST_Qwen_URL_ONLY_7B_then_72B_2_refined_prompt.csv"
 URL_COL = "sourceurl"
-
+translator = Translator()
 # -----------------------------
 # Ollama runner (LOCAL)
 # -----------------------------
@@ -62,25 +63,32 @@ def run_qwen_batch_url_sentiment(url_items, model: str, timeout_sec: int = 180):
     Returns:   [{"row_id": int, "sentiment": str, "reason": str}, ...]
     """
     prompt = (
-    "You are a URL-only migration-pressure classifier.\n\n"
-    "Task:\n"
-    "Using ONLY words found in the URL string, decide whether the URL implies conditions that\n"
-    "would encourage people to LEAVE a country (push), attract people to ARRIVE (pull), neither,\n"
-    "both, or unclear.\n"
-    "Do NOT use outside knowledge. Do NOT invent details.\n\n"
-    "Labels: push | pull | neutral | mixed | unclear\n\n"
-    "Rules:\n"
-    "1) push if URL includes negative hazard/decline cues (e.g., war, attack, crisis, crackdown,\n"
-    "   violence, disaster, shortage, inflation, collapse, unemployment, displacement).\n"
-    "2) pull if URL includes opportunity/safety/policy-access cues (e.g., jobs, hiring, growth,\n"
-    "   investment, visa, asylum, residency, aid, reform, safe).\n"
-    "3) mixed if both strong push and pull cues appear.\n"
-    "4) neutral if no clear push/pull cues.\n"
-    "5) unclear if URL is too generic/short/ID-like.\n\n"
-    "Output (STRICT JSONL): one JSON object per line with keys:\n"
-    "row_id (int), pressure (string), reason (<=12 words; quote exact URL token).\n\n"
-    "ITEMS (tab-separated):\n"
-    "<row_id>\\t<url>\n"
+        "You are a URL-only migration-pressure classifier.\n"
+        "Use ONLY lexical tokens found in the URL string. No outside knowledge. No invented details.\n\n"
+
+        "Country-level interpretation:\n"
+        "Assume the article concerns migration pressure affecting the country referenced in the URL.\n"
+        "- push: signals conditions that may cause people to LEAVE that country\n"
+        "- pull: signals conditions that may cause people to ARRIVE in that country\n"
+        "Interpret pressure relative to the country mentioned or implied by the URL.\n\n"
+
+        "Goal:\n"
+        "For each URL, classify migration pressure:\n"
+        "- push: conditions encouraging emigration (war, crisis, crackdown, collapse, unemployment, disaster, displacement)\n"
+        "- pull: conditions encouraging immigration (jobs, hiring, growth, investment, visa, asylum, residency, aid, safety)\n"
+        "- mixed: both push and pull indicators appear\n"
+        "- neutral: no clear migration-related tokens\n"
+        "- unclear: URL too short, generic, ID-like, or ambiguous\n\n"
+
+        "Language rule:\n"
+        "Reasons MUST be written in English even if the URL tokens are non-English.\n"
+        "Quote the exact token(s) from the URL that triggered the classification.\n\n"
+
+        "Output (STRICT JSONL, one object per line, no extra text):\n"
+        "{\"row_id\": <int>, \"pressure\": \"push|pull|mixed|neutral|unclear\", \"reason\": \"<=12 English words; include exact URL token(s)\"}\n\n"
+
+        "ITEMS (tab-separated):\n"
+        "<row_id>\\t<url>\n"
     )
 
 
@@ -90,6 +98,9 @@ def run_qwen_batch_url_sentiment(url_items, model: str, timeout_sec: int = 180):
         prompt += f"{rid}\t{url}\n"
 
     out = run_qwen(prompt, model=model, timeout_sec=timeout_sec)
+
+    if out and not out.startswith("[qwen_error]"):
+        print("   -> first 300 chars:", out[:300].replace("\n", "\\n"))
 
     if (not out) or out.startswith("[qwen_error]"):
         print(f"   -> {model} raw out: {out[:300] if out else '<EMPTY>'}")
@@ -105,7 +116,8 @@ def run_qwen_batch_url_sentiment(url_items, model: str, timeout_sec: int = 180):
             continue
         try:
             obj = json.loads(line)
-            if "row_id" in obj and "sentiment" in obj:
+            # FIX: look for "pressure" not "sentiment"
+            if "row_id" in obj and "pressure" in obj:
                 results.append(obj)
         except json.JSONDecodeError:
             continue
@@ -138,7 +150,7 @@ def batch_process(url_items, model: str, batch_size: int, timeout_sec: int = 180
             if rid is None:
                 continue
             sentiment_map[int(rid)] = {
-                "sentiment": (r.get("sentiment") or "unclear").strip().lower(),
+                "pressure": (r.get("pressure") or "unclear").strip().lower(),
                 "reason": (r.get("reason") or "").strip()
             }
 
@@ -181,13 +193,15 @@ def main():
         timeout_sec=180
     )
 
-    df["sentiment_7b"] = [map_7b.get(i, {"sentiment": "unclear"})["sentiment"] for i in range(total_rows)]
-    df["reason_7b"]    = [map_7b.get(i, {"reason": ""})["reason"] for i in range(total_rows)]
+    df["pressure_7b"] = [map_7b.get(i, {"pressure": "unclear"})["pressure"] for i in range(total_rows)]
+    df["reason_7b"]   = [map_7b.get(i, {"reason": ""})["reason"] for i in range(total_rows)]
+
+
 
     unclear_items = []
     for it in url_items:
         rid = int(it["row_id"])
-        if df.at[rid, "sentiment_7b"] == "unclear":
+        if df.at[rid, "pressure_7b"] == "unclear":
             unclear_items.append(it)
 
     print(f"Unclear after 7B: {len(unclear_items)}")
@@ -202,40 +216,73 @@ def main():
             timeout_sec=300   # give it longer locally
         )
 
-    sentiment_72b = []
+    pressure_72b = []
     reason_72b = []
-    sentiment_final = []
+    pressure_final = []
     reason_final = []
 
     for i in range(total_rows):
-        s7 = df.at[i, "sentiment_7b"]
+        p7 = df.at[i, "pressure_7b"]
         r7 = df.at[i, "reason_7b"]
 
-        s72 = map_72b.get(i, {}).get("sentiment", "")
+        p72 = map_72b.get(i, {}).get("pressure", "")
         r72 = map_72b.get(i, {}).get("reason", "")
 
-        sentiment_72b.append(s72)
+        pressure_72b.append(p72)
         reason_72b.append(r72)
 
-        if s7 == "unclear" and s72:
-            sentiment_final.append(s72)
+        if p7 == "unclear" and p72:
+            pressure_final.append(p72)
             reason_final.append(r72)
         else:
-            sentiment_final.append(s7)
+            pressure_final.append(p7)
             reason_final.append(r7)
 
-    df["sentiment_72b"] = sentiment_72b
+    df["pressure_72b"] = pressure_72b
     df["reason_72b"] = reason_72b
-    df["sentiment_final"] = sentiment_final
+    df["pressure_final"] = pressure_final
     df["reason_final"] = reason_final
 
     df.to_csv(CSV_OUT, index=False)
 
     print(f"\nSaved output to {CSV_OUT}")
 
+
+def translate_if_needed(text):
+    if pd.isna(text):
+        return text
+
+    text = str(text)
+
+    try:
+        detected = translator.detect(text).lang
+
+        if detected != "en":
+            translated = translator.translate(text, dest="en").text
+            time.sleep(0.5)   # pause the request to translate 
+            return translated
+        else:
+            return text
+    except Exception:
+        return text
+
+
+def translate_non_english():
+    df = pd.read_csv(CSV_OUT)
+    columns_to_translate = ["reason_7b", "reason_final"]
+
+    for col in columns_to_translate:
+        if col in df.columns:
+            df[col] = df[col].apply(translate_if_needed)
+
+    df.to_csv(CSV_OUT, index=False)
+    print("Finished translating non-English reason columns.")
+
+
 if __name__ == "__main__":
     start_time = time.perf_counter()
     main()
+    translate_non_english()
     elapsed = time.perf_counter() - start_time
     mins, secs = divmod(elapsed, 60)
     hours, mins = divmod(mins, 60)

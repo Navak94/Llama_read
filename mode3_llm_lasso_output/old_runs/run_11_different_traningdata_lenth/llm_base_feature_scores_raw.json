@@ -1,0 +1,59 @@
+{
+  "scores": [
+    {
+      "feature": "gpi",
+      "rank": 2,
+      "reason": "No specific mention of governance issues."
+    },
+    {
+      "feature": "hdi",
+      "rank": 1,
+      "reason": "Articles focus on economic and political stability, which can positively impact HDI."
+    },
+    {
+      "feature": "life_expectancy",
+      "rank": 2,
+      "reason": "No direct mention of life expectancy or health issues."
+    },
+    {
+      "feature": "expected_schooling",
+      "rank": 2,
+      "reason": "No specific information on education levels or schooling expectations."
+    },
+    {
+      "feature": "gdp_per_capita",
+      "rank": 1,
+      "reason": "Articles discuss economic support and aid, which can positively impact GDP per capita."
+    },
+    {
+      "feature": "distance",
+      "rank": 2,
+      "reason": "No specific mention of geographical or cultural distance affecting the situation."
+    },
+    {
+      "feature": "push_count",
+      "rank": 1,
+      "reason": "Articles emphasize support and aid to Ukraine, indicating a push factor for migration."
+    },
+    {
+      "feature": "pull_count",
+      "rank": 2,
+      "reason": "No clear mention of pull factors such as job opportunities or economic incentives in the destination country."
+    },
+    {
+      "feature": "mixed_count",
+      "rank": 3,
+      "reason": "Some articles discuss both push and pull factors, but the focus is more on support rather than migration itself."
+    },
+    {
+      "feature": "unclear_count",
+      "rank": 2,
+      "reason": "Several articles do not provide clear information about migration-related issues or trends."
+    },
+    {
+      "feature": "n_articles",
+      "rank": 1,
+      "reason": "There are multiple articles discussing the situation, providing a comprehensive view of the topic."
+    }
+  ]
+}

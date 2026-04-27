@@ -1,0 +1,12 @@
+base_feature,rank,llm_penalty_score
+gpi,3,1.0
+hdi,2,0.55
+life_expectancy,3,1.0
+expected_schooling,2,0.55
+gdp_per_capita,3,1.0
+distance,1,0.1
+push_count,2,0.55
+pull_count,1,0.1
+mixed_count,3,1.0
+unclear_count,1,0.1
+n_articles,2,0.55

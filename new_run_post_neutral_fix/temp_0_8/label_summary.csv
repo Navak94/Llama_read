@@ -1,0 +1,5 @@
+file,push,pull,mixed,neutral,unclear,total
+migration_mode_1.csv,162,24,0,0,195,381
+migration_mode_2.csv,126,35,1,0,219,381
+migration_mode_3.csv,157,60,1,0,163,381
+migration_mode_4.csv,150,40,15,0,172,381

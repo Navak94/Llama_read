@@ -1,0 +1,59 @@
+{
+  "scores": [
+    {
+      "feature": "gpi",
+      "rank": 2,
+      "reason": "No specific governance issues highlighted."
+    },
+    {
+      "feature": "hdi",
+      "rank": 1,
+      "reason": "Articles focus on war and conflict, not development indicators."
+    },
+    {
+      "feature": "life_expectancy",
+      "rank": 2,
+      "reason": "No direct mentions of life expectancy or health issues."
+    },
+    {
+      "feature": "expected_schooling",
+      "rank": 2,
+      "reason": "No specific references to education levels or schooling duration."
+    },
+    {
+      "feature": "gdp_per_capita",
+      "rank": 2,
+      "reason": "No direct mentions of economic indicators like GDP per capita."
+    },
+    {
+      "feature": "distance",
+      "rank": 1,
+      "reason": "Articles are focused on events in Ukraine, which is geographically close to the source."
+    },
+    {
+      "feature": "push_count",
+      "rank": 2,
+      "reason": "Most articles report on Russian actions and their impacts, but not as a push factor for migration."
+    },
+    {
+      "feature": "pull_count",
+      "rank": 1,
+      "reason": "Articles do not mention any pull factors attracting people to Ukraine."
+    },
+    {
+      "feature": "mixed_count",
+      "rank": 2,
+      "reason": "While some articles may have mixed content, the primary focus is on conflict and war."
+    },
+    {
+      "feature": "unclear_count",
+      "rank": 1,
+      "reason": "Some articles lack clear information or context, making their impact unclear."
+    },
+    {
+      "feature": "n_articles",
+      "rank": 2,
+      "reason": "The number of articles is not a direct measure but the content is focused on conflict and war."
+    }
+  ]
+}

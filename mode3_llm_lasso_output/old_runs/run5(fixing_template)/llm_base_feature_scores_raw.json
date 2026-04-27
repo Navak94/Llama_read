@@ -1,0 +1,59 @@
+{
+  "scores": [
+    {
+      "feature": "gpi",
+      "penalty": 1.0,
+      "reason": "No specific governance issues mentioned."
+    },
+    {
+      "feature": "hdi",
+      "penalty": 1.0,
+      "reason": "No direct Human Development Index (HDI) impact discussed."
+    },
+    {
+      "feature": "life_expectancy",
+      "penalty": 1.0,
+      "reason": "No specific life expectancy impacts mentioned."
+    },
+    {
+      "feature": "expected_schooling",
+      "penalty": 1.0,
+      "reason": "No direct impact on expected schooling discussed."
+    },
+    {
+      "feature": "gdp_per_capita",
+      "penalty": 1.0,
+      "reason": "No specific GDP per capita impacts mentioned."
+    },
+    {
+      "feature": "distance",
+      "penalty": 1.0,
+      "reason": "No direct distance-related factors discussed."
+    },
+    {
+      "feature": "push_count",
+      "penalty": 3.0,
+      "reason": "Multiple articles discuss potential conflict and migration pressures, e.g., 'potential conflict', 'migration pressures'."
+    },
+    {
+      "feature": "pull_count",
+      "penalty": 2.0,
+      "reason": "Some articles mention opportunities for engagement with the US, e.g., 'dialogos (discussions) may imply opportunities for venezolanos to engage with the US'."
+    },
+    {
+      "feature": "mixed_count",
+      "penalty": 6.0,
+      "reason": "Most articles discuss both push and pull factors related to migration pressures and diplomatic relations, e.g., 'potential conflict', 'dialogos (discussions) may imply opportunities for venezolanos to engage with the US'."
+    },
+    {
+      "feature": "unclear_count",
+      "penalty": 2.0,
+      "reason": "Some articles do not clearly indicate push or pull factors, e.g., 'no clear migration-related tokens'."
+    },
+    {
+      "feature": "n_articles",
+      "penalty": 12.0,
+      "reason": "Total number of articles analyzed."
+    }
+  ]
+}

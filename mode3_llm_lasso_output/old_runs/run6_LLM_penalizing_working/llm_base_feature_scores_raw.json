@@ -1,0 +1,59 @@
+{
+  "scores": [
+    {
+      "feature": "gpi",
+      "rank": 2,
+      "reason": "No specific mention of governance issues."
+    },
+    {
+      "feature": "hdi",
+      "rank": 1,
+      "reason": "Articles focus on political and economic relations, which can indirectly impact HDI."
+    },
+    {
+      "feature": "life_expectancy",
+      "rank": 2,
+      "reason": "No direct mention of life expectancy or health issues."
+    },
+    {
+      "feature": "expected_schooling",
+      "rank": 2,
+      "reason": "No specific reference to education levels or schooling expectations."
+    },
+    {
+      "feature": "gdp_per_capita",
+      "rank": 1,
+      "reason": "Articles discuss economic relations and potential sanctions, which can affect GDP per capita."
+    },
+    {
+      "feature": "distance",
+      "rank": 2,
+      "reason": "The articles are about Ukraine's relations with the U.S., not directly related to distance metrics."
+    },
+    {
+      "feature": "push_count",
+      "rank": 1,
+      "reason": "Multiple articles indicate potential push factors for migration, such as conflict and economic instability."
+    },
+    {
+      "feature": "pull_count",
+      "rank": 2,
+      "reason": "No clear indication of pull factors in the articles."
+    },
+    {
+      "feature": "mixed_count",
+      "rank": 3,
+      "reason": "Some articles mention both push and pull factors, but not consistently across all pieces."
+    },
+    {
+      "feature": "unclear_count",
+      "rank": 2,
+      "reason": "A few articles lack clear migration-related content or context."
+    },
+    {
+      "feature": "n_articles",
+      "rank": 1,
+      "reason": "There are multiple articles, providing a comprehensive view of the situation."
+    }
+  ]
+}

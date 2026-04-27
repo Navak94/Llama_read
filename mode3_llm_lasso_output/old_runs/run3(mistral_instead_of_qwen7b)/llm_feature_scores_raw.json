@@ -1,0 +1,89 @@
+{
+  "scores": [
+    {
+      "feature": "log_origin_gdp_pc",
+      "penalty": 1.0,
+      "reason": "mention of GDP in article"
+    },
+    {
+      "feature": "log_dest_gdp_pc",
+      "penalty": 1.0,
+      "reason": "mention of GDP in article"
+    },
+    {
+      "feature": "origin_expected_schooling",
+      "penalty": 1.0,
+      "reason": "mention of education level in origin country"
+    },
+    {
+      "feature": "dest_expected_schooling",
+      "penalty": 1.0,
+      "reason": "mention of education level in destination country"
+    },
+    {
+      "feature": "origin_life_expectancy",
+      "penalty": 1.0,
+      "reason": "mention of life expectancy in origin country"
+    },
+    {
+      "feature": "dest_life_expectancy",
+      "penalty": 1.0,
+      "reason": "mention of life expectancy in destination country"
+    },
+    {
+      "feature": "origin_gpi",
+      "penalty": 1.0,
+      "reason": "mention of GPI in origin country"
+    },
+    {
+      "feature": "dest_gpi",
+      "penalty": 1.0,
+      "reason": "mention of GPI in destination country"
+    },
+    {
+      "feature": "origin_hdi",
+      "penalty": 1.0,
+      "reason": "mention of HDI in origin country"
+    },
+    {
+      "feature": "dest_hdi",
+      "penalty": 1.0,
+      "reason": "mention of HDI in destination country"
+    },
+    {
+      "feature": "log_distance_km",
+      "penalty": 1.0,
+      "reason": "mention of distance between countries"
+    },
+    {
+      "feature": "gdp_pc_diff",
+      "penalty": 1.0,
+      "reason": "comparison of GDP between countries"
+    },
+    {
+      "feature": "hdi_diff",
+      "penalty": 1.0,
+      "reason": "comparison of HDI between countries"
+    },
+    {
+      "feature": "gpi_diff",
+      "penalty": 1.0,
+      "reason": "comparison of GPI between countries"
+    },
+    {
+      "feature": "push_ratio",
+      "penalty": 1.0,
+      "reason": "mention of push factor in migration"
+    },
+    {
+      "feature": "pull_ratio",
+      "penalty": 1.0,
+      "reason": "mention of pull factor in migration"
+    },
+    {
+      "feature": "n_articles",
+      "penalty": 1.0,
+      "reason": "multiple articles found for the same event"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "scores": [
+    {
+      "feature": "gpi",
+      "rank": 2,
+      "reason": "No direct mention of governance issues."
+    },
+    {
+      "feature": "hdi",
+      "rank": 1,
+      "reason": "Articles focus on migration policies and their impacts, which can indirectly affect HDI through changes in population movement and access to services."
+    },
+    {
+      "feature": "life_expectancy",
+      "rank": 2,
+      "reason": "No direct mention of life expectancy or health issues."
+    },
+    {
+      "feature": "expected_schooling",
+      "rank": 2,
+      "reason": "No direct mention of education levels or schooling opportunities."
+    },
+    {
+      "feature": "gdp_per_capita",
+      "rank": 1,
+      "reason": "Articles discuss economic policies and their impacts on migration, which can affect GDP per capita through changes in labor market dynamics and trade relations."
+    },
+    {
+      "feature": "distance",
+      "rank": 2,
+      "reason": "No direct mention of geographical or physical distances affecting migration."
+    },
+    {
+      "feature": "push_count",
+      "rank": 1,
+      "reason": "Multiple articles discuss policies and actions that push people out of their home countries, such as economic hardships, crime, and political instability."
+    },
+    {
+      "feature": "pull_count",
+      "rank": 2,
+      "reason": "Some articles mention the pull factors like job opportunities in the U.S., but they are not as prominent as the push factors."
+    },
+    {
+      "feature": "mixed_count",
+      "rank": 3,
+      "reason": "A few articles discuss both push and pull factors, but most focus on one or the other."
+    },
+    {
+      "feature": "unclear_count",
+      "rank": 4,
+      "reason": "Some articles are unclear about their primary focus, such as those discussing border policies without clear indication of push or pull factors."
+    },
+    {
+      "feature": "n_articles",
+      "rank": 1,
+      "reason": "There are a total of 8 articles in the provided set."
+    }
+  ]
+}

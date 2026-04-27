@@ -1,0 +1,21 @@
+feature,base_penalty_v,best_eta,final_penalty_weight,coefficient,abs_coefficient
+num__n_articles,0.55,0,1.0,0.5449845930666738,0.5449845930666738
+num__push_ratio,0.65,0,1.0,0.07279787771299487,0.07279787771299487
+num__pull_ratio,0.7,0,1.0,-0.025123556238497533,0.025123556238497533
+num__log_origin_gdp_pc,0.75,0,1.0,0.008327588017272649,0.008327588017272649
+num__origin_gpi,0.95,0,1.0,-2.670703164792737e-15,2.670703164792737e-15
+num__dest_gpi,0.85,0,1.0,1.7886926507849745e-16,1.7886926507849745e-16
+num__log_dest_gdp_pc,0.9,0,1.0,1.4031985450123503e-16,1.4031985450123503e-16
+num__origin_expected_schooling,0.85,0,1.0,1.6961740653995442e-17,1.6961740653995442e-17
+num__hdi_diff,0.75,0,1.0,0.0,0.0
+cat__pair_id_syria__turkey,1.0,0,1.0,0.0,0.0
+cat__pair_id_mexico__united states,1.0,0,1.0,0.0,0.0
+num__gpi_diff,0.8,0,1.0,0.0,0.0
+num__log_distance_km,0.9,0,1.0,0.0,0.0
+num__gdp_pc_diff,0.85,0,1.0,0.0,0.0
+num__dest_hdi,0.75,0,1.0,0.0,0.0
+num__origin_hdi,0.8,0,1.0,0.0,0.0
+num__dest_life_expectancy,0.75,0,1.0,0.0,0.0
+num__origin_life_expectancy,0.8,0,1.0,0.0,0.0
+num__dest_expected_schooling,0.7,0,1.0,-0.0,0.0
+cat__pair_id_ukraine__poland,1.0,0,1.0,-0.0,0.0

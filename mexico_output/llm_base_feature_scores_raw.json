@@ -1,0 +1,59 @@
+{
+  "scores": [
+    {
+      "feature": "gpi",
+      "rank": 2,
+      "reason": "No direct mention of governance issues."
+    },
+    {
+      "feature": "hdi",
+      "rank": 1,
+      "reason": "Articles focus on migration policies and their impacts, which indirectly affect HDI through education and health access for migrants."
+    },
+    {
+      "feature": "life_expectancy",
+      "rank": 2,
+      "reason": "No direct mention of life expectancy or healthcare issues."
+    },
+    {
+      "feature": "expected_schooling",
+      "rank": 1,
+      "reason": "Articles discuss the impact on schooling for migrants and their children, particularly with policies like Title 42."
+    },
+    {
+      "feature": "gdp_per_capita",
+      "rank": 3,
+      "reason": "No direct mention of economic conditions or GDP per capita."
+    },
+    {
+      "feature": "distance",
+      "rank": 1,
+      "reason": "Articles frequently discuss the physical and policy barriers at the U.S.-Mexico border, such as the 'Remain in Mexico' program and border infrastructure."
+    },
+    {
+      "feature": "push_count",
+      "rank": 2,
+      "reason": "Some articles mention push factors like crime and economic hardship, but these are not the primary focus."
+    },
+    {
+      "feature": "pull_count",
+      "rank": 1,
+      "reason": "Many articles highlight pull factors such as job opportunities and safety in the U.S., particularly for families with children."
+    },
+    {
+      "feature": "mixed_count",
+      "rank": 3,
+      "reason": "While some articles mention both push and pull factors, they are not evenly distributed across all pieces."
+    },
+    {
+      "feature": "unclear_count",
+      "rank": 1,
+      "reason": "Some articles do not clearly specify whether the migration is due to push or pull factors, focusing more on policy impacts."
+    },
+    {
+      "feature": "n_articles",
+      "rank": 2,
+      "reason": "The majority of articles (438) focus on specific policies and their effects rather than general trends in migration."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "scores": [
+    {
+      "feature": "gpi",
+      "penalty": 1.0,
+      "reason": "No relevant information found."
+    },
+    {
+      "feature": "hdi",
+      "penalty": 1.0,
+      "reason": "No relevant information found."
+    },
+    {
+      "feature": "life_expectancy",
+      "penalty": 1.0,
+      "reason": "No relevant information found."
+    },
+    {
+      "feature": "expected_schooling",
+      "penalty": 1.0,
+      "reason": "No relevant information found."
+    },
+    {
+      "feature": "gdp_per_capita",
+      "penalty": 1.0,
+      "reason": "No relevant information found."
+    },
+    {
+      "feature": "distance",
+      "penalty": 1.0,
+      "reason": "No relevant information found."
+    },
+    {
+      "feature": "push_count",
+      "penalty": 6.0,
+      "reason": "Multiple articles indicate support and aid for Ukraine, pushing migration."
+    },
+    {
+      "feature": "pull_count",
+      "penalty": 2.0,
+      "reason": "Some articles mention dialogues and discussions but no clear indication of pull factors."
+    },
+    {
+      "feature": "mixed_count",
+      "penalty": 3.0,
+      "reason": "Several articles discuss both support for Ukraine and potential dialogues, which could involve migration issues."
+    },
+    {
+      "feature": "unclear_count",
+      "penalty": 1.0,
+      "reason": "One article does not clearly indicate push or pull factors related to migration."
+    },
+    {
+      "feature": "n_articles",
+      "penalty": 12.0,
+      "reason": "Total number of articles analyzed is 12."
+    }
+  ]
+}

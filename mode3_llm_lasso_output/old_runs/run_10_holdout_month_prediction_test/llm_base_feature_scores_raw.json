@@ -1,0 +1,59 @@
+{
+  "scores": [
+    {
+      "feature": "gpi",
+      "rank": 2,
+      "reason": "No specific mention of governance issues."
+    },
+    {
+      "feature": "hdi",
+      "rank": 1,
+      "reason": "Articles focus on international relations and conflict, which can impact HDI indirectly."
+    },
+    {
+      "feature": "life_expectancy",
+      "rank": 2,
+      "reason": "No direct mention of life expectancy or health issues."
+    },
+    {
+      "feature": "expected_schooling",
+      "rank": 2,
+      "reason": "No specific reference to education levels or schooling expectations."
+    },
+    {
+      "feature": "gdp_per_capita",
+      "rank": 2,
+      "reason": "No direct mention of economic indicators affecting GDP per capita."
+    },
+    {
+      "feature": "distance",
+      "rank": 1,
+      "reason": "Articles focus on international relations and conflict, indicating potential displacement from Ukraine to Poland."
+    },
+    {
+      "feature": "push_count",
+      "rank": 3,
+      "reason": "Several articles mention the potential for displacement due to conflict in Ukraine."
+    },
+    {
+      "feature": "pull_count",
+      "rank": 1,
+      "reason": "No clear indication of pull factors attracting people from Ukraine to Poland."
+    },
+    {
+      "feature": "mixed_count",
+      "rank": 2,
+      "reason": "Some articles mention both push and pull factors, but the focus is more on push factors due to conflict in Ukraine."
+    },
+    {
+      "feature": "unclear_count",
+      "rank": 1,
+      "reason": "One article does not clearly indicate migration-related tokens or displacement potential."
+    },
+    {
+      "feature": "n_articles",
+      "rank": 2,
+      "reason": "Most articles focus on international relations and conflict, with a few discussing potential displacement."
+    }
+  ]
+}

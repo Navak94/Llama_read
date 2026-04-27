@@ -1,0 +1,59 @@
+{
+  "scores": [
+    {
+      "feature": "gpi",
+      "rank": 2,
+      "reason": "Articles focus on war and conflict, with no clear emphasis on governance or political stability."
+    },
+    {
+      "feature": "hdi",
+      "rank": 3,
+      "reason": "Limited information about human development indicators such as education and healthcare."
+    },
+    {
+      "feature": "life_expectancy",
+      "rank": 3,
+      "reason": "No specific data or mentions of life expectancy in the articles."
+    },
+    {
+      "feature": "expected_schooling",
+      "rank": 3,
+      "reason": "Articles do not provide information on expected years of schooling."
+    },
+    {
+      "feature": "gdp_per_capita",
+      "rank": 3,
+      "reason": "No data or mentions of GDP per capita in the articles."
+    },
+    {
+      "feature": "distance",
+      "rank": 1,
+      "reason": "All articles are relevant to Ukraine and its conflict with Russia, indicating a close geographical and topical proximity."
+    },
+    {
+      "feature": "push_count",
+      "rank": 5,
+      "reason": "Articles push for support or action related to the war in Ukraine, but not overwhelmingly so."
+    },
+    {
+      "feature": "pull_count",
+      "rank": 2,
+      "reason": "Some articles provide background information that could be useful for understanding the conflict, though not extensively."
+    },
+    {
+      "feature": "mixed_count",
+      "rank": 4,
+      "reason": "Articles mix news about the war with other topics like political meetings and personal stories, but this is not a dominant theme."
+    },
+    {
+      "feature": "unclear_count",
+      "rank": 1,
+      "reason": "Most articles have clear titles and content, making their relevance to Ukraine's conflict evident."
+    },
+    {
+      "feature": "n_articles",
+      "rank": 2,
+      "reason": "There are multiple articles, but they all revolve around the same topic of the war in Ukraine."
+    }
+  ]
+}

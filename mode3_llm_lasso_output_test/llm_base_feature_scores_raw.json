@@ -1,0 +1,59 @@
+{
+  "scores": [
+    {
+      "feature": "gpi",
+      "rank": 2,
+      "reason": "No specific mention of governance issues."
+    },
+    {
+      "feature": "hdi",
+      "rank": 1,
+      "reason": "Articles focus on international relations and conflict, which can impact HDI indirectly."
+    },
+    {
+      "feature": "life_expectancy",
+      "rank": 2,
+      "reason": "No direct mention of life expectancy or health issues."
+    },
+    {
+      "feature": "expected_schooling",
+      "rank": 2,
+      "reason": "No specific information on education levels or schooling expectations."
+    },
+    {
+      "feature": "gdp_per_capita",
+      "rank": 2,
+      "reason": "No direct mention of economic indicators like GDP per capita."
+    },
+    {
+      "feature": "distance",
+      "rank": 1,
+      "reason": "Articles focus on international relations and conflict, indicating a significant distance between Ukraine and the U.S. in terms of policy and interests."
+    },
+    {
+      "feature": "push_count",
+      "rank": 3,
+      "reason": "Some articles mention potential for migration but not strongly."
+    },
+    {
+      "feature": "pull_count",
+      "rank": 2,
+      "reason": "Articles indicate some pull factors like support and engagement, but not strongly."
+    },
+    {
+      "feature": "mixed_count",
+      "rank": 1,
+      "reason": "Many articles discuss both push (conflict) and pull (support) factors for migration."
+    },
+    {
+      "feature": "unclear_count",
+      "rank": 2,
+      "reason": "Some articles are unclear on specific migration-related issues."
+    },
+    {
+      "feature": "n_articles",
+      "rank": 1,
+      "reason": "There are multiple articles discussing international relations and conflict, indicating a high number of relevant sources."
+    }
+  ]
+}

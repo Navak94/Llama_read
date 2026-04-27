@@ -1,0 +1,89 @@
+{
+  "scores": [
+    {
+      "feature": "log_origin_gdp_pc",
+      "penalty": 1.0,
+      "reason": "No direct economic disparity information."
+    },
+    {
+      "feature": "log_dest_gdp_pc",
+      "penalty": 1.0,
+      "reason": "No direct economic disparity information."
+    },
+    {
+      "feature": "origin_expected_schooling",
+      "penalty": 1.0,
+      "reason": "No direct education disparity information."
+    },
+    {
+      "feature": "dest_expected_schooling",
+      "penalty": 1.0,
+      "reason": "No direct education disparity information."
+    },
+    {
+      "feature": "origin_life_expectancy",
+      "penalty": 1.0,
+      "reason": "No direct life expectancy disparity information."
+    },
+    {
+      "feature": "dest_life_expectancy",
+      "penalty": 1.0,
+      "reason": "No direct life expectancy disparity information."
+    },
+    {
+      "feature": "origin_gpi",
+      "penalty": 1.0,
+      "reason": "No direct governance and political stability disparity information."
+    },
+    {
+      "feature": "dest_gpi",
+      "penalty": 1.0,
+      "reason": "No direct governance and political stability disparity information."
+    },
+    {
+      "feature": "origin_hdi",
+      "penalty": 1.0,
+      "reason": "No direct human development index disparity information."
+    },
+    {
+      "feature": "dest_hdi",
+      "penalty": 1.0,
+      "reason": "No direct human development index disparity information."
+    },
+    {
+      "feature": "log_distance_km",
+      "penalty": 1.0,
+      "reason": "Distance is not a factor in this context."
+    },
+    {
+      "feature": "gdp_pc_diff",
+      "penalty": 1.0,
+      "reason": "No direct economic disparity information."
+    },
+    {
+      "feature": "hdi_diff",
+      "penalty": 1.0,
+      "reason": "No direct human development index disparity information."
+    },
+    {
+      "feature": "gpi_diff",
+      "penalty": 1.0,
+      "reason": "No direct governance and political stability disparity information."
+    },
+    {
+      "feature": "push_ratio",
+      "penalty": 1.0,
+      "reason": "No migration push factors identified in the articles."
+    },
+    {
+      "feature": "pull_ratio",
+      "penalty": 1.0,
+      "reason": "No clear pull factors identified in the articles, though some discussions on cooperation and support suggest indirect pull."
+    },
+    {
+      "feature": "n_articles",
+      "penalty": 1.0,
+      "reason": "Multiple articles focus on political relations rather than migration."
+    }
+  ]
+}

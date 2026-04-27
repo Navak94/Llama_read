@@ -1,0 +1,59 @@
+{
+  "scores": [
+    {
+      "feature": "gpi",
+      "rank": 2,
+      "reason": "No specific mention of governance issues."
+    },
+    {
+      "feature": "hdi",
+      "rank": 1,
+      "reason": "Articles focus on international relations and conflict, which can indirectly impact HDI through economic and social instability."
+    },
+    {
+      "feature": "life_expectancy",
+      "rank": 2,
+      "reason": "No direct mention of health or life expectancy issues."
+    },
+    {
+      "feature": "expected_schooling",
+      "rank": 2,
+      "reason": "No specific information about education levels or schooling expectations."
+    },
+    {
+      "feature": "gdp_per_capita",
+      "rank": 2,
+      "reason": "Economic impacts are implied but not directly discussed in the articles."
+    },
+    {
+      "feature": "distance",
+      "rank": 1,
+      "reason": "Articles focus on international relations and conflict, which can affect distance-related factors such as travel restrictions or trade disruptions."
+    },
+    {
+      "feature": "push_count",
+      "rank": 3,
+      "reason": "Several articles mention potential for migration due to conflict but do not explicitly state a push factor."
+    },
+    {
+      "feature": "pull_count",
+      "rank": 2,
+      "reason": "No clear pull factors are mentioned in the articles, though there is some discussion of international support and cooperation."
+    },
+    {
+      "feature": "mixed_count",
+      "rank": 1,
+      "reason": "Articles discuss both push (conflict) and pull (international support) factors related to migration and conflict resolution."
+    },
+    {
+      "feature": "unclear_count",
+      "rank": 2,
+      "reason": "Some articles lack clear information on specific migration or conflict-related issues, making the count unclear."
+    },
+    {
+      "feature": "n_articles",
+      "rank": 1,
+      "reason": "There are multiple articles (12) discussing various aspects of the conflict and international relations."
+    }
+  ]
+}

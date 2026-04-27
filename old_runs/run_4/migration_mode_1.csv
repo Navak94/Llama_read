@@ -1,0 +1,1372 @@
+sqldate,eventcode,actor1name,actor2name,sourceurl,pressure_url_1,reason_url_1,model_url_1,pressure_url_2,reason_url_2,model_url_2,article_text,pressure_article,reason_article,model_article,pressure_final,reason_final,final_source,mode_used
+20210101,130,GERMANY,,https://www.e110.de/terrorakte-vielleicht-verhindert/,push,acts of terrorism,qwen2.5:7b,,,,,,,qwen2.5:7b,push,acts of terrorism,url_1,1
+20220101,43,,CHILE,http://www.funkuhr.de/fernsehprogramm/sendungsdetails/169446982/pumas-in-der-wildnis-patagoniens.html,neutral,pumas-in-the-wilds-of-patagonia.html,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,pumas-in-the-wilds-of-patagonia.html,url_1,1
+20220101,112,,CRIMINAL,https://www.brasil247.com/brasil/bolsonaro-e-eleito-corrupto-do-ano-por-consorcio-internacional,push,corrupt-of-the-year,qwen2.5:7b,,,,,,,qwen2.5:7b,push,corrupt-of-the-year,url_1,1
+20220101,46,,AUTHORITIES,https://ria.ru/20220102/status-1766397981.html,neutral,status-1766397981.html,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,status-1766397981.html,url_1,1
+20220101,110,,PRIME MINISTER,https://www.aftenposten.no/verden/i/OrevnE/foerste-nyttaarsdag-ble-det-registrert-over-160000-koronatilfeller-i-en,neutral,new year's day corona case-in-one,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,new year's day corona case-in-one,url_1,1
+20220101,190,,PRESIDENT,https://alquds.com/2022/01/01/%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A8%D8%B1%D9%82%D8%A9/,neutral,Injuries-during-confrontations,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,Injuries-during-confrontations,url_1,1
+20220101,42,,ITALIAN,https://www.interris.it/copertina/perno-opbg-omicron-bambini/,neutral,pin-opbg-omicron-children/,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,pin-opbg-omicron-children/,url_1,1
+20220101,51,,WORKER,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,neutral,social-mobilization-in-pointe-a-pitre-elie-domota-was-arrested,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,social-mobilization-in-pointe-a-pitre-elie-domota-was-arrested,url_1,1
+20220101,51,,WORKER,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,neutral,social-mobilization-in-pointe-a-pitre-elie-domota-was-arrested,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,social-mobilization-in-pointe-a-pitre-elie-domota-was-arrested,url_1,1
+20220101,1823,,MILITARY,https://www.franceguyane.fr/actualite/france/feminicides-deux-hommes-en-garde-a-vue-le-jour-du-nouvel-an-494064.php,neutral,feminicides-two-men-in-custody-on-new-years-day,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,feminicides-two-men-in-custody-on-new-years-day,url_1,1
+20220101,43,,POLE,https://as.com/futbol/2022/01/01/primera/1641057005_745473.html,neutral,<no clear migration-related tokens>,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,<no clear migration-related tokens>,url_1,1
+20220101,51,,SAUDI ARABIA,https://www.okaz.com.sa/news/na/2092790,neutral,<no clear migration-related tokens>,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,<no clear migration-related tokens>,url_1,1
+20220101,51,,SAUDI ARABIA,https://www.okaz.com.sa/news/na/2092790,neutral,<no clear migration-related tokens>,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,<no clear migration-related tokens>,url_1,1
+20220101,20,,INTELLIGENCE,https://www.diariolaprovinciasj.com/elpais/2022/1/1/cuales-son-los-sectores-que-tendran-mayor-demanda-laboral-en-2022-165873.html,pull,greater-job-demand,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,greater-job-demand,url_1,1
+20220101,42,,VENEZUELAN,https://noticias.uol.com.br/ultimas-noticias/efe/2022/01/01/chanceler-venezuelano-pede-que-bolsonaro-aprove-transferencia-de-migrantes.htm,push,migrant-transfer,qwen2.5:7b,,,,,,,qwen2.5:7b,push,migrant-transfer,url_1,1
+20220101,20,,BASQUE,https://omirante.pt/cavaleiro-andante/2022-01-01-Em-Abrantes-nada-como-dantes-a2fb5365,neutral,<no clear migration-related tokens>,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,<no clear migration-related tokens>,url_1,1
+20220101,50,,CATALAN,https://sport1.oslobodjenje.ba/s1/fudbal/ino-fudbal/primera/postigao-dogovor-sa-kataloncima-barcelona-sljedeceg-ljeta-dobija-veliko-pojacanje-721568,neutral,<no clear migration-related tokens>,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,<no clear migration-related tokens>,url_1,1
+20220101,51,,INDIGENOUS,https://g1.globo.com/mundo/noticia/2022/01/01/a-epidemia-de-desaparecimentos-de-indigenas-que-intriga-os-eua.ghtml,push,indigenous-disappearances,qwen2.5:7b,,,,,,,qwen2.5:7b,push,indigenous-disappearances,url_1,1
+20220101,51,,INDIGENOUS,https://g1.globo.com/mundo/noticia/2022/01/01/a-epidemia-de-desaparecimentos-de-indigenas-que-intriga-os-eua.ghtml,push,indigenous-disappearances,qwen2.5:7b,,,,,,,qwen2.5:7b,push,indigenous-disappearances,url_1,1
+20220101,161,MADEIRA,,https://www.akhbarona.com/last/340605.html,neutral,<no clear migration-related tokens>,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,<no clear migration-related tokens>,url_1,1
+20220101,112,BRAZIL,CRIMINAL,https://www.brasil247.com/brasil/bolsonaro-e-eleito-corrupto-do-ano-por-consorcio-internacional,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220101,112,BRAZIL,CRIMINAL,https://www.brasil247.com/brasil/bolsonaro-e-eleito-corrupto-do-ano-por-consorcio-internacional,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220101,100,BUSINESS,,https://pronedra.ru/znaki-vostochnogo-kalendarya-po-godu-rozhdeniya-kotorym-povezet-v-2022-godu-628853.html,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220101,90,COMPANY,ADMINISTRATION,https://www.republika.co.id/berita/r520kx430/jepang-bantu-perusahaan-bill-gates-bangun-reaktor-nuklir,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220101,112,COMPANIES,REPRESENTATIVES,https://www.alarab.com/Article/1018144,unclear,URL too short or generic,qwen2.5:7b,,,,"أعلن الادعاء العام في ولاية نيويورك الأمريكية أن ""هيئة المحلفين خلصت إلى أن شركة ""تيفا"" الإسرائيلية للأدوية وشركاءها، مسؤولون عن موت ودمار ألحقوه بالشعب الأمريكي"".
+
+وجاء ذلك بعد محاكمة تاريخية في قضية ""المواد الأفيونية"" (مسكنات الألم الأفيونية) التي استمرت ستة أشهر، وشملت أكثر من عشر شركات ثبتت براءة الكثير منها، لتبقى شركة ""تيفا"" والشركات التابعة لها في قفص الاتهام.
+
+وقامت الدعوى التي حركتها ولاية نيويورك ومقاطعتا ناسو، وسوفولك، على أساس أن الشركات المذكورة ضللت الناس بشأن الخطر الحقيقي للمواد الأفيونية التي روجت لها.
+
+وألقى ممثلو الادعاء باللوم على شركة ""تيفا"" والشركات التابعة لها في خلق ""آفة المواد الأفيونية""، واتهم المدعون شركات الأدوية بتغذية الوباء الذي أودى بحياة الآلاف وأصاب ملايين آخرين.
+
+وجاء في الدعوى القضائية أن ""المصنعين والموزعين دفعوا بشكل جنوني نحو الترويج لمسكنات الألم الأفيونية إلى مجتمعات نيويورك مع عدم التحذير من المخاطر والإدمان الناشئ عن تعاطيها"".بينما قال مسؤولو الولاية والمقاطعة، إضافة إلى عائلات الضحايا إنهم ""يريدون تحميل شركات الأدوية المسؤولية عن الوفيات والبؤس الناجم عن وباء المواد الأفيونية"".
+
+وقد رفضت ""تيفا"" بشدة نتيجة اليوم وأعلنت أنها تستعد لاستئناف سريع للطعن بالقرار.ومن المقرر أن تُعقد محاكمة أخرى لتحديد المبلغ الذي سيُطلب من ""تيفا"" وآخرين، والذي سيتم إضافته إلى مبلغ مقرر مسبقا يصل إلى مليار ونصف المليار دولار أمريكي.",push,"war, violence, persecution implied",qwen2.5:7b,push,"war, violence, persecution implied",article,1
+20220101,60,SWITZERLAND,,https://evz.ro/sinuciderea-asistata-este-acum-legala-austria-este-tara-care-a-decis-sa-curme-suferintele-bolnavilor.html,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220101,81,SWITZERLAND,,https://evz.ro/sinuciderea-asistata-este-acum-legala-austria-este-tara-care-a-decis-sa-curme-suferintele-bolnavilor.html,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220101,42,CHILE,,http://www.funkuhr.de/fernsehprogramm/sendungsdetails/169446982/pumas-in-der-wildnis-patagoniens.html,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220101,54,CHINA,EMBASSY,https://gordonua.com/news/worldnews/kitay-otkryl-posolstvo-v-nikaragua-posle-vozobnovleniya-diplomaticheskih-otnosheniy-1589047.html,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220101,20,COLOMBIA,COLOMBIA,https://www.colombia.com/actualidad/nacionales/12415-contagios-por-la-covid-19-registra-colombia-en-el-primer-dia-del-ano-2022-333346,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220101,180,PRISON,,https://pronedra.ru/zaprety-i-primety-rozhdestvenskogo-sochelnik-chto-gotovyat-v-prazdnik-628846.html,neutral,rozhdestvenskogo-sochelnik-what-gotovyat,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,rozhdestvenskogo-sochelnik-what-gotovyat,url_1,1
+20220101,30,PRISON,ACADEMICS,https://www.notigape.com/trabajara-gobierno-municipal-por-bienestar-y-progreso-en-2022/243835,pull,well-being-and-progress,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,well-being-and-progress,url_1,1
+20220101,173,POLICE,FRANCE,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,push,social-mobilization-in-pointe-a-pitre-elie-domota-was-arrested,qwen2.5:7b,,,,,,,qwen2.5:7b,push,social-mobilization-in-pointe-a-pitre-elie-domota-was-arrested,url_1,1
+20220101,186,PERPETRATOR,BAMAKO,http://malijet.com/les_faits_divers_au_mali/265488-commissariat-de-police-du-11eme-arrondissement-fin-de-course-pou.html,neutral,police-station-of-the-11th-arrondissement-end-of-course-pou,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,police-station-of-the-11th-arrondissement-end-of-course-pou,url_1,1
+20220101,10,COMMUNITY,,https://www.lopinionista.it/fico-ringrazia-mattarella-120130.html,neutral,fig-thanks-mattarella,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,fig-thanks-mattarella,url_1,1
+20220101,111,RESIDENTS,,https://g1.globo.com/sp/piracicaba-regiao/noticia/2022/01/01/biblioteca-municipal-de-limeira-oferece-oficinas-gincana-show-e-sarau-durante-as-ferias-escolares.ghtml,neutral,municipal-library-of-limeira-offers-workshops-gymkhana-show-and-soiree-during-the-school-holidays,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,municipal-library-of-limeira-offers-workshops-gymkhana-show-and-soiree-during-the-school-holidays,url_1,1
+20220101,1723,POPULATION,,https://gordonua.com/news/worldnews/vo-francii-v-novogodnyuyu-noch-sozhgli-874-mashiny-mvd-1589046.html,neutral,burned-874-cars-MVD,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,burned-874-cars-MVD,url_1,1
+20220101,80,ACTOR,,https://www.interris.it/rubriche/opinione/affrontare-questioni-pressanti-luce-dottrina-sociale-chiesa/,mixed,address-pressing-issues-light-social-doctrine-church,qwen2.5:7b,,,,,,,qwen2.5:7b,mixed,address-pressing-issues-light-social-doctrine-church,url_1,1
+20220101,833,EUROPE,,https://www.brasil247.com/blog/brasil-para-principiantes,neutral,brazil-for-beginners,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,brazil-for-beginners,url_1,1
+20220101,90,EUROPE,,https://alquds.com/2022/01/02/%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%B9%D8%AA%D8%A8%D8%A9-100-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D8%A8%D9%83%D9%88%D9%81%D9%8A/,neutral,Tennis-Eid-Sun-100-Ithnat-Ewake,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,Tennis-Eid-Sun-100-Ithnat-Ewake,url_1,1
+20220101,112,EUROPEAN,BELARUS,https://www.skivefolkeblad.dk/artikel/8426302b-78a7-3353-beaa-8731a102cde4/,unclear,URL too short,qwen2.5:7b,,,,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo reiciendis eos id iste. Tenetur, vel quam ullam illum reprehenderit doloremque vero incidunt dolorem eum excepturi est inventore molestiae, atque pariatur!
+
+Ocurreret voluptatum an has, aeque solet principes per in. Ei his platonem voluptatum, te vel fabulas ancillae, at mea justo paulo nonumes. Accumsan ponderum constituam sea eu, doctus dolorem scriptorem quo te. Nec diceret gloriatur moderatius id. Ignota iuvaret officiis mea ea, cum at scaevola vivendum. Ut justo aliquip delicata cum, ut mea errem decore homero, ad eam corpora epicuri nominavi. Paulo feugiat an sit, vix ea vero veri.",neutral,No migration-related content,qwen2.5:7b,neutral,No migration-related content,article,1
+20220101,112,EUROPEAN,RUSSIA,https://www.skivefolkeblad.dk/artikel/8426302b-78a7-3353-beaa-8731a102cde4/,unclear,URL too short,qwen2.5:7b,,,,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo reiciendis eos id iste. Tenetur, vel quam ullam illum reprehenderit doloremque vero incidunt dolorem eum excepturi est inventore molestiae, atque pariatur!
+
+Ocurreret voluptatum an has, aeque solet principes per in. Ei his platonem voluptatum, te vel fabulas ancillae, at mea justo paulo nonumes. Accumsan ponderum constituam sea eu, doctus dolorem scriptorem quo te. Nec diceret gloriatur moderatius id. Ignota iuvaret officiis mea ea, cum at scaevola vivendum. Ut justo aliquip delicata cum, ut mea errem decore homero, ad eam corpora epicuri nominavi. Paulo feugiat an sit, vix ea vero veri.",neutral,No migration-related content,qwen2.5:7b,neutral,No migration-related content,article,1
+20220101,112,EUROPEAN,RUSSIA,https://www.skivefolkeblad.dk/artikel/8426302b-78a7-3353-beaa-8731a102cde4/,unclear,URL too short,qwen2.5:7b,,,,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo reiciendis eos id iste. Tenetur, vel quam ullam illum reprehenderit doloremque vero incidunt dolorem eum excepturi est inventore molestiae, atque pariatur!
+
+Ocurreret voluptatum an has, aeque solet principes per in. Ei his platonem voluptatum, te vel fabulas ancillae, at mea justo paulo nonumes. Accumsan ponderum constituam sea eu, doctus dolorem scriptorem quo te. Nec diceret gloriatur moderatius id. Ignota iuvaret officiis mea ea, cum at scaevola vivendum. Ut justo aliquip delicata cum, ut mea errem decore homero, ad eam corpora epicuri nominavi. Paulo feugiat an sit, vix ea vero veri.",neutral,No migration-related content,qwen2.5:7b,neutral,No migration-related content,article,1
+20220101,50,FRANCE,,https://as.com/futbol/2022/01/01/primera/1641057005_745473.html,neutral,No clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,No clear migration-related tokens,url_1,1
+20220101,141,PARIS,POLICE,https://noticias.uol.com.br/ultimas-noticias/deutschewelle/2022/01/01/franca-ve-queda-em-numero-de-carros-incendiados-no-ano-novo.htm,neutral,No clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,No clear migration-related tokens,url_1,1
+20220101,192,FRENCH,SYRIA,https://naslovi.net/2022-01-02/rtv/vremeplov-otvorena-prva-citaonica-u-knezevini-srbiji/29652721,neutral,No clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,No clear migration-related tokens,url_1,1
+20220101,192,FRANCE,SYRIA,https://naslovi.net/2022-01-02/rtv/vremeplov-otvorena-prva-citaonica-u-knezevini-srbiji/29652721,neutral,No clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,No clear migration-related tokens,url_1,1
+20220101,190,LILLE,YEMENI,https://www.okaz.com.sa/news/na/2092790,neutral,No clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,No clear migration-related tokens,url_1,1
+20220101,141,GUADELOUPE,,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,neutral,No clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,No clear migration-related tokens,url_1,1
+20220101,172,CONAKRY,,http://malijet.com/actualite_economique_du_mali/265491-lutte-contre-la-fraude-et-la-contrebande-les-douanes-saisissent-.html,neutral,No clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,No clear migration-related tokens,url_1,1
+20220101,70,GAMBIA,NORWEGIAN,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,pull,illegal immigration,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,illegal immigration,url_1,1
+20220101,70,GAMBIA,NORWAY,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,pull,illegal immigration,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,illegal immigration,url_1,1
+20220101,70,GAMBIA,NORWEGIAN,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,pull,illegal immigration,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,illegal immigration,url_1,1
+20220101,190,PRESIDENT,,https://alquds.com/2022/01/01/%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A8%D8%B1%D9%82%D8%A9/,push,Injuries-during,qwen2.5:7b,,,,,,,qwen2.5:7b,push,Injuries-during,url_1,1
+20220101,192,PRESIDENT,,https://alquds.com/2022/01/01/%D8%A5%D8%B5%D8%A7%D8%A8%D8%A7%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A8%D8%B1%D9%82%D8%A9/,push,Injuries-during,qwen2.5:7b,,,,,,,qwen2.5:7b,push,Injuries-during,url_1,1
+20220101,20,MINISTRY,EMIRATI,https://www.akhbarona.com/world/340606.html,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,51,MINISTRY,EMIRATI,https://www.akhbarona.com/world/340606.html,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,71,GOVERNMENT,EUROPEAN,https://www.interris.it/rubriche/opinione/affrontare-questioni-pressanti-luce-dottrina-sociale-chiesa/,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,111,AUTHORITIES,EMPLOYEE,https://ria.ru/20220102/status-1766397981.html,unclear,,qwen2.5:7b,,,,"ООН, 2 янв — РИА Новости. Статус персоны нон грата неприменим к сотрудникам Статус персоны нон грата неприменим к сотрудникам ООН — так официальный представитель генсека организации Стефан Дюжаррик прокомментировал решение властей самопровозглашенной республики Косово в отношении российского дипломата.
+
+« ""Нам стало известно о том, что власти Косово объявили персоной нон грата сотрудника миссии ООН в Косово (МООНК). Никакого официального уведомления от властей Косово по поводу этого объявления миссии не поступало"", — сказал он.
+
+Представитель генсека подчеркнул, что доктрина персоны нон грата неприменима к сотрудникам ООН и не предусмотрена в постановлении 2000/47 МООНК (о статусе, привилегиях и иммунитете СДК и МООНК и их персонала в Косово).
+
+По словам Дюжаррика, любые обеспокоенности, связанные с сотрудниками миссии ООН в Косово, следует направлять ее руководству, чтобы оно могло решить этот вопрос в соответствии со статусом, привилегиями и иммунитетом самой миссии и ее персонала.
+
+""МООНК и штаб-квартира ООН принимают соответствующие меры для обеспечения безопасности сотрудника и находятся в связи с этой ситуацией в контакте с соответствующими властями"", — заключил Дюжаррик.
+
+Приштина 31 декабря объявила персоной нон-грата сотрудника миссии ООН из России за якобы несовместимую с дипломатическим статусом деятельность. Российское посольство в Сербии назвало это решение провокацией, ""предпринятой, дабы выслужиться перед западными менторами"".
+
+Это не первый подобный случай: в октябре косовский МИД объявил персонами нон грата двух дипломатов в канцелярии российского посольства в Сербии, которые постоянно работают в Приштине. МИД тогда призвал МООНК и международные Силы для Косово обеспечить надежную безопасность и необходимые условия для полноценной работы российского персонала в Косово.
+
+Республика Косово — частично признанное государство на Балканском полуострове . Согласно Конституции Сербии , входит в состав страны как Автономный край Косово и Метохия, однако Белград фактически не контролирует большую часть региона.
+
+В 1990-х здесь развернулась война между югославской армией и албанскими вооруженными формированиями. Конфликт сопровождался массовыми репрессиями и этническими чистками: албанские сепаратисты разрушили многие памятники православной культуры. В 1999 году НАТО вмешалась в вооруженное противостояние и подвергла бомбардировкам города и военные объекты Югославии . В результате Белград был вынужден согласиться на ввод в Косово военного контингента Североатлантического альянса. Область перешла под управление ООН",neutral,"Article discusses UN status, not migration conditions.",qwen2.5:7b,neutral,"Article discusses UN status, not migration conditions.",article,1
+20220101,841,DIPLOMAT,PRISONER,https://www.republika.co.id/berita/r520da430/indiapakistan-tukar-daftar-tahanan,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,841,DIPLOMAT,PRISONER,https://www.republika.co.id/berita/r520da430/indiapakistan-tukar-daftar-tahanan,neutral,change-register-prisoner,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,change-register-prisoner,url_1,1
+20220101,1014,EMBASSY,UKRAINIAN,https://pronedra.ru/znaki-vostochnogo-kalendarya-po-godu-rozhdeniya-kotorym-povezet-v-2022-godu-628853.html,unclear,signs-of-the-eastern-calendar-by-year-of-birth-who-will-be-lucky-in-2022-628853.html,qwen2.5:7b,,,,"Знаки восточного календаря по году рождения, которым повезет в 2022 году
+
+Каждый новый год несет перемены, а какими они будут, зависит от того, насколько благосклонным окажется тотемное животное. В 2022 году повезет нескольким знакам восточного календаря. Также удача улыбнется тем, кто заслужит благоволение Тигра.
+
+Об этом рассказывает kp.ru
+
+Астрологи составили гороскоп для знаков по году рождения. Тигр примет бразды правления от Быка 1 февраля в 2022 году. Пора узнать, что ждет каждого в следующие 12 месяцев.
+
+Каким восточным знакам по году рождения повезет в 2022 году
+
+Крыса (1948, 1960, 1972, 1984, 1996, 2008) – астрологи сулят вам на 2022 год Тигра много путешествий, увлекательных поездок. Обязательно соглашайтесь на командировки – их результат будет оправдан. Окружающие будут покорены вашей харизмой, появятся новые друзья. Рутинной работой заниматься не рекомендуется – могут возникать различные сложности.
+
+Бык (1949, 1961, 1973, 1985, 1997, 2009) – год Тигра будет наполнен приятными событиями, которые не забудутся до конца жизни. Трудолюбие, терпеливость и реализм претят символу 2022 года. Следующие 12 месяцев ознаменуются стабильностью и уверенностью. Появится возможность неплохо заработать.
+
+Змея (1941, 1953, 1965, 1977, 1989, 2001, 2013) – астрологи рекомендуют в год Тигра заняться собственным здоровьем, избавиться от депрессии, невроза, панических атак. Благодаря самообладанию и выдержке вы добьетесь желаемого. В 2022 году произойдут изменения на работе: кто-то «положил глаз» на ваше место.
+
+Коза (1943, 1955, 1967, 1979, 1991, 2003, 2015) – в новом 2022 году ожидается полный штиль. Для формирования стабильного финансового потока придется усилить работоспособность. Влиятельный человек поможет с работой: научитесь договариваться, идти на компромисс.
+
+Свинья (1947, 1959, 1971, 1983, 1995, 2007) – год Тигра будет комфортным для вас. Новая сфера деятельности увлечет, предоставит новые возможности. Найдите хобби по душе, заведите новые знакомства, полезные связи. Займитесь личной жизнью.
+
+Кому будет благоволить Тигре в 2022 году
+
+Тигр (1950, 1962, 1974, 1986, 1998, 2010) – в новом году ваш круг общения значительно расширится, и вы заручитесь поддержкой новых знакомых. В «свой» год вы составите достойную конкуренцию «акулам» бизнеса, заслужите авторитет своим упрямством и настойчивостью. Новый 2022 год будет финансово стабильным.
+
+Кот/Кролик (1951, 1963, 1975, 1987, 1999, 2011) – получаемая информация будет быстро усваиваться. Проведите анализ своих действий, запишитесь на интересные курсы. Год Тигра будет благоприятным для создания крепкой семьи и рождения ребенка.
+
+Петух (1945, 1957, 1969, 1981, 1993, 2005) – 2022 год активного самовыражения будет у вас. Благодаря тому, что вы умеет открыто себя проявить, станете независимым, свободолюбивым. Все конфликты с разногласиями будут решены в кратчайшие сроки.
+
+Восточный гороскоп на 2022 год: настоящие счастливчики
+
+Дракон (1940, 1952, 1964, 1976, 1988, 2000, 2012) – энергия, мужество, терпение, мудрость помогут принять эффективные и нестандартные решения, которые приведут к карьерному росту. В год Тигра укрепятся родственные связи, будут запущены интересные и прибыльные проекты.
+
+Лошадь (1942, 1954, 1966, 1978, 1990, 2002, 2014) – благоприятным станет для вас 2022 год Тигра, если будете развивать коммуникативные способности. Вы легко находите общий язык с незнакомцами, у вас много друзей. Новые лица в кругу общения помогут устроиться на хорошую работу. Важные дела будут решены в кратчайшие сроки, улучшатся отношения с партнером.
+
+Обезьяна (1944, 1956, 1968, 1980, 1992, 2004, 2016) – грядет хороший и счастливый год для вас. Тигр будет благоволить тем, кто захочет заниматься благотворительностью. Астрологи рекомендуют заниматься творческими и активными работами, максимум времени проводить с родственниками, устанавливать новые семейные традиции.
+
+Собака (1946, 1958, 1970, 1982, 1994, 2006) – в год Тигра вы получите много знаний и навыков, которые успешно примените в ближайшее время, и получите за это хорошее вознаграждение. Год будет действительно счастливым, финансово стабильным, главное – избегать авантюр и неоправданных рисков.",neutral,Article is about Chinese zodiac signs and does not discuss migration.,qwen2.5:7b,neutral,Article is about Chinese zodiac signs and does not discuss migration.,article,1
+20220101,1014,EMBASSY,UKRAINIAN,https://pronedra.ru/znaki-vostochnogo-kalendarya-po-godu-rozhdeniya-kotorym-povezet-v-2022-godu-628853.html,unclear,signs-of-the-eastern-calendar-by-year-of-birth-who-will-be-lucky-in-2022-628853.html,qwen2.5:7b,,,,"Знаки восточного календаря по году рождения, которым повезет в 2022 году
+
+Каждый новый год несет перемены, а какими они будут, зависит от того, насколько благосклонным окажется тотемное животное. В 2022 году повезет нескольким знакам восточного календаря. Также удача улыбнется тем, кто заслужит благоволение Тигра.
+
+Об этом рассказывает kp.ru
+
+Астрологи составили гороскоп для знаков по году рождения. Тигр примет бразды правления от Быка 1 февраля в 2022 году. Пора узнать, что ждет каждого в следующие 12 месяцев.
+
+Каким восточным знакам по году рождения повезет в 2022 году
+
+Крыса (1948, 1960, 1972, 1984, 1996, 2008) – астрологи сулят вам на 2022 год Тигра много путешествий, увлекательных поездок. Обязательно соглашайтесь на командировки – их результат будет оправдан. Окружающие будут покорены вашей харизмой, появятся новые друзья. Рутинной работой заниматься не рекомендуется – могут возникать различные сложности.
+
+Бык (1949, 1961, 1973, 1985, 1997, 2009) – год Тигра будет наполнен приятными событиями, которые не забудутся до конца жизни. Трудолюбие, терпеливость и реализм претят символу 2022 года. Следующие 12 месяцев ознаменуются стабильностью и уверенностью. Появится возможность неплохо заработать.
+
+Змея (1941, 1953, 1965, 1977, 1989, 2001, 2013) – астрологи рекомендуют в год Тигра заняться собственным здоровьем, избавиться от депрессии, невроза, панических атак. Благодаря самообладанию и выдержке вы добьетесь желаемого. В 2022 году произойдут изменения на работе: кто-то «положил глаз» на ваше место.
+
+Коза (1943, 1955, 1967, 1979, 1991, 2003, 2015) – в новом 2022 году ожидается полный штиль. Для формирования стабильного финансового потока придется усилить работоспособность. Влиятельный человек поможет с работой: научитесь договариваться, идти на компромисс.
+
+Свинья (1947, 1959, 1971, 1983, 1995, 2007) – год Тигра будет комфортным для вас. Новая сфера деятельности увлечет, предоставит новые возможности. Найдите хобби по душе, заведите новые знакомства, полезные связи. Займитесь личной жизнью.
+
+Кому будет благоволить Тигре в 2022 году
+
+Тигр (1950, 1962, 1974, 1986, 1998, 2010) – в новом году ваш круг общения значительно расширится, и вы заручитесь поддержкой новых знакомых. В «свой» год вы составите достойную конкуренцию «акулам» бизнеса, заслужите авторитет своим упрямством и настойчивостью. Новый 2022 год будет финансово стабильным.
+
+Кот/Кролик (1951, 1963, 1975, 1987, 1999, 2011) – получаемая информация будет быстро усваиваться. Проведите анализ своих действий, запишитесь на интересные курсы. Год Тигра будет благоприятным для создания крепкой семьи и рождения ребенка.
+
+Петух (1945, 1957, 1969, 1981, 1993, 2005) – 2022 год активного самовыражения будет у вас. Благодаря тому, что вы умеет открыто себя проявить, станете независимым, свободолюбивым. Все конфликты с разногласиями будут решены в кратчайшие сроки.
+
+Восточный гороскоп на 2022 год: настоящие счастливчики
+
+Дракон (1940, 1952, 1964, 1976, 1988, 2000, 2012) – энергия, мужество, терпение, мудрость помогут принять эффективные и нестандартные решения, которые приведут к карьерному росту. В год Тигра укрепятся родственные связи, будут запущены интересные и прибыльные проекты.
+
+Лошадь (1942, 1954, 1966, 1978, 1990, 2002, 2014) – благоприятным станет для вас 2022 год Тигра, если будете развивать коммуникативные способности. Вы легко находите общий язык с незнакомцами, у вас много друзей. Новые лица в кругу общения помогут устроиться на хорошую работу. Важные дела будут решены в кратчайшие сроки, улучшатся отношения с партнером.
+
+Обезьяна (1944, 1956, 1968, 1980, 1992, 2004, 2016) – грядет хороший и счастливый год для вас. Тигр будет благоволить тем, кто захочет заниматься благотворительностью. Астрологи рекомендуют заниматься творческими и активными работами, максимум времени проводить с родственниками, устанавливать новые семейные традиции.
+
+Собака (1946, 1958, 1970, 1982, 1994, 2006) – в год Тигра вы получите много знаний и навыков, которые успешно примените в ближайшее время, и получите за это хорошее вознаграждение. Год будет действительно счастливым, финансово стабильным, главное – избегать авантюр и неоправданных рисков.",neutral,"Article about Chinese zodiac year predictions, no migration-related content.",qwen2.5:7b,neutral,"Article about Chinese zodiac year predictions, no migration-related content.",article,1
+20220101,36,MINIST OF EDUCATION,,https://www.diariolaprovinciasj.com/educacion/2022/1/1/el-ministerio-de-educacion-atendera-en-nuevo-horario-165874.html,neutral,the-ministry-of-education-will-operate-on-new-schedule-165874.html,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,the-ministry-of-education-will-operate-on-new-schedule-165874.html,url_1,1
+20220101,13,MEDICAL ASSOCIATION,,https://www.aftenposten.no/verden/i/OrevnE/foerste-nyttaarsdag-ble-det-registrert-over-160000-koronatilfeller-i-en,neutral,"first-year-day-over-160,000-cancer-cases-were-registered-in-a",qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,"first-year-day-over-160,000-cancer-cases-were-registered-in-a",url_1,1
+20220101,120,DOCTOR,,https://kino.24tv.ua/ru/novogodnie-multfilmy-dlja-vsej-semi-dushevnaja-podborka-dlja_n1831930,unclear,New Year's-cartoons-for-the-whole-family-heartwarming-selection-for_n1831930,qwen2.5:7b,,,,"Рождество – это самый прекрасный праздник, который с большим нетерпением ждут дети и взрослые. Так как он полон радости, и каждый ждет в это время чуда. Ничто так не помогает окунуться в атмосферу праздника, как шедевры мировой анимации. Мы подготовили пятерку лучших.
+
+Не пропустите Разрушаем мифы в кино: 5 популярных стереотипов о казино, которые нам навязывает Голливуд
+
+Рождественская история
+
+(A Christmas Carol)
+
+Год выхода: 2009
+
+О сюжете
+
+Великолепная анимационная драма от студии Walt Disney Pictures ""Рождественская история"" является экранизацией повести известного классика мировой литературы Чарльза Диккенса.
+
+События картины разворачиваются вокруг пожилого мужчины по имени Эбенезер Скрудж. Он жуткий скряга, и каждый день думает только о том, как бы сэкономить лишний цент. У него нет ни капельки сочувствия к бедным людям, да и ко всему прочему, Скруджу просто чужды дружба, любовь, а Рождество он вообще не считает праздником.
+
+Однако в преддверии этого светлого и доброго праздника Эбенезеру предстоит пережить еще раз свое прошлое и увидеть настоящее и будущее, что заставит его по-другому взглянуть на мир, и это изменит его навсегда.
+
+Трейлер мультфильма ""Рождественская история"": смотрите видео онлайн
+
+Актер всегда находится в центре внимания на съемочной площадке. Так же, как SlotoKing среди любителей азартных игр. Это онлайн-казино занимает лидирующие позиции среди украинских аналогов, так как предоставляет только высококачественный сервис.
+
+Полярный экспресс
+
+(The Polar Express)
+
+Год выхода: 2004
+
+О сюжете
+
+Мультфильм режиссера Роберта Земекиса, снятый по мотивам одноименной книги Криса Ван Оллсбурга.
+
+Сюжет рассказывает о необычных путешествиях маленького мальчика по Северному полюсу в волшебном поезде к Санта-Клаусу. Мальчик верит в Санту, вопреки тому, что все его друзья и семья в один голос утверждают, что это лишь сказка. И вот однажды вера мальчика вознаграждается.
+
+В канун Рождества мальчик вдруг получает возможность поехать на волшебном поезде к нему в гости. И в то время, как на спящий мир опускается Рождественская ночь, пассажиры экспресса мчатся на Северный полюс, встречая приключения и опасности на своем пути, которые подстерегают их в зловещих горах, темных лесах и ледяной тундре. Героев ждут удивительные путешествия на пути к их цели.
+
+Трейлер мультфильма ""Полярный экспресс"": смотрите видео онлайн
+
+
+
+Клаус
+
+(Klaus)
+
+Год выхода: 2019
+
+О сюжете
+
+История о том, как все началось...
+
+Когда эгоистичный и ленивый сын богатого магната Джеспер проваливает учебу в почтовой академии, заслуженно становясь худшим студентом, отец парня отправляет его на перевоспитание на отдаленный остров за полярным кругом.
+
+Чтобы вернуться домой и пользоваться благами родительского достатка, Джесперу придется послать шесть тысяч писем, однако вскоре он обнаруживает, что местные жители, разделенные на два противоборствующих лагеря, вообще не пользуются почтовыми услугами.
+
+Джеспер, раздосадованный очередной неудачей, собирается признать миссию невыполнимой, но неожиданно находит союзников – очаровательную учительницу Альву и таинственного лесоруба Клауса.
+
+Трейлер мультфильма ""Клаус"": смотрите видео онлайн
+
+
+
+Хранители снов
+
+(Rise of the Guardians)
+
+Год выхода: 2012
+
+О сюжете
+
+Это полнометражный мультфильм-сказка, созданный по книге писателя Уильяма Джойса.
+
+Герои этой истории, Санта-Клаус, Пасхальный кролик, Зубная фея и Песочный человек, дружат с детства, а теперь они являются одной дружной командой, которая охраняет сны малышей. Все шло замечательно, пока на горизонте не появился злой дух. Ему совсем не по нраву то, что дети очень много мечтают, и в планы злодея входит заменить детские фантазии ночными кошмарами.
+
+Восемнадцатилетний Ледяной Джек приходит на помощь хранителям и возглавляет борьбу против злого духа. Ситуация осложняется тем, что прихвостни злодея похитили помощниц Зубной Феи и детские зубки, в том числе и зубы Джека, что лишает стража детских воспоминаний. Однако отступать нельзя. Детей, их мечты и веру надо спасти.
+
+Трейлер мультфильма ""Хранители снов"": смотрите видео онлайн
+
+
+
+Секретная служба Санта-Клауса
+
+(Arthur Christmas)
+
+Год выхода: 2011
+
+О сюжете
+
+Мультфильм погружает зрителя в мир захватывающих приключений Санта-Клауса и его младшего сына Артура. Каждый ребенок старается вести себя хорошо, чтобы в Новый Год увидеть под елкой желанные подарки, но одна девочка, несмотря на то, что весь год вела себя хорошо, осталась без подарка. Как такое могло произойти?
+
+Почему верные помощники Санта-Клауса, эльфы, допустили такую ошибку? Ведь это же волшебный праздник, и у каждого ребенка должен быть подарок! Ситуацию решает исправить Артур, сын Санта-Клауса, который работает в почтовом отделении. Храбрый мальчик решается на опасные приключения ради справедливости.
+
+Трейлер мультфильма ""Секретная служба Санта Клауса"": смотрите видео онлайн
+
+Сайт 24 канала поздравляет всех с Новым годом и Рождеством Христовым. Спасибо, что доверяете – мы вместе меняем страну к лучшему.",neutral,Articles about Christmas movies and traditions do not discuss migration.,qwen2.5:7b,neutral,Articles about Christmas movies and traditions do not discuss migration.,article,1
+20220101,120,DOCTOR,,https://kino.24tv.ua/ru/novogodnie-multfilmy-dlja-vsej-semi-dushevnaja-podborka-dlja_n1831930,unclear,New Year's-cartoons-for-the-whole-family-heartwarming-selection-for_n1831930,qwen2.5:7b,,,,"Рождество – это самый прекрасный праздник, который с большим нетерпением ждут дети и взрослые. Так как он полон радости, и каждый ждет в это время чуда. Ничто так не помогает окунуться в атмосферу праздника, как шедевры мировой анимации. Мы подготовили пятерку лучших.
+
+Не пропустите Разрушаем мифы в кино: 5 популярных стереотипов о казино, которые нам навязывает Голливуд
+
+Рождественская история
+
+(A Christmas Carol)
+
+Год выхода: 2009
+
+О сюжете
+
+Великолепная анимационная драма от студии Walt Disney Pictures ""Рождественская история"" является экранизацией повести известного классика мировой литературы Чарльза Диккенса.
+
+События картины разворачиваются вокруг пожилого мужчины по имени Эбенезер Скрудж. Он жуткий скряга, и каждый день думает только о том, как бы сэкономить лишний цент. У него нет ни капельки сочувствия к бедным людям, да и ко всему прочему, Скруджу просто чужды дружба, любовь, а Рождество он вообще не считает праздником.
+
+Однако в преддверии этого светлого и доброго праздника Эбенезеру предстоит пережить еще раз свое прошлое и увидеть настоящее и будущее, что заставит его по-другому взглянуть на мир, и это изменит его навсегда.
+
+Трейлер мультфильма ""Рождественская история"": смотрите видео онлайн
+
+Актер всегда находится в центре внимания на съемочной площадке. Так же, как SlotoKing среди любителей азартных игр. Это онлайн-казино занимает лидирующие позиции среди украинских аналогов, так как предоставляет только высококачественный сервис.
+
+Полярный экспресс
+
+(The Polar Express)
+
+Год выхода: 2004
+
+О сюжете
+
+Мультфильм режиссера Роберта Земекиса, снятый по мотивам одноименной книги Криса Ван Оллсбурга.
+
+Сюжет рассказывает о необычных путешествиях маленького мальчика по Северному полюсу в волшебном поезде к Санта-Клаусу. Мальчик верит в Санту, вопреки тому, что все его друзья и семья в один голос утверждают, что это лишь сказка. И вот однажды вера мальчика вознаграждается.
+
+В канун Рождества мальчик вдруг получает возможность поехать на волшебном поезде к нему в гости. И в то время, как на спящий мир опускается Рождественская ночь, пассажиры экспресса мчатся на Северный полюс, встречая приключения и опасности на своем пути, которые подстерегают их в зловещих горах, темных лесах и ледяной тундре. Героев ждут удивительные путешествия на пути к их цели.
+
+Трейлер мультфильма ""Полярный экспресс"": смотрите видео онлайн
+
+
+
+Клаус
+
+(Klaus)
+
+Год выхода: 2019
+
+О сюжете
+
+История о том, как все началось...
+
+Когда эгоистичный и ленивый сын богатого магната Джеспер проваливает учебу в почтовой академии, заслуженно становясь худшим студентом, отец парня отправляет его на перевоспитание на отдаленный остров за полярным кругом.
+
+Чтобы вернуться домой и пользоваться благами родительского достатка, Джесперу придется послать шесть тысяч писем, однако вскоре он обнаруживает, что местные жители, разделенные на два противоборствующих лагеря, вообще не пользуются почтовыми услугами.
+
+Джеспер, раздосадованный очередной неудачей, собирается признать миссию невыполнимой, но неожиданно находит союзников – очаровательную учительницу Альву и таинственного лесоруба Клауса.
+
+Трейлер мультфильма ""Клаус"": смотрите видео онлайн
+
+
+
+Хранители снов
+
+(Rise of the Guardians)
+
+Год выхода: 2012
+
+О сюжете
+
+Это полнометражный мультфильм-сказка, созданный по книге писателя Уильяма Джойса.
+
+Герои этой истории, Санта-Клаус, Пасхальный кролик, Зубная фея и Песочный человек, дружат с детства, а теперь они являются одной дружной командой, которая охраняет сны малышей. Все шло замечательно, пока на горизонте не появился злой дух. Ему совсем не по нраву то, что дети очень много мечтают, и в планы злодея входит заменить детские фантазии ночными кошмарами.
+
+Восемнадцатилетний Ледяной Джек приходит на помощь хранителям и возглавляет борьбу против злого духа. Ситуация осложняется тем, что прихвостни злодея похитили помощниц Зубной Феи и детские зубки, в том числе и зубы Джека, что лишает стража детских воспоминаний. Однако отступать нельзя. Детей, их мечты и веру надо спасти.
+
+Трейлер мультфильма ""Хранители снов"": смотрите видео онлайн
+
+
+
+Секретная служба Санта-Клауса
+
+(Arthur Christmas)
+
+Год выхода: 2011
+
+О сюжете
+
+Мультфильм погружает зрителя в мир захватывающих приключений Санта-Клауса и его младшего сына Артура. Каждый ребенок старается вести себя хорошо, чтобы в Новый Год увидеть под елкой желанные подарки, но одна девочка, несмотря на то, что весь год вела себя хорошо, осталась без подарка. Как такое могло произойти?
+
+Почему верные помощники Санта-Клауса, эльфы, допустили такую ошибку? Ведь это же волшебный праздник, и у каждого ребенка должен быть подарок! Ситуацию решает исправить Артур, сын Санта-Клауса, который работает в почтовом отделении. Храбрый мальчик решается на опасные приключения ради справедливости.
+
+Трейлер мультфильма ""Секретная служба Санта Клауса"": смотрите видео онлайн
+
+Сайт 24 канала поздравляет всех с Новым годом и Рождеством Христовым. Спасибо, что доверяете – мы вместе меняем страну к лучшему.",neutral,Articles about Christmas animations and stories do not discuss migration.,qwen2.5:7b,neutral,Articles about Christmas animations and stories do not discuss migration.,article,1
+20220101,10,CROATIAN,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,neutral,article-asm-l-as-monaco-officializes-the-departure-of-niko-kovac-official-364395.html,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,article-asm-l-as-monaco-officializes-the-departure-of-niko-kovac-official-364395.html,url_1,1
+20220101,10,CROATIAN,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,neutral,article-asm-l-as-monaco-officializes-the-departure-of-niko-kovac-official-364395.html,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,article-asm-l-as-monaco-officializes-the-departure-of-niko-kovac-official-364395.html,url_1,1
+20220101,42,CROATIAN,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,neutral,article-asm-l-as-monaco-officializes-the-departure-of-niko-kovac-official-364395.html,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,article-asm-l-as-monaco-officializes-the-departure-of-niko-kovac-official-364395.html,url_1,1
+20220101,42,CROATIAN,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,push,depart,qwen2.5:7b,,,,,,,qwen2.5:7b,push,depart,url_1,1
+20220101,43,JAKARTA,FLORIDA,https://www.republika.co.id/berita/r520u2384/ini-ketentuan-tes-antigen-di-stasiun,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,10,ISRAEL,,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,push,"rocket fire, Israeli strikes on Gaza",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"rocket fire, Israeli strikes on Gaza",url_1,1
+20220101,61,ISRAEL,,https://www.alquds.co.uk/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D9%82%D8%B5%D9%81-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D9%81%D9%8A-%D9%82%D8%B7%D8%A7%D8%B9-%D8%BA/,pull,aisha al-setsriyi moved to kertchen in ukraine,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,aisha al-setsriyi moved to kertchen in ukraine,url_1,1
+20220101,190,ISRAELI,ISRAEL,https://ria.ru/20220102/status-1766397981.html,push,status of migrants,qwen2.5:7b,,,,,,,qwen2.5:7b,push,status of migrants,url_1,1
+20220101,871,ISRAEL,PALESTINIAN,https://www.alquds.co.uk/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D9%82%D8%B5%D9%81-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D9%81%D9%8A-%D9%82%D8%B7%D8%A7%D8%B9-%D8%BA/,pull,aisha al-setsriyi moved to kertchen in ukraine,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,aisha al-setsriyi moved to kertchen in ukraine,url_1,1
+20220101,190,ISRAELI,GAZA,https://ria.ru/20220102/udary-1766397744.html,push,strikes on the Azeri-Syrian front line,qwen2.5:7b,,,,,,,qwen2.5:7b,push,strikes on the Azeri-Syrian front line,url_1,1
+20220101,194,ISRAEL,PALESTINIAN,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,push,"rocket fire, Israeli strikes on Gaza",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"rocket fire, Israeli strikes on Gaza",url_1,1
+20220101,194,ISRAEL,HAMAS,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,push,"rocket fire, Israeli strikes on Gaza",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"rocket fire, Israeli strikes on Gaza",url_1,1
+20220101,90,ISRAELI,,https://www.adn40.mx/internacional/israel-flurona-gripe-covid-19-pfp,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,10,ISRAELI,ISRAEL,https://www.notigape.com/israel-detecto-primer-caso-de-flurona-gripe-y-covid-19-en-simultaneo/243839,neutral,no clear migration-related tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens in URL,url_1,1
+20220101,90,ISRAELI,ISRAEL,https://www.adn40.mx/internacional/israel-flurona-gripe-covid-19-pfp,neutral,no clear migration-related tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens in URL,url_1,1
+20220101,190,ISRAELI,,https://ria.ru/20220102/status-1766397981.html,neutral,status-1766397981.html no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,status-1766397981.html no migration-related tokens,url_1,1
+20220101,190,ISRAEL,ISRAEL,https://ria.ru/20220102/status-1766397981.html,neutral,status-1766397981.html no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,status-1766397981.html no migration-related tokens,url_1,1
+20220101,190,ISRAEL,ISRAEL,https://ria.ru/20220102/udary-1766397744.html,neutral,udary-1766397744.html no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,udary-1766397744.html no clear migration-related tokens,url_1,1
+20220101,190,ISRAELI,GAZA,https://ria.ru/20220102/status-1766397981.html,neutral,status-1766397981.html no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,status-1766397981.html no migration-related tokens,url_1,1
+20220101,190,ISRAELI,GAZA,https://ria.ru/20220102/udary-1766397744.html,neutral,udary-1766397744.html no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,udary-1766397744.html no clear migration-related tokens,url_1,1
+20220101,20,ISRAELI,ISRAELI,https://www.alarab.com/Article/1018146,neutral,no clear migration-related tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens in URL,url_1,1
+20220101,43,ITALY,,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,pull,immigration illegale (illegal immigration),qwen2.5:7b,,,,,,,qwen2.5:7b,pull,immigration illegale (illegal immigration),url_1,1
+20220101,173,ITALY,ALBANIA,http://www.oranews.tv/vendi/ky-eshte-shqiptari-i-arratisur-nga-burgu-ne-itali-naten-e-nderrimit-te-vit-i1023852,push,is-the-Albanian-escaped-from-the-prison-in-Italy (arrived from Albania via Italy),qwen2.5:7b,,,,,,,qwen2.5:7b,push,is-the-Albanian-escaped-from-the-prison-in-Italy (arrived from Albania via Italy),url_1,1
+20220101,42,ITALY,ITALIAN,https://www.interris.it/copertina/perno-opbg-omicron-bambini/,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,43,ITALIAN,,https://www.interris.it/copertina/perno-opbg-omicron-bambini/,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,43,ITALIAN,ITALY,https://www.interris.it/copertina/perno-opbg-omicron-bambini/,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,10,JUDGE,,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,pull,immigration,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,immigration,url_1,1
+20220101,43,SOUTH KOREA,MUSLIM,https://portaljember.pikiran-rakyat.com/pariwisata/pr-163372393/7-destinasi-wisata-halal-di-korea-selatan-cocok-bagi-umat-muslim-yang-traveling-ke-negeri-ginseng,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,84,TRADE UNION,,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,push,social mobilization,qwen2.5:7b,,,,,,,qwen2.5:7b,push,social mobilization,url_1,1
+20220101,111,TRADE UNION,,https://www.franceguyane.fr/actualite/social/mobilisation-sociale-a-pointe-a-pitre-elie-domota-a-ete-arrete-493999.php,push,social mobilization,qwen2.5:7b,,,,,,,qwen2.5:7b,push,social mobilization,url_1,1
+20220101,100,REPRESENTATIVES,VOTER,https://www.corriere.it/editoriali/22_gennaio_01/i-partiti-quirinaleche-cosa-serve-ora-paese-466c0010-6b3e-11ec-a3c8-e3c830b3b1de.shtml,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,120,REPRESENTATIVES,VOTER,https://www.corriere.it/editoriali/22_gennaio_01/i-partiti-quirinaleche-cosa-serve-ora-paese-466c0010-6b3e-11ec-a3c8-e3c830b3b1de.shtml,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,161,MONACO,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,161,MONACO,,https://madeinfoot.ouest-france.fr/infos/article-asm-l-as-monaco-officialise-le-depart-de-niko-kovac-officiel-364395.html,push,departure,qwen2.5:7b,,,,,,,qwen2.5:7b,push,departure,url_1,1
+20220101,51,MILITARY,,https://www.okaz.com.sa/news/na/2092790,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,51,MILITARY,,https://www.okaz.com.sa/news/na/2092790,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,114,NAVY,,https://omirante.pt/sociedade/2022-01-01-Vila-Franca-de-Xira-vai-ter-de-realizar-mais-obras-para-ganhar-novo-tribunal-a4687496,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,190,MALI,,http://malijet.com/actualite-politique-au-mali/editorial-journaux-mali/265485-edito-le-pragmatisme-russe-aux-antipodes-des-th%C3%A9ories-fran%C3%A7aises.html,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,42,MUSLIM,SOUTH KOREA,https://portaljember.pikiran-rakyat.com/pariwisata/pr-163372393/7-destinasi-wisata-halal-di-korea-selatan-cocok-bagi-umat-muslim-yang-traveling-ke-negeri-ginseng,pull,traveling,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,traveling,url_1,1
+20220101,841,PRISONER,DIPLOMAT,https://www.republika.co.id/berita/r520da430/indiapakistan-tukar-daftar-tahanan,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,42,POLE,,https://as.com/futbol/2022/01/01/primera/1641057005_745473.html,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,161,PORTUGAL,MADEIRA,https://www.akhbarona.com/last/340605.html,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220101,10,PALESTINIAN,,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,push,strikes,qwen2.5:7b,,,,,,,qwen2.5:7b,push,strikes,url_1,1
+20220101,10,PALESTINIAN,,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,push,"rocket fire, Israeli strikes",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"rocket fire, Israeli strikes",url_1,1
+20220101,61,PALESTINIAN,,https://www.alquds.co.uk/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D9%82%D8%B5%D9%81-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D9%81%D9%8A-%D9%82%D8%B7%D8%A7%D8%B9-%D8%BA/,push,"rocket fire, Israeli strikes",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"rocket fire, Israeli strikes",url_1,1
+20220101,10,PALESTINIAN,ISRAEL,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,push,"rocket fire, Israeli strikes",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"rocket fire, Israeli strikes",url_1,1
+20220101,10,PALESTINIAN,ISRAEL,https://www.lematin.ch/story/apres-des-tirs-de-roquettes-frappes-israeliennes-sur-gaza-569823935907,push,"rocket fire, Israeli strikes",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"rocket fire, Israeli strikes",url_1,1
+20220101,61,PALESTINIAN,ISRAEL,https://www.alquds.co.uk/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D9%8A%D9%82%D8%B5%D9%81-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D9%81%D9%8A-%D9%82%D8%B7%D8%A7%D8%B9-%D8%BA/,push,"rocket fire, Israeli strikes",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"rocket fire, Israeli strikes",url_1,1
+20220101,195,HAMAS,,https://alquds.com/2022/01/02/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D9%82%D8%B5%D9%81-%D9%85%D9%88%D9%82%D8%B9%D9%8B%D8%A7-%D9%84%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A8%D8%BA%D8%B2%D8%A9/,neutral,"Purchase, Real Estate",qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,"Purchase, Real Estate",url_1,1
+20220101,195,HAMAS,,https://alquds.com/2022/01/02/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D9%82%D8%B5%D9%81-%D9%85%D9%88%D9%82%D8%B9%D9%8B%D8%A7-%D9%84%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A8%D8%BA%D8%B2%D8%A9/,neutral,"Purchase, Real Estate",qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,"Purchase, Real Estate",url_1,1
+20220101,1712,POLITICIAN,,https://www.analisidifesa.it/2022/01/il-2021-ha-rilanciato-limmigrazione-illegale-su-vasta-scala-in-italia/,pull,large-scale illegal immigration in Italy,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,large-scale illegal immigration in Italy,url_1,1
+20220101,833,ARCHBISHOP,,https://noticias.uol.com.br/ultimas-noticias/efe/2022/01/01/sul-africanos-se-despedem-de-desmond-tutu.htm,push,se despedem de Desmond Tutu (implied emigration due to death),qwen2.5:7b,,,,,,,qwen2.5:7b,push,se despedem de Desmond Tutu (implied emigration due to death),url_1,1
+20220101,84,ROMANIA,,https://evz.ro/catalin-harnagea-fostul-sef-al-serviciului-extern-de-informatii-incepe-sa-scrie-in-evenimentul-zilei.html,neutral,the former head of the Foreign Intelligence Service,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,the former head of the Foreign Intelligence Service,url_1,1
+20220101,10,RUSSIA,,https://www.volynnews.com/news/all/5-naykrutishykh-skarbiv-volynskoho-krayeznavchoho-muzeiu-foto/,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220101,10,RUSSIA,,https://kino.24tv.ua/ru/novogodnie-multfilmy-dlja-vsej-semi-dushevnaja-podborka-dlja_n1831930,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220101,111,RUSSIAN,,https://www.teleport2001.ru/news/2022-01-02/140398-zasukha-grozit-lyudyam-i-zhivotnym-iz-za-stroitelstva-plotiny-na-dalnem-vostoke.html,push,drought (druzhnt) threatens people (threatens people),qwen2.5:7b,,,,,,,qwen2.5:7b,push,drought (druzhnt) threatens people (threatens people),url_1,1
+20220101,110,RUSSIAN,FRENCH,http://malijet.com/actualite-politique-au-mali/editorial-journaux-mali/265485-edito-le-pragmatisme-russe-aux-antipodes-des-th%C3%A9ories-fran%C3%A7aises.html,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220101,182,JEDDAH,FRANCE,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220101,182,JEDDAH,FRANCE,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220101,182,JEDDAH,FRENCH,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220101,182,JEDDAH,FRANCE,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220101,120,SAUDI,SAUDI ARABIA,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220101,60,SENEGAL,,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220101,60,DAKAR,,https://www.la-croix.com/Dakar-2022-Al-Attiyah-auto-Sanders-moto-remportent-prologue-concurrent-blesse-explosion-2022-01-01-1301192706,neutral,"Dakar, prologue",qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,"Dakar, prologue",url_1,1
+20220101,180,SETTLER,ISRAEL,https://www.alarab.com/Article/1018146,unclear,Article/1018146,qwen2.5:7b,,,,"اتكالا منا على الله.. اول الحروف للعاصفة...في بيانها الاول... وحجر رمي في نهر الاردن قالوا سيغير مجرى التاريخ.... الى الاعتراف بتوثيق مؤتمر هرتزل الاول.. واقرار سياسي وتاريخي وقانوني . بالاعتراف على معظم الارض التاريخية لصالح المشروع الصهيوني.. باغتيال العاصفة .
+
+احتفى المحتفون با حتفالات خجولة بالانطلاقة وتحفظات باطنة معترضة على هذا النهج من الفتحاويين وما زالت قواعد فتح وكوادرها غير قادرة على زحزحه وانهاء هذا النهج المدمر للحركة الوطنية وفتح. لانطلاقة ثورة انتهكت مبادئها واهدافها وشرد وقتل كثير من مناضليها ودخلت دهاليز التسوية المميتة لقضيتنا وحقوقنا وكرامتنا وشهدائنا ليحتفلوا بخيبتهم وسقوط ثورة .. كان الاجدر ان تصوبوا بموضوعية سلوك وطريق لحركة استولى عليها مارقين ولصوص لترجعوا الحق الوطني الى نصابه ولتعيدوا شرف القسم والوعد فان الوعد والعهد مسؤلا ... وما زالت مشكلتنا قائمة في نخب تجامل وهي تدري او لا تدري انها تتساوق وتؤيد هؤلاء اللصوص. لثورة وكيان يبيع غالبية فلسطين في اول محطة تمكنت فيها تلك الفئة، في
+
+في حين قراءة الواقع بشكل جيد يعطيك احداثيات الماضي.
+
+قال رئيس أركان الجيش الإسرائيلي، أفيف كوخافي، إن جيشه كان يستعد لشن عملية أمنية واسعة في جنين قبل ثلاثة أشهر، لكن إسرائيل مارست ضغوطا على السلطة الفلسطينية حتى نفذت العملية بنفسه وصادرت اسلحة واعتقلت العشرات ولاحقت الارهبيين وعمليات العنف .
+
+عام مضى حمل معه الكثير من الروايات والاحداث على المستوى الذاتي والاقليمي والدولي وكان عاما قاسيا على جمبع الشعوب في العالم. وانذا ر للبشرية ومهما اتت من قوة البطش والتقدم العلمي بان القوة لله وحده الواحد الاحد..وفلسطينيا حمل معه استمرار لسلب ارادته وتكريس انقسامة والثبات على برنامج اضاع القضية وفتك بها واستمرار لوجود اللصوص والفاسدين والعصابات المنظمة في حياته ومتصدرين القرار .. وعام ياتي من جديد نتمنى ان يكون افضل حالا مما مضى على الكرة الارضية وعام جديد على شعبنا يتخلص من الامه وازماته وعام يتم فيه تقرير حق المصير لشعبنا ونيل حقوقه التاريخية واختفاء اللصوص والمستبدين والفاسدين من حياته. وكل عام ياتي وانتم بخير يا شعبنا الفلسطيني وامتنا العربية والاسلامية وشعوب العالم.
+
+من عجب العجاب ان يتحدث رئيس السلطة بعبارات شعبوية تخالف سلوكه و ممارساته التي لم تعد تخفى حتى على العامة في حين ان سقف محادثاته واتصالاته بالاسرائيليين لا يعدو عن كونه دور وظيفي بموجب قناعة اسرائيلية امريكية بتعزيز دور السلطة مادامت تقوم بهذا الدور الوظيفي ربما كانت كلمة رئيس الاركان كوفاخي توجز كثير مما سنقول حين كثفت السلطة عملياتها الامنية في كل مناطق أ و ب قبل اللقاء الاخير الذي تم مع وزير الحرب الصهيوني في منزله في شمال فلسطين المحتلة والذي حمل اسم (الازدهار والامن) طبيعي ان يحمل هذا الاسم بما يحمل من معاني وسلوكيات نفذتها السلطة ضد الحركة الوطنية الفلسطينية في الضفة الغربية وتزايد عدد العمليات التي تستهدف المستوطنين و جيش الاحتلال و في ظل عمل معاكس بدأ به المستوطنين في التهجم على القرى الفلسطينية والمزارع الفلسطينية و الغريب هنا ان يقبل عباس قارورة من زيت الزيتون التي اقل شجرة فيه اطول من عمر الاحتلال وعمر عباس في حد ذاته وهو زيتون فلسطيني تاريخي واملاك فلسطينية وكأن غينتس يريد ان يقول لن نتخلى عن الاستيطان ومصادرة الارض والمياه والاشجار ايضا وقبل بذلك عباس بدون اي اعتراض .
+
+ولكن عباس يتحدث ويقول انه سيحارب العنف ويلاحقه ولن يتخلى عن التنسيق الامني الذي اعترف بفائدته كوفاخي .
+
+الانطلاقة و في التحضير لاحتفالاتها يذهب الرئيس الفلسطيني للقاء كوفاخي تحت جدول عمل الامن اولا ثم بعض الحقوق المدنية للشعب الفلسطيني وبالتأكيد ان الاسرائيليين يضعوا الامن اولا بمقايدة عجيبة بمال لتعزيز السلطة في حين ايضا ان الاحتلال وامريكا والغرب يقرون بقاء الوضع كما هو عليه بدون اي افق سياسي او الرجوع حتى للمبادرات والمشاريع التي لا تعطي الفلسطينيين حقهم والتي لا تهدف لحل الصراع .
+
+ماذا يقول الفتحاويون المحتشدون في اماكن مختلفة لاشعال شعلة الانطلاقة اهم حقا فتحاويون او هل هناك مراجعات يمكن ان تعيد سريان النهر لمجراه الاساسي ام مازالت تلك النخب والقاعدة الشعبية لحركة فتح مغررة بجمل شعبوية يرفضها الواقع الذي حركة فتح فيه الان فشتان بين فتح الانطلاقة وشعائرها وشهدائها واسراها وبين سلوك قيادة حركة فتح منذ سنوات وليس الان فحسب ، لماذا لم تعترض تلك النخب على هذا النهج ؟ لماذا تحولت الثقافة من ثقافة التحرير الى ثقافة الترويض السلوكي والثقافي لقبول الواقع وقبول قراصنة على هذه الارض واعطائهم الشرعية ، هل هناك من حركة تحرر تنازلت عن شبر واحد من اراضيها او حرف من حروف مبادئها دعونا ان نقول ان هناك في الامر شيئا من البدايات الى واقع النهايات .
+
+عن اي امن وازدهار يتحدث عباس و غينتس و المستوطنين الاسرائيليين مطلوب حمايتهم ليس من جيش الاحتلال بل من الاجهزة الامنية للسلطة التي تقول عن نفسها انها وطنية في حين ان اسرائيل في اتفاقية اوسلو رفضت وضع كلمة وطنية في تعريف السلطة في اشارة بلاغية بأن السلطة هي احد المؤسسات التي يديرها الاحتلال وقبلت القيادة الفلسطينية بشطب كلمة الوطنية ولم تذكر اي محددات للاستيطان او رفض الاستيطان او وقف الاستيطان هكذا الواقع و هكذا الامور بل مطلوب من الشعب الفلسطيني ان لا يواجه عملية مصادرة الاراضي او القتل على الحواجز او مقاومة الاحتلال وبالتالي يتحقق الامن والازدهار للاسرائيليين والقتل والدمار وتدمير المنازل والمزارع يجب ان يتحمله الشعب الفلسطيني مقابل امن وازدهار الاتحلال وبعض ملايين الدولارات التي تحيي رجال السلطة ولا تحيي الشعب الفلسطيني .",push,"war, conflict, violence between Palestinians and Israelis",qwen2.5:7b,push,"war, conflict, violence between Palestinians and Israelis",article,1
+20220101,180,SETTLER,PALESTINIAN,https://www.alarab.com/Article/1018146,unclear,Article/1018146,qwen2.5:7b,,,,"اتكالا منا على الله.. اول الحروف للعاصفة...في بيانها الاول... وحجر رمي في نهر الاردن قالوا سيغير مجرى التاريخ.... الى الاعتراف بتوثيق مؤتمر هرتزل الاول.. واقرار سياسي وتاريخي وقانوني . بالاعتراف على معظم الارض التاريخية لصالح المشروع الصهيوني.. باغتيال العاصفة .
+
+احتفى المحتفون با حتفالات خجولة بالانطلاقة وتحفظات باطنة معترضة على هذا النهج من الفتحاويين وما زالت قواعد فتح وكوادرها غير قادرة على زحزحه وانهاء هذا النهج المدمر للحركة الوطنية وفتح. لانطلاقة ثورة انتهكت مبادئها واهدافها وشرد وقتل كثير من مناضليها ودخلت دهاليز التسوية المميتة لقضيتنا وحقوقنا وكرامتنا وشهدائنا ليحتفلوا بخيبتهم وسقوط ثورة .. كان الاجدر ان تصوبوا بموضوعية سلوك وطريق لحركة استولى عليها مارقين ولصوص لترجعوا الحق الوطني الى نصابه ولتعيدوا شرف القسم والوعد فان الوعد والعهد مسؤلا ... وما زالت مشكلتنا قائمة في نخب تجامل وهي تدري او لا تدري انها تتساوق وتؤيد هؤلاء اللصوص. لثورة وكيان يبيع غالبية فلسطين في اول محطة تمكنت فيها تلك الفئة، في
+
+في حين قراءة الواقع بشكل جيد يعطيك احداثيات الماضي.
+
+قال رئيس أركان الجيش الإسرائيلي، أفيف كوخافي، إن جيشه كان يستعد لشن عملية أمنية واسعة في جنين قبل ثلاثة أشهر، لكن إسرائيل مارست ضغوطا على السلطة الفلسطينية حتى نفذت العملية بنفسه وصادرت اسلحة واعتقلت العشرات ولاحقت الارهبيين وعمليات العنف .
+
+عام مضى حمل معه الكثير من الروايات والاحداث على المستوى الذاتي والاقليمي والدولي وكان عاما قاسيا على جمبع الشعوب في العالم. وانذا ر للبشرية ومهما اتت من قوة البطش والتقدم العلمي بان القوة لله وحده الواحد الاحد..وفلسطينيا حمل معه استمرار لسلب ارادته وتكريس انقسامة والثبات على برنامج اضاع القضية وفتك بها واستمرار لوجود اللصوص والفاسدين والعصابات المنظمة في حياته ومتصدرين القرار .. وعام ياتي من جديد نتمنى ان يكون افضل حالا مما مضى على الكرة الارضية وعام جديد على شعبنا يتخلص من الامه وازماته وعام يتم فيه تقرير حق المصير لشعبنا ونيل حقوقه التاريخية واختفاء اللصوص والمستبدين والفاسدين من حياته. وكل عام ياتي وانتم بخير يا شعبنا الفلسطيني وامتنا العربية والاسلامية وشعوب العالم.
+
+من عجب العجاب ان يتحدث رئيس السلطة بعبارات شعبوية تخالف سلوكه و ممارساته التي لم تعد تخفى حتى على العامة في حين ان سقف محادثاته واتصالاته بالاسرائيليين لا يعدو عن كونه دور وظيفي بموجب قناعة اسرائيلية امريكية بتعزيز دور السلطة مادامت تقوم بهذا الدور الوظيفي ربما كانت كلمة رئيس الاركان كوفاخي توجز كثير مما سنقول حين كثفت السلطة عملياتها الامنية في كل مناطق أ و ب قبل اللقاء الاخير الذي تم مع وزير الحرب الصهيوني في منزله في شمال فلسطين المحتلة والذي حمل اسم (الازدهار والامن) طبيعي ان يحمل هذا الاسم بما يحمل من معاني وسلوكيات نفذتها السلطة ضد الحركة الوطنية الفلسطينية في الضفة الغربية وتزايد عدد العمليات التي تستهدف المستوطنين و جيش الاحتلال و في ظل عمل معاكس بدأ به المستوطنين في التهجم على القرى الفلسطينية والمزارع الفلسطينية و الغريب هنا ان يقبل عباس قارورة من زيت الزيتون التي اقل شجرة فيه اطول من عمر الاحتلال وعمر عباس في حد ذاته وهو زيتون فلسطيني تاريخي واملاك فلسطينية وكأن غينتس يريد ان يقول لن نتخلى عن الاستيطان ومصادرة الارض والمياه والاشجار ايضا وقبل بذلك عباس بدون اي اعتراض .
+
+ولكن عباس يتحدث ويقول انه سيحارب العنف ويلاحقه ولن يتخلى عن التنسيق الامني الذي اعترف بفائدته كوفاخي .
+
+الانطلاقة و في التحضير لاحتفالاتها يذهب الرئيس الفلسطيني للقاء كوفاخي تحت جدول عمل الامن اولا ثم بعض الحقوق المدنية للشعب الفلسطيني وبالتأكيد ان الاسرائيليين يضعوا الامن اولا بمقايدة عجيبة بمال لتعزيز السلطة في حين ايضا ان الاحتلال وامريكا والغرب يقرون بقاء الوضع كما هو عليه بدون اي افق سياسي او الرجوع حتى للمبادرات والمشاريع التي لا تعطي الفلسطينيين حقهم والتي لا تهدف لحل الصراع .
+
+ماذا يقول الفتحاويون المحتشدون في اماكن مختلفة لاشعال شعلة الانطلاقة اهم حقا فتحاويون او هل هناك مراجعات يمكن ان تعيد سريان النهر لمجراه الاساسي ام مازالت تلك النخب والقاعدة الشعبية لحركة فتح مغررة بجمل شعبوية يرفضها الواقع الذي حركة فتح فيه الان فشتان بين فتح الانطلاقة وشعائرها وشهدائها واسراها وبين سلوك قيادة حركة فتح منذ سنوات وليس الان فحسب ، لماذا لم تعترض تلك النخب على هذا النهج ؟ لماذا تحولت الثقافة من ثقافة التحرير الى ثقافة الترويض السلوكي والثقافي لقبول الواقع وقبول قراصنة على هذه الارض واعطائهم الشرعية ، هل هناك من حركة تحرر تنازلت عن شبر واحد من اراضيها او حرف من حروف مبادئها دعونا ان نقول ان هناك في الامر شيئا من البدايات الى واقع النهايات .
+
+عن اي امن وازدهار يتحدث عباس و غينتس و المستوطنين الاسرائيليين مطلوب حمايتهم ليس من جيش الاحتلال بل من الاجهزة الامنية للسلطة التي تقول عن نفسها انها وطنية في حين ان اسرائيل في اتفاقية اوسلو رفضت وضع كلمة وطنية في تعريف السلطة في اشارة بلاغية بأن السلطة هي احد المؤسسات التي يديرها الاحتلال وقبلت القيادة الفلسطينية بشطب كلمة الوطنية ولم تذكر اي محددات للاستيطان او رفض الاستيطان او وقف الاستيطان هكذا الواقع و هكذا الامور بل مطلوب من الشعب الفلسطيني ان لا يواجه عملية مصادرة الاراضي او القتل على الحواجز او مقاومة الاحتلال وبالتالي يتحقق الامن والازدهار للاسرائيليين والقتل والدمار وتدمير المنازل والمزارع يجب ان يتحمله الشعب الفلسطيني مقابل امن وازدهار الاتحلال وبعض ملايين الدولارات التي تحيي رجال السلطة ولا تحيي الشعب الفلسطيني .",push,"war, violence, conflict, security operations",qwen2.5:7b,push,"war, violence, conflict, security operations",article,1
+20220101,193,SETTLER,GUNMEN,https://alquds.com/2022/01/02/%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%B4%D8%B9%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D8%B9%D8%B1-%D9%81%D9%8A-%D8%B4%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%B6%D9%81%D8%A9/,neutral,"Resistance, popularity",qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,"Resistance, popularity",url_1,1
+20220101,36,SYRIAN,SYRIAN,https://www.alarab.com/Article/1018149,unclear,Article/1018149,qwen2.5:7b,,,,"تنبأ المنجم اللبناني مايك فغالي بسلسلة من التوقعات لتطور الأحداث السياسية في سوريا واليمن والسعودية ودول الخليج في 2022.
+
+وحول الملف السوري توقع فغالي أن يترك الرئيس السوري بشار الأسد منصبه لراحة باله وضميره، وبسبب تعبه من السياسة.
+
+وتوقع أن يترك الأسد الحكم في سوريا والاختفاء عن الساحة السياسية بكامل إرادته ورغبته الشخصية دون ضغوطات أو انقلابات.
+
+ورأى أن وحدة سوريا لن يمسها اعتداءات أو مؤامرات، حيث لن تتجزأ سوريا إلى دويلات، وأن لا أساس للانقلاب في سوريا لتغيير الحكم أو السلطة فيها.
+
+أما على صعيد اليمن، فتوقع فغالي أن ينشب نزاع بين السعودية والإمارات على ميناء الحديدة.
+
+وأشار إلى أن تدخل السعودية والإمارات في شؤون اليمن وصراعاته الداخلية سيستمر.
+
+ولفت إلى أن الإمارات ستحاول الاستيلاء على ميناء الحديدة لتحقق مصالح ذاتية.
+
+وتوقع تشعب الحوثيين في اليمن وتوسع رقعة سيطرتهم، ما سيشعل غضب السعودية والإمارات.
+
+ورأى أن الانقسام اليمني سينتهي والخلافات والحروب ستتلاشى بعد تدخلات من الدول الأجنبية لإنهاء الأزمة.
+
+وفي السعودية، توقع حدوث خلافات قوية في العائلة الحاكمة وانقسام بعض الأراضي إلى دويلات صغيرة، وأن تدور صراعات شديدة ونزاعات كبيرة وخلافات بين الدول العربية في الخليج ستترك تأثيرا سلبيا كبيرا على الداخل السعودي.
+
+كما توقع أن يقع خلاف بين الأميرين محمد بن نايف ومحمد بن سلمان، حيث يدور بينهما خلاف ونزاع كبير يخلخل الأسرة الحاكمة من الداخل ويؤثر على وضع السعودية.",neutral,No clear migration-related conditions discussed.,qwen2.5:7b,neutral,No clear migration-related conditions discussed.,article,1
+20220101,36,SYRIAN,SYRIAN,https://www.alarab.com/Article/1018149,unclear,Article/1018149,qwen2.5:7b,,,,"تنبأ المنجم اللبناني مايك فغالي بسلسلة من التوقعات لتطور الأحداث السياسية في سوريا واليمن والسعودية ودول الخليج في 2022.
+
+وحول الملف السوري توقع فغالي أن يترك الرئيس السوري بشار الأسد منصبه لراحة باله وضميره، وبسبب تعبه من السياسة.
+
+وتوقع أن يترك الأسد الحكم في سوريا والاختفاء عن الساحة السياسية بكامل إرادته ورغبته الشخصية دون ضغوطات أو انقلابات.
+
+ورأى أن وحدة سوريا لن يمسها اعتداءات أو مؤامرات، حيث لن تتجزأ سوريا إلى دويلات، وأن لا أساس للانقلاب في سوريا لتغيير الحكم أو السلطة فيها.
+
+أما على صعيد اليمن، فتوقع فغالي أن ينشب نزاع بين السعودية والإمارات على ميناء الحديدة.
+
+وأشار إلى أن تدخل السعودية والإمارات في شؤون اليمن وصراعاته الداخلية سيستمر.
+
+ولفت إلى أن الإمارات ستحاول الاستيلاء على ميناء الحديدة لتحقق مصالح ذاتية.
+
+وتوقع تشعب الحوثيين في اليمن وتوسع رقعة سيطرتهم، ما سيشعل غضب السعودية والإمارات.
+
+ورأى أن الانقسام اليمني سينتهي والخلافات والحروب ستتلاشى بعد تدخلات من الدول الأجنبية لإنهاء الأزمة.
+
+وفي السعودية، توقع حدوث خلافات قوية في العائلة الحاكمة وانقسام بعض الأراضي إلى دويلات صغيرة، وأن تدور صراعات شديدة ونزاعات كبيرة وخلافات بين الدول العربية في الخليج ستترك تأثيرا سلبيا كبيرا على الداخل السعودي.
+
+كما توقع أن يقع خلاف بين الأميرين محمد بن نايف ومحمد بن سلمان، حيث يدور بينهما خلاف ونزاع كبير يخلخل الأسرة الحاكمة من الداخل ويؤثر على وضع السعودية.",push,"conflict, division may cause people to leave",qwen2.5:7b,push,"conflict, division may cause people to leave",article,1
+20220101,36,SYRIAN,SYRIAN,https://www.alarab.com/Article/1018149,unclear,Article/1018149,qwen2.5:7b,,,,"تنبأ المنجم اللبناني مايك فغالي بسلسلة من التوقعات لتطور الأحداث السياسية في سوريا واليمن والسعودية ودول الخليج في 2022.
+
+وحول الملف السوري توقع فغالي أن يترك الرئيس السوري بشار الأسد منصبه لراحة باله وضميره، وبسبب تعبه من السياسة.
+
+وتوقع أن يترك الأسد الحكم في سوريا والاختفاء عن الساحة السياسية بكامل إرادته ورغبته الشخصية دون ضغوطات أو انقلابات.
+
+ورأى أن وحدة سوريا لن يمسها اعتداءات أو مؤامرات، حيث لن تتجزأ سوريا إلى دويلات، وأن لا أساس للانقلاب في سوريا لتغيير الحكم أو السلطة فيها.
+
+أما على صعيد اليمن، فتوقع فغالي أن ينشب نزاع بين السعودية والإمارات على ميناء الحديدة.
+
+وأشار إلى أن تدخل السعودية والإمارات في شؤون اليمن وصراعاته الداخلية سيستمر.
+
+ولفت إلى أن الإمارات ستحاول الاستيلاء على ميناء الحديدة لتحقق مصالح ذاتية.
+
+وتوقع تشعب الحوثيين في اليمن وتوسع رقعة سيطرتهم، ما سيشعل غضب السعودية والإمارات.
+
+ورأى أن الانقسام اليمني سينتهي والخلافات والحروب ستتلاشى بعد تدخلات من الدول الأجنبية لإنهاء الأزمة.
+
+وفي السعودية، توقع حدوث خلافات قوية في العائلة الحاكمة وانقسام بعض الأراضي إلى دويلات صغيرة، وأن تدور صراعات شديدة ونزاعات كبيرة وخلافات بين الدول العربية في الخليج ستترك تأثيرا سلبيا كبيرا على الداخل السعودي.
+
+كما توقع أن يقع خلاف بين الأميرين محمد بن نايف ومحمد بن سلمان، حيث يدور بينهما خلاف ونزاع كبير يخلخل الأسرة الحاكمة من الداخل ويؤثر على وضع السعودية.",unclear,No clear migration-related conditions mentioned.,qwen2.5:7b,unclear,No clear migration-related conditions mentioned.,article,1
+20220101,36,SYRIAN,SYRIAN,https://www.alarab.com/Article/1018149,unclear,Article/1018149,qwen2.5:7b,,,,"تنبأ المنجم اللبناني مايك فغالي بسلسلة من التوقعات لتطور الأحداث السياسية في سوريا واليمن والسعودية ودول الخليج في 2022.
+
+وحول الملف السوري توقع فغالي أن يترك الرئيس السوري بشار الأسد منصبه لراحة باله وضميره، وبسبب تعبه من السياسة.
+
+وتوقع أن يترك الأسد الحكم في سوريا والاختفاء عن الساحة السياسية بكامل إرادته ورغبته الشخصية دون ضغوطات أو انقلابات.
+
+ورأى أن وحدة سوريا لن يمسها اعتداءات أو مؤامرات، حيث لن تتجزأ سوريا إلى دويلات، وأن لا أساس للانقلاب في سوريا لتغيير الحكم أو السلطة فيها.
+
+أما على صعيد اليمن، فتوقع فغالي أن ينشب نزاع بين السعودية والإمارات على ميناء الحديدة.
+
+وأشار إلى أن تدخل السعودية والإمارات في شؤون اليمن وصراعاته الداخلية سيستمر.
+
+ولفت إلى أن الإمارات ستحاول الاستيلاء على ميناء الحديدة لتحقق مصالح ذاتية.
+
+وتوقع تشعب الحوثيين في اليمن وتوسع رقعة سيطرتهم، ما سيشعل غضب السعودية والإمارات.
+
+ورأى أن الانقسام اليمني سينتهي والخلافات والحروب ستتلاشى بعد تدخلات من الدول الأجنبية لإنهاء الأزمة.
+
+وفي السعودية، توقع حدوث خلافات قوية في العائلة الحاكمة وانقسام بعض الأراضي إلى دويلات صغيرة، وأن تدور صراعات شديدة ونزاعات كبيرة وخلافات بين الدول العربية في الخليج ستترك تأثيرا سلبيا كبيرا على الداخل السعودي.
+
+كما توقع أن يقع خلاف بين الأميرين محمد بن نايف ومحمد بن سلمان، حيث يدور بينهما خلاف ونزاع كبير يخلخل الأسرة الحاكمة من الداخل ويؤثر على وضع السعودية.",neutral,No clear migration-related conditions discussed.,qwen2.5:7b,neutral,No clear migration-related conditions discussed.,article,1
+20220101,23,UKRAINIAN,,https://kino.24tv.ua/ru/novogodnie-multfilmy-dlja-vsej-semi-dushevnaja-podborka-dlja_n1831930,neutral,New Year's-cartoons-for-the-whole-family-heartwarming-selection-for,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,New Year's-cartoons-for-the-whole-family-heartwarming-selection-for,url_1,1
+20220101,90,WYOMING,,https://g1.globo.com/mundo/noticia/2022/01/01/a-epidemia-de-desaparecimentos-de-indigenas-que-intriga-os-eua.ghtml,neutral,the-epidemic-of-disappearances-of-indigenous-people-that-intrigues-the-us,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,the-epidemic-of-disappearances-of-indigenous-people-that-intrigues-the-us,url_1,1
+20220101,42,FLORIDA,JAKARTA,https://www.republika.co.id/berita/r520u2384/ini-ketentuan-tes-antigen-di-stasiun,neutral,tes antigen,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,tes antigen,url_1,1
+20220101,190,YEMENI,LILLE,https://www.okaz.com.sa/news/na/2092790,neutral,provisions for antigen tests at stations,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,provisions for antigen tests at stations,url_1,1
+20220101,10,YEMENI,PERSIAN,https://www.okaz.com.sa/news/na/2092790,neutral,provisions for antigen tests at stations,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,provisions for antigen tests at stations,url_1,1
+20220101,50,CATALAN,,https://sport1.oslobodjenje.ba/s1/fudbal/ino-fudbal/primera/postigao-dogovor-sa-kataloncima-barcelona-sljedeceg-ljeta-dobija-veliko-pojacanje-721568,neutral,"football ino football Primera has reached an agreement with the Catalans, Barcelona is getting a big boost next summer",qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,"football ino football Primera has reached an agreement with the Catalans, Barcelona is getting a big boost next summer",url_1,1
+20220101,141,SLAVIC,TARA,https://www.kramatorsk.info/view/272909,push,kramatorsk info view 272909,qwen2.5:7b,,,,,,,qwen2.5:7b,push,kramatorsk info view 272909,url_1,1
+20220101,141,SLAVIC,UKRAINE,https://www.kramatorsk.info/view/272909,push,kramatorsk info view 272909,qwen2.5:7b,,,,,,,qwen2.5:7b,push,kramatorsk info view 272909,url_1,1
+20210102,51,POLAND,,https://logistyka.rp.pl/drogowy/art19249821-na-ten-rok-w-planach-oddanie-do-uzytku-345-km-drog-krajowych,neutral,road art19249821 345 km of national roads are planned for this year,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,road art19249821 345 km of national roads are planned for this year,url_1,1
+20210102,51,POLISH,,https://logistyka.rp.pl/drogowy/art19249821-na-ten-rok-w-planach-oddanie-do-uzytku-345-km-drog-krajowych,neutral,road art19249821 345 km of national roads are planned for this year,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,road art19249821 345 km of national roads are planned for this year,url_1,1
+20210102,51,POLISH,,https://logistyka.rp.pl/drogowy/art19249821-na-ten-rok-w-planach-oddanie-do-uzytku-345-km-drog-krajowych,neutral,road art19249821 345 km of national roads are planned for this year,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,road art19249821 345 km of national roads are planned for this year,url_1,1
+20220102,36,,BUENOS AIRES,https://urgente24.com/actualidad/tragedia-palermo-asesino-al-volante-alcohol-y-muerte-n531977,neutral,tragedy palermo murderer at the wheel alcohol and death,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,tragedy palermo murderer at the wheel alcohol and death,url_1,1
+20220102,100,,BUSINESS,https://www.eluniversal.com.mx/cartera/concanaco-pide-comercios-mantener-medidas-sanitarias-y-evitar-cierres-por-ola-de-covid,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,190,,TYCOON,https://revistamonet.globo.com/Celebridades/noticia/2022/01/look-de-jeff-bezos-um-dos-homens-mais-ricos-do-mundo-no-reveillon-rende-piadas-nas-redes-meio-vin-diesel-meio-agostinho-carrara.html,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,112,,CALGARY,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,841,,POLICE,https://www.hoydiariodelmagdalena.com.co/archivos/613756,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,36,,SCHOOL,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,push,difficulties-with-students-without-internet,qwen2.5:7b,,,,,,,qwen2.5:7b,push,difficulties-with-students-without-internet,url_1,1
+20220102,42,,SCHOOL,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,push,difficulties-with-students-without-internet,qwen2.5:7b,,,,,,,qwen2.5:7b,push,difficulties-with-students-without-internet,url_1,1
+20220102,42,,FRANCE,https://www.mdzol.com/deportes/2022/1/2/cuando-vuelve-lionel-messi-su-posible-debut-con-el-psg-en-2022-212536.html,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,42,,FRANCE,https://www.mdzol.com/deportes/2022/1/2/cuando-vuelve-lionel-messi-su-posible-debut-con-el-psg-en-2022-212536.html,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,141,,THE UK,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,42,,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,42,,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,unclear,<URL token cannot be interpreted>,qwen2.5:7b,,,,"المنتخب الوطني يبرمج أولى حصصه التدريبية في الكاميرون غدا الإثنين استعدادا لودية بوركينا فاسو و""رحلة الكان""
+
+حدد الطاقم التقني للناخب الوطني وحيد خليلوزيتش، برنامج ""الأسود"" في الكاميرون، قبل مواجهة غانا، لحساب الجولة الأولى من دور المجموعات لكأس أمم أفريقيا 2021.
+
+
+
+
+
+ومن المقرر أن يخوض المنتخب الوطني يوم غد الإثنين، أولى حصصه التدريبية استعدادا لودية بوركينا فاسو، المبرمجة يوم الخميس 6 يناير الجاري.
+
+
+
+
+
+ويدشن رفاق أشرف حكيمي، رحلتهم القارية، بمواجهة غانا، يوم الإثنين 10 يناير، بداية من الساعة الخامسة عصرا (17:00 غرينيتش +1)، بملعب ""أحمدو أهيدجو"" في مدينة ياوندي الكاميرونية.
+
+
+
+
+
+وحطت بعثة المنتخب المغربي، يومه الأحد، الرحال في الكاميرون، إذ وجدت في استقبالها سفير المملكة هناك، مصطفى بوه.
+
+
+
+
+
+يذكر أن المغرب يتواجد في المجموعة الثالثة، رفقة منتخبات غانا والغابون وجزر القمر.",neutral,"article about soccer training, not migration",qwen2.5:7b,neutral,"article about soccer training, not migration",article,1
+20220102,40,,KINGDOM,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,pull,External,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,External,url_1,1
+20220102,46,,MINIST,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,pull,External,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,External,url_1,1
+20220102,46,,KINGDOM,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,pull,External,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,External,url_1,1
+20220102,57,,GOVERNMENT,https://www.cas.sk/clanok/2626553/predseda-civilnej-vlady-v-sudane-oznamil-svoju-rezignaciu-snazil-som-sa-zo-vsetkych-sil/,push,resignation-I-tried-with-all-my-strength,qwen2.5:7b,,,,,,,qwen2.5:7b,push,resignation-I-tried-with-all-my-strength,url_1,1
+20220102,84,,PRESIDENT,https://www.lematin.ch/story/lhomme-fort-du-parti-ennahdha-hospitalise-dans-un-etat-critique-474086927675,neutral,<No clear migration-related tokens>,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,<No clear migration-related tokens>,url_1,1
+20220102,141,,AUTHORITIES,http://lratvakan.com/news/76958.html,unclear,<URL token cannot be interpreted>,qwen2.5:7b,,,,"Участники акции протеста в центре Киева пошли на штурм кордонов, которые выставлены вокруг квартала правительственных зданий.
+
+На улице Грушевского в Киеве не утихают столкновения протестующих и правоохранителей. На улице стоят несколько разбитых автобусов милиции, один автобус подожгли. Силовики регулярно бросают в толпу дымовые шашки, используют слезоточивый газ.
+
+Ожидается приезд водометов. Об этом сообщают местные СМИ. Использование водометов на морозе угрожает смертями протестующим. При таком температуре может наступить переохлаждение от воды за несколько минут.
+
+Помимо этого, протестующие захватили пять пустых милицейских автобусов. Лидер партии «УДАР» Виталий Кличко призвал протестующих отказаться от силовых действий в отношении правоохранителей, заявив, что это наверняка вызовет ответную реакцию со стороны «Беркута». Политик пообещал договориться о том, чтобы людям открыли проход к зданию Верховной Рады.
+
+Столкновения активистов с милицией начались после так называемого народного вече на Майдане Незалежности, в котором приняли участие несколько сотен тысяч человек. Собравшиеся протестовали против политики действующих властей страны.",push,"protests, violence, potential danger",qwen2.5:7b,push,"protests, violence, potential danger",article,1
+20220102,141,,AUTHORITIES,https://lugradar.net/2022/01/337334,unclear,<URL token cannot be interpreted>,qwen2.5:7b,,,,"Содержание:
+
+Париматч — одна из самых известных букмекерских платформ, работающая с 1994 года. За это время бренд завоевал доверие миллионов пользователей в Украине и за рубежом. Сегодня Parimatch предлагает ставки на спорт, казино, покер и другие азартные развлечения. Платформа имеет лицензию Curacao Gaming Authority (no. 157), сотрудничает с ведущими разработчиками игрового софта и обеспечивает защиту данных современными технологиями шифрования.
+
+⚠️ Некоторые ссылки на сайте являются партнерскими. Это значит, что мы можем получать комиссию, если вы зарегистрируетесь или сделаете депозит по одной из них. Это не влияет на содержание и оценки, но помогает развивать проект.
+
+Преимущества Parimatch
+
+Преимущество Описание Надежность и безопасность Современные технологии шифрования обеспечивают защиту данных и честность игр. Широкий выбор азартных игр и ставок Большой ассортимент спортивных событий, казино, покера и других развлечений. Удобная система ввода и вывода средств Быстрые транзакции через популярные платежные системы. Щедрые бонусы и турниры Программы лояльности, кэшбэки и розыгрыши для активных пользователей. Доступ с любого устройства Мобильное приложение Париматч и адаптивная мобильная версия сайта для смартфонов и планшетов. Поддержка 24/7 Оперативные ответы через онлайн-чат, email и телефон. Сертифицированные игры Все слоты и лайв-игры проходят независимое тестирование на честность и соответствие заявленному RTP. Лицензия Curacao Gaming Authority under the National Ordinance on Games of Chance (LOK), P.B. 2024, no. 157
+
+⚠️ Азартные игры могут вызывать зависимость. Перед тем как начать — оцените свои риски. Рекомендуем ознакомиться с разделом «Ответственная игра».
+
+Как войти в Пари Матч
+
+Пари Матч вход выполняется через официальный сайт или мобильное приложение. Для авторизации понадобятся логин (номер телефона, email или номер счета) и пароль, указанные при регистрации. Вход в Париматч доступен с любого устройства — смартфона, планшета или компьютера.
+
+Общий алгоритм входа в Пари Матч:
+
+Откройте сайт Parimatch или запустите приложение. Нажмите кнопку «Войти» в правом верхнем углу. Выберите способ авторизации: номер телефона, номер счета или электронная почта. Введите логин и пароль от своей учетной записи. Нажмите «Войти» для завершения авторизации.
+
+После успешного входа вы попадете в личный кабинет Париматч, откуда доступны ставки, казино, пополнение счета и вывод средств.
+
+Вход в Пари Матч через мобильную версию
+
+Если вы предпочитаете не устанавливать приложение, используйте мобильную версию Parimatch. Пари Матч вход через мобильный браузер работает так же, как и с компьютера — сайт автоматически адаптируется под размер экрана.
+
+Чтобы войти в Пари Матч с телефона без приложения:
+
+Откройте браузер на мобильном устройстве. Перейдите на сайт Parimatch. Нажмите «Войти» в верхнем правом углу. Укажите логин и пароль. Подтвердите вход.
+
+Мобильная версия Parimatch поддерживает все функции десктопного сайта: ставки на спорт, казино, управление балансом и бонусами.
+
+💡 Совет: если не приходит SMS-код — проверьте правильность номера и повторите попытку через 2 минуты. Если проблема сохраняется, обратитесь в поддержку через онлайн-чат.
+
+Вход в казино Пари Матч
+
+Пари Матч вход в казино выполняется через тот же аккаунт, что используется для ставок на спорт. Отдельная регистрация не требуется. После авторизации перейдите в раздел «Казино» в главном меню.
+
+Казино Париматч предлагает широкий выбор развлечений:
+
+Игровые автоматы (слоты) от NetEnt, Novomatic, BetSoft и других провайдеров.
+
+Настольные игры — рулетка, блэкджек, баккара.
+
+Live-казино с реальными дилерами.
+
+Покер и видеопокер.
+
+Все игры сертифицированы независимыми лабораториями и работают на генераторе случайных чисел, что гарантирует честность результатов. Чтобы играть на деньги, необходимо пройти регистрацию, верификацию и пополнить игровой счет.
+
+Вход на сайт Париматч через компьютер
+
+Для входа в Parimatch с компьютера откройте браузер и перейдите на официальный сайт. Нажмите «Войти» и введите данные от своего аккаунта. Процедура авторизации на ПК ничем не отличается от мобильной версии.
+
+Регистрация в Пари Матч
+
+Регистрация в букмекерской конторе Париматч занимает несколько минут. Создать аккаунт можно по номеру телефона или электронной почте. Рекомендуется сразу заполнить все поля анкеты — это ускорит прохождение верификации.
+
+Как зарегистрироваться в Париматч:
+
+Зайдите на сайт Parimatch с любого устройства. Нажмите кнопку «Регистрация» в верхнем правом углу. Укажите email или номер телефона. Придумайте надежный пароль, следуя рекомендациям системы. Нажмите «Зарегистрироваться».
+
+После создания аккаунта необходимо подтвердить личность. Для этого зайдите в личный кабинет, перейдите в раздел «Подтвердить учетную запись», выберите тип документа и загрузите его фотографии. Верификация нужна для вывода средств и полноценного использования всех функций Parimatch.
+
+Перед регистрацией рекомендуется внимательно ознакомиться с правилами платформы.
+
+Скачать Париматч бесплатно
+
+Скачать Париматч можно бесплатно с официального сайта. Приложение Пари Матч доступно для устройств на Android и iOS. Мобильное приложение обеспечивает быстрый доступ к ставкам и казино без необходимости открывать браузер.
+
+Скачать Париматч на Андроид
+
+Чтобы скачать Пари Матч на Андроид бесплатно:
+
+Откройте официальный сайт Parimatch в браузере телефона. На главной странице найдите кнопку «Скачать приложение». Выберите версию для Android — начнется загрузка APK-файла. Если загрузка не началась, проверьте настройки устройства: разрешите установку приложений из неизвестных источников. После загрузки откройте файл и установите приложение.
+
+После установки запустите приложение Париматч, войдите в свой аккаунт или пройдите регистрацию.
+
+Скачать Париматч на Айфон
+
+Скачать приложение Пари Матч на iPhone можно через App Store или с официального сайта:
+
+Перейдите на сайт Parimatch с вашего iPhone. Нажмите «Скачать приложение» и выберите версию для iOS. Вы будете перенаправлены в App Store — нажмите «Загрузить». После установки откройте приложение и авторизуйтесь.
+
+Мобильное приложение Париматч
+
+Мобильное приложение Пари Матч — это полноценная версия платформы для смартфонов. Приложение Париматч предоставляет те же возможности, что и десктопный сайт:
+
+Ставки на спорт в прематче и лайве.
+
+Казино и игровые автоматы.
+
+Пополнение счета и вывод средств.
+
+Push-уведомления о результатах и акциях.
+
+Управление бонусами и промокодами.
+
+Приложение работает стабильно даже при слабом интернет-соединении и потребляет меньше трафика, чем мобильная версия сайта в браузере. Для входа в Пари Матч через приложение используйте тот же логин и пароль, что и на сайте.
+
+Личный кабинет Пари Матч
+
+После входа в Париматч игрок получает доступ к личному кабинету с расширенным функционалом:
+
+Пополнение игрового счета и вывод средств.
+
+Выбор и активация бонусов.
+
+Статистика использованных поощрений от букмекера.
+
+Финансовая отчетность с фильтрацией по дате.
+
+Изменение персональных данных.
+
+Прохождение верификации.
+
+Обращение в службу поддержки.
+
+Настройки аккаунта и безопасности.
+
+Личный кабинет Parimatch позволяет полноценно управлять аккаунтом, контролировать финансы и использовать все функции букмекерской конторы и казино.
+
+Проблемы со входом в Париматч
+
+Рассмотрим распространенные ситуации, когда вход в Пари Матч может быть затруднен.
+
+Блокировка сайта. В некоторых регионах доступ к Parimatch может быть ограничен. В этом случае попробуйте использовать VPN или Proxy для обхода блокировки. Также можно скачать приложение Париматч — оно работает независимо от ограничений браузера.
+
+Забыт пароль. Нажмите «Забыл пароль» на странице входа, укажите email или номер телефона и следуйте инструкции для сброса пароля.
+
+Неверные данные. Убедитесь, что логин и пароль введены корректно. Проверьте раскладку клавиатуры и регистр символов.
+
+Технические неполадки. Попробуйте очистить кеш браузера, обновить страницу или использовать другой браузер. Если проблема сохраняется, обратитесь в службу поддержки Париматч — специалисты работают круглосуточно через онлайн-чат, email и телефон.",neutral,"Article focuses on Parimatch platform details, not migration conditions.",qwen2.5:7b,neutral,"Article focuses on Parimatch platform details, not migration conditions.",article,1
+20220102,42,,UNITED NATIONS,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,pull,Saudi,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,Saudi,url_1,1
+20220102,14,,ISRAELI,https://itongadol.com/coronavirus/coronavirus-en-israel-se-espera-que-tres-millones-de-israelies-se-infecten-con-el-virus,neutral,<No clear migration-related tokens>,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,<No clear migration-related tokens>,url_1,1
+20220102,51,,ISRAEL,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,push,hunger strike,qwen2.5:7b,,,,,,,qwen2.5:7b,push,hunger strike,url_1,1
+20220102,53,,ISRAEL,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,push,hunger strike,qwen2.5:7b,,,,,,,qwen2.5:7b,push,hunger strike,url_1,1
+20220102,43,,JORDAN,https://alghad.com/%D9%85%D8%B9%D8%B1%D8%B6-%D8%A3%D8%B1%D8%AF%D9%86%D9%8A-%D9%84%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%8A%D9%86%D8%B7%D9%84%D9%82-%D9%81%D9%8A-%D8%B3/,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220102,130,,LAWYER,https://www.vesti-online.com/stopiran-otkaz-za-nevakcinisanog-cuvara-reda/,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220102,42,,ANTANANARIVO,http://www.taringa.net/+salud_bienestar/la-proxima-gran-pandemia-la-resistencia-a-antibioticos-ya-esta-aqui_4zonot/,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220102,71,,OAXACA,https://oaxaca.eluniversal.com.mx/estatal/aumenta-congreso-de-oaxaca-presupuesto-de-comision-forestal-en-14-mdp,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220102,43,,MACHU PICCHU,https://www.segnidalcielo.it/peru-un-turista-fotografa-un-ufo-sullantica-citta-di-machu-picchu/,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220102,53,,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,push,hunger strike,qwen2.5:7b,,,,,,,qwen2.5:7b,push,hunger strike,url_1,1
+20220102,51,,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,push,hunger strike,qwen2.5:7b,,,,,,,qwen2.5:7b,push,hunger strike,url_1,1
+20220102,53,,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,push,hunger strike,qwen2.5:7b,,,,,,,qwen2.5:7b,push,hunger strike,url_1,1
+20220102,43,,SAINT,https://g1.globo.com/sp/santos-regiao/porto-mar/noticia/2022/01/02/anvisa-reforca-urgencia-em-acabar-com-temporada-de-cruzeiros-e-fala-em-risco-a-saude-publica.ghtml,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,51,,SETTLER,https://www.eluniversal.com.mx/ciencia-y-salud/tras-aparente-extincion-el-pez-picote-tequila-fue-reintegrado-su-habitat,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,20,,TURKEY,https://eleftherostypos.gr/ellinotourkika/880814-empristikos-o-akar-ebale-xio-samo-kai-oinousses-sto-stoma-tis-tourkias/,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,36,,THE WHITE HOUSE,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,41,,THE WHITE HOUSE,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,112,FARMER,MINIST OF ENVIRONMENT,https://www.diariolibre.com/actualidad/sucesos/2022/01/02/acusan-ganaderos-de-provocar-incendios-en-sierra-de-bahoruco/1563459,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,356,ARGENTINIAN,,https://www.clarin.com/opinion/malvinas-primeros-200-anos-_0_7SMJC2Ult.html,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,36,BUENOS AIRES,,https://urgente24.com/actualidad/tragedia-palermo-asesino-al-volante-alcohol-y-muerte-n531977,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,80,ARGENTINA,,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,160,ARGENTINA,FALKLANDS,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,190,BELGIAN,BELGIUM,https://geeko.lesoir.be/2022/01/02/une-entreprise-belge-lutte-contre-contre-le-gaspillage-pharmaceutique/,neutral,pharmaceutical waste,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,pharmaceutical waste,url_1,1
+20220102,190,BELGIAN,,https://geeko.lesoir.be/2022/01/02/une-entreprise-belge-lutte-contre-contre-le-gaspillage-pharmaceutique/,neutral,pharmaceutical waste,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,pharmaceutical waste,url_1,1
+20220102,112,BELARUSIAN,BELARUS,http://www.kvir.ru/author/andre-galinin/,neutral,inside-chicken,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,inside-chicken,url_1,1
+20220102,190,BELARUSIAN,BELARUS,http://www.kvir.ru/author/andre-galinin/,neutral,Malvinas past present conflict,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,Malvinas past present conflict,url_1,1
+20220102,51,BRAZIL,ARGENTINE,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,neutral,Malvinas past present conflict,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,Malvinas past present conflict,url_1,1
+20220102,10,BRAZIL,BRAZIL,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,neutral,Malvinas past present conflict,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,Malvinas past present conflict,url_1,1
+20220102,10,BRAZIL,BRAZIL,https://www.clarin.com/opinion/malvinas-pasado-presente-conflicto_0_4JQu1pJwH.html,neutral,Malvinas past present conflict,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,Malvinas past present conflict,url_1,1
+20220102,12,TYCOON,,https://revistamonet.globo.com/Celebridades/noticia/2022/01/look-de-jeff-bezos-um-dos-homens-mais-ricos-do-mundo-no-reveillon-rende-piadas-nas-redes-meio-vin-diesel-meio-agostinho-carrara.html,neutral,"Jeff Bezos' look, one of the richest men in the world, on New Year's Eve is making jokes on social media, half Vin Diesel, half Augustine Carrara.",qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,"Jeff Bezos' look, one of the richest men in the world, on New Year's Eve is making jokes on social media, half Vin Diesel, half Augustine Carrara.",url_1,1
+20220102,90,COMPANY,,https://e24.no/ledige-stillinger/s/Kzeo24/har-du-inkasso-erfaring-men-kan-tenke-deg-strre-ansvar,pull,Do you have debt collection experience but can imagine greater responsibility,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,Do you have debt collection experience but can imagine greater responsibility,url_1,1
+20220102,145,BUSINESS,,https://www.limburger.nl/cnt/dmf20220102_97854382,neutral,dmf20220102_97854382,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,dmf20220102_97854382,url_1,1
+20220102,160,AIRLINE,,https://es.investing.com/news/stock-market-news/disrupciones-relacionadas-con-omicron-provocan-mas-de-4000-cancelaciones-de-vuelos-en-inicio-de-2022-2199117,neutral,stock-market-news,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,stock-market-news,url_1,1
+20220102,190,TYCOON,,https://revistamonet.globo.com/Celebridades/noticia/2022/01/look-de-jeff-bezos-um-dos-homens-mais-ricos-do-mundo-no-reveillon-rende-piadas-nas-redes-meio-vin-diesel-meio-agostinho-carrara.html,neutral,"celebrities, look-of-jeff-bezos",qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,"celebrities, look-of-jeff-bezos",url_1,1
+20220102,20,AIRLINE,EMPLOYEE,https://es.investing.com/news/stock-market-news/disrupciones-relacionadas-con-omicron-provocan-mas-de-4000-cancelaciones-de-vuelos-en-inicio-de-2022-2199117,neutral,stock-market-news,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,stock-market-news,url_1,1
+20220102,30,BUSINESS,,https://www.eluniversal.com.mx/nacion/tras-vacaciones-de-invierno-sep-se-declara-lista-para-retorno-actividades-escolares-presenciales,neutral,return-school-activities-in-person,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,return-school-activities-in-person,url_1,1
+20220102,173,CALGARY,CALGARY,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,unclear,manifestations-anti-covid,qwen2.5:7b,,,,"Un pasteur connu pour ses positions anti-mesures sanitaires et son frère ont été arrêtés et accusés, samedi, après avoir manifesté sur le terrain du ministre de la Santé de l’Alberta.
+
+• À lire aussi: L’exaspération se fait ressentir aux centres de dépistage
+
+Le pasteur Artur Pawlowski et son frère Dawid, qui ont déjà fait face à la justice pour avoir défié les règles sanitaires par le passé, ont rejoint une cinquantaine de manifestants devant la demeure du ministre Jason Copping.
+
+La police de Calgary a confirmé qu'elle a arrêté deux manifestants parce qu'ils violaient une ordonnance de la cour, sans dévoiler leurs noms. Cependant, une vidéo publiée sur la page Facebook du pasteur controversé montre l’arrestation de ce dernier et de son frère peu de temps après la manifestation, alors qu’ils se trouvent en voiture.
+
+«C’est ce qui se produit lorsque vous vivez au China-da, s’est insurgé Artur en se filmant. Vous allez vous faire arrêter par la Gestapo.»
+
+La vidéo, d’une durée d’un peu plus de sept minutes, recèle un vaste éventail de références au nazisme, le pasteur allant jusqu’à rebaptiser le premier ministre Jason Kenney du nom de «Adolf Kenney».
+
+Plus tard, au cours de l’arrestation des deux frères, on entend une troisième personne dans le véhicule, qui filme toute la scène, traiter les policiers de Calgary de «nazis» et se moquer d’eux.
+
+L’avocate des deux frères, Sarah Miller, a confirmé au Calgary Herald que les Pawlowski ont été accusés de bris d’ordonnance.
+
+Le premier ministre s’est désolé de la tournure de cette soirée du jour de l’An. «Tous les Albertains ont le droit de manifester pacifiquement. Ce droit ne permet pas d’empiéter sur les terrains de maisons privées et de harceler les familles des gens du service public», s’est-il insurgé sur Twitter.
+
+«Malheureusement, ce n’est pas la première fois que cette portion des conspirationnistes antivaccins tente d’intimider des élus du gouvernement de cette façon. Je suis certain que la majorité des Albertains rejettent cette forme d’extrémisme», a-t-il ajouté.
+
+À VOIR AUSSI",neutral,"Article focuses on local protests, not migration conditions.",qwen2.5:7b,neutral,"Article focuses on local protests, not migration conditions.",article,1
+20220102,175,CALGARY,DEMONSTRATOR,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,unclear,manifestations-anti-covid,qwen2.5:7b,,,,"Un pasteur connu pour ses positions anti-mesures sanitaires et son frère ont été arrêtés et accusés, samedi, après avoir manifesté sur le terrain du ministre de la Santé de l’Alberta.
+
+• À lire aussi: L’exaspération se fait ressentir aux centres de dépistage
+
+Le pasteur Artur Pawlowski et son frère Dawid, qui ont déjà fait face à la justice pour avoir défié les règles sanitaires par le passé, ont rejoint une cinquantaine de manifestants devant la demeure du ministre Jason Copping.
+
+La police de Calgary a confirmé qu'elle a arrêté deux manifestants parce qu'ils violaient une ordonnance de la cour, sans dévoiler leurs noms. Cependant, une vidéo publiée sur la page Facebook du pasteur controversé montre l’arrestation de ce dernier et de son frère peu de temps après la manifestation, alors qu’ils se trouvent en voiture.
+
+«C’est ce qui se produit lorsque vous vivez au China-da, s’est insurgé Artur en se filmant. Vous allez vous faire arrêter par la Gestapo.»
+
+La vidéo, d’une durée d’un peu plus de sept minutes, recèle un vaste éventail de références au nazisme, le pasteur allant jusqu’à rebaptiser le premier ministre Jason Kenney du nom de «Adolf Kenney».
+
+Plus tard, au cours de l’arrestation des deux frères, on entend une troisième personne dans le véhicule, qui filme toute la scène, traiter les policiers de Calgary de «nazis» et se moquer d’eux.
+
+L’avocate des deux frères, Sarah Miller, a confirmé au Calgary Herald que les Pawlowski ont été accusés de bris d’ordonnance.
+
+Le premier ministre s’est désolé de la tournure de cette soirée du jour de l’An. «Tous les Albertains ont le droit de manifester pacifiquement. Ce droit ne permet pas d’empiéter sur les terrains de maisons privées et de harceler les familles des gens du service public», s’est-il insurgé sur Twitter.
+
+«Malheureusement, ce n’est pas la première fois que cette portion des conspirationnistes antivaccins tente d’intimider des élus du gouvernement de cette façon. Je suis certain que la majorité des Albertains rejettent cette forme d’extrémisme», a-t-il ajouté.
+
+À VOIR AUSSI",neutral,No clear migration-related conditions discussed.,qwen2.5:7b,neutral,No clear migration-related conditions discussed.,article,1
+20220102,51,ORTHODOX CHRISTIAN,SAINT,https://www.mngz.ru/russia-world-sensation/2464160-v-vargashinskom-rayone-sotrudniki-policii-proveli-20-profilakticheskih-besed-so-shkolnikami.html,neutral,police-conducted-preventive-conversations-with-schoolchildren,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,police-conducted-preventive-conversations-with-schoolchildren,url_1,1
+20220102,51,ORTHODOX CHRISTIAN,SAINT,https://pronedra.ru/pozdravleniya-ko-dnyu-svyatoj-anastasii-4-yanvarya-tradiczii-prazdnika-630226.html,neutral,congratulations on St. Anastasia's day,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,congratulations on St. Anastasia's day,url_1,1
+20220102,90,POLICE,,https://www.noviny.sk/krimi/652963-mrtvy-muz-v-aute-telo-hladaneho-slovenskeho-policajta-nasli-v-polsku,unclear,dead-man-in-the-car-the-body-of-the-wanted-policeman-was-found-in-Poland,qwen2.5:7b,,,,"Mŕtvy muž v aute: Telo hľadaného slovenského policajta našli v Poľsku JOJ24.SK TOPSTAR 24 podcast Zdravie Krimi Šport TV program ZPH 2026 ZOH 2026 Epsteinove spisy Slovensko - aktuality Zahraničie Počasie Politika Ekonomika Horoskopy Slováci v EÚ Koronavírus SME CHLAPI History Rozhovory 12 PLUS PR správy MS v hokeji Eurovoľby 2024 NA HRANE TV JOJ Darované Vianoce Náš tím 5° Bratislava Ľubica 17.3.2026 Ďalšie od TV JOJ Späť Noviny.sk JOJ JOJ PLAY JOJ ŠPORT JOJ CZ JOJ GROUP Šport Ženské TopStar Sme chlapi Videonoviny Ranné noviny NA HRANE TV JOJ Zdravie 24 podcast joj24.sk History eunoviny.sk Copyright 2026 Československá filmová společnost, s.r.o. · Webdesign by Kennymax JOJ24.SK TOPSTAR 24 podcast Zdravie Krimi Šport TV program ZPH 2026 ZOH 2026 Epsteinove spisy Slovensko - aktuality Bratislava Trnava Trenčín Nitra Žilina Banská Bystrica Prešov Košice Zahraničie Počasie Úvod Mestá Dovolenkové destinácie Svetové metropoly Politika Ekonomika Horoskopy Slováci v EÚ Koronavírus SME CHLAPI History Rozhovory 12 PLUS PR správy MS v hokeji Eurovoľby 2024 NA HRANE TV JOJ Darované Vianoce Náš tím Afganistan tvrdí, že útoky Pakistanu v Kábule pripravili o život civilistov Smutné štatistiky: Zo svojich domovov v Libanone bolo vyhnaných už viac než jeden milión ľudí ŠRAMKOVÁ v Miami postúpila do finále kvalifikácie Poplatky na AS Nivy stúpli o 56 %. BSK žiada zmenu cenovej politiky Mŕtvy muž v aute: Telo hľadaného slovenského policajta našli v Poľsku Zdielať Zdielať na Peter Dzurilla redakcia/KK 2.1.2022 Krimi Mŕtvy muž v aute: Telo hľadaného slovenského policajta našli v Poľsku Máte vypnuté reklamy Vďaka financiám z reklamy prinášame kvalitné a objektívne informácie. Povoľte si prosím zobrazovanie reklamy na našom webe. Ďakujeme, že podporujete kvalitnú žurnalistiku. Embed kód NOVÝ TARG / POĽSKO / Z Poľska k nám dorazila smutná správa. Pátranie po 40-ročnom policajtovi z Nitry sa skončilo tragicky. Počas Silvestrovskej noci našli jeho auto v poľskej obci Ludmiež pri Novom Targu. Telo muža so strelnou ranou bolo v batožinovom priestore. Pátracia akcia bola rozsiahla Keďže po mužovi nebolo ani stopy, rozbehla sa rozsiahla pátracia akcia. Muž mal so svojím autom odísť z domu ešte 20. decembra a odvtedy sa nikomu neozval. Slovenskí policajti po ňom vyhlásili pátranie. Poľskí policajti s hasičmi prehľadávali terén v okolí miesta, kde našli auto. ""Niekoľko hodín policajti, hasiči a ďalší prehľadávali okolitý terén, avšak muža sa nepodarilo nájsť. Nakoniec sa policajti rozhodli odtiahnuť auto,"" informovala poľská novinárka Teresa Gut. Poľskí policajti objavili telo muža až po tom, ako auto odtiahli na policajné záchytné parkovisko. ""Miestni policajti skúmali auto z dôvodu podozrenia z krádeže. Počas snímania odtlačkov prstov bolo v batožinovom priestore objavené telo muža so strelným zranením a vedľa neho ležala pištoľ,"" poznamenal hovorca polície v Krakove Bartosz Izdebski. Išlo o príslušníka polície To však nebolo všetko. Podľa informácií TV JOJ má ísť o príslušníka Policajného zboru Slovenskej republiky a jeho služobnú zbraň. Tomu majú nasvedčovať aj osobné veci nájdené v aute. ""Vedľa muža sa nachádzala aj služobná legitimácia a dokumenty potvrdzujúceho jeho totožnosť. Išlo o 40-ročného obyvateľa Slovenska,"" doplnila Gut. Veľmi podozrivá okolnosť Podozrivé je, že telo muža sa nachádzalo v zamknutom kufri auta. Policajti z kriminalisticko-expertízneho útvaru v Krakove prišli na miesto v priebehu niekoľkých hodín. ""Strelná rana, ktorú mal nájdený muž, veľmi znepokojila policajtov, nakoľko v danej chvíli nemohli nič vylúčiť. Celú noc boli vykonávané procesné činnosti,"" uviedol Izdebski. Cudzie zavinenie je nateraz mimo hru Spôsob, akým bolo telo muža objavené, vzbudzuje pochybnosti. Polícia nateraz vylúčila cudzie zavinenie. ""Z prvých informácií, ktoré máme k dispozícii vyplýva, že pravdepodobne mohlo dôjsť k samovražde. Poľská polícia nateraz vylúčila cudzie zavinenie,"" upresnil Izdebski. ""Na objasnení okolností tohto prípadu intenzívne spolupracujeme s poľskou políciou. Nateraz nemôžme poskytnúť verejnosti viac informácií,"" uviedla hovorkyňa krajského riaditeľstva Policajného zboru v Nitre Renáta Čuháková. Peter Dzurilla redakcia/KK publikované 2.1.2022 o 18:45 · zdroj noviny.sk/TVJOJ Tagy: Samovražda strelná rana Poľsko pátracia akcia Policajti mŕtvy muž Zdielať na Vložte si video na vlastnú stránku 640x360 860x480 960x540 1280x720 Súvisiace články Tragédia v Bratislave: Podľa informácií TV JOJ mala pod vlak skočiť žena Krimi Na zelenú transformáciu nemáme v EÚ dostatok surovín. Sme závislí od Číny a iných krajín Slováci v EÚ Najčítanejšie správy Dnes 7 dní 30 dní Obvinenú z vraždy partnera priviezli pred súd. Muža našli v kaluži krvi s desiatkami bodných rán v chrbte Smrteľná nehoda pri Sabinove: Chodec v tmavom oblečení zomrel po zrážke s autom Policajt zo Svidníka čelí obžalobe za zneužívanie právomoci. Hrozí mu väzenie Colníci neverili vlastným očiam. V palubnej doske našli takmer pol milióna Muž brutálne napadol expriateľku nožom. Chcel jej znetvoriť tvár, aby si už nikdy nenašla partnera Čurillovci do väzby nepôjdu: Buď je niekto neschopný, alebo sme nič nespáchali, reaguje Ďurka Finančná správa odhalila tajnú výrobňu cigariet. Škoda na dani je takmer 900-tisíc eur Veľká tragédia pri Banskej Štiavnici: Ročné dieťa sa utopilo v záhradnom jazierku V rodinnom dome našli telo v kaluži krvi. Z miesta odviedli staršieho muža Súd rozhodol: Daniel Bombic je vinný Polícia zadržala trénera futbalovej školy. Obvinila ho zo závažného zločinu Vražda v rodinnom dome: Muž mal dobodať manželku, svedkom bol jeho 10-ročný syn Výbuch plynu v Krupine zdemoloval bytovku. Muža s ťažkými popáleninami previezol vrtuľník Materská škola prišla o viac než 230-tisíc eur. Riaditeľka naletela podvodníkom Tragická nehoda: Auto zrazilo malého chlapca. Za volantom sedel jeho otec Západné Slovensko zasiahlo zemetrasenie s magnitúdou 4,3 Prenajali si byt na noc, do rána z neho zmizlo všetko. Bratislavou sa šíri nový, drzejší spôsob vykrádania Vlak narazil do auta, dvaja ľudia neprežili. Medzi obeťami je otec Romana z Parchovian Na Dunaji pri Medveďove sa potápal šlep s tisíc tonami pšenice Veľká tragédia pri Banskej Štiavnici: Ročné dieťa sa utopilo v záhradnom jazierku Nočná tragédia pri Liptovskej Osade: Autobus po zrážke začal horieť, vodič neprežil Odporúčame Slovákovi Alanovi, ktorého pred dvoma rokmi zadržali v USA, hrozia desiatky rokov väzenia Krimi EÚ schválila sankcie voči deviatim osobám pre masaker v ukrajinskej Buči Zahraničie Feri na súde odmietol obžalobu zo sexuálneho zneužitia 17-ročného dievčaťa. Pojednávanie odročili na apríl Zahraničie Colníci neverili vlastným očiam. V palubnej doske našli takmer pol milióna Krimi Muž brutálne napadol expriateľku nožom. Chcel jej znetvoriť tvár, aby si už nikdy nenašla partnera Krimi Obvinenú z vraždy partnera priviezli pred súd. Muža našli v kaluži krvi s desiatkami bodných rán v chrbte Krimi Noviny.sk Čurillovci do väzby nepôjdu: Buď je niekto neschopný, alebo sme nič nespáchali, reaguje Ďurka Krimi Smrteľná nehoda pri Sabinove: Chodec v tmavom oblečení zomrel po zrážke s autom Krimi Oheň pod lupou: Prečo sa hasiči vyhýbajú televíznym rozhovorom? Dôvod je prekvapivo sladký Krimi Riadime sa kódexom JOJ.SK JOJ JOJ PLAY JOJ ŠPORT JOJ CZ JOJ GROUP Šport Ženské TopStar Sme chlapi Zdravie History Počasie SPRAVODAJSTVO Noviny.sk joj24.sk Noviny PLUS Videonoviny Ranné noviny NA HRANE TV JOJ 24 podcast Slovensko - aktuality Zahraničie Krimi Politika Ekonomika Slováci v EÚ NEPREHLIADNITE Reklama Kontakt Podmienky pre spracovanie osobnych udajov Cookies Nastavenia súkromia © Copyright 2026 Slovenská produkčná, a.s. Webdesign by Kennymax Developed by eFabrica",neutral,"Article focuses on a murder case, not migration conditions.",qwen2.5:7b,neutral,"Article focuses on a murder case, not migration conditions.",article,1
+20220102,192,POLICE OFFICER,,https://www.hoydiariodelmagdalena.com.co/archivos/613776,neutral,files,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,files,url_1,1
+20220102,193,POLICE OFFICER,,https://www.ensonhaber.com/3-sayfa/adanada-silahli-kavgaya-mudahale-eden-polis-vuruldu,push,was shot in a gun fight,qwen2.5:7b,,,,,,,qwen2.5:7b,push,was shot in a gun fight,url_1,1
+20220102,190,POLICE,ACTIVIST,http://lratvakan.com/news/76958.html,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220102,10,PERPETRATOR,CREATIVITY,https://www.hespress.com/%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D9%88%D8%B1%D8%B7%D8%A9-%D8%B9%D8%B5%D8%B1-%D8%A7%D9%84%D8%B9%D8%AA%D9%85%D8%A9-925188.html,mixed,Transcendence-dilemma-of-the-dark-age,qwen2.5:7b,,,,,,,qwen2.5:7b,mixed,Transcendence-dilemma-of-the-dark-age,url_1,1
+20220102,172,VILLAGE,,https://www.volynnews.com/news/all/cherez-novorichni-feyerverky-v-chernivtsiakh-zahynuly-desiatky-ptakhiv/,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220102,10,COMMUNITY,POLICE,https://www.hoydiariodelmagdalena.com.co/archivos/613752,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220102,42,GERMAN,LISBON,https://naslovi.net/2022-01-03/blic/zarobljeni-u-luci-nemacki-kruzer-usidren-do-daljeg-u-lisabonu-zbog-izbijanja-epidemije-korona-virusa/29657724,push,captured in the port German cruiser anchored until further,qwen2.5:7b,,,,,,,qwen2.5:7b,push,captured in the port German cruiser anchored until further,url_1,1
+20220102,42,GERMAN,LISBON,https://naslovi.net/2022-01-03/blic/zarobljeni-u-luci-nemacki-kruzer-usidren-do-daljeg-u-lisabonu-zbog-izbijanja-epidemije-korona-virusa/29657724,push,captured in the port German cruiser anchored until further,qwen2.5:7b,,,,,,,qwen2.5:7b,push,captured in the port German cruiser anchored until further,url_1,1
+20220102,10,UNIVERSITY,,https://www.elmanana.com/cae-ex-rector-de-la-uabjo-por-fraude/5475695,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220102,36,STUDENT,,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,pull,without internet and projects 2022 as the best school year in history,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,without internet and projects 2022 as the best school year in history,url_1,1
+20220102,36,SCHOOL,,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,pull,without internet and projects 2022 as the best school year in history,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,without internet and projects 2022 as the best school year in history,url_1,1
+20220102,43,SCHOOL,,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,1721,SCHOOL,,https://itongadol.com/coronavirus/coronavirus-en-israel-se-espera-que-tres-millones-de-israelies-se-infecten-con-el-virus,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,42,STUDENT,OAXACA,https://oaxaca.eluniversal.com.mx/sociedad/regresan-clases-mas-de-874-mil-estudiantes-de-oaxaca-este-3-de-enero,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,71,ACTOR,,https://bagikanberita.pikiran-rakyat.com/bisnis/pr-683379835/rezeki-senin-ceria-khusus-wanita-berjiwa-entrepreneur-dapat-pinjaman-tanpa-agunan-rp25-juta-di-pnm-mekaar-plus,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,1821,ACTOR,BANDUNG,https://www.pikiran-rakyat.com/nasional/pr-013379874/genting-susi-pudjiastuti-desak-ruu-pks-disahkan-perlu-berapa-banyak-lagi-korban,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,10,MADRID,,https://es.euronews.com/2022/01/02/espana-dice-no-a-la-propuesta-de-bruselas-de-incluir-la-energia-nuclear-y-el-gas-en-su-pla,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,111,EUROPEAN,,https://1prime.ru/business/20220103/835674504.html,unclear,URL too short or generic,qwen2.5:7b,,,,"По его словам, ожидается, что на рынке будет сохраняться дефицит. ""В среднем, автомобили подорожают в 2022 году. Но с учетом того, что спрос будет падать, не будет спекулятивных эффектов, которые были в 2021 году, поэтому цены будут относительно спокойнее расти"", — сказал эксперт.
+
+Он отметил, что в 2022 году борьба между производителями обострится. ""Будут производители, которые захотят увеличить долю рынка и сумеют решить проблемы с логистикой и доставкой автомобилей, в частности китайские бренды. Они будут усиливать долю рынка и давать хорошее соотношение цены и качества на рынке автомобилей. А европейские марки столкнутся с дефицитом, связанным с проблемами производства, потому что никуда не девается проблема полупроводников, логистические проблемы и ковидные ограничения, которые еще есть в разных странах"", — сказал Мигаль.",neutral,No migration-related conditions discussed.,qwen2.5:7b,neutral,No migration-related conditions discussed.,article,1
+20220102,20,FINNISH,RUSSIA,https://www.geopolitica.ru/news/vlasti-finlyandii-zagovorili-o-vstuplenii-v-nato,push,Finnish authorities-talked-about-joining-NATO suggestions potential politicial pressure but not direct migration pressures,qwen2.5:7b,,,,,,,qwen2.5:7b,push,Finnish authorities-talked-about-joining-NATO suggestions potential politicial pressure but not direct migration pressures,url_1,1
+20220102,42,UNITED KINGDOM,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,unclear,URL too short or generic,qwen2.5:7b,,,,"المنتخب الوطني يبرمج أولى حصصه التدريبية في الكاميرون غدا الإثنين استعدادا لودية بوركينا فاسو و""رحلة الكان""
+
+حدد الطاقم التقني للناخب الوطني وحيد خليلوزيتش، برنامج ""الأسود"" في الكاميرون، قبل مواجهة غانا، لحساب الجولة الأولى من دور المجموعات لكأس أمم أفريقيا 2021.
+
+
+
+
+
+ومن المقرر أن يخوض المنتخب الوطني يوم غد الإثنين، أولى حصصه التدريبية استعدادا لودية بوركينا فاسو، المبرمجة يوم الخميس 6 يناير الجاري.
+
+
+
+
+
+ويدشن رفاق أشرف حكيمي، رحلتهم القارية، بمواجهة غانا، يوم الإثنين 10 يناير، بداية من الساعة الخامسة عصرا (17:00 غرينيتش +1)، بملعب ""أحمدو أهيدجو"" في مدينة ياوندي الكاميرونية.
+
+
+
+
+
+وحطت بعثة المنتخب المغربي، يومه الأحد، الرحال في الكاميرون، إذ وجدت في استقبالها سفير المملكة هناك، مصطفى بوه.
+
+
+
+
+
+يذكر أن المغرب يتواجد في المجموعة الثالثة، رفقة منتخبات غانا والغابون وجزر القمر.",neutral,"article about training and matches, not migration",qwen2.5:7b,neutral,"article about training and matches, not migration",article,1
+20220102,42,UNITED KINGDOM,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,unclear,,qwen2.5:7b,,,,"المنتخب الوطني يبرمج أولى حصصه التدريبية في الكاميرون غدا الإثنين استعدادا لودية بوركينا فاسو و""رحلة الكان""
+
+حدد الطاقم التقني للناخب الوطني وحيد خليلوزيتش، برنامج ""الأسود"" في الكاميرون، قبل مواجهة غانا، لحساب الجولة الأولى من دور المجموعات لكأس أمم أفريقيا 2021.
+
+
+
+
+
+ومن المقرر أن يخوض المنتخب الوطني يوم غد الإثنين، أولى حصصه التدريبية استعدادا لودية بوركينا فاسو، المبرمجة يوم الخميس 6 يناير الجاري.
+
+
+
+
+
+ويدشن رفاق أشرف حكيمي، رحلتهم القارية، بمواجهة غانا، يوم الإثنين 10 يناير، بداية من الساعة الخامسة عصرا (17:00 غرينيتش +1)، بملعب ""أحمدو أهيدجو"" في مدينة ياوندي الكاميرونية.
+
+
+
+
+
+وحطت بعثة المنتخب المغربي، يومه الأحد، الرحال في الكاميرون، إذ وجدت في استقبالها سفير المملكة هناك، مصطفى بوه.
+
+
+
+
+
+يذكر أن المغرب يتواجد في المجموعة الثالثة، رفقة منتخبات غانا والغابون وجزر القمر.",neutral,"article about training and matches, not migration",qwen2.5:7b,neutral,"article about training and matches, not migration",article,1
+20220102,43,UNITED KINGDOM,,https://www.elbotola.com/article/2022-01-02-22-03-111.html,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,43,UNITED KINGDOM,,https://www.elbotola.com/article/2022-01-02-22-03-111.html,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,43,UNITED KINGDOM,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,43,UNITED KINGDOM,UNITED KINGDOM,https://www.elbotola.com/article/2022-01-02-22-03-111.html,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,10,AUTHORITIES,,https://www.telemundo.com/noticias/noticias-telemundo/clima/no-esto-no-es-una-broma-llovieron-peces-en-texas-poco-antes-de-fin-de-rcna10639,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,12,SECRETARIAT,,https://olhardireto.com.br/noticias/exibir.asp?id=496488&noticia=porto-relembra-dificuldades-com-45-dos-estudantes-sem-internet-e-projeta-2022-como-melhor-ano-letivo-da-historia,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,14,MINISTRY,,https://tsn.ua/ru/svit/izrail-odobril-chetvertuyu-covid-privivku-dlya-medrabotnikov-i-lyudey-ot-60-let-1945456.html,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,40,KINGDOM,,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,push,difficulties-with-students-without-internet,qwen2.5:7b,,,,,,,qwen2.5:7b,push,difficulties-with-students-without-internet,url_1,1
+20220102,40,KINGDOM,,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,push,difficulties-with-students-without-internet,qwen2.5:7b,,,,,,,qwen2.5:7b,push,difficulties-with-students-without-internet,url_1,1
+20220102,46,MINIST,,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,push,difficulties-with-students-without-internet,qwen2.5:7b,,,,,,,qwen2.5:7b,push,difficulties-with-students-without-internet,url_1,1
+20220102,46,KINGDOM,,https://alghad.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D9%81%D9%8A-%D8%B9%D9%85%D8%A7%D9%86/,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,57,GOVERNMENT,,https://www.cas.sk/clanok/2626553/predseda-civilnej-vlady-v-sudane-oznamil-svoju-rezignaciu-snazil-som-sa-zo-vsetkych-sil/,push,resignation and possibly political instability,qwen2.5:7b,,,,,,,qwen2.5:7b,push,resignation and possibly political instability,url_1,1
+20220102,73,AUTHORITIES,,https://www.mbl.is/frettir/erlent/2022/01/02/heilbrigdisstarfsmenn_fa_fjorda_skammtinn/,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,90,GOVERNMENT,,https://newpost.gr/kosmos/61d20c59922542136ad20343/italia-koronoios-i-kyvernisi-exetazei-to-endehomeno-ypohreotikoy-emvoliasmoy-gia-oloys-toys-ano-ton-18-eton,pull,possible-compulsory-vaccination-for-all-over-18-eton (hiring immigrants),qwen2.5:7b,,,,,,,qwen2.5:7b,pull,possible-compulsory-vaccination-for-all-over-18-eton (hiring immigrants),url_1,1
+20220102,160,GOVERNMENT,INDUSTRY,https://www.rp.pl/praca/art19248621-wielka-brytania-przedluza-program-wizowy-dla-pracownikow-z-ue,pull,extends-the-visa-program-for-EU-workers,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,extends-the-visa-program-for-EU-workers,url_1,1
+20220102,90,AUTHORITIES,CRIMINAL,https://sledcom.ru/news/item/1645072/,unclear,too short to determine,qwen2.5:7b,,,,,unclear,,qwen2.5:7b,unclear,,article,1
+20220102,14,DIRECTOR GENERAL,ISRAELI,https://itongadol.com/coronavirus/coronavirus-en-israel-se-espera-que-tres-millones-de-israelies-se-infecten-con-el-virus,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,43,GOVERNMENT,DEMONSTRATOR,http://lratvakan.com/news/76958.html,unclear,too short to determine,qwen2.5:7b,,,,"Участники акции протеста в центре Киева пошли на штурм кордонов, которые выставлены вокруг квартала правительственных зданий.
+
+На улице Грушевского в Киеве не утихают столкновения протестующих и правоохранителей. На улице стоят несколько разбитых автобусов милиции, один автобус подожгли. Силовики регулярно бросают в толпу дымовые шашки, используют слезоточивый газ.
+
+Ожидается приезд водометов. Об этом сообщают местные СМИ. Использование водометов на морозе угрожает смертями протестующим. При таком температуре может наступить переохлаждение от воды за несколько минут.
+
+Помимо этого, протестующие захватили пять пустых милицейских автобусов. Лидер партии «УДАР» Виталий Кличко призвал протестующих отказаться от силовых действий в отношении правоохранителей, заявив, что это наверняка вызовет ответную реакцию со стороны «Беркута». Политик пообещал договориться о том, чтобы людям открыли проход к зданию Верховной Рады.
+
+Столкновения активистов с милицией начались после так называемого народного вече на Майдане Незалежности, в котором приняли участие несколько сотен тысяч человек. Собравшиеся протестовали против политики действующих властей страны.",push,"war, violence, protests",qwen2.5:7b,push,"war, violence, protests",article,1
+20220102,43,GOVERNMENT,DEMONSTRATOR,https://lugradar.net/2022/01/337334,unclear,URL too short or ambiguous,qwen2.5:7b,,,,"Содержание:
+
+Париматч — одна из самых известных букмекерских платформ, работающая с 1994 года. За это время бренд завоевал доверие миллионов пользователей в Украине и за рубежом. Сегодня Parimatch предлагает ставки на спорт, казино, покер и другие азартные развлечения. Платформа имеет лицензию Curacao Gaming Authority (no. 157), сотрудничает с ведущими разработчиками игрового софта и обеспечивает защиту данных современными технологиями шифрования.
+
+⚠️ Некоторые ссылки на сайте являются партнерскими. Это значит, что мы можем получать комиссию, если вы зарегистрируетесь или сделаете депозит по одной из них. Это не влияет на содержание и оценки, но помогает развивать проект.
+
+Преимущества Parimatch
+
+Преимущество Описание Надежность и безопасность Современные технологии шифрования обеспечивают защиту данных и честность игр. Широкий выбор азартных игр и ставок Большой ассортимент спортивных событий, казино, покера и других развлечений. Удобная система ввода и вывода средств Быстрые транзакции через популярные платежные системы. Щедрые бонусы и турниры Программы лояльности, кэшбэки и розыгрыши для активных пользователей. Доступ с любого устройства Мобильное приложение Париматч и адаптивная мобильная версия сайта для смартфонов и планшетов. Поддержка 24/7 Оперативные ответы через онлайн-чат, email и телефон. Сертифицированные игры Все слоты и лайв-игры проходят независимое тестирование на честность и соответствие заявленному RTP. Лицензия Curacao Gaming Authority under the National Ordinance on Games of Chance (LOK), P.B. 2024, no. 157
+
+⚠️ Азартные игры могут вызывать зависимость. Перед тем как начать — оцените свои риски. Рекомендуем ознакомиться с разделом «Ответственная игра».
+
+Как войти в Пари Матч
+
+Пари Матч вход выполняется через официальный сайт или мобильное приложение. Для авторизации понадобятся логин (номер телефона, email или номер счета) и пароль, указанные при регистрации. Вход в Париматч доступен с любого устройства — смартфона, планшета или компьютера.
+
+Общий алгоритм входа в Пари Матч:
+
+Откройте сайт Parimatch или запустите приложение. Нажмите кнопку «Войти» в правом верхнем углу. Выберите способ авторизации: номер телефона, номер счета или электронная почта. Введите логин и пароль от своей учетной записи. Нажмите «Войти» для завершения авторизации.
+
+После успешного входа вы попадете в личный кабинет Париматч, откуда доступны ставки, казино, пополнение счета и вывод средств.
+
+Вход в Пари Матч через мобильную версию
+
+Если вы предпочитаете не устанавливать приложение, используйте мобильную версию Parimatch. Пари Матч вход через мобильный браузер работает так же, как и с компьютера — сайт автоматически адаптируется под размер экрана.
+
+Чтобы войти в Пари Матч с телефона без приложения:
+
+Откройте браузер на мобильном устройстве. Перейдите на сайт Parimatch. Нажмите «Войти» в верхнем правом углу. Укажите логин и пароль. Подтвердите вход.
+
+Мобильная версия Parimatch поддерживает все функции десктопного сайта: ставки на спорт, казино, управление балансом и бонусами.
+
+💡 Совет: если не приходит SMS-код — проверьте правильность номера и повторите попытку через 2 минуты. Если проблема сохраняется, обратитесь в поддержку через онлайн-чат.
+
+Вход в казино Пари Матч
+
+Пари Матч вход в казино выполняется через тот же аккаунт, что используется для ставок на спорт. Отдельная регистрация не требуется. После авторизации перейдите в раздел «Казино» в главном меню.
+
+Казино Париматч предлагает широкий выбор развлечений:
+
+Игровые автоматы (слоты) от NetEnt, Novomatic, BetSoft и других провайдеров.
+
+Настольные игры — рулетка, блэкджек, баккара.
+
+Live-казино с реальными дилерами.
+
+Покер и видеопокер.
+
+Все игры сертифицированы независимыми лабораториями и работают на генераторе случайных чисел, что гарантирует честность результатов. Чтобы играть на деньги, необходимо пройти регистрацию, верификацию и пополнить игровой счет.
+
+Вход на сайт Париматч через компьютер
+
+Для входа в Parimatch с компьютера откройте браузер и перейдите на официальный сайт. Нажмите «Войти» и введите данные от своего аккаунта. Процедура авторизации на ПК ничем не отличается от мобильной версии.
+
+Регистрация в Пари Матч
+
+Регистрация в букмекерской конторе Париматч занимает несколько минут. Создать аккаунт можно по номеру телефона или электронной почте. Рекомендуется сразу заполнить все поля анкеты — это ускорит прохождение верификации.
+
+Как зарегистрироваться в Париматч:
+
+Зайдите на сайт Parimatch с любого устройства. Нажмите кнопку «Регистрация» в верхнем правом углу. Укажите email или номер телефона. Придумайте надежный пароль, следуя рекомендациям системы. Нажмите «Зарегистрироваться».
+
+После создания аккаунта необходимо подтвердить личность. Для этого зайдите в личный кабинет, перейдите в раздел «Подтвердить учетную запись», выберите тип документа и загрузите его фотографии. Верификация нужна для вывода средств и полноценного использования всех функций Parimatch.
+
+Перед регистрацией рекомендуется внимательно ознакомиться с правилами платформы.
+
+Скачать Париматч бесплатно
+
+Скачать Париматч можно бесплатно с официального сайта. Приложение Пари Матч доступно для устройств на Android и iOS. Мобильное приложение обеспечивает быстрый доступ к ставкам и казино без необходимости открывать браузер.
+
+Скачать Париматч на Андроид
+
+Чтобы скачать Пари Матч на Андроид бесплатно:
+
+Откройте официальный сайт Parimatch в браузере телефона. На главной странице найдите кнопку «Скачать приложение». Выберите версию для Android — начнется загрузка APK-файла. Если загрузка не началась, проверьте настройки устройства: разрешите установку приложений из неизвестных источников. После загрузки откройте файл и установите приложение.
+
+После установки запустите приложение Париматч, войдите в свой аккаунт или пройдите регистрацию.
+
+Скачать Париматч на Айфон
+
+Скачать приложение Пари Матч на iPhone можно через App Store или с официального сайта:
+
+Перейдите на сайт Parimatch с вашего iPhone. Нажмите «Скачать приложение» и выберите версию для iOS. Вы будете перенаправлены в App Store — нажмите «Загрузить». После установки откройте приложение и авторизуйтесь.
+
+Мобильное приложение Париматч
+
+Мобильное приложение Пари Матч — это полноценная версия платформы для смартфонов. Приложение Париматч предоставляет те же возможности, что и десктопный сайт:
+
+Ставки на спорт в прематче и лайве.
+
+Казино и игровые автоматы.
+
+Пополнение счета и вывод средств.
+
+Push-уведомления о результатах и акциях.
+
+Управление бонусами и промокодами.
+
+Приложение работает стабильно даже при слабом интернет-соединении и потребляет меньше трафика, чем мобильная версия сайта в браузере. Для входа в Пари Матч через приложение используйте тот же логин и пароль, что и на сайте.
+
+Личный кабинет Пари Матч
+
+После входа в Париматч игрок получает доступ к личному кабинету с расширенным функционалом:
+
+Пополнение игрового счета и вывод средств.
+
+Выбор и активация бонусов.
+
+Статистика использованных поощрений от букмекера.
+
+Финансовая отчетность с фильтрацией по дате.
+
+Изменение персональных данных.
+
+Прохождение верификации.
+
+Обращение в службу поддержки.
+
+Настройки аккаунта и безопасности.
+
+Личный кабинет Parimatch позволяет полноценно управлять аккаунтом, контролировать финансы и использовать все функции букмекерской конторы и казино.
+
+Проблемы со входом в Париматч
+
+Рассмотрим распространенные ситуации, когда вход в Пари Матч может быть затруднен.
+
+Блокировка сайта. В некоторых регионах доступ к Parimatch может быть ограничен. В этом случае попробуйте использовать VPN или Proxy для обхода блокировки. Также можно скачать приложение Париматч — оно работает независимо от ограничений браузера.
+
+Забыт пароль. Нажмите «Забыл пароль» на странице входа, укажите email или номер телефона и следуйте инструкции для сброса пароля.
+
+Неверные данные. Убедитесь, что логин и пароль введены корректно. Проверьте раскладку клавиатуры и регистр символов.
+
+Технические неполадки. Попробуйте очистить кеш браузера, обновить страницу или использовать другой браузер. Если проблема сохраняется, обратитесь в службу поддержки Париматч — специалисты работают круглосуточно через онлайн-чат, email и телефон.",neutral,"Article focuses on Parimatch platform details, not migration conditions.",qwen2.5:7b,neutral,"Article focuses on Parimatch platform details, not migration conditions.",article,1
+20220102,46,MINIST,DEMONSTRATOR,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,30,GOVERNMENT,GUERRILLA,https://www.hoydiariodelmagdalena.com.co/archivos/613800,neutral,files/613800,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,files/613800,url_1,1
+20220102,20,AUTHORITIES,RUSSIAN FEDERATION,https://lugradar.net/2022/01/337336,push,lugradar net,qwen2.5:7b,,,,,,,qwen2.5:7b,push,lugradar net,url_1,1
+20220102,20,AUTHORITIES,RUSSIAN FEDERATION,https://lugradar.net/2022/01/337319,push,lugradar net,qwen2.5:7b,,,,,,,qwen2.5:7b,push,lugradar net,url_1,1
+20220102,40,PRESIDENT,RUSSIA,https://tsn.ua/ru/politika/bayden-i-zelenskiy-proveli-telefonnye-peregovory-chto-izvestno-1945450.html,neutral,TSN UA politics Biden and Zelensky,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,TSN UA politics Biden and Zelensky,url_1,1
+20220102,41,PRESIDENT,RUSSIA,https://tsn.ua/ru/politika/bayden-i-zelenskiy-proveli-telefonnye-peregovory-chto-izvestno-1945450.html,neutral,TSN UA politics Biden and Zelensky,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,TSN UA politics Biden and Zelensky,url_1,1
+20220102,41,PRESIDENT,RUSSIA,https://tsn.ua/ru/politika/bayden-i-zelenskiy-proveli-telefonnye-peregovory-chto-izvestno-1945450.html,neutral,TSN UA politics Biden and Zelensky,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,TSN UA politics Biden and Zelensky,url_1,1
+20220102,10,MINIST OF HEALTH,,https://www.mdzol.com/sociedad/2022/1/2/coronavirus-en-argentina-mas-de-20000-casos-23-fallecidos-212523.html,neutral,"coronavirus in Argentina more than 20,000 cases 23 deaths",qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,"coronavirus in Argentina more than 20,000 cases 23 deaths",url_1,1
+20220102,10,DOCTOR,,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,neutral,pronedra ru v21 first first symptoms pneumonii,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,pronedra ru v21 first first symptoms pneumonii,url_1,1
+20220102,13,HOSPITAL,,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,neutral,pronedra ru v21 first first symptoms pneumonii,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,pronedra ru v21 first first symptoms pneumonii,url_1,1
+20220102,193,DOCTOR,POLICE OFFICER,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,neutral,pronedra ru v21 first first symptoms pneumonii,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,pronedra ru v21 first first symptoms pneumonii,url_1,1
+20220102,193,DOCTOR,POLICE OFFICER,https://www.mngz.ru/russia-world-sensation/2463989-v-gorode-rezh-sotrudnikami-sledstvennogo-komiteta-vozbuzhdeno-ugolovnoe-delo-po-faktu-ubiystva-iz-revnosti-medic.html,push,murders-of-jealousy-medic,qwen2.5:7b,,,,,,,qwen2.5:7b,push,murders-of-jealousy-medic,url_1,1
+20220102,193,DOCTOR,POLICE OFFICER,https://www.mngz.ru/russia-world-sensation/2463989-v-gorode-rezh-sotrudnikami-sledstvennogo-komiteta-vozbuzhdeno-ugolovnoe-delo-po-faktu-ubiystva-iz-revnosti-medic.html,push,murders-of-jealousy-medic,qwen2.5:7b,,,,,,,qwen2.5:7b,push,murders-of-jealousy-medic,url_1,1
+20220102,172,HAITI,,https://www.diariolibre.com/actualidad/sucesos/2022/01/02/acusan-ganaderos-de-provocar-incendios-en-sierra-de-bahoruco/1563459,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220102,90,THE EUROPEAN UNION,,https://lugradar.net/2022/01/337336,unclear,URL too short or ambiguous,qwen2.5:7b,,,,"Содержание:
+
+Париматч — одна из самых известных букмекерских платформ, работающая с 1994 года. За это время бренд завоевал доверие миллионов пользователей в Украине и за рубежом. Сегодня Parimatch предлагает ставки на спорт, казино, покер и другие азартные развлечения. Платформа имеет лицензию Curacao Gaming Authority (no. 157), сотрудничает с ведущими разработчиками игрового софта и обеспечивает защиту данных современными технологиями шифрования.
+
+⚠️ Некоторые ссылки на сайте являются партнерскими. Это значит, что мы можем получать комиссию, если вы зарегистрируетесь или сделаете депозит по одной из них. Это не влияет на содержание и оценки, но помогает развивать проект.
+
+Преимущества Parimatch
+
+Преимущество Описание Надежность и безопасность Современные технологии шифрования обеспечивают защиту данных и честность игр. Широкий выбор азартных игр и ставок Большой ассортимент спортивных событий, казино, покера и других развлечений. Удобная система ввода и вывода средств Быстрые транзакции через популярные платежные системы. Щедрые бонусы и турниры Программы лояльности, кэшбэки и розыгрыши для активных пользователей. Доступ с любого устройства Мобильное приложение Париматч и адаптивная мобильная версия сайта для смартфонов и планшетов. Поддержка 24/7 Оперативные ответы через онлайн-чат, email и телефон. Сертифицированные игры Все слоты и лайв-игры проходят независимое тестирование на честность и соответствие заявленному RTP. Лицензия Curacao Gaming Authority under the National Ordinance on Games of Chance (LOK), P.B. 2024, no. 157
+
+⚠️ Азартные игры могут вызывать зависимость. Перед тем как начать — оцените свои риски. Рекомендуем ознакомиться с разделом «Ответственная игра».
+
+Как войти в Пари Матч
+
+Пари Матч вход выполняется через официальный сайт или мобильное приложение. Для авторизации понадобятся логин (номер телефона, email или номер счета) и пароль, указанные при регистрации. Вход в Париматч доступен с любого устройства — смартфона, планшета или компьютера.
+
+Общий алгоритм входа в Пари Матч:
+
+Откройте сайт Parimatch или запустите приложение. Нажмите кнопку «Войти» в правом верхнем углу. Выберите способ авторизации: номер телефона, номер счета или электронная почта. Введите логин и пароль от своей учетной записи. Нажмите «Войти» для завершения авторизации.
+
+После успешного входа вы попадете в личный кабинет Париматч, откуда доступны ставки, казино, пополнение счета и вывод средств.
+
+Вход в Пари Матч через мобильную версию
+
+Если вы предпочитаете не устанавливать приложение, используйте мобильную версию Parimatch. Пари Матч вход через мобильный браузер работает так же, как и с компьютера — сайт автоматически адаптируется под размер экрана.
+
+Чтобы войти в Пари Матч с телефона без приложения:
+
+Откройте браузер на мобильном устройстве. Перейдите на сайт Parimatch. Нажмите «Войти» в верхнем правом углу. Укажите логин и пароль. Подтвердите вход.
+
+Мобильная версия Parimatch поддерживает все функции десктопного сайта: ставки на спорт, казино, управление балансом и бонусами.
+
+💡 Совет: если не приходит SMS-код — проверьте правильность номера и повторите попытку через 2 минуты. Если проблема сохраняется, обратитесь в поддержку через онлайн-чат.
+
+Вход в казино Пари Матч
+
+Пари Матч вход в казино выполняется через тот же аккаунт, что используется для ставок на спорт. Отдельная регистрация не требуется. После авторизации перейдите в раздел «Казино» в главном меню.
+
+Казино Париматч предлагает широкий выбор развлечений:
+
+Игровые автоматы (слоты) от NetEnt, Novomatic, BetSoft и других провайдеров.
+
+Настольные игры — рулетка, блэкджек, баккара.
+
+Live-казино с реальными дилерами.
+
+Покер и видеопокер.
+
+Все игры сертифицированы независимыми лабораториями и работают на генераторе случайных чисел, что гарантирует честность результатов. Чтобы играть на деньги, необходимо пройти регистрацию, верификацию и пополнить игровой счет.
+
+Вход на сайт Париматч через компьютер
+
+Для входа в Parimatch с компьютера откройте браузер и перейдите на официальный сайт. Нажмите «Войти» и введите данные от своего аккаунта. Процедура авторизации на ПК ничем не отличается от мобильной версии.
+
+Регистрация в Пари Матч
+
+Регистрация в букмекерской конторе Париматч занимает несколько минут. Создать аккаунт можно по номеру телефона или электронной почте. Рекомендуется сразу заполнить все поля анкеты — это ускорит прохождение верификации.
+
+Как зарегистрироваться в Париматч:
+
+Зайдите на сайт Parimatch с любого устройства. Нажмите кнопку «Регистрация» в верхнем правом углу. Укажите email или номер телефона. Придумайте надежный пароль, следуя рекомендациям системы. Нажмите «Зарегистрироваться».
+
+После создания аккаунта необходимо подтвердить личность. Для этого зайдите в личный кабинет, перейдите в раздел «Подтвердить учетную запись», выберите тип документа и загрузите его фотографии. Верификация нужна для вывода средств и полноценного использования всех функций Parimatch.
+
+Перед регистрацией рекомендуется внимательно ознакомиться с правилами платформы.
+
+Скачать Париматч бесплатно
+
+Скачать Париматч можно бесплатно с официального сайта. Приложение Пари Матч доступно для устройств на Android и iOS. Мобильное приложение обеспечивает быстрый доступ к ставкам и казино без необходимости открывать браузер.
+
+Скачать Париматч на Андроид
+
+Чтобы скачать Пари Матч на Андроид бесплатно:
+
+Откройте официальный сайт Parimatch в браузере телефона. На главной странице найдите кнопку «Скачать приложение». Выберите версию для Android — начнется загрузка APK-файла. Если загрузка не началась, проверьте настройки устройства: разрешите установку приложений из неизвестных источников. После загрузки откройте файл и установите приложение.
+
+После установки запустите приложение Париматч, войдите в свой аккаунт или пройдите регистрацию.
+
+Скачать Париматч на Айфон
+
+Скачать приложение Пари Матч на iPhone можно через App Store или с официального сайта:
+
+Перейдите на сайт Parimatch с вашего iPhone. Нажмите «Скачать приложение» и выберите версию для iOS. Вы будете перенаправлены в App Store — нажмите «Загрузить». После установки откройте приложение и авторизуйтесь.
+
+Мобильное приложение Париматч
+
+Мобильное приложение Пари Матч — это полноценная версия платформы для смартфонов. Приложение Париматч предоставляет те же возможности, что и десктопный сайт:
+
+Ставки на спорт в прематче и лайве.
+
+Казино и игровые автоматы.
+
+Пополнение счета и вывод средств.
+
+Push-уведомления о результатах и акциях.
+
+Управление бонусами и промокодами.
+
+Приложение работает стабильно даже при слабом интернет-соединении и потребляет меньше трафика, чем мобильная версия сайта в браузере. Для входа в Пари Матч через приложение используйте тот же логин и пароль, что и на сайте.
+
+Личный кабинет Пари Матч
+
+После входа в Париматч игрок получает доступ к личному кабинету с расширенным функционалом:
+
+Пополнение игрового счета и вывод средств.
+
+Выбор и активация бонусов.
+
+Статистика использованных поощрений от букмекера.
+
+Финансовая отчетность с фильтрацией по дате.
+
+Изменение персональных данных.
+
+Прохождение верификации.
+
+Обращение в службу поддержки.
+
+Настройки аккаунта и безопасности.
+
+Личный кабинет Parimatch позволяет полноценно управлять аккаунтом, контролировать финансы и использовать все функции букмекерской конторы и казино.
+
+Проблемы со входом в Париматч
+
+Рассмотрим распространенные ситуации, когда вход в Пари Матч может быть затруднен.
+
+Блокировка сайта. В некоторых регионах доступ к Parimatch может быть ограничен. В этом случае попробуйте использовать VPN или Proxy для обхода блокировки. Также можно скачать приложение Париматч — оно работает независимо от ограничений браузера.
+
+Забыт пароль. Нажмите «Забыл пароль» на странице входа, укажите email или номер телефона и следуйте инструкции для сброса пароля.
+
+Неверные данные. Убедитесь, что логин и пароль введены корректно. Проверьте раскладку клавиатуры и регистр символов.
+
+Технические неполадки. Попробуйте очистить кеш браузера, обновить страницу или использовать другой браузер. Если проблема сохраняется, обратитесь в службу поддержки Париматч — специалисты работают круглосуточно через онлайн-чат, email и телефон.",neutral,"Article focuses on Parimatch services and registration, not migration conditions.",qwen2.5:7b,neutral,"Article focuses on Parimatch services and registration, not migration conditions.",article,1
+20220102,43,UNITED NATIONS,,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,push,prisoner-israel-hunger-strike,qwen2.5:7b,,,,,,,qwen2.5:7b,push,prisoner-israel-hunger-strike,url_1,1
+20220102,20,ISRAELI,WORKER,https://g1.globo.com/mundo/noticia/2022/01/02/israel-comeca-a-aplicar-quarta-dose-da-vacina-contra-a-covid.ghtml,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220102,51,ISRAEL,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,push,prisoner-israel-hunger-strike,qwen2.5:7b,,,,,,,qwen2.5:7b,push,prisoner-israel-hunger-strike,url_1,1
+20220102,53,ISRAEL,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,push,prisoner-israel-hunger-strike,qwen2.5:7b,,,,,,,qwen2.5:7b,push,prisoner-israel-hunger-strike,url_1,1
+20220102,142,ISRAEL,PALESTINE,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,push,prisoner-israel-hunger-strike,qwen2.5:7b,,,,,,,qwen2.5:7b,push,prisoner-israel-hunger-strike,url_1,1
+20220102,42,JORDAN,,https://alghad.com/%D9%85%D8%B9%D8%B1%D8%B6-%D8%A3%D8%B1%D8%AF%D9%86%D9%8A-%D9%84%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%8A%D9%86%D8%B7%D9%84%D9%82-%D9%81%D9%8A-%D8%B3/,neutral,,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,,url_1,1
+20220102,234,FEDERAL COURT,,https://www.elmanana.com/cae-ex-rector-de-la-uabjo-por-fraude/5475695,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,84,JUDGE,,https://www.vesti-online.com/stopiran-otkaz-za-nevakcinisanog-cuvara-reda/,unclear,URL too short; no clear context for migration pressure,qwen2.5:7b,,,,"Stopiran otkaz za nevakcinisanog čuvara reda - Vesti online Početna VESTI SPORT KULTURA HUMANITARNI MOST NAŠI LJUDI ŽIVOT SCENA ZANIMLJIVOSTI LJUBIMCI Povratak na sajt Štampano izdanje 17.03.2026 Vesti online Početna VESTI SPORT KULTURA HUMANITARNI MOST NAŠI LJUDI ŽIVOT SCENA ZANIMLJIVOSTI LJUBIMCI [ivory-search id=""704507"" title=""AJAX Search Form""] Home NAŠI U SVETU AUSTRALIJA Stopiran otkaz za nevakcinisanog čuvara reda NAŠI U SVETU AUSTRALIJA Stopiran otkaz za nevakcinisanog čuvara reda 02.01.2022. 23:50 E. V. Facebook Twitter Google+ Pinterest WhatsApp Vesti Vrhovni sud Zapadne Australije Nevakcinisani policajac iz Perta dobio je pretres na Vrhovom sudu Zapadne Australije, kojim se zabranjuje odluka o njegovom otpuštanju iz službe zbog toga što je odbio obaveznu imunizaciju protiv kovida. Viši pozornik Ben Falkoner time je dobio pravo na sudski proces koji će se voditi u njegovom slučaju i Policija Zapadne Australije ne može da ga otpusti do izricanja konačne presude. Falkoner je na pretresu rekao da nije antivakser, već da se zalaže za pravo izbora kada je reč o vakcinaciji. Zbog toga je i zatražio da sud razmotri disciplinski postupak koji je Policija Zapadne Australije pokrenula protiv njega i još 34 pripadnika policije koji nisu pristali da se vakcinišu posle odluke vlasti u ovoj državi da uvede obaveznu imunizaciju za policajce i mnoge druge zaposlene u Zapadnoj Australiji. Komesar Policije Zapadne Australije Kris Doson izjavio je da se odluka Višeg suda ne odnosi na sve policajce, već samo na Falkonera, kojem će do daljeg biti zabranjen ulaz u sve prostorije policijske službe. – Odluka Suda je privremenog karaktera i važi samo za jednog policajca i nijednog drugog. Takođe, ova odluka ne menja naredbu glavnog zdravstvenog zvaničnika, što znači da nijedan od ovih policajaca neće imati pristup policijskim prostorijama u ovom privremenom periodu – rekao je Doson. Komesar policije je odbio da daje bilo kakve druge izjave dok se suđenje ne okonča. Tokom pretresa, državni pravni savetnik Kenet Petit naveo je sve benefite vakcine protiv kovida i istakao da to što je “podnosilac zahteva smatrao za problematično da se vakciniše, nije vredno nijedne hospitalizacije ili lokdauna”. S druge strane, advokat policajca Falkonera je naglasio da ne postoji dokaz da nevakcinisani predstavljaju pretnju za bilo koga, posebno podvlačeći da “oni koji su nevakcinisani nisu i oboleli”. Advokat Šejn Prins je takođe dodao da je “telesni integritet” pravo svakog čoveka prema opštem zakonu. Sudija Alanson je posle donošenja odluke o zabrani otpuštanja rekao da sud time ne prejudicira rezultat bilo kojeg suđenja u budućnosti. On je takođe naglasio da suđenje treba da se održi što je pre moguće, poželjno u prvom tromesečju 2022. godine. Prvo saslušanje u ovom predmetu zakazano je za 12. januar. TAGOVI SRBI U AUSTRALIJI Dijaspora Srbi u dijaspori NAŠI U SVETU Facebook Twitter Google+ Pinterest WhatsApp Vesti Online POVEZANE VESTI VIŠE OD AUTORA REGION Mađarska jedina zemlja EU koja se ne priprema za rat, dok ostale marširaju ka njemu SVET Tramp: SAD uništile 7.000 objekata i više od 100 brodova u Iranu TENIS Siner: Medvedev je potreban tenisu OSTAVITE KOMENTAR Cancel reply Please enter your comment! Please enter your name here You have entered an incorrect email address! Please enter your email address here Save my name, email, and website in this browser for the next time I comment. NAJNOVIJE Mađarska jedina zemlja EU koja se ne priprema za rat, dok... REGION Tramp: SAD uništile 7.000 objekata i više od 100 brodova u... SVET Siner: Medvedev je potreban tenisu TENIS Vučić: Srbija ima višeslojnu odbranu vazdušnog prostora, sutra sastanak o novim... SRBIJA Istorija skokova cena nafte: 10 ključnih kriza EKONOMIJA Skandal u Francuskoj: Više od milion automobila registrovano ilegalno AUTO-MOTO Otkriven propust na Snapdragon telefonima: Qualcomm hitno reagovao TEHNOLOGIJA Moskva poziva na prekid vatre: Napadom na Iran, SAD i Izrael... SVET Ovaj napitak će vam sprečiti popodnevni pad energije: Stabilizuje šećer u... ZDRAVLJE Zapadni političari trčali u Buču, hoće li otići na mesto stvarnog... SVET Load more Kontaktirajte nas: redakcija@vesti-online.com O nama Marketing Impresum Pravilla i uslovi korišćenja Politika kolačića © 1992 - 2024 © - Vesti Online",neutral,"Article discusses a legal case, not migration-related conditions.",qwen2.5:7b,neutral,"Article discusses a legal case, not migration-related conditions.",article,1
+20220102,173,PUBLIC PROSECUTOR,,https://www.hoydiariodelmagdalena.com.co/archivos/613776,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,10,LAWYER,MELBOURNE,https://www.vesti-online.com/samo-pisani-testament-je-vazeci/,unclear,URL too short; no clear context for migration pressure,qwen2.5:7b,,,,"T. Ostojić
+
+Tokom nedavnih okupljanja Srpskog socijalnog servisa, advokat sa 20-godišnjim iskustvom Stevo Bezbradica iz Dandenonga u Melburnu, održao je izuzetno praktično predavanje starijim sunarodnicima iz srpske zajednice, o značaju pravilno napisanog testamenta. To je bio i povod da porazgovaramo s advokatom Bezbradicom.
+
+Koliko su naši ljudi upoznati sa pisanjem testamenta?
+
+– Generalno, naši ljudi nisu upoznati s pravljenjem testamenta. Mnogi od njih još “žive” u staroj Jugoslaviji, i misle na način kako je to tamo bilo regulisano. Dolaze kod mene upravo s takvim pitanjima, ko će šta da nasledi. Moj posao je da ih usmerim na koji način treba da se napiše testament, kako bi taj akt poslednje volje bio validan ovde u Australiji. Ljudi imaju neke ideje kako to može da se uradi, ali kada treba da se sprovede u delo, da se stavi na papir, postoje određeni problemi. Ljudi su uglavnom informisani po principu “rekla kazala”, ako su na primer čuli od nekih prijatelja ili rođaka.
+
+Da li danas naši ljudi češće pišu testament nego ranije?
+
+– U poslednje vreme situacija se malo promenila, drugačije je nego što je bilo pre deset ili 15 godina. Danas je raspon godina ljudi koji rade testamente, od 55 do 75 godina. Takođe, veći je broj onih koji dolaze u kancelariju da napišu testament i daleko više razumeju značaj pisanog testamenta.
+
+Da li testament može da uradi samo advokat?
+
+– Moji klijenti su nekad u dilemi, jer ne znaju da li testament treba da napravi samo advokat ili testament može da napiše bilo koji drugi profesionalac. Znači, testament ne mora da uradi samo advokat, može da ga uradi i bilo koje drugo lice, ali testament ima svoju formu, koja mora da se zadovolji. Ako testament ne radi advokat, postoji mogućnost da budu greške u sačinjavanju, tako da je dobro da ga na kraju ipak pregleda advokat.
+
+Šta je sve neophodno da bi se napisao testament?
+
+– Da bi se napravio testament advokat mora da uzme pravilne informacije koje moraju da budu deo testamenta. Pored ličnih podataka, zanimanja, stranka mora da pruži sve podatke oko imovine.
+
+Šta se sve smatra za imovinu?
+
+– Da li i koliko kuća osoba ima, zatim podaci o bankovnim računima, da li ima neku drugu svojinu kao što su automobili, zlato, umetničke slike… Sve što je predmet testamenta. Pored toga, zaveštalac mora da pruži i podatke o postojanju eventualnih dugova, kao što je na primer hipoteka na kuću i drugo. Kada se prikupe svi ti podaci, onda ovaj akt može i da se napravi. Posle toga lice koje pravi testament, mora da da instrukcije šta je to njegova poslednja volja, u zavisnosti od toga koliko ima naslednika, da li su to deca ili neko drugi. Takođe, moguće je jednoj osobi ostaviti sve, ili ukoliko ima više naslednika može da podeli imovinu svima na jednake delove, ili u različitim procentima.
+
+O čemu još treba voditi računa kada je reč o testamentu?
+
+– Potrebno je da ostavilac u testamentu navede lice koje je izvršilac testamenta. Ta osoba je najvažnija, jer to lice treba da sprovede volju zaveštaoca. To treba da bude osoba od poverenja, koja će kad ostavilac umre biti u kontaktu s advokatom i zajedno će da sprovedu poslednju volju lica koje je napravilo testament.
+
+Koje pojedinosti su još značajne po pitanju zaveštanja?
+
+– Posle smrti zaveštaoca, kad se odbiju svi troškovi testamenta, uključujući troškove advokata, i kada se izmire svi dugovi, ono što ostane je predmet zaostavštine koja se deli na naslednike. Pore toga, predmet testamenta može da bude i način sahrane zaveštaoca, ili donacija organa ili drugo. Testament se obično čuva kod advokata ili u banci ili ga ljudi nose kući i smeštaju na neko bezbedno mesto. Dobro bi bilo da se svake tri godine uradi revizija testamenta, ukoliko nešto treba da se promeni ili doda.
+
+Postoje li neka važna pravila po pitanju zaključenja testamenta?
+
+– Testament u Australiji je strogo formalan dokument, mora da bude u pisanoj formi. U isto vreme moraju da budu prisutna dva svedoka, koji moraju da potpišu testament u isto vreme kad i osoba koja pravi testament. Advokat mora da pročita napisani testament zaveštaocu i da on zatim izjavi da je to njegova zadnja volja. U isto vreme svedoci moraju da potpišu testament istom olovkom. Svedok ne može da bude osoba koja je naslednik. To mora da bude nezavisna i punoletna osoba. Takvo lice i može da napravi testament, mlađe lice ne može da napravi testament – kaže advokat Stevo Bezbradica.
+
+Imovina prelazi na supružnika
+
+Jedno od pitanja naših sunarodnika je bilo ko nasleđuje imovinu u kojoj su supružnici navedeni zajedno kao vlasnici.
+
+– Tu imovinu nasleđuje supružnik koji je nadživeo drugog supružnika. Testamentom, pak može da se njegov nasledni deo drugačije rasporedi, i na primer na decu umrle osobe – istakao je advokat Bezbradica.",neutral,"Article discusses wills and inheritance, not migration conditions.",qwen2.5:7b,neutral,"Article discusses wills and inheritance, not migration conditions.",article,1
+20220102,114,PUBLIC PROSECUTOR,OAXACA,https://oaxaca.eluniversal.com.mx/municipios/denuncian-ante-el-ieepco-edil-de-ocotlan-oaxaca-por-violencia-politica-de-genero,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,112,LAWYER,UNITED STATES,https://www.diariolibre.com/usa/revista/2022/01/02/juez-impide-que-bloqueo-de-demanda-contra-el-principe-andres/1563621,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,30,EMPLOYEE,,https://es.investing.com/news/stock-market-news/goldman-sachs-pide-a-sus-empleados-estadounidenses-que-trabajen-desde-casa-hasta-el-18-de-enero-2199115,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,10,CONGRESS,,https://www.telemundo.com/noticias/noticias-telemundo/clima/no-esto-no-es-una-broma-llovieron-peces-en-texas-poco-antes-de-fin-de-rcna10639,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,10,STATE DUMA,,https://www.ridus.ru/news/370096,unclear,URL too short; no clear context for migration pressure,qwen2.5:7b,,,,"IT-комитет Госдумы назвал главные события года для цифровой индустрии найти × предложить новость Войти Поиск Картина дня Гражданская журналистика Интересное Полезное Развлечения Авторские колонки Сюжеты Тэги Фото репортаж Еще Гороскопы Авто Бизнес Военное дело Военные конфликты Видео Город Дизайн Еда Животные Здоровье Знаменитости Интернет История Кино Космос Криминал Компьютерные игры Культура Литература Музыка Наука и техника Недвижимость Образование Общество Погода Политика Право Происшествия Путешествия Расследования Религия СМИ Советы Спорт Стиль Тесты Технологии Фоторепортаж Экология Экономика Юмор Авторские колонки Фоторепортажи Бездна Нет логина? Зарегистрируйтесь ! Добро пожаловать! Войти через социальные сети: Facebook vKontakte Google+ Twitter Войти как пользователь ""РИДУС"": Запомнить меня Забыли пароль? Восстановить При регистрации и входе вы соглашаетесь с условиями использования сайта и политикой обработки данных Войти в систему Закрыть + 0 − Сохранить Сохранено 7 × IT-комитет Госдумы назвал главные события года для цифровой индустрии Нет логина? Зарегистрируйтесь ! Добро пожаловать! Войти через социальные сети: Facebook vKontakte Google+ Twitter Войти как пользователь ""РИДУС"": Запомнить меня Забыли пароль? Восстановить Войти в систему Закрыть Картина дня Интернет Право 0 0 19733 IT-комитет Госдумы назвал главные события года для цифровой индустрии 03 января 2022 00:51 Максим Котов , Журналист «Ридуса». © pixabay.com Интернет стремится к превращению в зону безопасности, где пользователи смогут общаться, невзирая на границы, получать знания, несмотря на расстояния и удаленность их населенных пунктов, а также пользоваться госуслугами в один клик. Члены комитета Госдумы по информационной политике назвали самые важные события 2021 года, приближающие тренд на безопасную Сеть. Для обеспечения комфорта и безопасности обитателей Сети нижняя палата парламента в 2021 году приняла целый ряд знаковых законопроектов. Некоторые из законотворческих инициатив уже вступили в силу, что позволяет дать точную оценку их эффективности, напомнил глава IT-комитета Госдумы Александр Хинштейн. «Так, 1 февраля заработал закон, согласно которому социальные сети должны самостоятельно выявлять и блокировать запрещенный контент. С марта действует закон, который закрепил право граждан удалять свои персданные и отменять ранее данное ими согласие на обработку данных. Вспоминая принятые законопроекты, хочу отметить установление квоты на размещение соцрекламы в Сети (5%) по аналогии с ТВ и наружной рекламой. Закон о „приземлении“, реализацию которого наш Комитет по информационной политике и связи Госдумы будет оценивать самым детальным образом. Мы планируем уже в начале следующего года провести расширенное заседание Комитета, посвященное как раз реализации закона о „приземлении“, и пригласить туда всех представителей иностранных IT-гигантов, подпадающих под требования этого нормативного акта», — цитирует Хинштейна Telegram-канал думского IT-комитета. Не менее активно велась работа по защите россиян от киберпреступников и угроз цифрового пространства. Хинштейн перечислил эти инициативы: Введение административной ответственности и штрафы до миллиона рублей для операторов связи за пропуск так называемых «подменных номеров». Досудебная блокировка сайтов, торгующих поддельными документами, включая дипломы, права, военные билеты и сертификаты о вакцинации. Введение единых интернет-тарифов операторов для школ и других социально значимых объектов. Бесплатные СМС при двухфакторной идентификации на «Госуслугах». Зампредседателя IT-комитета Антон Горелкин в свою очередь перечислил вызовы, на которые предстоит отвечать и в наступившем 2022 году: «Я вижу три основных проблемы, которые нас очень беспокоят. Это рост киберпреступности, и законодательные инициативы в этом направлении, безусловно, будут. Это защита персональных данных наших граждан — это большое направление, которое нуждается в доработке, развитии и обсуждении с бизнесом обязательно. Здесь, я думаю, будут инициативы. Третье направление, которое нас беспокоит, это вопросы манипулирования общественным мнением. Манипулирования пользователями. Речь идет, прежде всего, о социальных сетях и видеохостингах. Речь идет о специально настроенных рекомендательных алгоритмах», — подчеркнул парламентарий. Телеграм Дзен Подписывайтесь на наши каналы и первыми узнавайте о главных новостях и важнейших событиях дня. Нам важно ваше мнение! + 0 − Комментарии ( 0 ) От редакции Комментировать главное за сегодня Британии в случае войны хватит боеприпасов лишь на несколько дней В России началась блокировка мессенджера Telegram Силы ПВО сбили за сутки 494 беспилотника ВСУ Гороскопы Авто Бизнес Военное дело Военные конфликты Видео Город Дизайн Еда Животные Здоровье Знаменитости Интернет История Кино Космос Криминал Компьютерные игры Культура Литература Музыка Наука и техника Недвижимость Образование Общество Погода Политика Право Происшествия Путешествия Расследования Религия СМИ Советы Спорт Стиль Тесты Технологии Фоторепортаж Экология Экономика Юмор Картина дня Гражданская журналистика Интересное Полезное Развлечения Авторские колонки Фоторепортажи Бездна vKontakte Twitter Ok.ru RSS Ежедневная рассылка лучших новостей подписаться Попробуйте мобильные приложения Ридуса: FAQ: технология размещения пользовательских материалов на ""Ридусе"" Новый дизайн «Ридуса»: руководство пользователя и навигация по сайту Пользовательское соглашение Политика обработки персональных данных Политика конфиденциальности Согласие на обработку персональных данных Реклама на сайте Об издании Вести Камаза © 2011-2026 Ридус. Интернет-газета «Ридус». Использование материалов Ридус разрешено только с предварительного согласия правообладателей. Все права на картинки и тексты принадлежат их авторам. Сайт может содержать материалы, не предназначенные для лиц младше 21 года.",neutral,"Article focuses on digital security and laws, not migration conditions.",qwen2.5:7b,neutral,"Article focuses on digital security and laws, not migration conditions.",article,1
+20220102,83,SENATE,,https://sipse.com/mexico/las-breves-del-senado-inclusion-y-derechos-de-las-personas-sordas-415533.html,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,13,MEXICO,,https://sipse.com/mexico/isste-se-prepara-para-la-cuarta-ola-de-la-pandemia-por-covid-19-en-mexico-415544.html,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,190,COMMANDER,,https://www.antaranews.com/berita/2620221/dilan-series-gelar-audisi-terbuka-untuk-cari-pemain,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,17,COMMANDER,ISLAMIC,http://www.hispantv.com/noticias/siria/535008/iran-siria-relaciones-cooperacion,push,covid-19 (indicates potential health crisis pushing people to leave),qwen2.5:7b,,,,,,,qwen2.5:7b,push,covid-19 (indicates potential health crisis pushing people to leave),url_1,1
+20220102,17,COMMANDER,ISLAMIC,http://www.hispantv.com/noticias/siria/535008/iran-siria-relaciones-cooperacion,push,covid-19 (indicates potential health crisis pushing people to leave),qwen2.5:7b,,,,,,,qwen2.5:7b,push,covid-19 (indicates potential health crisis pushing people to leave),url_1,1
+20220102,195,FIGHTER PLANE,SAUDI,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,push,"ataque (attack), muertos (dead) indicating potential crisis or conflict",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"ataque (attack), muertos (dead) indicating potential crisis or conflict",url_1,1
+20220102,195,FIGHTER PLANE,SAUDI,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,push,"ataque (attack), muertos (dead) indicating potential crisis or conflict",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"ataque (attack), muertos (dead) indicating potential crisis or conflict",url_1,1
+20220102,195,FIGHTER PLANE,SAUDI,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,push,"ataque (attack), muertos (dead) indicating potential crisis or conflict",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"ataque (attack), muertos (dead) indicating potential crisis or conflict",url_1,1
+20220102,70,MILITARY POLICE,,https://g1.globo.com/sp/santos-regiao/noticia/2022/01/02/prefeito-de-peruibe-critica-atuacao-da-policia-militar-contra-pancadoes-no-reveillon-caos-na-seguranca.ghtml,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,20,NAVAL,AMBASSADOR,https://sipse.com/mexico/las-breves-del-senado-inclusion-y-derechos-de-las-personas-sordas-415533.html,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,20,GOLDMAN SACHS,AMERICAN,https://es.investing.com/news/stock-market-news/goldman-sachs-pide-a-sus-empleados-estadounidenses-que-trabajen-desde-casa-hasta-el-18-de-enero-2199115,push,work-from-home (indicates potential job opportunities elsewhere),qwen2.5:7b,,,,,,,qwen2.5:7b,push,work-from-home (indicates potential job opportunities elsewhere),url_1,1
+20220102,20,VERIZON,REUTERS,https://es.investing.com/news/stock-market-news/presidentes-ejecutivos-de-att-y-verizon-rechazan-peticion-de-eeuu-de-retrasar-despliegue-del-5g-2199124,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,120,VERIZON,REUTERS,https://es.investing.com/news/stock-market-news/presidentes-ejecutivos-de-att-y-verizon-rechazan-peticion-de-eeuu-de-retrasar-despliegue-del-5g-2199124,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,113,PROTESTER,,http://lratvakan.com/news/76958.html,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,113,PROTESTER,,https://lugradar.net/2022/01/337334,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,112,DETAINEE,BELARUSIAN,http://www.kvir.ru/author/andre-galinin/,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,190,DETAINEE,BELARUSIAN,http://www.kvir.ru/author/andre-galinin/,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,141,DEMONSTRATOR,CALGARY,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,145,PROTESTER,SECURITY FORCE,https://www.expressen.se/nyheter/efter-protesterna--sudans-premiarminister-avgar/,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,190,ACTIVIST,POLICE,http://lratvakan.com/news/76958.html,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,42,DEMONSTRATOR,GOVERNMENT,https://lugradar.net/2022/01/337334,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,46,DEMONSTRATOR,MINIST,https://www.journaldemontreal.com/2022/01/02/manifestations-anti-covid-un-pasteur-et-son-frere-arretes-par-calgary,neutral,no clear migration tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration tokens in URL,url_1,1
+20220102,145,DEMONSTRATOR,GOVERNMENT,http://lratvakan.com/news/76958.html,neutral,no clear migration tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration tokens in URL,url_1,1
+20220102,145,DEMONSTRATOR,GOVERNMENT,https://lugradar.net/2022/01/337334,neutral,no clear migration tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration tokens in URL,url_1,1
+20220102,130,PRISONER,TEL AVIV,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,push,"preso (implying arrest or detention) Israel huelga hambre (hunger strike, may imply human rights issues)",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"preso (implying arrest or detention) Israel huelga hambre (hunger strike, may imply human rights issues)",url_1,1
+20220102,20,ACTIVIST,NATIONAL ASSEMBLY,http://lratvakan.com/news/76958.html,neutral,no clear migration tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration tokens in URL,url_1,1
+20220102,20,ACTIVIST,NATIONAL ASSEMBLY,https://lugradar.net/2022/01/337334,neutral,no clear migration tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration tokens in URL,url_1,1
+20220102,42,MACHU PICCHU,,https://www.segnidalcielo.it/peru-un-turista-fotografa-un-ufo-sullantica-citta-di-machu-picchu/,neutral,no clear migration tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration tokens in URL,url_1,1
+20220102,20,POLAND,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,push,"napadaiut na zarobitchan (attacks on workers, may imply poor working conditions or conflict)",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"napadaiut na zarobitchan (attacks on workers, may imply poor working conditions or conflict)",url_1,1
+20220102,20,POLAND,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,push,"same as row_id 307: napadaiut na zarobitchan (attacks on workers, may imply poor working conditions or conflict)",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"same as row_id 307: napadaiut na zarobitchan (attacks on workers, may imply poor working conditions or conflict)",url_1,1
+20220102,90,POLISH,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,push,"same as row_id 307 and 308: napadaiut na zarobitchan (attacks on workers, may imply poor working conditions or conflict)",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"same as row_id 307 and 308: napadaiut na zarobitchan (attacks on workers, may imply poor working conditions or conflict)",url_1,1
+20220102,90,POLISH,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,push,napadaiut-na-zarobitchan-z-ukrayiny,qwen2.5:7b,,,,,,,qwen2.5:7b,push,napadaiut-na-zarobitchan-z-ukrayiny,url_1,1
+20220102,20,POLAND,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,push,napadaiut-na-zarobitchan-z-ukrayiny,qwen2.5:7b,,,,,,,qwen2.5:7b,push,napadaiut-na-zarobitchan-z-ukrayiny,url_1,1
+20220102,90,POLISH,UKRAINIAN,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,push,napadaiut-na-zarobitchan-z-ukrayiny,qwen2.5:7b,,,,,,,qwen2.5:7b,push,napadaiut-na-zarobitchan-z-ukrayiny,url_1,1
+20220102,90,POLAND,UKRAINE,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,push,napadaiut-na-zarobitchan-z-ukrayiny,qwen2.5:7b,,,,,,,qwen2.5:7b,push,napadaiut-na-zarobitchan-z-ukrayiny,url_1,1
+20220102,43,LISBON,GERMAN,https://naslovi.net/2022-01-03/blic/zarobljeni-u-luci-nemacki-kruzer-usidren-do-daljeg-u-lisabonu-zbog-izbijanja-epidemije-korona-virusa/29657724,neutral,trapped-in-the-port-of-the-German-cruiser-anchored-further-in-Lisbon-due-to-the-outbreak-of-the-corona-virus-epidemic,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,trapped-in-the-port-of-the-German-cruiser-anchored-further-in-Lisbon-due-to-the-outbreak-of-the-corona-virus-epidemic,url_1,1
+20220102,43,LISBON,GERMAN,https://naslovi.net/2022-01-03/blic/zarobljeni-u-luci-nemacki-kruzer-usidren-do-daljeg-u-lisabonu-zbog-izbijanja-epidemije-korona-virusa/29657724,neutral,trapped-in-the-port-of-the-German-cruiser-anchored-further-in-Lisbon-due-to-the-outbreak-of-the-corona-virus-epidemic,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,trapped-in-the-port-of-the-German-cruiser-anchored-further-in-Lisbon-due-to-the-outbreak-of-the-corona-virus-epidemic,url_1,1
+20220102,20,PALESTINIAN,,http://www.hispantv.com/noticias/palestina/535010/preso-israel-huelga-hambre,push,prisoner-israel-hunger-strike,qwen2.5:7b,,,,,,,qwen2.5:7b,push,prisoner-israel-hunger-strike,url_1,1
+20220102,1831,SUICIDE BOMBER,KABUL,https://www.journaldemontreal.com/2022/01/02/en-afghanistan-les-femmes-victimes-de-violences-abandonnees-a-leur-sort-1,pull,women-victims-of-violence-abandoned-to-their-fate,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,women-victims-of-violence-abandoned-to-their-fate,url_1,1
+20220102,42,SAINT,,https://g1.globo.com/sp/santos-regiao/porto-mar/noticia/2022/01/02/anvisa-reforca-urgencia-em-acabar-com-temporada-de-cruzeiros-e-fala-em-risco-a-saude-publica.ghtml,neutral,anvisa-reinforces-urgency-to-end-the-cruise-season-and-talks-at-risk-to-public-health,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,anvisa-reinforces-urgency-to-end-the-cruise-season-and-talks-at-risk-to-public-health,url_1,1
+20220102,14,ROMANIA,,https://ziare.com/sorin-grindeanu/grindeanu-acuzatii-drula-autostrada-brasov-ploiesti-licitatie-studiu-fezabilitate-1718214,neutral,grindeanu-accusies-drula-autostrada-Brasov-Ploiesti-bidding-study-feasibility,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,grindeanu-accusies-drula-autostrada-Brasov-Ploiesti-bidding-study-feasibility,url_1,1
+20220102,130,RUSSIAN,EGYPTIAN,https://aif.ru/society/genkonsulstvo_rf_v_hurgade_predupredilo_o_zaderzhkah_reysov_iz-za_nepogody,neutral,nepogody (weather conditions),qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,nepogody (weather conditions),url_1,1
+20220102,46,RUSSIA,TURKEY,https://www.geopolitica.ru/news/putin-i-erdogan-obsudili-garantii-bezopasnosti-mezhdu-rf-i-nato,neutral,discussed security guarantees (discussd security garantes),qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,discussed security guarantees (discussd security garantes),url_1,1
+20220102,112,RUSSIA,UKRAINE,https://www.cas.sk/cl/1003185/2626559/biden-telefonoval-s-ukrajinskym-prezidentom-usa-budu-na-rusku-invaziu-reagovat,push,to the Russian invasion,qwen2.5:7b,,,,,,,qwen2.5:7b,push,to the Russian invasion,url_1,1
+20220102,120,RUSSIA,UKRAINE,https://www.cas.sk/cl/1003185/2626559/biden-telefonoval-s-ukrajinskym-prezidentom-usa-budu-na-rusku-invaziu-reagovat,push,to the Russian invasion,qwen2.5:7b,,,,,,,qwen2.5:7b,push,to the Russian invasion,url_1,1
+20220102,120,RUSSIA,UKRAINE,https://www.cas.sk/cl/1003185/2626559/biden-telefonoval-s-ukrajinskym-prezidentom-usa-budu-na-rusku-invaziu-reagovat,push,to the Russian invasion,qwen2.5:7b,,,,,,,qwen2.5:7b,push,to the Russian invasion,url_1,1
+20220102,46,VLADIMIR,JOE BIDEN,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,neutral,rozmova zelenskogo ta baydena (call between Zelensky and Biden),qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,rozmova zelenskogo ta baydena (call between Zelensky and Biden),url_1,1
+20220102,40,RUSSIA,PRESIDENT,https://tsn.ua/ru/politika/bayden-i-zelenskiy-proveli-telefonnye-peregovory-chto-izvestno-1945450.html,neutral,telephone conversations (telephone talkx),qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,telephone conversations (telephone talkx),url_1,1
+20220102,195,SAUDI,,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,push,"Saudi attack on mosque, deaths",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"Saudi attack on mosque, deaths",url_1,1
+20220102,195,SAUDI,SAUDI ARABIA,http://www.hispantv.com/noticias/yemen/535011/ataque-saudi-mezquita-muertos,push,"Saudi attack on mosque, deaths",qwen2.5:7b,,,,,,,qwen2.5:7b,push,"Saudi attack on mosque, deaths",url_1,1
+20220102,180,SENEGAL,,https://www.elmundo.es/comunidad-valenciana/castellon/2022/01/02/61d1ffb121efa045798b4589.html,neutral,there are clearly no tokens related to migration or migration pressure,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,there are clearly no tokens related to migration or migration pressure,url_1,1
+20220102,172,SYRIAN,,https://correio.rac.com.br/agencias/agencia-estado/2022/01/1153709-israel-aprova-plano-para-dobrar-numero-de-colonos-nas-colinas-do-golan.html,neutral,no clear migration-related tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens in URL,url_1,1
+20220102,193,ADANA,POLICE,https://www.ensonhaber.com/3-sayfa/adanada-silahli-kavgaya-mudahale-eden-polis-vuruldu,unclear,URL too short or generic,qwen2.5:7b,,,,"Merkez Yüreğir ilçesi 2809. Sokak'ta iki grup arasında silahlı kavga çıktı.
+
+Olay yerinin yakınlarında bulunan Yüreğir İlçe Emniyet Müdürlüğü Devriye Grup Amirliği'nde görevli polis memurları, kavgaya müdahale etti.
+
+KAVGAYA MÜDAHALE EDEN POLİSLERDEN BİRİ VURULDU
+
+Bu sırada bir polis memuru bacağından vuruldu.
+
+Yaralanan polis memuru, ihbar üzerine olay yerine gelen 112 Acil Sağlık ekibinin müdahaleleriyle Yüreğir Devlet Hastanesi'ne kaldırıldı.
+
+YARALI POLİSİN DURUMU İYİ
+
+Daha sonra Çukurova Devlet Hastanesi'ne sevk edilen polis memurunun durumunun iyi olduğu belirtildi.
+
+Olay yerine sevk edilen çok sayıda polis ekibi, yaralanan meslektaşlarını vuran saldırganı yakalamak için çalışmalarını sürdürüyor.",neutral,"article about police conflict, not migration",qwen2.5:7b,neutral,"article about police conflict, not migration",article,1
+20220102,41,TURKEY,RUSSIA,https://www.geopolitica.ru/news/putin-i-erdogan-obsudili-garantii-bezopasnosti-mezhdu-rf-i-nato,neutral,no clear migration-related tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens in URL,url_1,1
+20220102,46,TURKEY,RUSSIA,https://www.geopolitica.ru/news/putin-i-erdogan-obsudili-garantii-bezopasnosti-mezhdu-rf-i-nato,neutral,no clear migration-related tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens in URL,url_1,1
+20220102,46,TURKEY,RUSSIA,https://www.geopolitica.ru/news/putin-i-erdogan-obsudili-garantii-bezopasnosti-mezhdu-rf-i-nato,neutral,no clear migration-related tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens in URL,url_1,1
+20220102,50,UKRAINE,,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,pull,soutien (support) for Ukraine against Russia may encourage immigration to Ukraine,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,soutien (support) for Ukraine against Russia may encourage immigration to Ukraine,url_1,1
+20220102,51,UKRAINE,,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,push,napadaiut-na-zarobitchan (attacks on workers) from Ukraine may push people away from Poland,qwen2.5:7b,,,,,,,qwen2.5:7b,push,napadaiut-na-zarobitchan (attacks on workers) from Ukraine may push people away from Poland,url_1,1
+20220102,51,UKRAINE,,https://www.volynnews.com/news/all/chomu-v-polshchi-vse-chastishe-napadaiut-na-zarobitchan-z-ukrayiny/,push,same as row_id 336; repeated URL,qwen2.5:7b,,,,,,,qwen2.5:7b,push,same as row_id 336; repeated URL,url_1,1
+20220102,173,UKRAINIAN,,https://kosice.korzar.sme.sk/c/22812499/rusi-12-rokov-patrali-po-ukrajincovi-obvinenom-z-vrazdy-uz-je-v-kosickej-vaznici.html,neutral,no clear migration-related tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens in URL,url_1,1
+20220102,173,UKRAINE,CHINA,https://kosice.korzar.sme.sk/c/22812499/rusi-12-rokov-patrali-po-ukrajincovi-obvinenom-z-vrazdy-uz-je-v-kosickej-vaznici.html,neutral,no clear migration-related tokens in URL,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens in URL,url_1,1
+20220102,190,UKRAINE,CHINA,https://kosice.korzar.sme.sk/c/22812499/rusi-12-rokov-patrali-po-ukrajincovi-obvinenom-z-vrazdy-uz-je-v-kosickej-vaznici.html,push,they were looking for a Ukrainian accused of murder,qwen2.5:7b,,,,,,,qwen2.5:7b,push,they were looking for a Ukrainian accused of murder,url_1,1
+20220102,51,UKRAINE,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,neutral,lematin.ch story,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,lematin.ch story,url_1,1
+20220102,32,UKRAINE,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,neutral,lematin.ch story,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,lematin.ch story,url_1,1
+20220102,51,UKRAINE,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,neutral,lematin.ch story,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,lematin.ch story,url_1,1
+20220102,51,UKRAINE,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,neutral,lematin.ch story,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,lematin.ch story,url_1,1
+20220102,32,UKRAINE,UKRAINE,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,neutral,lematin.ch story,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,lematin.ch story,url_1,1
+20220102,50,UKRAINE,UKRAINE,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,neutral,lematin.ch story,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,lematin.ch story,url_1,1
+20220102,50,UKRAINE,UKRAINE,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,neutral,lematin.ch story,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,lematin.ch story,url_1,1
+20220102,51,UKRAINE,UKRAINE,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,neutral,lematin.ch story,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,lematin.ch story,url_1,1
+20220102,41,UKRAINE,UNITED STATES,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,push,rozmova-zelenskogo-ta-baidena-pro-scho-spoken-leaders,qwen2.5:7b,,,,,,,qwen2.5:7b,push,rozmova-zelenskogo-ta-baidena-pro-scho-spoken-leaders,url_1,1
+20220102,41,UKRAINE,UNITED STATES,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,46,UKRAINE,UNITED STATES,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,46,UKRAINE,UNITED STATES,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,100,UKRAINIAN,A US,https://naslovi.net/2022-01-03/blic/da-sacuvamo-mir-u-evropi-zelenski-razgovarao-sa-bajdenom-o-akcijama-u-ukrajini-reformi-i-borbama-protiv-oligarha/29657762,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,46,UKRAINE,JOE BIDEN,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,50,UKRAINIAN,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,51,UKRAINIAN,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,51,UKRAINIAN,RUSSIA,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,32,UKRAINIAN,UKRAINIAN,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,100,UKRAINIAN,A US,https://naslovi.net/2022-01-03/blic/da-sacuvamo-mir-u-evropi-zelenski-razgovarao-sa-bajdenom-o-akcijama-u-ukrajini-reformi-i-borbama-protiv-oligarha/29657762,neutral,no clear migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no clear migration-related tokens,url_1,1
+20220102,12,UNITED STATES,,https://www.telemundo.com/noticias/noticias-telemundo/desastres-naturales/hallan-con-vida-a-uno-de-los-tres-desaparecidos-en-los-incendios-de-co-rcna10641,neutral,missing in the fires,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,missing in the fires,url_1,1
+20220102,30,THE US,,http://www.kvir.ru/articles/glavnoe-kachestvo-boyca.html,unclear,the main quality of a fighter,qwen2.5:7b,,,,,unclear,,qwen2.5:7b,unclear,,article,1
+20220102,36,UNITED STATES,,https://news.online.ua/u-zelenskogo-utochnili-vremya-segodnyashnego-razgovora-s-baydenom_n840515/,neutral,confirmed the time of the conversation,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,confirmed the time of the conversation,url_1,1
+20220102,30,AMERICAN,UKRAINIAN,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,pull,support for Russia,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,support for Russia,url_1,1
+20220102,41,UNITED STATES,UKRAINE,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,pull,support for Russia,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,support for Russia,url_1,1
+20220102,46,UNITED STATES,UKRAINE,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,pull,support for Russia,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,support for Russia,url_1,1
+20220102,46,UNITED STATES,UKRAINE,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,pull,support for Russia,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,support for Russia,url_1,1
+20220102,36,UNITED STATES,THE WHITE HOUSE,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,neutral,first symptoms of pneumonia,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,first symptoms of pneumonia,url_1,1
+20220102,36,THE WHITE HOUSE,,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,neutral,first symptoms of pneumonia,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,first symptoms of pneumonia,url_1,1
+20220102,36,THE WHITE HOUSE,,https://news.online.ua/u-zelenskogo-utochnili-vremya-segodnyashnego-razgovora-s-baydenom_n840515/,neutral,confirmed the time of the conversation,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,confirmed the time of the conversation,url_1,1
+20220102,41,THE WHITE HOUSE,,https://pronedra.ru/v21-pervye-pervye-simptomy-pnevmonii-pomogut-svoevremenno-nachat-lechenie-i-soxranit-zhizn-439639.html,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,90,NASA,,http://www.hispantv.com/noticias/ciencia-tecnologia/535007/nasa-asteroide-psyche,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,46,JOE BIDEN,VLADIMIR,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,neutral,_rozmova zelenskogo ta bidena pro scho goroli leaders,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,_rozmova zelenskogo ta bidena pro scho goroli leaders,url_1,1
+20220102,30,AMERICAN,UKRAINIAN,https://www.lematin.ch/story/joe-biden-assure-au-president-ukrainien-de-son-soutien-face-a-la-russie-753628635749,pull,support for Russia,qwen2.5:7b,,,,,,,qwen2.5:7b,pull,support for Russia,url_1,1
+20220102,46,JOE BIDEN,UKRAINE,https://gazeta.ua/articles/politics/_rozmova-zelenskogo-ta-bajdena-pro-scho-govorili-lideri/1065472,neutral,_rozmova zelenskogo ta bidena pro scho goroli leaders,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,_rozmova zelenskogo ta bidena pro scho goroli leaders,url_1,1
+20220102,36,THE WHITE HOUSE,UNITED STATES,https://news.online.ua/u-zelenskogo-utochnili-vremya-segodnyashnego-razgovora-s-baydenom_n840515/,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1
+20220102,13,VENEZUELAN,VENEZUELA,http://www.hispantv.com/noticias/venezuela/535014/eeuu-confrontacion-dialogos-intervenezolanos,push,confrontation,qwen2.5:7b,,,,,,,qwen2.5:7b,push,confrontation,url_1,1
+20220102,111,VENEZUELAN,VENEZUELA,http://www.hispantv.com/noticias/venezuela/535014/eeuu-confrontacion-dialogos-intervenezolanos,push,confrontation,qwen2.5:7b,,,,,,,qwen2.5:7b,push,confrontation,url_1,1
+20220102,111,VENEZUELAN,,http://www.hispantv.com/noticias/venezuela/535014/eeuu-confrontacion-dialogos-intervenezolanos,push,confrontation,qwen2.5:7b,,,,,,,qwen2.5:7b,push,confrontation,url_1,1
+20220102,13,VENEZUELAN,VENEZUELAN,http://www.hispantv.com/noticias/venezuela/535014/eeuu-confrontacion-dialogos-intervenezolanos,push,confrontation,qwen2.5:7b,,,,,,,qwen2.5:7b,push,confrontation,url_1,1
+20220102,51,CATALAN,,https://sport1.oslobodjenje.ba/s1/fudbal/ino-fudbal/primera/barcelona-slavila-minimalnu-pobjedu-protiv-mallorce-721769,neutral,no migration-related tokens,qwen2.5:7b,,,,,,,qwen2.5:7b,neutral,no migration-related tokens,url_1,1

@@ -1,0 +1,89 @@
+{
+  "scores": [
+    {
+      "feature": "log_origin_gdp_pc",
+      "penalty": 0.75,
+      "reason": "Lower origin income can act as push pressure."
+    },
+    {
+      "feature": "log_dest_gdp_pc",
+      "penalty": 0.9,
+      "reason": "Higher destination income can act as pull pressure."
+    },
+    {
+      "feature": "origin_expected_schooling",
+      "penalty": 0.85,
+      "reason": "Expected years of schooling in the origin country, a development and opportunity proxy."
+    },
+    {
+      "feature": "dest_expected_schooling",
+      "penalty": 0.7,
+      "reason": "Expected years of schooling in the destination country, a development and opportunity proxy."
+    },
+    {
+      "feature": "origin_life_expectancy",
+      "penalty": 0.8,
+      "reason": "Origin-country life expectancy, a welfare and development proxy."
+    },
+    {
+      "feature": "dest_life_expectancy",
+      "penalty": 0.75,
+      "reason": "Destination-country life expectancy, a welfare and development proxy."
+    },
+    {
+      "feature": "origin_gpi",
+      "penalty": 0.95,
+      "reason": "Worse peace conditions may push migration."
+    },
+    {
+      "feature": "dest_gpi",
+      "penalty": 0.85,
+      "reason": "Safer destinations may attract migrants."
+    },
+    {
+      "feature": "origin_hdi",
+      "penalty": 0.8,
+      "reason": "Origin-country HDI, a broad development proxy."
+    },
+    {
+      "feature": "dest_hdi",
+      "penalty": 0.75,
+      "reason": "Destination-country HDI, a broad development proxy."
+    },
+    {
+      "feature": "log_distance_km",
+      "penalty": 0.9,
+      "reason": "Log geographic distance between origin and destination. Distance usually increases migration friction."
+    },
+    {
+      "feature": "gdp_pc_diff",
+      "penalty": 0.85,
+      "reason": "Destination GDP per capita minus origin GDP per capita, an economic gap feature."
+    },
+    {
+      "feature": "hdi_diff",
+      "penalty": 0.75,
+      "reason": "Destination HDI minus origin HDI, a development gap feature."
+    },
+    {
+      "feature": "gpi_diff",
+      "penalty": 0.8,
+      "reason": "Destination GPI minus origin GPI, a safety or instability gap feature."
+    },
+    {
+      "feature": "push_ratio",
+      "penalty": 0.65,
+      "reason": "Share of migration-related articles labeled as push pressure for the corridor or period."
+    },
+    {
+      "feature": "pull_ratio",
+      "penalty": 0.7,
+      "reason": "Share of migration-related articles labeled as pull pressure for the corridor or period."
+    },
+    {
+      "feature": "n_articles",
+      "penalty": 0.55,
+      "reason": "Count of migration-related articles used to summarize the corridor or period."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "rows": 41,
+  "outer_cv_folds": 5,
+  "inner_cv_folds": 5,
+  "best_eta": 1,
+  "alpha": 0.0015794531663006017,
+  "r2_train": 0.024804019195041493,
+  "rmse_train_log": 0.990356274915237,
+  "mae_train_log": 0.6652753932045865,
+  "numeric_features_scored_by_llm": [
+    "log_origin_gdp_pc",
+    "log_dest_gdp_pc",
+    "origin_expected_schooling",
+    "dest_expected_schooling",
+    "origin_life_expectancy",
+    "dest_life_expectancy",
+    "origin_gpi",
+    "dest_gpi",
+    "origin_hdi",
+    "dest_hdi",
+    "log_distance_km",
+    "gdp_pc_diff",
+    "hdi_diff",
+    "gpi_diff",
+    "push_count",
+    "pull_count",
+    "mixed_count",
+    "unclear_count",
+    "n_articles"
+  ],
+  "categorical_features_neutral_penalty": [
+    "pair_id"
+  ]
+}

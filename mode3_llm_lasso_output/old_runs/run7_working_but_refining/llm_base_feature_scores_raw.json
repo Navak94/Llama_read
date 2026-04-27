@@ -1,0 +1,59 @@
+{
+  "scores": [
+    {
+      "feature": "gpi",
+      "rank": 2,
+      "reason": "No specific mention of governance issues."
+    },
+    {
+      "feature": "hdi",
+      "rank": 1,
+      "reason": "Articles focus on economic and political stability, which can positively impact HDI."
+    },
+    {
+      "feature": "life_expectancy",
+      "rank": 2,
+      "reason": "No direct mention of life expectancy or health issues."
+    },
+    {
+      "feature": "expected_schooling",
+      "rank": 2,
+      "reason": "No specific information on education levels or schooling duration."
+    },
+    {
+      "feature": "gdp_per_capita",
+      "rank": 1,
+      "reason": "Articles discuss economic support and aid, which can positively impact GDP per capita."
+    },
+    {
+      "feature": "distance",
+      "rank": 2,
+      "reason": "The articles do not provide specific information on geographical distance from Ukraine to Poland."
+    },
+    {
+      "feature": "push_count",
+      "rank": 1,
+      "reason": "Articles indicate potential for migration due to conflict and economic instability in Ukraine."
+    },
+    {
+      "feature": "pull_count",
+      "rank": 2,
+      "reason": "While there are discussions of aid, no specific pull factors like job opportunities or social services are mentioned."
+    },
+    {
+      "feature": "mixed_count",
+      "rank": 3,
+      "reason": "Some articles discuss both push and pull factors, but the majority focus on push factors due to conflict."
+    },
+    {
+      "feature": "unclear_count",
+      "rank": 2,
+      "reason": "Several articles do not clearly indicate migration-related tokens or specific reasons for movement."
+    },
+    {
+      "feature": "n_articles",
+      "rank": 1,
+      "reason": "There are multiple articles discussing the situation in Ukraine, indicating a high number of relevant sources."
+    }
+  ]
+}

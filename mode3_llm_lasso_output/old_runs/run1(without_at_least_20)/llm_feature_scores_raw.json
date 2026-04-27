@@ -1,0 +1,89 @@
+{
+  "scores": [
+    {
+      "feature": "log_origin_gdp_pc",
+      "penalty": 1.0,
+      "reason": "Both articles are about geopolitical tensions and do not provide economic data."
+    },
+    {
+      "feature": "log_dest_gdp_pc",
+      "penalty": 1.0,
+      "reason": "Both articles are about geopolitical tensions and do not provide economic data."
+    },
+    {
+      "feature": "origin_expected_schooling",
+      "penalty": 1.0,
+      "reason": "No educational data is provided in the articles."
+    },
+    {
+      "feature": "dest_expected_schooling",
+      "penalty": 1.0,
+      "reason": "No educational data is provided in the articles."
+    },
+    {
+      "feature": "origin_life_expectancy",
+      "penalty": 1.0,
+      "reason": "No health data is provided in the articles."
+    },
+    {
+      "feature": "dest_life_expectancy",
+      "penalty": 1.0,
+      "reason": "No health data is provided in the articles."
+    },
+    {
+      "feature": "origin_gpi",
+      "penalty": 1.0,
+      "reason": "No governance indicators are mentioned in the articles."
+    },
+    {
+      "feature": "dest_gpi",
+      "penalty": 1.0,
+      "reason": "No governance indicators are mentioned in the articles."
+    },
+    {
+      "feature": "origin_hdi",
+      "penalty": 1.0,
+      "reason": "No human development index data is provided in the articles."
+    },
+    {
+      "feature": "dest_hdi",
+      "penalty": 1.0,
+      "reason": "No human development index data is provided in the articles."
+    },
+    {
+      "feature": "log_distance_km",
+      "penalty": 1.0,
+      "reason": "The articles do not mention any geographical distance between Ukraine and Poland."
+    },
+    {
+      "feature": "gdp_pc_diff",
+      "penalty": 1.0,
+      "reason": "No economic data is provided to calculate GDP per capita difference."
+    },
+    {
+      "feature": "hdi_diff",
+      "penalty": 1.0,
+      "reason": "No human development index data is provided in the articles."
+    },
+    {
+      "feature": "gpi_diff",
+      "penalty": 1.0,
+      "reason": "No governance indicators are mentioned in the articles."
+    },
+    {
+      "feature": "push_ratio",
+      "penalty": 1.0,
+      "reason": "The articles do not indicate any push factors for migration."
+    },
+    {
+      "feature": "pull_ratio",
+      "penalty": 1.0,
+      "reason": "The articles do not indicate any pull factors for migration."
+    },
+    {
+      "feature": "n_articles",
+      "penalty": 1.0,
+      "reason": "There are multiple articles, but they all focus on geopolitical tensions rather than migration."
+    }
+  ]
+}

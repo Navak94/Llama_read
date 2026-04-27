@@ -1,0 +1,59 @@
+{
+  "scores": [
+    {
+      "feature": "gpi",
+      "rank": 3,
+      "reason": "The articles do not provide any specific information about the government performance index."
+    },
+    {
+      "feature": "hdi",
+      "rank": 2,
+      "reason": "There is no direct mention of human development indicators, but several articles discuss the impact on people's lives and displacement."
+    },
+    {
+      "feature": "life_expectancy",
+      "rank": 3,
+      "reason": "The articles do not provide specific data or trends in life expectancy."
+    },
+    {
+      "feature": "expected_schooling",
+      "rank": 2,
+      "reason": "Some articles mention the impact on education, but no specific schooling statistics are provided."
+    },
+    {
+      "feature": "gdp_per_capita",
+      "rank": 3,
+      "reason": "There is no direct information about GDP per capita in the articles."
+    },
+    {
+      "feature": "distance",
+      "rank": 1,
+      "reason": "The articles are focused on events and conflicts happening in Syria, which is geographically close to Turkey and other countries mentioned."
+    },
+    {
+      "feature": "push_count",
+      "rank": 2,
+      "reason": "Several articles discuss the displacement of people due to conflict, indicating a push factor for migration or movement."
+    },
+    {
+      "feature": "pull_count",
+      "rank": 1,
+      "reason": "The articles do not mention any specific pull factors that would attract people from Syria."
+    },
+    {
+      "feature": "mixed_count",
+      "rank": 3,
+      "reason": "While some articles discuss both push and pull factors, the majority focus on the conflict and displacement without clear pull factors."
+    },
+    {
+      "feature": "unclear_count",
+      "rank": 1,
+      "reason": "The articles do not provide enough clarity to determine specific push or pull factors in a detailed manner."
+    },
+    {
+      "feature": "n_articles",
+      "rank": 2,
+      "reason": "There are multiple articles, but they cover various aspects of the conflict and its impact without a single dominant theme."
+    }
+  ]
+}
